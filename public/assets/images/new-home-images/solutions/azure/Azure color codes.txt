@@ -1,0 +1,6 @@
+Azure bg color code: ECECEC
+
+Azure 2nd sec solution box color code: B4B4B4 ( use for every slider box)
+
+
+

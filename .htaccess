@@ -1,0 +1,48 @@
+
+RewriteOptions inherit
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.dynamicsstream\.com [NC]
+RewriteRule ^(.*)$ http://dynamicsstream.com/$1 [L,R=301]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ /public/$1 [L,QSA]
+
+Redirect 301 /contact https://dynamicsstream.com/contact-us
+Redirect 301 /about https://dynamicsstream.com/about-us
+Redirect 301 /dynamics-365-for-finance-operations https://dynamicsstream.com/microsoft-dynamics-365/finance-and-operations
+Redirect 301 /public/blog/microsoft-dynamics-365-for-e-commerce https://dynamicsstream.com
+Header set Cache-Control "public"
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 day"
+    ExpiresByType application/javascript "access plus 1 day"
+    ExpiresByType image/jpeg "access plus 1 day"
+    ExpiresByType image/png "access plus 1 day"
+    ExpiresByType image/webp "access plus 1 day"
+</IfModule>
+Redirect 301 /microsoft-dynamics-365/finance https://dynamicsstream.com/microsoft-dynamics-365-finance
+Redirect 301 /microsoft-dynamics-365/supply-chain-management https://dynamicsstream.com/microsoft-dynamics-365-supply-chain-management
+Redirect 301 /microsoft-dynamics-365/business-central https://dynamicsstream.com/microsoft-dynamics-365-business-central
+Redirect 301 /microsoft-dynamics-365/project-operations https://dynamicsstream.com/microsoft-dynamics-365-project-operations
+Redirect 301 /microsoft-dynamics-365/human-resources https://dynamicsstream.com/microsoft-dynamics-365-human-resources
+Redirect 301 /microsoft-dynamics-365/crm https://dynamicsstream.com/microsoft-dynamics-365-crm
+Redirect 301 /microsoft-dynamics-365/field-service https://dynamicsstream.com/microsoft-dynamics-365-field-service
+Redirect 301 /microsoft-dynamics-365/commerce https://dynamicsstream.com/microsoft-dynamics-365-commerce
+Redirect 301 /modern-workplace/office-365 https://dynamicsstream.com/modern-workplace-office-365
+Redirect 301 /microsoft-power-platform/power-bi https://dynamicsstream.com/microsoft-power-platform-power-bi
+Redirect 301 /microsoft-power-platform/power-apps https://dynamicsstream.com/microsoft-power-platform-power-apps
+Redirect 301 /microsoft-power-platform/power-automate https://dynamicsstream.com/microsoft-power-platform-power-automate
+Redirect 301 /microsoft-power-platform/power-virtual-agents https://dynamicsstream.com/microsoft-power-platform-power-virtual-agents
+Redirect 301 /cloud-solutions/microsoft-azure https://dynamicsstream.com/cloud-solutions-microsoft-azure
+Redirect 301 /industries/manufacturing https://dynamicsstream.com/microsoft-dynamics-365-for-manufacturing
+Redirect 301 /industries/retail https://dynamicsstream.com/microsoft-dynamics-365-for-retail
+Redirect 301 /industries/public-sector https://dynamicsstream.com/microsoft-dynamics-365-for-public-sector
+Redirect 301 /industries/financial-services https://dynamicsstream.com/microsoft-dynamics-365-for-financial-services
+Redirect 301 /industries/wholesale-and-distribution https://dynamicsstream.com/microsoft-dynamics-365-wholesale-and-distribution
+Redirect 301 /services/implementation-services https://dynamicsstream.com/microsoft-dynamics-365-implementation-services
+Redirect 301 /services/support-services https://dynamicsstream.com/microsoft-dynamics-support-services
+Redirect 301 /services/upgrade-services https://dynamicsstream.com/microsoft-dynamics-upgraded-services
+Redirect 301 /services/training-services https://dynamicsstream.com/microsoft-dynamics-training-services

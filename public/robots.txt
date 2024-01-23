@@ -1,0 +1,8 @@
+Sitemap: https://dynamicsstream.com/sitemap.xml
+
+
+
+User-agent: *
+Allow:
+Disallow: /admin
+Sitemap: https://dynamicsstream.com/sitemap.xml
