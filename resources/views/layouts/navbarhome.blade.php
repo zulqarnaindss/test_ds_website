@@ -16,7 +16,6 @@
 		</div>
 	</section>
 	<!--Navbar -->
-
 	<nav class="navbar navbar-expand-lg navbar-light navbar-theme">
 		<div class="container px-xl-5">
 			<a class="navbar-brand" href="/">
