@@ -2,15 +2,10 @@
 	<section class="top-bar">
 		<div class="container-fluid px-md-5">
 			<div class="row align-items-center">
-				<div class="col-md-7">
+				<div class="col-md-7">   
 					<div class="d-flex align-items-center">
 						<img src="{{asset('newassets')}}/images/home/ms.webp" class="ms-icon" alt="Microsoft icon">
-						<!-- <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="36" height="35" viewBox="0 0 36 35" fill="none">
-							<rect x="0.5" y="0.5" width="16.3165" height="15.8354" fill="#F8510C" stroke="#00AEF7" />
-							<rect x="0.5" y="18.6646" width="16.3165" height="15.8354" fill="#00A3F4" stroke="#00AEF7" />
-							<rect x="19.1836" y="0.5" width="16.3165" height="15.8354" fill="#7EBA00" stroke="#00AEF7" />
-							<rect x="19.1836" y="18.6646" width="16.3165" height="15.8354" fill="#FFBA00" stroke="#00AEF7" />
-						</svg> -->
+						
 						<h6 class="flex-grow-1 mb-md-0 ms-3 h-for-top-st text-light fw-semibold">Microsoft Solutions Partner For Business Applications | CRM & ERP</h6>
 					</div>
 				</div>
