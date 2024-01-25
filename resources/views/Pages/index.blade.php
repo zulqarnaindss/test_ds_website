@@ -210,7 +210,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row-card mt-4">
+            <div class="row-card mt-4" id="Resource-augmentation">
                 <div class="row align-items-end">
                     <div class="col-xl-7 col-lg-7 mb-3 order-lg-2">
                         <div class="content-box">

@@ -265,7 +265,7 @@ class HomeController extends Controller
         $data->peoples = $request->peoples;
         $data->save();
     
-        Mail::to('zulqarnainsaeedi019@gmail.com')->send(new BusinessCentralGuidedTourFormData($data));
+        Mail::to('info@dynamicsstream.com')->send(new BusinessCentralGuidedTourFormData($data));
 
         return redirect()->back()->with('success', 'Form Submit Successfully!');
     }
