@@ -351,7 +351,7 @@
 						</svg>
 					</a>
 				</div>
-				<p class="mb-2 small text-center">©2015 All Rights Reserved. Dynamics Stream Software Solutions® is a registered trademark. <a href="/privacy-policy" class="text-dark">Privacy</a> | <a href="/terms-and-conditions" class="text-dark">Terms & Conditions</a> | <a href="/cookie-policy" class="text-dark">Cookie Policy</a></p>
+				<p class="mb-2 small text-center">©2024 All Rights Reserved. Dynamics Stream Software Solutions® is a registered trademark. <a href="/privacy-policy" class="text-dark">Privacy</a> | <a href="/terms-and-conditions" class="text-dark">Terms & Conditions</a> | <a href="/cookie-policy" class="text-dark">Cookie Policy</a></p>
 				<p class="mb-0 fw-bold small text-center">Web Design & Developed - <a href="https://www.thefuturedynamics.com/" target="_blank" class="text-dark text-decoration-none fw-bold">www.thefuturedynamics.com</a></p>
 			</div>
 		</div>

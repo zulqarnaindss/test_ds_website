@@ -14,8 +14,7 @@
 						<div class="flex-grow-1 ms-3">
 							<h6 class="text-light mb-0 fw-semibold small">Microsoft Solutions Partner | CRM &
 								ERP</h6>
-							<h6 class="text-light fw-semibold small d-md-none d-block">Dubai | USA| United
-								Kingdom | Pakistan</h6>
+							<h6 class="text-light fw-semibold small d-md-none d-block">Dubai | USA| UK | Pakistan | India</h6>
 						</div>
 					</div>
 				</div>

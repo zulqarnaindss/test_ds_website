@@ -168,7 +168,7 @@
                     <div class="service-card">
                         <div class="card-content">
                             <img src="{{asset('newassets')}}/images/icons/upgrade-icon.svg" class="img-fluid" alt="Implementation Icon" width="40" />
-                            <h4>Upgrades</h4>
+                            <h4>Migration</h4>
                             <p>Whether it’s revamp of the App architect, adding new features, security,
                                 regulatory compliance, user-experience or complete systems.</p>
                         </div>
