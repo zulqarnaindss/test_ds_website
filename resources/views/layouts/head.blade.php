@@ -27,6 +27,8 @@
 <link href="{{asset('newassets')}}/css/owl.carousel.min.css" rel="stylesheet">
 <link href="{{asset('newassets')}}/css/owl.theme.default.min.css" rel="stylesheet">
 
+<link rel="stylesheet" href="https://unpkg.com/simplebar@5.3.0/dist/simplebar.min.css">
+	<script src="https://unpkg.com/simplebar@5.3.0/dist/simplebar.min.js"></script>
 <!-- New Web Home End -->
 
 

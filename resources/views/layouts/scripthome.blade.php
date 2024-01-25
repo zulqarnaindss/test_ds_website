@@ -1,18 +1,46 @@
 <script src="{{asset('newassets')}}/js/bootstrap/bootstrap.bundle.min.js"></script>
 <script>
-    const closeBtn = document.getElementById('disclaimer_close');
-    const disclaimerBox = document.getElementById('disclaimer_box')
-
-    closeBtn.addEventListener('click', function() {
-        disclaimerBox.style.display = 'none'
-    });
-    document.addEventListener('click', function(e) {
-        // Hamburger menu
-        if (e.target.classList.contains('hamburger-toggle')) {
-            e.target.children[0].classList.toggle('active');
-        }
-    })
-</script>
+		 document.addEventListener('DOMContentLoaded', function () {
+    new SimpleBar(document.getElementById('myScrollableElement'));
+  });
+		$(document).ready(function(){
+			
+			$('#service_carousel').owlCarousel({
+				loop:true,
+				dots:false,
+				nav:true,
+				navText: ["<div class='custom-nav-prev'><i class='bi-arrow-left-circle'></i></div>", "<div class='custom-nav-next'><i class='bi-arrow-right-circle'></i></div>"],
+				responsiveClass:true,
+				responsive:{
+					0:{
+						items:1,
+						nav:true
+					},
+					600:{
+						items:3,
+						nav:false
+					},
+					1000:{
+						items:5,
+						nav:true,
+						loop:false
+					}
+				}
+			});
+		});
+		const closeBtn = document.getElementById('disclaimer_close');
+		const disclaimerBox = document.getElementById('disclaimer_box')
+		
+		closeBtn.addEventListener('click', function(){
+			disclaimerBox.style.display = 'none'
+		});
+		document.addEventListener('click',function(e){
+		  // Hamburger menu
+		  if(e.target.classList.contains('hamburger-toggle')){
+			e.target.children[0].classList.toggle('active');
+		  }
+		}) 
+	</script>
 <!-- <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
 </script> -->
 

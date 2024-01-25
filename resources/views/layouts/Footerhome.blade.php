@@ -11,29 +11,29 @@
 <!--Section Starts-->
 <section class="blog-sec py-5">
 	<div class="container px-md-5">
-		<div class="row">
+		<div class="row mt-4">
 			@foreach($blogsndss as $blogss)
 			<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
 				<div class="blog-card">
 					<div>
-						<img src="{{asset( '/storage/' .$blogss->images)}}" class="img-fluid mb-4" alt="{{$blogss->alt_image }}" />
-						<h6 class="mb-4 font-st-t fw-bold">{{$blogss->title}}</h6>
-						<p class="mb-5 font-st-t">{{$blogss->excerpt }}</p>
+						<img src="{{asset( '/storage/' .$blogss->images)}}" class="img-fluid w-100 mb-4" alt="{{$blogss->alt_image }}" />
+						<h6 class="mb-4">{{$blogss->title}} </h6>
+						<p class="mb-5">{{$blogss->excerpt }}</p>
 					</div>
-
 					<div>
-						<a href="{{ route('blogs_detail', ['slug' =>$blogss->slug]) }}" class="btn btn-theme pd-for-bl-btn-in font-st-t">Read More Blog <img src="{{asset('newassets')}}/images/home/arrow-blog-white.webp" class="bl-arrow-icon-white" alt="arrow-icon"></a>
+						<a href="{{ route('blogs_detail', ['slug' =>$blogss->slug]) }}" class="text-dark text-decoration-none">Read the blog <i class="bi-arrow-right ms-2"></i></a>
 					</div>
 				</div>
 			</div>
 			@endforeach
-			<div class="mt-bl-btn-di">
-				<a href="/blogs" class="btn bt-more-bl-hovr text-dark">More Blogs & knowledge <img src="{{asset('newassets')}}/images/home/arrow-blog.webp" class="bl-arrow-icon" alt="arrow-icon"></a>
-			</div>
 		</div>
 	</div>
 </section>
 <!--section Ends-->
+
+
+
+
 <!--section Starts-->
 <section class="service-sec-new py-5">
 	<div class="container px-md-5">
@@ -67,68 +67,97 @@
 </section>
 <!--Section Starts-->
 <!--Section Starts-->
-<section class="contact-sec py-5">
-	<div class="container-fluid px-5">
-		<div class="row">
-			<div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-				<div class="contact-card">
-					<div>
-						<img src="{{asset('newassets')}}/images/icons/phone-icon.svg" class="img-fluid mb-4" alt="Phone Icon" width="35" />
-						<h5 class="mb-5">Contact Us</h5>
-						<p>Call, chat, or connect with a sales specialist for personalized consultation.</p>
-					</div>
-					<div>
-						<a href="tel:+971526510534" class="btn btn-outline-theme">+971 52 651 0534</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-				<div class="contact-card">
-					<div>
-						<img src="{{asset('newassets')}}/images/icons/whatsapp-icon.svg" class="img-fluid mb-4" alt="Chat Icon" width="35" />
-						<h5 class="mb-5">Quick WhatsApp</h5>
-						<p>Our consultant never leave no gap to serve you, please connect over WhatsApp for quick consultation.</p>
-					</div>
-					<div>
-						<a href="https://wa.me/971526510534" class="btn btn-outline-theme">+971 52 651 0534</a>
+<section class="contact-sec">
+	<div class="container-fluid px-0">
+		<div class="row g-0 align-items-center">
+			<div class="col-lg-4 col-md-6">
+				<div class="contact-card p-5">
+					<div class="px-5">
+						<div class="ringing-bell mb-5">
+							<i class="bi-telephone faa-ring"></i>
+						</div>
+						<h6 class="mb-5">Our consultants make sure that you getthe right solution & care.</h6>
+						<p class="mb-5">Call & get your demo ready!</p>
+						<h4 class="fw-bold fst-italic">+971 (04) 437 3103</h4>
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-6 col-md-12">
-				<div class="contact-card">
+			<div class="col-lg-8 col-md-6">
+				<div class="contact-card2">
 					<div>
-						<img src="{{asset('newassets')}}/images/icons/envelop-icon.svg" class="img-fluid mb-4" alt="Envelope Icon" width="35" />
-						<form class="contact-form">
+						<div class="text-center">
+							<h2 class="text-white">Get Free Demo</h2>
+							<p class="text-white mb-4">Success starts with a Great product & right
+								consultationGet a free demo & increase your business potential with ERP & CRM
+								digital transformation.</p>
+						</div>
+						<form class="contact-form" id="contactForm" action="/contact-form" enctype="multipart/form-data" method="post">
+							@csrf
 							<div class="row">
-								<div class="col-md-6 mb-4">
-									<input type="text" class="form-control" placeholder="Full Name" />
+								<div class="col-md-6 mb-3">
+									<input type="text" id="name" name="name" class="form-control" placeholder="Full Name" required />
 								</div>
-								<div class="col-md-6 mb-4">
-									<input type="text" class="form-control" placeholder="Company Name" />
+								<div class="col-md-6 mb-3">
+									<input type="text" class="form-control" id="phone" name="phone" placeholder="Number Format +971 52 651 0534" required />
 								</div>
-								<div class="col-md-6 mb-4">
-									<input type="text" class="form-control" placeholder="Phone Number +97152 768 4867" />
+								<div class="col-md-6 mb-3">
+									<input type="text" id="cname" name="company" class="form-control" placeholder="Organization Name" />
 								</div>
-								<div class="col-md-6 mb-4">
-									<select class="form-control">
-										<option disabled="disabled" selected="selected">Choose a Solution</option>
-										<option>Dynamics 365 Business Central</option>
-										<option>Dynamics AX</option>
-										<option>Dynamics Navision</option>
-										<option>Dynamics 365 Sales </option>
-										<option>Dynamics 365 Service</option>
-										<option>Dynamics 365 Marketing</option>
-										<option>Dynamics 365 Retail and Commerce</option>
-										<option>Dynamics 365 HR</option>
-										<option>Dynamics 365 Project Management</option>
-										<option>Microsoft Office 365</option>
+								<div class="col-md-6 mb-3">
+									<input type="email" id="email" name="email" class="form-control" placeholder="Email" required />
+								</div>
+								<div class="col-md-6 mb-3">
+									<select id="solution" class="form-control" name="solutions" required="">
+										<option disabled="disabled" selected="selected" value="">Product Interested</option>
+										<option value="Dynamics 365 Business Central">Dynamics 365 Business Central</option>
+										<option value="Dynamics 365 Finance and Supply Chain">Dynamics 365
+											Finance and Supply Chain
+										</option>
+										<option value="Dynamics AX">Dynamics AX</option>
+										<option value="Dynamics Navision">Dynamics Navision</option>
+										<option value="Dynamics 365 Sales ">Dynamics 365 Sales </option>
+										<option value="Dynamics 365 Service">Dynamics 365 Service</option>
+										<option value="Dynamics 365 Marketing">Dynamics 365 Marketing
+										</option>
+										<option value="Dynamics 365 Retail and Commerce">Dynamics 365 Retail and Commerce</option>
+										<option value="Dynamics 365 HR">Dynamics 365 HR</option>
+										<option value="Dynamics 365 Project Management">Dynamics 365 Project Management</option>
+										<option value="Microsoft Office 365">Microsoft Office 365</option>
 									</select>
 								</div>
-								<div class="col-md-12 mb-4">
-									<textarea class="form-control" rows="2" placeholder="Please write specific comments/ requirements (if any)"></textarea>
+								<div class="col-md-6 mb-3">
+									<select id="industries" class="form-control" name="industries" required>
+										<option disabled="disabled" selected="selected" value="">Choose your Industry</option>
+										<option value="Manufacturing">Manufacturing</option>
+										<option value="Retail">Retail</option>
+										<option value="Public Sector">Public Sector</option>
+										<option value="Financial Service">Financial Service</option>
+										<option value="Trading & Distribution">Trading & Distribution </option>
+										<option value="Professional Services">Professional Services</option>
+										<option value="eCommerce">eCommerce</option>
+										<option value="Hospitality">Hospitality</option>
+										<option value="Transport">Transport</option>
+										<option value="Entertainment">Entertainment</option>
+										<option value="Eduction">Eduction</option>
+										<option value="Construction">Construction</option>
+										<option value="Real Estate">Real Estate</option>
+										<option value="Legals">Legals</option>
+										<option value="Food Delivery Apps">Food Delivery Apps</option>
+										<option value="Capital Investments">Capital Investments</option>
+										<option value="Oil & Gas">Oil & Gas</option>
+										<option value="Logistics">Logistics</option>
+										<option value="Media">Media</option>
+										<option value="Healthcare">Healthcare</option>
+										<option value="Non-Profit Org">Non-Profit Org</option>
+										<option value="Governments">Governments</option>
+										<option value="HR">HR</option>
+									</select>
+								</div>
+								<div class="col-md-12 mb-3">
+									<textarea name="message" class="form-control" rows="4" placeholder="Please explain your project/ requirement & our consultant will connect with you with relevant solution."></textarea>
 								</div>
 								<div class="col-md-12">
-									<button type="submit" class="btn btn-outline-theme px-5">Submit</a>
+									<button type="submit" class="btn btn-32 btn-outline-theme px-5">Book Free Consultation</a>
 								</div>
 							</div>
 						</form>
@@ -240,7 +269,7 @@
 		<div class="row">
 			<div class="col-xl-12">
 				<h5 class="text-center mb-5 fw-bold">Our Partnerships & Strategic Alliances</h5>
-				<div class="text-center">
+				<div class="d-flex flex-wrap justify-content-between align-items-center">
 					<img src="{{asset('newassets')}}/images/brand/microsoft-logo.png" class="img-fluid me-4" alt="Microsoft Logo" width="160" />
 					<img src="{{asset('newassets')}}/images/brand/shopify-logo.png" class="img-fluid me-4" alt="Shopify Logo" width="160" />
 					<img src="{{asset('newassets')}}/images/brand/micro-gold-logo.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
@@ -251,7 +280,7 @@
 		</div>
 	</div>
 	<div class="foot-card-sec">
-		<div class="container-lg">
+		<div class="container-fluid">
 			<div class="row ">
 				<div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4">
 					<div class="footer-card">
@@ -298,7 +327,7 @@
 	<div class="container-lg">
 		<div class="row align-items-center">
 			<div class="col-xl-12">
-				<h5 class="text-center fw-bold mb-0">Connect With Our Social Media </h5>
+				<h5 class="text-center fw-bold mb-4">Connect With Our Social Media </h5>
 				<div class="text-center mb-4">
 					<a href="https://www.linkedin.com/company/dynamicsstream.com" target="_blank" class="btn">
 						<svg xmlns="http://www.w3.org/2000/svg" width="47" height="40" viewBox="0 0 87 80" fill="none">

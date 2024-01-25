@@ -6,7 +6,7 @@
 <section>
     <div class="container px-xl-5">
 
-        <div class="tab-nbcgt ">
+        <div class="tab-nbcgt tab-nbcgt-new-m">
             <h3 class="mt-5 mb-5 ml-nbcgt ">Manage Financial Risk Guided Tour</h3>
             <div class="tab__list-nbcgt">
                 <div class="tab__item-nbcgt">

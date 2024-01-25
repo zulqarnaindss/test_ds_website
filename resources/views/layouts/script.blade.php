@@ -42,6 +42,7 @@
 </script>
 <!-- Tabs Script for new bc guided End -->
 <script src="{{asset('newassets')}}/js/jquery.min.js"></script>
+<script src="{{asset('newassets')}}/js/jquery.scrollbar.js"></script>
 <script src="{{asset('newassets')}}/js/owl.carousel.min.js"></script>
 <script>
     $(document).ready(function() {

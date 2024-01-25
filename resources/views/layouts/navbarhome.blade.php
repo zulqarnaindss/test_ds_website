@@ -1,16 +1,27 @@
+<div class="fixed-top">
 	<!--Navbar -->
 	<section class="top-bar">
 		<div class="container-fluid px-md-5">
 			<div class="row align-items-center">
-				<div class="col-md-7">   
+				<div class="col-md-6">
 					<div class="d-flex align-items-center">
-						<img src="{{asset('newassets')}}/images/home/ms.webp" class="ms-icon" alt="Microsoft icon">
-						
-						<h6 class="flex-grow-1 mb-md-0 ms-3 h-for-top-st text-light fw-semibold">Microsoft Solutions Partner For Business Applications | CRM & ERP</h6>
+						<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 36 35" fill="none">
+							<rect x="0.5" y="0.5" width="16.3165" height="15.8354" fill="#F8510C" stroke="black" />
+							<rect x="0.5" y="18.6646" width="16.3165" height="15.8354" fill="#00A3F4" stroke="black" />
+							<rect x="19.1836" y="0.5" width="16.3165" height="15.8354" fill="#7EBA00" stroke="black" />
+							<rect x="19.1836" y="18.6646" width="16.3165" height="15.8354" fill="#FFBA00" stroke="black" />
+						</svg>
+						<div class="flex-grow-1 ms-3">
+							<h6 class="text-light mb-0 fw-semibold small">Microsoft Solutions Partner | CRM &
+								ERP</h6>
+							<h6 class="text-light fw-semibold small d-md-none d-block">Dubai | USA| United
+								Kingdom | Pakistan</h6>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-5">
-					<h6 class="mb-md-0 text-md-end text-center h-for-top-st text-warning fw-semibold">Dubai - UAE | USA | UK | Pakistan | India</h6>
+				<div class="col-md-6 d-md-block d-none">
+					<h6 class="mb-md-0 text-md-end text-center text-light fw-semibold small">Dubai | USA| United
+						Kingdom | Pakistan</h6>
 				</div>
 			</div>
 		</div>
@@ -26,7 +37,8 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<a href="tel:+971 (04) 437 3103" class="btn btn-dark btn-number ms-lg-auto ms-3 order-lg-3">+971 (04) 437 3103</a>
+			<a href="tel:+971044373103" class="btn btn-outline-theme ms-lg-auto ms-3 order-lg-3">+971 (04)
+						437 3103</a>
 			<div class="collapse navbar-collapse order-lg-2" id="navbarSupportedContent">
 
 				<section class="navbar__center navbar-nav mx-auto">
@@ -190,23 +202,23 @@
 			</div>
 		</div>
 	</nav>
+</div>
 
+<div class="sidebars">
+	<div class="fixedSidebar fixedSidebarRight">
+		<a href="tel:+971 52 651 0534" class="sidebarItem" data-tooltip="Call">
+			<img src="{{ asset('assets')}}/images/home/call.webp" class="sidebr-icons" alt="Call">
 
-	<div class="sidebars">
-		<div class="fixedSidebar fixedSidebarRight">
-			<a href="tel:+971 52 651 0534" class="sidebarItem" data-tooltip="Call">
-				<img src="{{ asset('assets')}}/images/home/call.webp" class="sidebr-icons" alt="Call">
-
-			</a>
-			<a href="https://wa.me/971526510534" class="sidebarItem" data-tooltip="Whatsapp">
-				<img src="{{ asset('newassets')}}/images/home/whatsapp-white.webp" class="sidebr-icons" alt="whatsapp">
-				<!-- <i class="fa fa-whatsapp" style="font-size: 27px; color:white"></i> -->
-			</a>
-			<!-- <a href="" class="sidebarItem" data-tooltip="Back To Top">
+		</a>
+		<a href="https://wa.me/971526510534" class="sidebarItem" data-tooltip="Whatsapp">
+			<img src="{{ asset('newassets')}}/images/home/whatsapp-white.webp" class="sidebr-icons" alt="whatsapp">
+			<!-- <i class="fa fa-whatsapp" style="font-size: 27px; color:white"></i> -->
+		</a>
+		<!-- <a href="" class="sidebarItem" data-tooltip="Back To Top">
 				<div id="buttonz"></div>
 			</a> -->
-			<a href="" class="sidebarItem buttonTrigger">
-				<img src="{{ asset('assets')}}/images/home/right-arrow-white.webp" class="hide-right-icon" alt="Arrow">
-			</a>
-		</div>
+		<a href="" class="sidebarItem buttonTrigger">
+			<img src="{{ asset('assets')}}/images/home/right-arrow-white.webp" class="hide-right-icon" alt="Arrow">
+		</a>
 	</div>
+</div>

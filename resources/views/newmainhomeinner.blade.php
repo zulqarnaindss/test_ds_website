@@ -6,10 +6,12 @@
 </head>
 
 <body class="slides scroll default firstSlide stage-1">
-    @include('layouts.navbarhome')
-    @yield('contents')
-    @include('sweetalert::alert')
-    @include('layouts.FooterForContactUs')
+    <div id="myScrollableElement">
+        @include('layouts.navbarhome')
+        @yield('contents')
+        @include('sweetalert::alert')
+        @include('layouts.FooterForContactUs')
+    </div>
     @include('layouts.scripthome')
     @include('layouts.script')
 </body>

@@ -17,25 +17,21 @@
 <!--Section Starts-->
 <section class="blog-sec py-5">
 	<div class="container px-md-5">
-		<div class="row">
+		<div class="row mt-4">
 			@foreach($blogsndss as $blogss)
 			<div class="col-lg-4 col-md-6 d-flex align-items-stretch">
 				<div class="blog-card">
 					<div>
-						<img src="{{asset( '/storage/' .$blogss->images)}}" class="img-fluid mb-4" alt="{{$blogss->alt_image }}" />
-						<h6 class="mb-4 font-st-t fw-bold">{{$blogss->title}}</h6>
-						<p class="mb-5 font-st-t">{{$blogss->excerpt }}</p>
+						<img src="{{asset( '/storage/' .$blogss->images)}}" class="img-fluid w-100 mb-4" alt="{{$blogss->alt_image }}" />
+						<h6 class="mb-4">{{$blogss->title}} </h6>
+						<p class="mb-5">{{$blogss->excerpt }}</p>
 					</div>
-
 					<div>
-						<a href="{{ route('blogs_detail', ['slug' =>$blogss->slug]) }}" class="btn btn-theme pd-for-bl-btn-in font-st-t">Read More Blog <img src="{{asset('newassets')}}/images/home/arrow-blog-white.webp" class="bl-arrow-icon-white" alt="arrow-icon"></a>
+						<a href="{{ route('blogs_detail', ['slug' =>$blogss->slug]) }}" class="text-dark text-decoration-none">Read the blog <i class="bi-arrow-right ms-2"></i></a>
 					</div>
 				</div>
 			</div>
 			@endforeach
-			<div class="mt-bl-btn-di">
-				<a href="/blogs" class="btn bt-more-bl-hovr text-dark">More Blogs & knowledge <img src="{{asset('newassets')}}/images/home/arrow-blog.webp" class="bl-arrow-icon" alt="arrow-icon"></a>
-			</div>
 		</div>
 	</div>
 </section>
@@ -136,7 +132,7 @@
 		<div class="row">
 			<div class="col-xl-12">
 				<h5 class="text-center mb-5 fw-bold">Our Partnerships & Strategic Alliances</h5>
-				<div class="text-center">
+				<div class="d-flex flex-wrap justify-content-between align-items-center">
 					<img src="{{asset('newassets')}}/images/brand/microsoft-logo.png" class="img-fluid me-4" alt="Microsoft Logo" width="160" />
 					<img src="{{asset('newassets')}}/images/brand/shopify-logo.png" class="img-fluid me-4" alt="Shopify Logo" width="160" />
 					<img src="{{asset('newassets')}}/images/brand/micro-gold-logo.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
@@ -147,7 +143,7 @@
 		</div>
 	</div>
 	<div class="foot-card-sec">
-		<div class="container-lg">
+		<div class="container-fluid">
 			<div class="row ">
 				<div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4">
 					<div class="footer-card">
@@ -194,7 +190,7 @@
 	<div class="container-lg">
 		<div class="row align-items-center">
 			<div class="col-xl-12">
-				<h5 class="text-center fw-bold mb-0">Connect With Our Social Media </h5>
+				<h5 class="text-center fw-bold mb-4">Connect With Our Social Media </h5>
 				<div class="text-center mb-4">
 					<a href="https://www.linkedin.com/company/dynamicsstream.com" target="_blank" class="btn">
 						<svg xmlns="http://www.w3.org/2000/svg" width="47" height="40" viewBox="0 0 87 80" fill="none">

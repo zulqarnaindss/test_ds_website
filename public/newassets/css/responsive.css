@@ -45,4 +45,10 @@
 		height:80px;
 		right:-10px;
 	}
+	#service_carousel button.owl-prev {
+    left: 0;
+	}
+	#service_carousel button.owl-next {
+		right: 0;
+	}
 }

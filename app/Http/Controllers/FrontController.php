@@ -209,8 +209,8 @@ class FrontController extends Controller
         $footersectionone = Footersectionone::all();
         $footersolution = Footersolution::all();
         $solutionindustrys = Solutioninsdustry::all();
-
-        return view('Pages.solutions.dynamics-erp', compact('bacontact', 'solutionindustrys', 'footersectionone', 'footersolution'));
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
+        return view('Pages.solutions.dynamics-erp', compact('bacontact','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution'));
     }
 
     public function blog()
