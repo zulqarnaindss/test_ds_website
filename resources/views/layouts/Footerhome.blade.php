@@ -74,7 +74,16 @@
 				<div class="contact-card p-5">
 					<div class="px-5">
 						<div class="ringing-bell mb-5">
-							<i class="bi-telephone faa-ring"></i>
+							<div class="wrapper">
+								<div class="ring">
+									<div class="coccoc-alo-phone coccoc-alo-green coccoc-alo-show">
+										<i class="bi-telephone faa-ring"></i>
+										<div class="coccoc-alo-ph-circle"></div>
+										<div class="coccoc-alo-ph-circle-fill"></div>
+										<div class="coccoc-alo-ph-img-circle"></div>
+									</div>
+								</div>
+							</div>
 						</div>
 						<h6 class="mb-5">Our consultants make sure that you getthe right solution & care.</h6>
 						<p class="mb-5">Call & get your demo ready!</p>

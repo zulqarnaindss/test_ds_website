@@ -638,9 +638,19 @@
             <div class="col-lg-4 col-md-6">
                 <div class="contact-card p-5">
                     <div class="px-5">
+
                         <!-- <img src="{{asset('newassets')}}/images/icons/phone-icon.png" class="img-fluid mb-4" alt="Phone Icon" width="150"/> -->
                         <div class="ringing-bell mb-5">
-                            <i class="bi-telephone faa-ring"></i>
+                            <div class="wrapper">
+                                <div class="ring">
+                                    <div class="coccoc-alo-phone coccoc-alo-green coccoc-alo-show">
+                                        <i class="bi-telephone faa-ring"></i>
+                                        <div class="coccoc-alo-ph-circle"></div>
+                                        <div class="coccoc-alo-ph-circle-fill"></div>
+                                        <div class="coccoc-alo-ph-img-circle"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <h6 class="mb-5">Our consultants make sure that you getthe right solution & care.</h6>
                         <p class="mb-5">Call & get your demo ready!</p>
@@ -674,7 +684,7 @@
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <select id="solution" class="form-control" name="solutions" required="">
-                                    <option disabled="disabled" selected="selected" value="">Product Interested</option>
+                                        <option disabled="disabled" selected="selected" value="">Product Interested</option>
                                         <option value="Dynamics 365 Business Central">Dynamics 365 Business Central</option>
                                         <option value="Dynamics 365 Finance and Supply Chain">Dynamics 365
                                             Finance and Supply Chain
@@ -694,29 +704,29 @@
                                 <div class="col-md-6 mb-3">
                                     <select id="industries" class="form-control" name="industries" required>
                                         <option disabled="disabled" selected="selected" value="">Choose your Industry</option>
-                                    <option value="Manufacturing">Manufacturing</option>
-                                    <option value="Retail">Retail</option>
-                                    <option value="Public Sector">Public Sector</option>
-                                    <option value="Financial Service">Financial Service</option>
-                                    <option value="Trading & Distribution">Trading & Distribution </option>
-                                    <option value="Professional Services">Professional Services</option>
-                                    <option value="eCommerce">eCommerce</option>
-                                    <option value="Hospitality">Hospitality</option>
-                                    <option value="Transport">Transport</option>
-                                    <option value="Entertainment">Entertainment</option>
-                                    <option value="Eduction">Eduction</option>
-                                    <option value="Construction">Construction</option>
-                                    <option value="Real Estate">Real Estate</option>
-                                    <option value="Legals">Legals</option>
-                                    <option value="Food Delivery Apps">Food Delivery Apps</option>
-                                    <option value="Capital Investments">Capital Investments</option>
-                                    <option value="Oil & Gas">Oil & Gas</option>
-                                    <option value="Logistics">Logistics</option>
-                                    <option value="Media">Media</option>
-                                    <option value="Healthcare">Healthcare</option>
-                                    <option value="Non-Profit Org">Non-Profit Org</option>
-                                    <option value="Governments">Governments</option>
-                                    <option value="HR">HR</option>
+                                        <option value="Manufacturing">Manufacturing</option>
+                                        <option value="Retail">Retail</option>
+                                        <option value="Public Sector">Public Sector</option>
+                                        <option value="Financial Service">Financial Service</option>
+                                        <option value="Trading & Distribution">Trading & Distribution </option>
+                                        <option value="Professional Services">Professional Services</option>
+                                        <option value="eCommerce">eCommerce</option>
+                                        <option value="Hospitality">Hospitality</option>
+                                        <option value="Transport">Transport</option>
+                                        <option value="Entertainment">Entertainment</option>
+                                        <option value="Eduction">Eduction</option>
+                                        <option value="Construction">Construction</option>
+                                        <option value="Real Estate">Real Estate</option>
+                                        <option value="Legals">Legals</option>
+                                        <option value="Food Delivery Apps">Food Delivery Apps</option>
+                                        <option value="Capital Investments">Capital Investments</option>
+                                        <option value="Oil & Gas">Oil & Gas</option>
+                                        <option value="Logistics">Logistics</option>
+                                        <option value="Media">Media</option>
+                                        <option value="Healthcare">Healthcare</option>
+                                        <option value="Non-Profit Org">Non-Profit Org</option>
+                                        <option value="Governments">Governments</option>
+                                        <option value="HR">HR</option>
                                     </select>
                                 </div>
                                 <div class="col-md-12 mb-3">
