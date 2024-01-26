@@ -1,5 +1,4 @@
 .delayedPopupWindow
-
 /**/
 .bar1,
 .bar2,
@@ -414,6 +413,7 @@ a {
 
 .blogs-detail-mrng {
   margin-inline: 6rem;
+      margin-top: 12rem;
 }
 
 .sub-p-menu {
