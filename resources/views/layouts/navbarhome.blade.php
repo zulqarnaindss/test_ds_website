@@ -19,8 +19,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 d-md-block d-none">
-					<h6 class="mb-md-0 text-md-end text-center text-light fw-semibold small">Dubai | USA| United
-						Kingdom | Pakistan</h6>
+					<h6 class="mb-md-0 text-md-end text-center text-light fw-semibold small">Dubai | USA| UK | Pakistan | India</h6>
 				</div>
 			</div>
 		</div>
