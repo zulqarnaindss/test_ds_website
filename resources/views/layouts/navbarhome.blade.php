@@ -11,6 +11,14 @@
 							<rect x="19.1836" y="0.5" width="16.3165" height="15.8354" fill="#7EBA00" stroke="black" />
 							<rect x="19.1836" y="18.6646" width="16.3165" height="15.8354" fill="#FFBA00" stroke="black" />
 						</svg>
+
+						<!-- <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40">
+							<path d="M0 0 C5.94 0 11.88 0 18 0 C18 5.94 18 11.88 18 18 C12.06 18 6.12 18 0 18 C0 12.06 0 6.12 0 0 Z " fill="#EA5528" transform="translate(2,2)" />
+							<path d="M0 0 C5.94 0 11.88 0 18 0 C18 5.61 18 11.22 18 17 C12.06 17 6.12 17 0 17 C0 11.39 0 5.78 0 0 Z " fill="#0BA4E8" transform="translate(2,21)" />
+							<path d="M0 0 C5.61 0 11.22 0 17 0 C17 5.94 17 11.88 17 18 C11.39 18 5.78 18 0 18 C0 12.06 0 6.12 0 0 Z " fill="#80BB09" transform="translate(21,2)" />
+							<path d="M0 0 C5.61 0 11.22 0 17 0 C17 5.61 17 11.22 17 17 C11.39 17 5.78 17 0 17 C0 11.39 0 5.78 0 0 Z " fill="#FAB90D" transform="translate(21,21)" />
+						</svg> -->
+
 						<div class="flex-grow-1 ms-3">
 							<h6 class="text-light mb-0 fw-semibold small">Microsoft Solutions Partner | CRM &
 								ERP</h6>
@@ -36,7 +44,7 @@
 			</button>
 
 			<a href="tel:+971044373103" class="btn btn-outline-theme ms-lg-auto ms-3 order-lg-3">+971 (04)
-						437 3103</a>
+				437 3103</a>
 			<div class="collapse navbar-collapse order-lg-2" id="navbarSupportedContent">
 
 				<section class="navbar__center navbar-nav mx-auto">
@@ -66,7 +74,7 @@
 									</div>
 									<div class="submenu__inner">
 										<a href="/microsoft-dynamics-upgraded-services" style="text-decoration: none;">
-											<h4 class="submenu__title">Upgrades</h4>
+											<h4 class="submenu__title">Migration</h4>
 											<p class="sub-p-menu">We ensure to take proactive measure to enhance security, performance, and functionality, ensuring that technology remains a valuable asset to organizations and keeps pace with the evolving digital landscape.</p>
 										</a>
 										<ul class="submenu__list">

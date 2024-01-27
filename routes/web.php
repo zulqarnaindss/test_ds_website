@@ -9,6 +9,9 @@ Route::get('/link', function () {
     Artisan::call('storage:link');
 });
 Route::get('/', [FrontController::class, 'index'])->name('home');
+// New Landing Pages
+Route::get('/business-central-landing-page', [FrontController::class, 'bcNewLanding']);
+// New Landing Pages End
 // Guided Tour
 Route::get('/business-central-guided-tour', [FrontController::class, 'bcGuided']);
 Route::get('/finance-and-operations-guided-tour', [FrontController::class, 'financeGuided']);

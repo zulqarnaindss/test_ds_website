@@ -652,7 +652,7 @@
                                 </div>
                             </div>
                         </div>
-                        <h6 class="mb-5">Our consultants make sure that you getthe right solution & care.</h6>
+                        <h6 class="mb-5">Our consultants make sure that you get the right solution & care.</h6>
                         <p class="mb-5">Call & get your demo ready!</p>
                         <h4 class="fw-bold fst-italic"><a href="tel:++971 (04) 437 3103" class="clr-numbr">+971 (04) 437 3103</a> </h4>
                     </div>
@@ -971,18 +971,5 @@
             "item": "https://dynamicsstream.com/contact-us"
         }]
     }
-</script>
-<script type="text/javascript">
-    var Tawk_API = Tawk_API || {},
-        Tawk_LoadStart = new Date();
-    (function() {
-        var s1 = document.createElement("script"),
-            s0 = document.getElementsByTagName("script")[0];
-        s1.async = true;
-        s1.src = 'https://embed.tawk.to/62971968b0d10b6f3e751345/1g4f3mh4j';
-        s1.charset = 'UTF-8';
-        s1.setAttribute('crossorigin', '*');
-        s0.parentNode.insertBefore(s1, s0);
-    })();
 </script>
 @endsection

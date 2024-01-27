@@ -43,6 +43,15 @@ class FrontController extends Controller
         $blog = Post::where('slug', '=', $request->slug)->first();
         return view('Pages.index', compact('blog', 'blogsndss', 'mainhome', 'backgetquote', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs', 'navbars', 'babout'));
     }
+    public function bcNewLanding()
+    {
+        $bacontact = Bcontact::all();
+        $footersectionone = Footersectionone::all();
+        $footersolution = Footersolution::all();
+        $solutionindustrys = Solutioninsdustry::all();
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
+        return view('Pages.New_Landing_Pages.BC_landing_page', compact('bacontact','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution'));
+    }
     public function bcGuided()
     {
         $bacontact = Bcontact::all();
