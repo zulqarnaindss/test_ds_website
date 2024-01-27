@@ -159,11 +159,173 @@
                 <div class="col-xl-6 col-md-6  sect-sec-img-r-wi-di">
                     <img src="{{asset('newassets')}}/images/new-landing-pages/bc/bc-landing-2.webp" class="img-fluid rounded-4 sect-sec-img-r-wi" width="600" alt="Why Dynamics Stream Image" />
                 </div>
-
-
             </div>
+        </div>
+    </div>
+    <div class="container-lg">
+        <div class="px-xl-5">
+            <div class="tab-nbcgtBC tab-nbcgt-new-mBC">
+                <h3 class="mt-nbcgtBC mb-3">Comprehensive business management</h3>
+                <p>Connect sales, service, finance, and operations to work smarter, adapt faster, and perform better.</p>
 
+                <div class="tab__content-nbcgtBC bg-color-for-thrd-sect-click">
+                    <div class="tab__content-item-nbcgtBC">
+                        <div class="row align-items-center">
+                            <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
+                                <div class=""><img class="" src="https://dynamicsstream.com/storage/new-home-images/newSolutions/bc/move-to-cloud-faster.webp" alt="" /></div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
+                                <h5 class="mb-3">Move to the Cloud Faster</h5>
+                                <p class="">Grow your business with flexible deployment, reliability, and security – now available in more than 130 countries and regions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab__content-item-nbcgtBC">
+                        <div class="row align-items-center">
+                            <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
+                                <div class=""><img class="" src="https://dynamicsstream.com/storage/new-home-images/newSolutions/bc/boost-sales-services.webp" alt="" /></div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
+                                <h5 class="mb-3">Boost sales and service</h5>
+                                <p class="">Connect people, processes, and insights to make decisions faster with embedded guidance, dashboards, and interoperability with Microsoft 365 and Microsoft Teams.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab__content-item-nbcgtBC">
+                        <div class="row align-items-center">
+                            <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
+                                <div class=""><img class="" src="https://dynamicsstream.com/storage/new-home-images/newSolutions/bc/increase-performance.webp" alt="" /></div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
+                                <h5 class="mb-3">Increase performance</h5>
+                                <p class="">Accelerate financial close, improve forecasting, and get real-time performance metrics and reporting while fostering compliance across subsidiaries.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab__content-item-nbcgtBC">
+                        <div class="row align-items-center">
+                            <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
+                                <div class=""><img class="" src="https://dynamicsstream.com/storage/new-home-images/newSolutions/bc/accelerate-sales-processes.webp" alt="" /></div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
+                                <h5 class="mb-3">Accelerate sales processes</h5>
+                                <p class="">Take better care of customers by managing the entire sales process from within Outlook, and deliver better outcomes with connected service operations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab__content-item-nbcgtBC">
+                        <div class="row align-items-center">
+                            <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
+                                <div class=""><img class="" src="https://dynamicsstream.com/storage/new-home-images/newSolutions/bc/facilitate-project-success.webp" alt="" /></div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
+                                <h5 class="mb-3">Facilitate project success</h5>
+                                <p class="">Ensure successful project execution and profitability with planning, resourcing, tracking, costing, billing, accounting, and real-time intelligence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab__content-item-nbcgtBC">
+                        <div class="row align-items-center">
+                            <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
+                                <div class=""><img class="" src="https://dynamicsstream.com/storage/new-home-images/newSolutions/bc/optimize-supply-chain-management.webp" alt="" /></div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
+                                <h5 class="mb-3">Optimize supply chain management</h5>
+                                <p class="">Deliver products on time and adapt to changing business models with visibility across purchasing, manufacturing, inventory, and warehouses.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab__list-nbcgtBC">
+                    <div class="tab__item-nbcgtBC">
+                        <p class="">Move to the cloud faster</p>
+                    </div>
+                    <div class="tab__item-nbcgtBC">
+                        <p class="">Boost sales and
+                            service</p>
+                    </div>
+                    <div class="tab__item-nbcgtBC">
+                        <p class="">Increase
+                            performance</p>
+                    </div>
+                    <div class="tab__item-nbcgtBC">
+                        <p class="">Accelerate sales
+                            processes</p>
+                    </div>
+                    <div class="tab__item-nbcgtBC">
+                        <p class="">Facilitate project
+                            success</p>
+                    </div>
+                    <div class="tab__item-nbcgtBC">
+                        <p class="">supply
+                            chain management</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg mt-Imp-card-div">
+        <div class="px-xl-5">
+            <h3 class="mt-nbcgtBC mb-4">Impact of Dynamics 365 Business Central</h3>
+            <div class="row">
+                <div class="col-xl-6 col-md-6 align-items-stretch">
+                    <div class="Impct-card mt-4">
+                        <div class="d-flex align-items-start mb-2">
+                            <img src="{{asset('newassets')}}/images/new-landing-pages/bc/reduce-cost-of-ownership.webp" class="img-fluid flex-shrink-0 ico-wid" alt="">
+                            <div>
+                                <h4 class="flex-grow-1 mb-4 ml-Imp-h4-p Impct-card-h4">Reduce the cost of Ownership</h4>
+                                <p class="ml-Imp-h4-p ml-Imp-h4-p-pdng">It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6 align-items-stretch top-Imp-cbc-div">
+                    <div class="Impct-card mt-4 mt-Imp-card-div-rigt">
+                        <div class="d-flex align-items-start mb-2">
+                            <img src="{{asset('newassets')}}/images/new-landing-pages/bc/Improve-icon.webp" class="img-fluid flex-shrink-0 ico-wid" alt="">
+                            <div>
+                                <h4 class="flex-grow-1 mb-4 ml-Imp-h4-p Impct-card-h4">Improve Reporting & analysis</h4>
+                                <p class="ml-Imp-h4-p">It can help you create a single source of truth for your company data across departments, which can improve decision making, reporting and analysis.</p>
+                            </div>
+                            <div style="        width: 600px;
+    height: 600px;
+    top: 74%;
+    z-index: -1;
+    right: 65px;
+    border-radius: 50%;
+    position: absolute;
+    transform: rotate(268deg);
+    /* background: linear-gradient(180deg, #EAFFED 0%, #B6F0BF 100%); */
+    border: 2.92px #96D5864D dotted;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6 align-items-stretch">
+                    <div class="Impct-card mt-4">
+                        <div class="d-flex align-items-start mb-2">
+                            <img src="{{asset('newassets')}}/images/new-landing-pages/bc/integrating-with-other-applications.webp" class="img-fluid flex-shrink-0 ico-wid" alt="">
+                            <div>
+                                <h4 class="flex-grow-1 mb-4 ml-Imp-h4-p Impct-card-h4">Integrating with other D365 Applications</h4>
+                                <p class="ml-Imp-h4-p ml-Imp-h4-p-pdng">It can help you streamline and grow your business by integrating with other dynamics 365 applications. Microsoft Teams and third party apps.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6 align-items-stretch">
+                    <div class="Impct-card mt-4 mt-Imp-card-div-rigt">
+                        <div class="d-flex align-items-start mb-2">
+                            <img src="{{asset('newassets')}}/images/new-landing-pages/bc/increase-revenue.webp" class="img-fluid flex-shrink-0 ico-wid" alt="">
+                            <div>
+                                <h4 class="flex-grow-1 mb-4 ml-Imp-h4-p Impct-card-h4">Increasing Revenue</h4>
+                                <p class="ml-Imp-h4-p">It can help you achieve a higher return on investment (ROI) by increasing revenue, reducing operational costs, and improving customer satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
 @endsection

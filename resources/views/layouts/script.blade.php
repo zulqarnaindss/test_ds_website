@@ -1,8 +1,44 @@
 <!-- <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
 </script> -->
 
-<!-- Bottom Guided -->
-<!-- Bottom Guided -->
+<!-- BC Landing New -->
+<script>
+    const tabsBC = document.querySelectorAll(".tab-nbcgtBC");
+
+    function tabify(tab) {
+        const tabList = tab.querySelector(".tab__list-nbcgtBC");
+
+        if (tabList) {
+            const tabItems = [...tabList.children];
+            const tabContent = tab.querySelector(".tab__content-nbcgtBC");
+            const tabContentItems = [...tabContent.children];
+            let tabIndex = 0;
+
+            tabIndex = tabItems.findIndex((item, index) => {
+                return [...item.classList].indexOf("is--active") > -1;
+            });
+
+            tabIndex > -1 ? (tabIndex = tabIndex) : (tabIndex = 0);
+
+            function setTab(index) {
+                tabItems.forEach((x, index) => x.classList.remove("is--active"));
+                tabContentItems.forEach((x, index) => x.classList.remove("is--active"));
+
+                tabItems[index].classList.add("is--active");
+                tabContentItems[index].classList.add("is--active");
+            }
+
+            tabItems.forEach((x, index) =>
+                x.addEventListener("click", () => setTab(index))
+            );
+            setTab(tabIndex);
+            tab.querySelectorAll(".tab-nbcgtBC").forEach((tabContent) => tabify(tabContent));
+        }
+    }
+
+    tabsBC.forEach(tabify);
+</script>
+<!-- BC Landing New End-->
 <!-- Tabs Script for new bc guided -->
 <script>
     const tabs = document.querySelectorAll(".tab-nbcgt");

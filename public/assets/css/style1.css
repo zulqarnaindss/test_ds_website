@@ -1,6 +1,85 @@
 /* Custom Style For New Website Live */
 /* New Landing Pages  */
 /* BC Landing */
+
+
+/* New Guided Tour pages  */
+.tab__list-nbcgtBC {
+  display: flex;
+  margin-bottom: 24px;
+  justify-content: center;
+}
+
+.mt-nbcgtBC {
+  margin-top: 5rem;
+}
+
+.tab__item-nbcgtBC {
+  overflow: hidden;
+  cursor: pointer;
+  /* padding: 12px 8px; */
+  width: 20%;
+  /* margin-right: 24px; */
+  text-shadow: 0 0 0.5px currentColor;
+  /* letter-spacing: 1px; */
+  transition: 0.2s;
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  color: #777777;
+}
+.tab__item-nbcgtBC p{
+  margin-bottom: 2px !important;
+}
+.tab__item-nbcgtBC.is--active {
+  color: black;
+  position: relative;
+  /* background-color: #f5f5f5; */
+  font-weight: 600;
+  /* text-wrap: balance; */
+  border-bottom: 3px solid rgba(126, 186, 0, 1);
+
+}
+
+.tab__item-nbcgtBC img {
+  width: 40%;
+  height: auto;
+}
+
+.tab__item-nbcgtBC.is--active:before {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tab__content-nbcgtBC {
+  padding: 32px 0;
+  background: #ffffff;
+  border-radius: 0 10px 10px;
+}
+
+.tab__content-item-nbcgtBC {
+  display: none;
+}
+
+.tab__content-item-nbcgtBC.is--active {
+  display: block;
+}
+
+.tab__content-title-nbcgtBC {
+  padding: 24px 24px 24px 0;
+}
+
+.tab-nbcgt .tab-nbcgtBC .tab__item-nbcgtBC {
+  font-size: 16px;
+}
+
+.tab-nbcgtBC .tab-nbcgtBC .tab__content-nbcgtBC {
+  padding: 0;
+}
+
+/* Tabs End */
+
+
 .sect-he-sec {
   color: #3C3C3C;
   text-align: left;
@@ -12,18 +91,18 @@
   letter-spacing: 0.36px;
 }
 
-.sect-sec-card{
-	min-width:0;
-	background-clip: border-box;
+.sect-sec-card {
+  min-width: 0;
+  background-clip: border-box;
   border-radius: 20px;
-border: 3px solid #7EBA00;
-	padding:25px 50px;
-	margin-bottom:2rem;
-	transition:all 0.2s linear;
-	overflow:hidden;
+  border: 3px solid #7EBA00;
+  padding: 25px 50px;
+  margin-bottom: 2rem;
+  transition: all 0.2s linear;
+  overflow: hidden;
 }
 
-.font-st-h4{
+.font-st-h4 {
   font-weight: 275 !important;
   padding-left: 1rem;
 }
@@ -61,6 +140,7 @@ border: 3px solid #7EBA00;
   /* background: linear-gradient(270deg, rgba(126, 186, 0, 0.2) 0%, rgba(0, 255, 10, 0) 100%); */
   z-index: -1;
 }
+
 .sect-sec-cbc-div::before {
   content: '';
   width: 100px;
@@ -84,6 +164,7 @@ border: 3px solid #7EBA00;
   background: linear-gradient(270deg, #EAFFED 0%, #B6F0BF 100%);
   z-index: -1;
 }
+
 .sect-sec-cbc-div-3::before {
   content: '';
   width: 100px;
@@ -95,13 +176,61 @@ border: 3px solid #7EBA00;
   background: linear-gradient(270deg, #EAFFED 0%, #B6F0BF 100%);
   z-index: -1;
 }
-.sect-sec-img-r-wi-di{
+
+.sect-sec-img-r-wi-di {
   text-align: right;
 }
-.sect-sec-img-r-wi{
+
+.sect-sec-img-r-wi {
   width: 85%;
   height: auto;
 }
+
+.bg-color-for-thrd-sect-click {
+  background: none !important;
+}
+/* Impact Of section */
+.Impct-card{
+	background-clip: border-box;
+	margin-bottom:1rem;
+}
+.ico-wid{
+  width: 10%;
+  height: auto;
+}
+.Impct-card-h4{
+  font-size: 18px;
+  margin-top: 10px;
+}
+.ml-Imp-h4-p {
+  margin-left: 8px;
+
+}
+.ml-Imp-h4-p-pdng{
+  padding-right: 5rem;
+}
+.mt-Imp-card-div {
+  margin-top: 6rem;
+}
+.mt-Imp-card-div-rigt-p{
+  padding-right: 2rem;
+}
+.mt-Imp-card-div-rigt{
+  margin-left: 4rem;
+}
+.top-Imp-cbc-div::before {
+  content: '';
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1544px;
+  right: 12px;
+  background:#E9FFEC;
+  /* background: linear-gradient(270deg, rgba(126, 186, 0, 0.2) 0%, rgba(0, 255, 10, 0) 100%); */
+  z-index: -1;
+}
+/* Impact Of section End */
 /* BC Landing End*/
 /* New Landing Pages  End */
 /* Bell ringing bg */
@@ -22382,6 +22511,47 @@ ol li {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
+  /* BC New Landing */
+  .ml-nbcgtBC {
+    margin-left: 0rem;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .tab__item-nbcgtBC.is--active {
+    background-color: #D9D9D9;
+    padding: 5px;
+    margin-bottom: 0;
+    border-radius: 10px;
+  }
+
+  .tab__content-item-nbcgtBC h5 {
+    font-size: 16px;
+  }
+
+  .tab__item-nbcgtBC {
+    padding: 0;
+    width: 100%;
+    margin-right: 16px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .tab-nbcgtBC .tab-nbcgtBC .tab__item-nbcgtBC {
+    font-size: 14px;
+    margin-bottom: 8px;
+    width: max-content;
+    margin: auto;
+    padding: 8px;
+  }
+
+  .tab__item-nbcgtBC img {
+    width: auto;
+    height: auto;
+    margin-bottom: 0 !important;
+  }
+
+  /* BC New Landing End*/
   /* Blog #6 */
   .bg-image-for-6th-bl {
     background: none;
