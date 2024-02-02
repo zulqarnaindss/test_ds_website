@@ -10,7 +10,6 @@
         </div>
     </div>
 </div> -->
-
 <section class="slide  kenBurns" id="contact-us">
     <div class="content">
         <div class="containers">

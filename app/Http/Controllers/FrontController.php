@@ -52,6 +52,15 @@ class FrontController extends Controller
         $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
         return view('Pages.New_Landing_Pages.BC_landing_page', compact('bacontact','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution'));
     }
+    public function financeNewLanding()
+    {
+        $bacontact = Bcontact::all();
+        $footersectionone = Footersectionone::all();
+        $footersolution = Footersolution::all();
+        $solutionindustrys = Solutioninsdustry::all();
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
+        return view('Pages.New_Landing_Pages.Finance_landing_page', compact('bacontact','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution'));
+    }
     public function bcGuided()
     {
         $bacontact = Bcontact::all();

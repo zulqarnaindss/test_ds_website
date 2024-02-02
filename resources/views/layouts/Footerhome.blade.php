@@ -277,7 +277,7 @@
 	<div class="container-lg">
 		<div class="row">
 			<div class="col-xl-12">
-				<h5 class="text-center mb-5 fw-bold">Our Partnerships & Strategic Alliances</h5>
+				<h5 class="text-center mb-5">Our Partnerships & Strategic Alliances</h5>
 				<div class="d-flex flex-wrap justify-content-between align-items-center">
 					<img src="{{asset('newassets')}}/images/brand/microsoft-logo.png" class="img-fluid me-4" alt="Microsoft Logo" width="160" />
 					<img src="{{asset('newassets')}}/images/brand/shopify-logo.png" class="img-fluid me-4" alt="Shopify Logo" width="160" />

@@ -121,8 +121,8 @@
         <div class="px-5">
             <div class="row">
                 <div class="col-xl-12">
-                    <p class="text-center mb-5">Organizations that have placed their trust in Microsoft Dynamics
-                        365.</p>
+                    <p class="text-center mb-5 sec-he-sect">Organizations that have placed their trust in Microsoft Dynamics
+                        365</p>
                     <div class="d-flex flex-wrap justify-content-between align-items-center">
                         <img src="{{asset('newassets')}}/images/brand/ikea.png" class="img-fluid" alt="Ikea Logo" width="80" />
                         <img src="{{asset('newassets')}}/images/brand/mercedeze.png" class="img-fluid" alt="Mercedes Logo" width="80" />
@@ -142,8 +142,8 @@
     <div class="service-background"></div>
     <div class="container-lg">
         <div class="mx-auto col-md-10 mb-5">
-            <h2 class="section-title text-center">Our Services</h2>
-            <p class="text-center fw-semibold">Your true out-of-the-box digital transformation partner provides
+            <h2 class="section-title text-center mb-4">Our Services</h2>
+            <p class="text-center">Your true out-of-the-box digital transformation partner provides
                 advanced consulting, data warehousing, power BI and manage end-to-end system implementation &
                 data integration in Microsoft ERP & CRM landscape.</p>
         </div>
@@ -214,7 +214,7 @@
                 <div class="row align-items-end">
                     <div class="col-xl-7 col-lg-7 mb-3 order-lg-2">
                         <div class="content-box">
-                            <h3 class="fs-4 fw-semibold mb-4">Are You Looking For a remote or in-person resource for Microsoft Dynamics 365 suite implementation?</h3>
+                            <h3 class="res-augmnt-he mb-4">Are You Looking For a remote or in-person resource for Microsoft Dynamics 365 suite implementation?</h3>
                             <p>If yes, our round-the-clock Top-rated support team is available to provide you with the right resource out of our in-house 300+ well-trained resources. They’re available on remote, full-time/ part-time, project basis, anytime, anywhere for any Microsoft Dynamics 365 Suite.</p>
                             <div class="d-flex flex-wrap align-items-center my-3">
                                 <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="36" height="34" viewBox="0 0 46 44" fill="none">
@@ -255,7 +255,7 @@
     <div class="container-lg py-5">
         <div class="mx-auto col-md-10 mb-5">
             <h2 class="section-title text-center mb-4">Our Offerings</h2>
-            <p class="text-center fw-semibold">Empower Your Startup, SME’s or Enterprise with Cutting-Edge ERP &
+            <p class="text-center">Empower Your Startup, SME’s or Enterprise with Cutting-Edge ERP &
                 CRM Solutions – Unleashing Excellence, Complete centralized management of your Finance, HR,
                 Sales, Marketing, Supply Chain & More.</p>
         </div>
@@ -499,10 +499,10 @@
                     <a href="/modern-workplace-office-365" class="service-link">Microsoft 365 <i class="bi-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="solution-card p-md-4 p-4 rounded-4 mt-4">
+            <div class="solution-card p-md-4-for-web-sect rounded-4 mt-4">
                 <div class="row align-items-center">
                     <div class="col-xl-7 col-md-7 mb-3">
-                        <h4 class="text-white fw-bold mb-4">Web & Mob App Dev is No Longer a Challenge</h4>
+                        <h4 class="text-white web-sect-he mb-4">Web & Mob App Dev is No Longer a Challenge</h4>
                         <p class="text-white">We understand your challenges when it comes to develop a Web/
                             Mobile App so our 200+ hand-picked UI/UX & Developers take ownership & build a
                             Top-notch Web & Mobile App solutions completely customized or powered by Microsoft
@@ -520,7 +520,7 @@
                                             <path d="M3.35313 3.08497C3.10081 2.52723 2.29919 2.52723 2.04687 3.08497L1.54555 4.19313L0.423535 4.68827C-0.141178 4.93747 -0.141178 5.7292 0.423535 5.9784L1.54555 6.47353L2.04687 7.58169C2.29919 8.13944 3.10081 8.13944 3.35313 7.58169L3.85445 6.47353L4.97646 5.9784C5.54118 5.7292 5.54118 4.93747 4.97646 4.68827L3.85445 4.19313L3.35313 3.08497Z" fill="#00F0FF" />
                                         </svg>
                                     </span>
-                                    <p class="flex-grow-1 mb-0 fw-bold text-theme ms-3">Human-centric &
+                                    <p class="flex-grow-1 mb-0 fw-bold text-white ms-3">Human-centric &
                                         thoughtful UI/UX </p>
                                 </div>
                                 <div class="d-flex align-items-center mb-2">
@@ -531,7 +531,7 @@
                                             <path d="M3.35313 3.08497C3.10081 2.52723 2.29919 2.52723 2.04687 3.08497L1.54555 4.19313L0.423535 4.68827C-0.141178 4.93747 -0.141178 5.7292 0.423535 5.9784L1.54555 6.47353L2.04687 7.58169C2.29919 8.13944 3.10081 8.13944 3.35313 7.58169L3.85445 6.47353L4.97646 5.9784C5.54118 5.7292 5.54118 4.93747 4.97646 4.68827L3.85445 4.19313L3.35313 3.08497Z" fill="#00F0FF" />
                                         </svg>
                                     </span>
-                                    <p class="flex-grow-1 mb-0 fw-bold text-theme ms-3">Deliver end to end
+                                    <p class="flex-grow-1 mb-0 fw-bold text-white ms-3">Deliver end to end
                                         project </p>
                                 </div>
                                 <div class="d-flex align-items-center mb-2">
@@ -542,7 +542,7 @@
                                             <path d="M3.35313 3.08497C3.10081 2.52723 2.29919 2.52723 2.04687 3.08497L1.54555 4.19313L0.423535 4.68827C-0.141178 4.93747 -0.141178 5.7292 0.423535 5.9784L1.54555 6.47353L2.04687 7.58169C2.29919 8.13944 3.10081 8.13944 3.35313 7.58169L3.85445 6.47353L4.97646 5.9784C5.54118 5.7292 5.54118 4.93747 4.97646 4.68827L3.85445 4.19313L3.35313 3.08497Z" fill="#00F0FF" />
                                         </svg>
                                     </span>
-                                    <p class="flex-grow-1 mb-0 fw-bold text-theme ms-3">Problem solving team</p>
+                                    <p class="flex-grow-1 mb-0 fw-bold text-white ms-3">Problem solving team</p>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -554,7 +554,7 @@
                                             <path d="M3.35313 3.08497C3.10081 2.52723 2.29919 2.52723 2.04687 3.08497L1.54555 4.19313L0.423535 4.68827C-0.141178 4.93747 -0.141178 5.7292 0.423535 5.9784L1.54555 6.47353L2.04687 7.58169C2.29919 8.13944 3.10081 8.13944 3.35313 7.58169L3.85445 6.47353L4.97646 5.9784C5.54118 5.7292 5.54118 4.93747 4.97646 4.68827L3.85445 4.19313L3.35313 3.08497Z" fill="#00F0FF" />
                                         </svg>
                                     </span>
-                                    <p class="flex-grow-1 mb-0 fw-bold text-theme ms-3">Remote resources</p>
+                                    <p class="flex-grow-1 mb-0 fw-bold text-white ms-3">Remote resources</p>
                                 </div>
                                 <div class="d-flex align-items-center mb-2">
                                     <span class="flex-shrink-0">
@@ -564,7 +564,7 @@
                                             <path d="M3.35313 3.08497C3.10081 2.52723 2.29919 2.52723 2.04687 3.08497L1.54555 4.19313L0.423535 4.68827C-0.141178 4.93747 -0.141178 5.7292 0.423535 5.9784L1.54555 6.47353L2.04687 7.58169C2.29919 8.13944 3.10081 8.13944 3.35313 7.58169L3.85445 6.47353L4.97646 5.9784C5.54118 5.7292 5.54118 4.93747 4.97646 4.68827L3.85445 4.19313L3.35313 3.08497Z" fill="#00F0FF" />
                                         </svg>
                                     </span>
-                                    <p class="flex-grow-1 mb-0 fw-bold text-theme ms-3">100% Quality assurance
+                                    <p class="flex-grow-1 mb-0 fw-bold text-white ms-3">100% Quality assurance
                                     </p>
                                 </div>
                                 <div class="d-flex align-items-center mb-2">
@@ -575,25 +575,24 @@
                                             <path d="M3.35313 3.08497C3.10081 2.52723 2.29919 2.52723 2.04687 3.08497L1.54555 4.19313L0.423535 4.68827C-0.141178 4.93747 -0.141178 5.7292 0.423535 5.9784L1.54555 6.47353L2.04687 7.58169C2.29919 8.13944 3.10081 8.13944 3.35313 7.58169L3.85445 6.47353L4.97646 5.9784C5.54118 5.7292 5.54118 4.93747 4.97646 4.68827L3.85445 4.19313L3.35313 3.08497Z" fill="#00F0FF" />
                                         </svg>
                                     </span>
-                                    <p class="flex-grow-1 mb-0 fw-bold text-theme ms-3">Project Managers takes
+                                    <p class="flex-grow-1 mb-0 fw-bold text-white ms-3">Project Managers takes
                                         ownership</p>
                                 </div>
                             </div>
                         </div>
-                        <a href="https://www.thefuturedynamics.com/" class="btn btn-32 btn-theme"> Visit Portfolio <i class="bi-chevron-right ms-2"></i></a>
+                        <a href="https://www.thefuturedynamics.com/" class="btn btn-32 btn-theme-for-we-sect"> Visit Portfolio <i class="bi-chevron-right ms-2"></i></a>
                     </div>
                     <div class="col-xl-5 col-md-5 mb-3 text-center">
                         <img src="{{asset('newassets')}}/images/app-image.png" class="img-fluid" alt="App Image" style="filter:drop-shadow(0px 4px 20px black);" />
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
     <div class="container-lg">
         <div class="mx-auto col-lg-7 col-md-9 mb-5">
             <h2 class="section-title text-center mb-4">Vertical Solutions</h2>
-            <p class="text-center fw-semibold">Elevate Your Business to New Heights with Our Vertical Solutions
+            <p class="text-center">Elevate Your Business to New Heights with Our Vertical Solutions
                 – Tailored Excellence for Optimal Performance and Growth!</p>
         </div>
         <div class="px-xl-5">
@@ -758,13 +757,13 @@
                             <div class="text-center">
                                 <img src="{{asset('newassets')}}/images/brand/cortec-img.png" class="img-fluid mb-5" width="200" />
                             </div>
-                            <h6 class="fw-bolder">Manufacturing</h6>
+                            <h6 class="fw-600">Manufacturing</h6>
                             <p>Middle East and North Africa, Cortec® Middle East, the leading manufacturer of
                                 environmentally-friendly corrosion inhibitors providing effective solutions for
                                 corrosion challenges across most industries.</p>
                         </div>
                         <div>
-                            <h6 class="fw-bolder">Don’t take our words</h6>
+                            <h6 class="fw-600">Don’t take our words</h6>
                             <p>Their knowledge has significantly enhanced our operations and customer
                                 relationship management. I enthusiastically endorse Dynamics Stream as a
                                 Microsoft service provider & Mr. Bilal for Business Central and CRM. </p>
@@ -777,13 +776,13 @@
                             <div class="text-center">
                                 <img src="{{asset('newassets')}}/images/brand/gulf-img.png" class="img-fluid mb-5" width="200" />
                             </div>
-                            <h6 class="fw-bolder">Investments</h6>
+                            <h6 class="fw-600">Investments</h6>
                             <p>Gulf Capital is a leading thematically driven and socially conscious alternative
                                 investment firm with over sixteen years of investment experience in Growth
                                 Markets across Private Equity, Private Debt and Real Estate. </p>
                         </div>
                         <div>
-                            <h6 class="fw-bolder">Client Reviews</h6>
+                            <h6 class="fw-600">Client Reviews</h6>
                             <p>Their support consistently addresses our evolving requirements. Thanks to
                                 Dynamics Stream & Mr. Nasir, we've embraced data-driven decision-making and
                                 witnessed enhanced business performance. We wholeheartedly endorse them as a
@@ -797,12 +796,12 @@
                             <div class="text-center">
                                 <img src="{{asset('newassets')}}/images/brand/khiara-img.png" class="img-fluid mb-5" width="200" />
                             </div>
-                            <h6 class="fw-bolder">eCommerce & Trading</h6>
+                            <h6 class="fw-600">eCommerce & Trading</h6>
                             <p>Khiara Stores has been a leading regional supplier of kitchenware, tableware, and
                                 other homeware products since 1955.<br /><br /><br /></p>
                         </div>
                         <div>
-                            <h6 class="fw-bolder">Client Testimonilas</h6>
+                            <h6 class="fw-600">Client Testimonilas</h6>
                             <p>Their implementation & post-implementation support is noteworthy. The team is
                                 diligent, responsive, and committed to addressing any issues or inquiries
                                 promptly. I highly endorse them for ERP implementation.</p>
@@ -825,13 +824,13 @@
             <i class="bi-star-fill"></i>
             <i class="bi-star-fill"></i>
         </div>
-        <h4><span>4.2</span> Top-rated care</h4>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 46 44" fill="none">
-            <path d="M44.2935 22.5C44.2935 20.94 44.1497 19.44 43.8827 18H22.5986V26.52H34.7609C34.2268 29.26 32.6243 31.58 30.2206 33.14V38.68H37.555C41.8282 34.84 44.2935 29.2 44.2935 22.5Z" fill="#4285F4" />
-            <path d="M22.5989 44.0002C28.7006 44.0002 33.8162 42.0402 37.5553 38.6802L30.2209 33.1402C28.2076 34.4602 25.6395 35.2602 22.5989 35.2602C16.7232 35.2602 11.7309 31.4002 9.94357 26.2002H2.42432V31.8802C6.14286 39.0602 13.7648 44.0002 22.5989 44.0002Z" fill="#34A853" />
-            <path d="M9.9435 26.1796C9.49152 24.8596 9.22444 23.4596 9.22444 21.9996C9.22444 20.5396 9.49152 19.1396 9.9435 17.8196V12.1396H2.42424C0.88341 15.0996 0 18.4396 0 21.9996C0 25.5596 0.88341 28.8996 2.42424 31.8596L8.2794 27.4196L9.9435 26.1796Z" fill="#FBBC05" />
-            <path d="M22.5989 8.75999C25.9271 8.75999 28.8855 9.87998 31.2481 12.04L37.7196 5.73999C33.7956 2.18 28.7006 0 22.5989 0C13.7648 0 6.14286 4.93999 2.42432 12.14L9.94357 17.82C11.7309 12.62 16.7232 8.75999 22.5989 8.75999Z" fill="#EA4335" />
-        </svg>
+        <h4> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 46 44" fill="none">
+                <path d="M44.2935 22.5C44.2935 20.94 44.1497 19.44 43.8827 18H22.5986V26.52H34.7609C34.2268 29.26 32.6243 31.58 30.2206 33.14V38.68H37.555C41.8282 34.84 44.2935 29.2 44.2935 22.5Z" fill="#4285F4" />
+                <path d="M22.5989 44.0002C28.7006 44.0002 33.8162 42.0402 37.5553 38.6802L30.2209 33.1402C28.2076 34.4602 25.6395 35.2602 22.5989 35.2602C16.7232 35.2602 11.7309 31.4002 9.94357 26.2002H2.42432V31.8802C6.14286 39.0602 13.7648 44.0002 22.5989 44.0002Z" fill="#34A853" />
+                <path d="M9.9435 26.1796C9.49152 24.8596 9.22444 23.4596 9.22444 21.9996C9.22444 20.5396 9.49152 19.1396 9.9435 17.8196V12.1396H2.42424C0.88341 15.0996 0 18.4396 0 21.9996C0 25.5596 0.88341 28.8996 2.42424 31.8596L8.2794 27.4196L9.9435 26.1796Z" fill="#FBBC05" />
+                <path d="M22.5989 8.75999C25.9271 8.75999 28.8855 9.87998 31.2481 12.04L37.7196 5.73999C33.7956 2.18 28.7006 0 22.5989 0C13.7648 0 6.14286 4.93999 2.42432 12.14L9.94357 17.82C11.7309 12.62 16.7232 8.75999 22.5989 8.75999Z" fill="#EA4335" />
+            </svg><span>4.2</span> Top-rated care</h4>
+
     </div>
     <div class="container-lg">
         <div class="px-xl-5">

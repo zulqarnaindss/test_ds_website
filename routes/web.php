@@ -11,6 +11,7 @@ Route::get('/link', function () {
 Route::get('/', [FrontController::class, 'index'])->name('home');
 // New Landing Pages
 Route::get('/business-central-landing-page', [FrontController::class, 'bcNewLanding']);
+Route::get('/finance-landing-page', [FrontController::class, 'financeNewLanding']);
 // New Landing Pages End
 // Guided Tour
 Route::get('/business-central-guided-tour', [FrontController::class, 'bcGuided']);

@@ -9,7 +9,6 @@
 				loop:true,
 				dots:false,
 				nav:true,
-				navText: ["<div class='custom-nav-prev'><i class='bi-arrow-left-circle'></i></div>", "<div class='custom-nav-next'><i class='bi-arrow-right-circle'></i></div>"],
 				responsiveClass:true,
 				responsive:{
 					0:{

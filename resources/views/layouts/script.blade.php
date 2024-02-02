@@ -1,6 +1,94 @@
 <!-- <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
 </script> -->
+<!-- Faq Tabs For Landing pages -->
+<script>
+    const items = document.querySelectorAll(".accordionfaq button");
 
+    function toggleAccordion() {
+        const itemToggle = this.getAttribute('aria-expanded');
+
+        for (i = 0; i < items.length; i++) {
+            items[i].setAttribute('aria-expanded', 'false');
+        }
+
+        if (itemToggle == 'false') {
+            this.setAttribute('aria-expanded', 'true');
+        }
+    }
+
+    items.forEach(item => item.addEventListener('click', toggleAccordion));
+</script>
+<!-- Faq Tabs For Landing pages End -->
+
+<script>
+    // JavaScript for the slider
+    const slides = document.querySelectorAll('.slide');
+    const slider = document.querySelector('.slider');
+    let currentSlide = 0;
+    setInterval(() => {
+        slides[currentSlide].style.transform = 'translateX(-100%)';
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].style.transform = 'translateX(0)';
+    }, 2000);
+    // JavaScript for syncing sections
+    const syncingSections = document.querySelectorAll('.syncing-sections');
+    syncingSections.forEach((section, index) => {
+        section.addEventListener('click', () => {
+            currentSlide = index;
+            slides.forEach((slide, slideIndex) => {
+                if (slideIndex === currentSlide) {
+                    slide.style.transform = 'translateX(0)';
+                } else {
+                    slide.style.transform = 'translateX(-100%)';
+                }
+            });
+            syncingSections.forEach((section, sectionIndex) => {
+                if (sectionIndex === currentSlide) {
+                    section.classList.add('active');
+                } else {
+                    section.classList.remove('active');
+                }
+            });
+        });
+    });
+</script>
+
+
+<!-- Faq Question Tabs -->
+<script>
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        const answer = item.nextElementSibling;
+        const icon = item.querySelector('i');
+
+        item.addEventListener('click', () => {
+            faqItems.forEach(otherItem => {
+                if (otherItem !== item) {
+                    const otherAnswer = otherItem.nextElementSibling;
+                    const otherIcon = otherItem.querySelector('i');
+
+                    otherAnswer.classList.remove('active');
+                    otherIcon.classList.remove('active');
+                    otherAnswer.style.maxHeight = "0";
+                }
+            });
+
+            answer.classList.toggle('active');
+            icon.classList.toggle('active');
+            if (answer.classList.contains('active')) {
+                answer.style.maxHeight = answer.scrollHeight + "px";
+            } else {
+                answer.style.maxHeight = "0";
+            }
+        });
+    });
+</script>
+<!-- Faq Question Tabs End -->
+<!-- BC  landing Industry SLider -->
+<script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
+<!-- BC  landing Industry SLider End -->
 <!-- BC Landing New -->
 <script>
     const tabsBC = document.querySelectorAll(".tab-nbcgtBC");
@@ -94,11 +182,37 @@
                     nav: true
                 },
                 600: {
-                    items: 3,
+                    items: 2,
                     nav: false
                 },
                 1000: {
-                    items: 5,
+                    items: 4,
+                    nav: true,
+                    loop: false
+                }
+            }
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('#service_carouselss').owlCarousel({
+            loop: true,
+            dots: false,
+            nav: true,
+            navText: ["<div class='custom-nav-prev'><i class='bi-arrow-left-circle' style='color:black'></i></div>", "<div class='custom-nav-next'><i class='bi-arrow-right-circle' style='color:black'></i></div>"],
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 4,
                     nav: true,
                     loop: false
                 }
