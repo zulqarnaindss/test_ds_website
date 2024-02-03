@@ -36,21 +36,21 @@
             <div class="">
                 <div class="row align-items-center" id="counter">
                     <div class="col-xl-3 col-lg-3 col-md-3  text-center">
-                        <h2 class="fw-bold mrgn-btm-about-per"><span class="count percentplus" data-count="200"> 200+ </span></h2>
+                        <h2 class="fw-bold mrgn-btm-about-per"><span class="count percentplus" data-count="200"> 200 </span></h2>
                         <p class="">Customers</p>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-3  text-center">
-                        <h2 class="fw-bold mrgn-btm-about-per"><span class="count percentplus" data-count="20"> 20+ </span></h2>
+                        <h2 class="fw-bold mrgn-btm-about-per"><span class="count percentplus" data-count="20"> 20 </span></h2>
                         <p class="">Years of Innovation</p>
 
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-3  text-center">
-                        <h2 class="fw-bold mrgn-btm-about-per"><span class="count percentper" data-count="100"> 100% </span></h2>
+                        <h2 class="fw-bold mrgn-btm-about-per"><span class="count percentper" data-count="100"> 100 </span></h2>
                         <p class="">Unparalleled Expertise</p>
 
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-3  text-center">
-                        <h2 class="fw-bold mrgn-btm-about-per"><span class="count percentper" data-count="100"> 100% </span></h2>
+                        <h2 class="fw-bold mrgn-btm-about-per"><span class="count percentper" data-count="100"> 100 </span></h2>
                         <p class="">Commitment</p>
 
                     </div>

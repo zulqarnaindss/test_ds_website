@@ -10,28 +10,31 @@
 </div>
 <!--Section Starts-->
 <section class="industry-sec">
-    <div class="container-lg">
-        <div class="px-xl-5 mb-5">
-            <h2 class="CTesti-title">Enabling Global Companies</h2>
-            <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-6   text-center align-items-stretch mb-3">
-                    <div>
-                        <img src="{{asset('assets')}}/images/new-landing-pages/new-bc-landing/clients-data/gulf-capital.webp" class="img-fluid client-img-st" alt="">
+    <div class="top-Imp-cHR-capability-div">
+        <div class="container-lg">
+            <div class="px-xl-5 mb-5">
+                <h2 class="CTesti-title">Enabling Global Companies</h2>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6   text-center align-items-stretch mb-3">
+                        <div>
+                            <img src="{{asset('assets')}}/images/new-landing-pages/new-finance-landing-page/deliotte.webp" class="img-fluid client-img-st" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="col-xl-4 col-lg-6 col-md-6   text-center align-items-stretch mb-3">
-                    <div>
-                        <img src="{{asset('assets')}}/images/new-landing-pages/new-bc-landing/clients-data/khiara-done.webp" class="img-fluid client-img-st" alt="">
+                    <div class="col-xl-4 col-lg-6 col-md-6   text-center align-items-stretch mb-3">
+                        <div>
+                            <img src="{{asset('assets')}}/images/new-landing-pages/hr/zmi.webp" class="img-fluid client-img-st" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="col-xl-4 col-lg-12   text-center align-items-stretch mb-3">
-                    <div>
-                        <img src="{{asset('assets')}}/images/new-landing-pages/new-bc-landing/clients-data/cortec-done.webp" class="img-fluid client-img-st" alt="">
+                    <div class="col-xl-4 col-lg-12   text-center align-items-stretch mb-3">
+                        <div>
+                            <img src="{{asset('assets')}}/images/new-landing-pages/hr/moon-group.webp" class="img-fluid client-img-st" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 </section>
 <!--section Ends-->
 
@@ -59,39 +62,34 @@
             <div class="faq-container-new">
                 <div class="accordionfaq">
                     <div class="accordion-item">
-                        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">What is Dynamics 365 Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">What are the main capabilities of D365 Human Resources?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Dynamics 365 Business Central is a cloud-based enterprise resource planning (ERP) system from Microsoft that offers comprehensive business management capabilities for small and medium-sized businesses</p>
+                            <p>D365 Human Resources can help you with personnel management, leave and absence, benefits, compensation, performance, learning, and workplace safety and compliance</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">How is Dynamics 365 Business Central related to Dynamics NAV?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">How can I customize and extend D365 Human Resources to meet my needs?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Dynamics 365 Business Central is the successor of Dynamics NAV, and it is based on the same code base. However, Business Central has been optimized for the cloud and has some significant improvements in functionality and user experience</p>
+                            <p>You can use the Power Platform to create custom fields, workflows, business events, and integrations with other apps and services². You can also connect to partner solutions that offer payroll, talent acquisition, and other HR functions.</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">What are the licensing options for Dynamics 365 Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">How can I use D365 Human Resources to improve employee experiences and engagement?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Dynamics 365 Business Central has two licensing options: Essentials and Premium. The Essentials option includes modules for financial management, sales and marketing, supply chain management, project management, customer service, and human resource management. The Premium option adds modules for service and manufacturing</p>
+                            <p>You can use D365 Human Resources to provide self-service portals for employees and managers, where they can update their personal information, request leaves, enroll in benefits, view performance feedback, and access learning courses. You can also use data and insights to optimize your HR programs and policies, and create a culture of recognition and development.</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How do I find a reselling partner for Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How can I create a new job in Dynamics 365 Human Resources?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>You can find a Business Central partner on the Microsoft Solution Providers website². You can search by location, industry, and service type to find a partner that suits your needs.</p>
+                            <p>You can create a new job by going to **Personnel management > Jobs > Jobs** and clicking **New**. You can then enter the job details, such as title, description, level, and status. You can also assign skills, tasks, and compensation structures to the job.</p>
+
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">What are the features not implemented in on-premises deployments of Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How can I request a leave of absence in Dynamics 365 Human Resources?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Some features that are available in Business Central online are not supported or have limited functionality in on-premises deployments. These include features such as artificial intelligence, Power BI, Power Automate, Power Apps, and AppSource</p>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do I get training in Business Central?</span><span class="icon" aria-hidden="true"></span></button>
-                        <div class="accordion-content">
-                            <p>You can find free e-learning modules for Business Central on the Microsoft Learn website⁴. You can also join the Dynamics 365 community forum to ask questions</p>
+                            <p>You can request a leave of absence by going to **Employee self service > Leave and absence > Request time off** and selecting the dates and type of leave you want. You can also enter a reason and attach any supporting documents. Your request will then be submitted for approval by your manager or HR³.</p>
                         </div>
                     </div>
                 </div>
@@ -110,7 +108,7 @@
                     <div>
                         <img src="{{asset( '/storage/' .$blogss->images)}}" class="img-fluid w-100 mb-4" alt="{{$blogss->alt_image }}" />
                         <h6 class="mb-4 m-text-centr">{{$blogss->title}} </h6>
-                        <p class="mb-5">{{$blogss->excerpt }}</p>
+                        <p class="mb-5 m-font-p">{{$blogss->excerpt }}</p>
                     </div>
                     <div>
                         <a href="{{ route('blogs_detail', ['slug' =>$blogss->slug]) }}" class="text-dark text-decoration-none">Read the blog <i class="bi-arrow-right ms-2"></i></a>

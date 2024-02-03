@@ -16,17 +16,17 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6   text-center align-items-stretch mb-3">
                     <div>
-                        <img src="{{asset('assets')}}/images/new-landing-pages/new-bc-landing/clients-data/gulf-capital.webp" class="img-fluid client-img-st" alt="">
+                        <img src="{{asset('assets')}}/images/new-landing-pages/sales/red-prange.webp" class="img-fluid client-img-st" alt="">
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6   text-center align-items-stretch mb-3">
                     <div>
-                        <img src="{{asset('assets')}}/images/new-landing-pages/new-bc-landing/clients-data/khiara-done.webp" class="img-fluid client-img-st" alt="">
+                        <img src="{{asset('assets')}}/images/new-landing-pages/sales/emirates-pannel.webp" class="img-fluid client-img-st" alt="">
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-12   text-center align-items-stretch mb-3">
                     <div>
-                        <img src="{{asset('assets')}}/images/new-landing-pages/new-bc-landing/clients-data/cortec-done.webp" class="img-fluid client-img-st" alt="">
+                        <img src="{{asset('assets')}}/images/new-landing-pages/sales/cortec-done.webp" class="img-fluid client-img-st" alt="">
                     </div>
                 </div>
             </div>
@@ -59,39 +59,47 @@
             <div class="faq-container-new">
                 <div class="accordionfaq">
                     <div class="accordion-item">
-                        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">What is Dynamics 365 Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">What is D365 Customer Insights?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Dynamics 365 Business Central is a cloud-based enterprise resource planning (ERP) system from Microsoft that offers comprehensive business management capabilities for small and medium-sized businesses</p>
+                            <p>It is a product from Microsoft that helps you deliver personalized customer experiences.</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">How is Dynamics 365 Business Central related to Dynamics NAV?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">How does it work?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Dynamics 365 Business Central is the successor of Dynamics NAV, and it is based on the same code base. However, Business Central has been optimized for the cloud and has some significant improvements in functionality and user experience</p>
+                            <p>It combines customer data from various sources and provides real-time journey orchestration and content recommendations.</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">What are the licensing options for Dynamics 365 Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">What are the main components of D365 Customer Insights?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Dynamics 365 Business Central has two licensing options: Essentials and Premium. The Essentials option includes modules for financial management, sales and marketing, supply chain management, project management, customer service, and human resource management. The Premium option adds modules for service and manufacturing</p>
+                            <p>There are two main components: Data and Journeys. Data helps you unify, enrich, and activate your customer data. Journeys helps you create and deliver personalized customer journeys.</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How do I find a reselling partner for Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">What is the new D365 Customer Insights offering that was announced in September 2023?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>You can find a Business Central partner on the Microsoft Solution Providers website². You can search by location, industry, and service type to find a partner that suits your needs.</p>
+                            <p>The new D365 Customer Insights offering combines the standalone D365 Customer Insights and D365 Marketing apps into a single offering. It includes both the Customer Insights - Data and Customer Insights - Journeys applications</p>
+                            <!-- <ol class="ol-style-tp">
+                                <li>Sales Premium</li>
+                                <li>Sales Enterprise</li>
+                                <li>Sales Professional</li>
+                                <li>Relationship Sales</li>
+                                <li>Microsoft Sales Copilot</li>
+                            </ol>
+                            <p></p> -->
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">What are the features not implemented in on-premises deployments of Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How can I use Copilot in D365 Customer Insights?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Some features that are available in Business Central online are not supported or have limited functionality in on-premises deployments. These include features such as artificial intelligence, Power BI, Power Automate, Power Apps, and AppSource</p>
+                            <p>Copilot is a natural language interface that helps you create or enhance target segments, generate content ideas, and measure the impact of your journeys</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do I get training in Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">What are the current certifications for D365 Customer Insights?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>You can find free e-learning modules for Business Central on the Microsoft Learn website⁴. You can also join the Dynamics 365 community forum to ask questions</p>
+                            <p>The current certifications are Exam MB-260: Microsoft Customer Data Platform Specialist and Exam MB-230: Microsoft Dynamics 365 Marketing Functional Consultant.</p>
                         </div>
                     </div>
                 </div>
@@ -110,7 +118,7 @@
                     <div>
                         <img src="{{asset( '/storage/' .$blogss->images)}}" class="img-fluid w-100 mb-4" alt="{{$blogss->alt_image }}" />
                         <h6 class="mb-4 m-text-centr">{{$blogss->title}} </h6>
-                        <p class="mb-5">{{$blogss->excerpt }}</p>
+                        <p class="mb-5 m-font-p">{{$blogss->excerpt }}</p>
                     </div>
                     <div>
                         <a href="{{ route('blogs_detail', ['slug' =>$blogss->slug]) }}" class="text-dark text-decoration-none">Read the blog <i class="bi-arrow-right ms-2"></i></a>

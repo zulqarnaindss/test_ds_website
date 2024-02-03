@@ -105,3 +105,4 @@
 <noscript><img height="1" width="1" style="display:none" src="
 https://www.facebook.com/tr?id=2119296408408049&ev=PageView&noscript=1" /></noscript>
 <!-- End Meta Pixel Code -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />

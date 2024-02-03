@@ -12,6 +12,10 @@ Route::get('/', [FrontController::class, 'index'])->name('home');
 // New Landing Pages
 Route::get('/business-central-landing-page', [FrontController::class, 'bcNewLanding']);
 Route::get('/finance-landing-page', [FrontController::class, 'financeNewLanding']);
+Route::get('/supply-chain-landing-page', [FrontController::class, 'SCNewLanding']);
+Route::get('/hr-landing-page', [FrontController::class, 'HRNewLanding']);
+Route::get('/sales-landing-page', [FrontController::class, 'SalesNewLanding']);
+Route::get('/marketing-landing-page', [FrontController::class, 'MarketingNewLanding']);
 // New Landing Pages End
 // Guided Tour
 Route::get('/business-central-guided-tour', [FrontController::class, 'bcGuided']);

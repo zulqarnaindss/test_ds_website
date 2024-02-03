@@ -4,23 +4,13 @@
 @section('meta_keywords', 'Business Central Landing Page')
 @section('contents')
 <!--Header Starts-->
-<header>
+<header  class="header-bg-BC-sec">
     <div class="container-xl">
         <div class="px-xl-5">
             <div class="row">
-                <div class="col-xl-5 col-lg-4 order-lg-2 ms-auto text-center mb-4 top-img-cbc-div">
-                    <img src="{{asset('assets')}}/images/new-landing-pages/bc/bc-landing.webp" class="img-fluid rounded-4" width="600" alt="Header Image" />
-                    <div class="ds-non-bc-circle" style="    width: 170px;
-    height: 170px;
-    top: 183px;
-    z-index: -1;
-    right: 65px;
-    border-radius: 50%;
-    position: absolute;
-    transform: rotate(268deg);
-    transform-origin: 0 0;
-    /* background: linear-gradient(180deg, #EAFFED 0%, #B6F0BF 100%); */
-    border: 2.92px #96D586 dotted;"></div>
+                <div class="col-xl-5 col-lg-4 order-lg-2 ms-auto text-center mb-4">
+                    <!-- <img src="{{asset('assets')}}/images/new-landing-pages/bc/bc-landing.webp" class="img-fluid rounded-4" width="600" alt="Header Image" /> -->
+                    
                 </div>
                 <div class="col-xl-6 col-lg-8 order-lg-1 mb-4">
                     <div class="content-box mb-4 text-lg-start text-center">
@@ -28,7 +18,7 @@
                         <p>Microsoft Dynamics 365 Business Central is a cloud-based enterprise resource planning (ERP) solution that helps small & medium-sized businesses manage their finances, operations, sales, and customer service. It integrates with other Microsoft products such as Office 365, Power BI, and Teams, and offers a range of features such as accounting, inventory management, project management, and reporting. Business Central can be customized and extended with apps from Microsoft AppSource or developed by partners.
                         </p>
 
-                        <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-cbc-div">
+                        <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-div-new-BC">
                             <div class="text-start mb-2">
                                 <a href="#popup1" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                             </div>

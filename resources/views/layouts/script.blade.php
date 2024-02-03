@@ -1,5 +1,41 @@
-<!-- <script rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
-</script> -->
+
+<!-- Supply Chain Landing page Counter -->
+
+<script>
+    var counted = 0;
+    $(window).scroll(function() {
+
+        var oTop = $('#counterSC').offset().top - window.innerHeight;
+        if (counted == 0 && $(window).scrollTop() > oTop) {
+            $('.countSC').each(function() {
+                var $this = $(this),
+                    countTo = $this.attr('data-count');
+                $({
+                    countNum: $this.text()
+                }).animate({
+                        countNum: countTo
+                    },
+
+                    {
+
+                        duration: 9000,
+                        easing: 'swing',
+                        step: function() {
+                            $this.text(Math.floor(this.countNum));
+                        },
+                        complete: function() {
+                            $this.text(this.countNum);
+                            //alert('finished');
+                        }
+
+                    });
+            });
+            counted = 1;
+        }
+
+    });
+</script>
+<!-- Supply Chain Landing page Counter End -->
 <!-- Faq Tabs For Landing pages -->
 <script>
     const items = document.querySelectorAll(".accordionfaq button");
@@ -347,7 +383,7 @@
     });
 </script>
 <!-- Navbar Scroll BG End -->
-<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+
 <script>
     $(document).ready(function() {
         $('#client-logos').owlCarousel({

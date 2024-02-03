@@ -16,17 +16,17 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-6   text-center align-items-stretch mb-3">
                     <div>
-                        <img src="{{asset('assets')}}/images/new-landing-pages/new-bc-landing/clients-data/gulf-capital.webp" class="img-fluid client-img-st" alt="">
+                        <img src="{{asset('assets')}}/images/new-landing-pages/sales/red-prange.webp" class="img-fluid client-img-st" alt="">
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6   text-center align-items-stretch mb-3">
                     <div>
-                        <img src="{{asset('assets')}}/images/new-landing-pages/new-bc-landing/clients-data/khiara-done.webp" class="img-fluid client-img-st" alt="">
+                        <img src="{{asset('assets')}}/images/new-landing-pages/sales/emirates-pannel.webp" class="img-fluid client-img-st" alt="">
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-12   text-center align-items-stretch mb-3">
                     <div>
-                        <img src="{{asset('assets')}}/images/new-landing-pages/new-bc-landing/clients-data/cortec-done.webp" class="img-fluid client-img-st" alt="">
+                        <img src="{{asset('assets')}}/images/new-landing-pages/sales/cortec-done.webp" class="img-fluid client-img-st" alt="">
                     </div>
                 </div>
             </div>
@@ -59,39 +59,41 @@
             <div class="faq-container-new">
                 <div class="accordionfaq">
                     <div class="accordion-item">
-                        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">What is Dynamics 365 Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">What are the benefits of Dynamics 365 Sales Premium?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Dynamics 365 Business Central is a cloud-based enterprise resource planning (ERP) system from Microsoft that offers comprehensive business management capabilities for small and medium-sized businesses</p>
+                            <p>Dynamics 365 Sales Premium is a comprehensive solution that combines the capabilities of Dynamics 365 Sales Enterprise, Dynamics 365 Sales Insights, and Dynamics 365 Customer Voice. It helps you to empower your sellers with AI-driven insights, streamline your sales processes, and enhance your customer feedback</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">How is Dynamics 365 Business Central related to Dynamics NAV?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">How can I use Dynamics 365 Customer Insights with Dynamics 365 Sales?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Dynamics 365 Business Central is the successor of Dynamics NAV, and it is based on the same code base. However, Business Central has been optimized for the cloud and has some significant improvements in functionality and user experience</p>
+                            <p>Dynamics 365 Customer Insights is a customer data platform that helps you to unify and enrich your customer data, and get insights into future opportunities. You can use it with Dynamics 365 Sales to deliver personalised, responsive, and connected customer journeys across channels</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">What are the licensing options for Dynamics 365 Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">What is the difference between Dynamics 365 Sales Enterprise and Dynamics 365 Sales Professional?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Dynamics 365 Business Central has two licensing options: Essentials and Premium. The Essentials option includes modules for financial management, sales and marketing, supply chain management, project management, customer service, and human resource management. The Premium option adds modules for service and manufacturing</p>
+                            <p>Dynamics 365 Sales Enterprise and Dynamics 365 Sales Professional are two different plans that offer different levels of functionality and pricing. Dynamics 365 Sales Enterprise is designed for organisations that need a complete sales solution with advanced capabilities, such as forecasting, gamification, and territory management. Dynamics 365 Sales Professional is designed for organisations that need a streamlined sales solution with core capabilities, such as lead and opportunity management, product catalog, and quotes.</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How do I find a reselling partner for Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">What are the different plans and solutions available for Dynamics 365 Sales?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>You can find a Business Central partner on the Microsoft Solution Providers website². You can search by location, industry, and service type to find a partner that suits your needs.</p>
+                            <p></p>
+                            <ol class="ol-style-tp">
+                                <li>Sales Premium</li>
+                                <li>Sales Enterprise</li>
+                                <li>Sales Professional</li>
+                                <li>Relationship Sales</li>
+                                <li>Microsoft Sales Copilot</li>
+                            </ol>
+                            <p></p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">What are the features not implemented in on-premises deployments of Business Central?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title"> How can I get started with Dynamics 365 Sales?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Some features that are available in Business Central online are not supported or have limited functionality in on-premises deployments. These include features such as artificial intelligence, Power BI, Power Automate, Power Apps, and AppSource</p>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do I get training in Business Central?</span><span class="icon" aria-hidden="true"></span></button>
-                        <div class="accordion-content">
-                            <p>You can find free e-learning modules for Business Central on the Microsoft Learn website⁴. You can also join the Dynamics 365 community forum to ask questions</p>
+                            <p>You can start a free trial for Dynamics 365 Sales for 30 days and experience the features and benefits of the solution². You can also take a guided tour or request a call back from a sales representative to learn more about Dynamics 365 Sales. Additionally, you can find help and apps from Microsoft partners, browse consulting services and partner apps, or access FastTrack for Dynamics 365 to accelerate your deployment and adoption.</p>
                         </div>
                     </div>
                 </div>
@@ -110,7 +112,7 @@
                     <div>
                         <img src="{{asset( '/storage/' .$blogss->images)}}" class="img-fluid w-100 mb-4" alt="{{$blogss->alt_image }}" />
                         <h6 class="mb-4 m-text-centr">{{$blogss->title}} </h6>
-                        <p class="mb-5">{{$blogss->excerpt }}</p>
+                        <p class="mb-5 m-font-p">{{$blogss->excerpt }}</p>
                     </div>
                     <div>
                         <a href="{{ route('blogs_detail', ['slug' =>$blogss->slug]) }}" class="text-dark text-decoration-none">Read the blog <i class="bi-arrow-right ms-2"></i></a>
