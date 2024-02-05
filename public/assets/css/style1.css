@@ -1,4 +1,399 @@
 /* Custom Style For New Website Live */
+/* New Services Pages */
+/* Upgrade Services New page */
+.header-bg-Upgr-sec {
+  background-image: url(../images/new-services-pages/Implementation/implementation-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 0 1rem 0 !important;
+}
+
+.mt-impl-div {
+  margin-top: 5rem;
+}
+
+.header-bg-Upgr-sec .content-box h1 {
+  color: white !important;
+}
+
+.header-bg-Upgr-sec .content-box p {
+  color: white !important;
+}
+
+.icon-img-upgr-seco-sect {
+  width: 12%;
+  height: auto;
+}
+
+.upgr-color-bg-sect-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-clip: border-box;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.upgr-color-bg-sect-card h4 {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  margin: 1rem 0 1rem 0;
+}
+
+.upgr-color-bg-sect-card p {
+  color: #5A5A5A;
+  font-size: 14px;
+}
+
+.mrgn-top-upgr-2-sect{
+  margin-top: 2rem;
+}
+.bg-color-third-upgr {
+  background: #F1F1F1;
+  padding: 4rem 0;
+  margin-top: 3rem;
+}
+.text-theme-upgr {
+  color: #1D740A;
+  font-size: 25px;
+}
+.mt-row-lr-upgr{
+margin-top: 2rem !important;
+}
+.upgr-Blue-sec-last {
+  padding: 4rem 0 6rem 0;
+  background: url(../images/new-services-pages/Upgradation/upgrade-last-img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.upgr-Blue-sec-last .content-box h2 {
+  font-size: 23px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #fff;
+}
+
+.upgr-Blue-sec-last .content-box p {
+  color: white;
+}
+.upgr-Blue-sec-last .content-box h5{
+  color: white;
+  text-decoration: underline;
+  margin-top: 3rem;
+  margin-bottom: 15px;
+} 
+
+/* Upgrade Services New page End */
+/* Implementation */
+.header-bg-Impl-sec {
+  background-image: url(../images/new-services-pages/Implementation/implementation-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 0 1rem 0 !important;
+}
+
+.mt-impl-div {
+  margin-top: 5rem;
+}
+
+.header-bg-Impl-sec .content-box h1 {
+  color: white !important;
+}
+
+.header-bg-Impl-sec .content-box p {
+  color: white !important;
+}
+
+.h-bg-color-Impl {
+  background: #003460;
+  padding: 10px 5px 10px 20px;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+.ml-Impl-h4-p {
+  margin-left: 20px;
+}
+
+.margn-top-sec-impl {
+  margin-top: 1rem !important;
+}
+
+.Impct-card-impl {
+  margin-right: 5rem;
+}
+
+.bg-color-third-impl {
+  background: #EDEDF1;
+  padding: 4rem 0;
+  margin-top: 3rem;
+}
+
+.h-bg-color-Impl-green {
+  background: #497C08;
+  padding: 10px 5px 10px 20px;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+/* Tabs Hover Section */
+.tab-content>.tab-pane {
+  transition: 1s;
+  overflow: hidden;
+  display: block !important;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.2s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: -webkit-fill-available;
+  text-align: center;
+}
+
+.tab-content>.tab-pane p {
+  color: #fff;
+  margin-inline: 8rem;
+}
+
+.tab-content>.tab-pane h3 {
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.tab-content>.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.nav.nav-pills {
+  position: relative;
+  bottom: 0;
+  top: 100px;
+  width: 100%;
+  margin-top: 0rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+/* .nav.nav-pills li a {
+  font-size: 20px;
+  color: #ccc;
+} */
+
+.nav.nav-pills li a:hover {
+  background-color: white !important;
+  color: #000 !important;
+}
+
+.nav.nav-pills li a:hover .icon-2-btn {
+  color: white !important;
+}
+
+.nav.nav-pills li.active a {
+  background-color: white;
+  color: #000;
+}
+
+.nothing h1 {
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hovr-content-main-div {
+  text-align: center;
+}
+
+/* Tabs Hover Section End */
+.hovr-bg-color-change-div {
+  padding: 6rem 0;
+  background-color: #008EF4;
+}
+
+.hovr-bg-color-change-div h3 {
+  color: white;
+}
+
+.hovr-bg-color-change-div p {
+  color: white;
+}
+
+.tab-btn-st-impl {
+  background: #000000;
+  color: white;
+  margin-inline: 25px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  padding: 10px 26px;
+  height: 44px;
+}
+
+.icon-1-btn {
+  position: absolute;
+  top: 25px;
+  color: #0084ff;
+  font-size: 36px;
+  left: 100px;
+}
+
+.icon-2-btn {
+  position: absolute;
+  top: 25px;
+  color: #5d05ff;
+  font-size: 36px;
+  margin-left: -50px;
+}
+
+.icon-3-btn {
+  color: #0cc6df;
+  position: absolute;
+  top: 25px;
+  font-size: 36px;
+  margin-left: -50px;
+}
+
+.icon-4-btn {
+  color: #89e105;
+  position: absolute;
+  top: 25px;
+  font-size: 36px;
+  margin-left: -50px;
+}
+
+.icon-5-btn {
+  color: #f2d40d;
+  position: absolute;
+  top: 25px;
+  font-size: 36px;
+  margin-left: -50px;
+}
+
+.resource-contact-sect {
+  margin-top: 5rem;
+}
+
+.Testi-bg-color-div {
+  padding: 8rem 0 5rem;
+  margin-top: 8rem;
+  background-color: #EDEDED;
+  margin-bottom: 4rem;
+}
+
+.Test-for-new-serv-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-clip: border-box;
+  /* justify-content: space-between; */
+  padding: 15px 20px 0;
+  background: #ffffff;
+  border-radius: 10px;
+  /* margin-bottom: 1rem; */
+  overflow: hidden;
+}
+
+.Test-for-new-serv-card p {
+  font-size: 13px;
+}
+
+.Test-for-new-serv-card img {
+  width: 50%;
+}
+
+.str-icn {
+  font-size: 30px;
+  color: rgba(254, 165, 0, 1);
+  margin-top: -15px;
+  position: relative;
+  margin-left: -25px;
+  left: 15px;
+}
+
+.str-icn-2 {
+  font-size: 30px;
+  color: rgba(254, 165, 0, 1);
+  margin-top: -50px;
+  position: relative;
+  margin-left: -25px;
+  left: 15px;
+}
+
+.mrg-tp-testim {
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+/* Implementation End */
+/* Resource Contact Sect */
+.row-card-resource {
+  border-radius: 20px;
+  background: #E2E2E2;
+  padding: 2rem 4rem 0;
+}
+
+.row-card-resource .content-box {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.row-card-resource .content-box p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.row-card-resource .content-box::before {
+  content: '';
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(24, 35, 63, 0.08) 0%, rgb(83, 154, 68, 0.08) 100%);
+  top: 0px;
+  left: -50px;
+}
+
+.row-card-resource .content-box::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgba(193, 238, 181, 1);
+  top: 0;
+  left: -20px;
+}
+
+.contct-us-btn-pdgn {
+  padding: 10px 40px !important;
+}
+
+/* Resource Contact Sect End */
+/* New Services Pages End */
 /* New Faq Tabs CSS  */
 .faq-container-new {
   width: 1020px;
@@ -89,7 +484,7 @@
 
 .accordionfaq button[aria-expanded=true]+.accordion-content {
   opacity: 1;
-  max-height: 9em;
+  max-height: max-content;
   transition: all 200ms linear;
   will-change: opacity, max-height;
 }
@@ -150,6 +545,7 @@
 }
 
 /* Home page Changes End */
+
 /* New Landing Pages  */
 /* Marketing landing page */
 .header-bg-marketing-sec {
@@ -272,15 +668,19 @@
 .new-sect-of-marketing {
   margin-top: 4rem;
 }
+
 .new-sect-of-marketing-2 {
   margin-top: 5rem;
 }
+
 .marketing-row-3 {
   margin-bottom: 3rem;
 }
-.M-color-bg-sect-card i{
+
+.M-color-bg-sect-card i {
   font-size: 30px;
 }
+
 .M-color-bg-sect-card {
   display: flex;
   flex-direction: column;
@@ -307,6 +707,7 @@
   color: #5A5A5A;
   font-size: 14px;
 }
+
 .M-Blue-sec-last {
   padding: 4rem 0 6rem 0;
   background: linear-gradient(180deg, #7BB8FF 0%, #0085FF 48.5%, #08124B 97.5%);
@@ -357,13 +758,15 @@
 .M-Blue-sec-last .content-box p {
   color: white;
 }
-.h-6-last-sect-M{
+
+.h-6-last-sect-M {
   color: white;
   border: 1px solid white;
   text-align: center;
   padding: 15px 30px;
   border-radius: 5px;
 }
+
 /* Marketing landing page End */
 /* Sales Landing page */
 .header-bg-sales-sec {
@@ -978,12 +1381,14 @@
 /* Finance Landing page End */
 /* BC Landing */
 
-.header-bg-BC-sec h1{
-color: white !important;
-}
-.header-bg-BC-sec p{
+.header-bg-BC-sec h1 {
   color: white !important;
 }
+
+.header-bg-BC-sec p {
+  color: white !important;
+}
+
 /* Tabs For Click  */
 .px-5-new-cstm {
   padding-right: 3rem;
@@ -1181,10 +1586,12 @@ color: white !important;
 .font-s-h3 {
   font-size: 23px;
 }
+
 .contact-div-new-BC {
   padding: 2rem 0;
   position: relative;
 }
+
 /* Impact Of section */
 .Impct-card {
   background-clip: border-box;
@@ -1411,7 +1818,7 @@ color: white !important;
 /* Tabs FAQ */
 .tabsFaq-sec {
   background-color: #E3E3E3;
-  padding: 8rem 0;
+  padding: 5rem 0;
 }
 
 /* Tabs FAQ End */
@@ -1422,6 +1829,7 @@ color: white !important;
   background-position: center;
   padding: 4rem 0 14rem 0 !important;
 }
+
 /* BC Landing End*/
 /* New Landing Pages  End */
 /* Bell ringing bg */
@@ -22081,6 +22489,187 @@ ol li {
     padding: 2px !important;
   }
 
+  /* Upgrade New Service page */
+  .upgr-Blue-sec-last .content-box h5 {
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+  .bg-color-third-upgr .content-box h4{
+    text-align: center;
+    font-size: 18px;
+  }
+  .bg-color-third-upgr .content-box p{
+    font-size: 14px;
+    text-align: center;
+  }
+  .text-theme-upgr {
+    font-size: 18px;
+    text-align: center;
+  }
+  .mrgtop-hdr-img{
+    width: 75%;
+  }
+  .upgr-Blue-sec-last .content-box h2 {
+    font-size: 18px;
+  }
+
+  .upgr-Blue-sec-last .content-box p {
+    font-size: 14px;
+  }
+
+  .upgr-Blue-sec-last .content-box {
+    margin-left: 0rem;
+    text-align: center;
+    padding-inline: 5px;
+  }
+  .bg-color-third-upgr{
+    padding: 2rem 0;
+  }
+  .upgr-color-bg-sect-card {
+    text-align: center;
+    padding: 0px 20px;
+    margin-bottom: 2rem;
+  }
+
+  .upgr-color-bg-sect-card h4 {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0.5rem 0 15px 0;
+  }
+
+  .upgr-color-bg-sect-card p {
+    font-size: 13px;
+  }
+
+  /* Upgrade New Service page End */
+  /* Impl Services new */
+  .icon-1-btn {
+    font-size: 19px;
+    left: 100px;
+  }
+
+  .icon-2-btn {
+    top: 90px;
+    font-size: 15px;
+    margin-left: -22px;
+  }
+
+  .icon-3-btn {
+    top: 150px;
+    font-size: 15px;
+    margin-left: -22px;
+  }
+
+  .icon-4-btn {
+    top: 212px;
+    font-size: 15px;
+    margin-left: -22px;
+  }
+
+  .resource-contact-sect {
+    margin-top: 0rem;
+  }
+
+  .row-card-resource {
+    padding: 2rem 1rem 0;
+    text-align: center;
+  }
+
+  .Testi-bg-color-div {
+    padding: 6rem 0 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .str-icn-2 {
+    margin-top: -15px;
+  }
+
+  .mrg-tp-testim {
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
+  .res-augmnt-he {
+    font-size: 18px;
+  }
+
+  .icon-5-btn {
+    top: auto;
+    margin-top: 6px;
+    font-size: 15px;
+    margin-left: -22px;
+  }
+
+  .nav.nav-pills li {
+    margin: 20px 0;
+  }
+
+  .nav.nav-pills {
+    margin-top: -3rem;
+  }
+
+  .tab-content>.active .hovr-content-main-div p {
+    font-size: 14px;
+    margin-inline: 1rem;
+    margin-top: 1rem;
+  }
+
+  .hovr-bg-color-change-div p {
+    font-size: 14px;
+  }
+
+  .tab-content>.tab-pane h3 {
+    margin-top: 100px;
+  }
+
+  .p-m-s {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .hovr-bg-color-change-div {
+    padding: 4rem 0;
+  }
+
+  .bg-color-third-impl {
+    padding: 2rem 0;
+  }
+
+  .h-bg-color-Impl {
+    padding: 8px 5px 8px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 1rem;
+  }
+
+  .h-bg-color-Impl-green {
+    padding: 8px 5px 8px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 1rem;
+  }
+
+  .margn-top-sec-impl {
+    margin-top: 0rem !important;
+  }
+
+  .ml-Impl-h4-p {
+    margin-left: 0px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .Impct-card-impl {
+    margin-right: 0rem;
+    margin-inline: 10px;
+  }
+
+  .mb-4-mrgn-bottom-impl {
+    margin-bottom: 1rem;
+  }
+
+  /* Impl Services new End*/
   /* Marketing landing page */
   .second-sect-marketing-inc {
     padding: 2rem 0 1rem 0;
@@ -22088,7 +22677,11 @@ ol li {
 
   .marketing-color-bg-sect-card {
     text-align: center;
-    padding: 0px 20px;
+    padding: 50px 20px;
+    margin-bottom: 2rem;
+  }
+
+  .marketing-row-3 {
     margin-bottom: 2rem;
   }
 
@@ -22098,7 +22691,7 @@ ol li {
 
   .marketing-color-bg-sect-card-2 {
     text-align: center;
-    padding: 0px 20px;
+    padding: 50px 20px;
     margin-bottom: 2rem;
   }
 
@@ -22108,17 +22701,41 @@ ol li {
 
   .marketing-color-bg-sect-card-3 {
     text-align: center;
-    padding: 0px 20px;
+    padding: 50px 20px;
     margin-bottom: 2rem;
+  }
+
+  .new-sect-of-marketing-2 {
+    margin-top: 2rem;
   }
 
   .marketing-color-bg-sect-card-3 p {
     font-size: 13px;
   }
+
   .M-color-bg-sect-card {
     text-align: center;
-    padding: 0px 20px;
+    padding: 20px 20px;
     margin-bottom: 2rem;
+  }
+
+  .h-6-last-sect-M {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .M-Blue-sec-last .content-box h2 {
+    font-size: 18px;
+  }
+
+  .M-Blue-sec-last .content-box p {
+    font-size: 14px;
+  }
+
+  .M-Blue-sec-last .content-box {
+    margin-left: 0rem;
+    text-align: center;
+    padding-inline: 5px;
   }
 
   .M-color-bg-sect-card h4 {
@@ -22130,10 +22747,77 @@ ol li {
   .M-color-bg-sect-card p {
     font-size: 13px;
   }
+
+  .header-bg-marketing-sec {
+    padding: 2rem 0 4rem 0 !important;
+  }
+
   /* Marketing landing page End */
   /* Sales Landing page */
   .second-sect-sales-inc {
-    padding: 2rem 0 1rem 0;
+    padding: 0rem 0 1rem 0;
+  }
+
+  .header-bg-sales-sec {
+    padding: 4rem 0 4rem 0 !important;
+  }
+
+  .top-Imp-cSales-sec-div::before {
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: -115px;
+  }
+
+  .sect-5-para-center {
+    position: inherit;
+    left: 0;
+    transform: none;
+    padding: inherit;
+  }
+
+  .sect-5-para-center-R {
+    position: inherit;
+    left: 0;
+    transform: none;
+    padding: inherit;
+  }
+
+  .top-Imp-cSales-3-sec-div::after {
+    width: 200px;
+    height: 200px;
+    top: 4%;
+    left: 50px;
+  }
+
+  .sect-5-para-center p {
+    font-size: 14px;
+  }
+
+  .sect-5-para-center-R p {
+    font-size: 14px;
+  }
+
+  .sales-Blue-sec .content-box {
+    margin-left: 0rem;
+    text-align: center;
+  }
+
+  .sales-Blue-sec .content-box h2 {
+    font-size: 18px;
+  }
+
+  .sales-Blue-sec .content-box p {
+    font-size: 14px;
+  }
+
+  .last-blue-sect-mrg-cont {
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+
+  .last-blue-sect-mrg-cont h5 {
+    font-size: 14px;
   }
 
   /* Sales Landing page End */
@@ -22498,6 +23182,13 @@ ol li {
     margin-top: 3rem;
     text-align: center;
     font-size: 16px !important;
+  }
+
+  .mt-impl-div {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 16px !important;
+    margin-bottom: 1rem;
   }
 
   .ds-non-bc-circle {

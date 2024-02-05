@@ -89,22 +89,22 @@
                     <div class="row align-items-center top-Imp-cSales-sec-div" id="counter">
                         <div class="col-xl-3 col-lg-3 col-md-3  text-center">
                             <h2 class="fw-bold mrgn-btm-SC-per"><span class="count percentplus numbr-color-SC" data-count="20">20</span></h2>
-                            <p class="">Years in Business and
+                            <p class="m-para-second-sec">Years in Business and
                                 Growing Stronger</p>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3  text-center">
                             <h2 class="fw-bold mrgn-btm-SC-per"><span class="count percentplus numbr-color-SC" data-count="120">120</span></h2>
-                            <p class="">Customers </p>
+                            <p class="m-para-second-sec">Customers </p>
 
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3  text-center">
                             <h2 class="fw-bold mrgn-btm-SC-per"><span class="count percentplus numbr-color-SC" data-count="150">150</span></h2>
-                            <p class="">Implementation across various Countries</p>
+                            <p class="m-para-second-sec">Implementation across various Countries</p>
 
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3  text-center">
                             <h2 class="fw-bold mrgn-btm-SC-per"><span class="count percentplus numbr-color-SC" data-count="30">30</span></h2>
-                            <p class="">High Qualified Consultants</p>
+                            <p class="m-para-second-sec">High Qualified Consultants</p>
 
                         </div>
                     </div>
@@ -229,64 +229,7 @@
             </div>
         </div>
     </div>
-    <!-- <div class="container-lg">
-        <div class="px-xl-5">
-            <div class="tab-nbcgtBC tab-nbcgt-new-mBC">
-                <h3 class="mt-nbcgtBC font-s-h3 mb-3">D365 Supply Chain Related Products</h3>
-                <div class="tab__list-nbcgtBC mrtop-fifth-sect">
-                    <div class="tab__item-nbcgtBC tab__item-nbcgt-2-modules-finance tab__item-nbcgtBC-2-modules">
-                        <p class="">Finance</p>
-                    </div>
-                    <div class="tab__item-nbcgtBC tab__item-nbcgt-2-modules-finance tab__item-nbcgtBC-2-modules">
-                        <p class="">Commerce</p>
-                    </div>
-                    <div class="tab__item-nbcgtBC tab__item-nbcgt-2-modules-finance tab__item-nbcgtBC-2-modules">
-                        <p class="">Power Platform</p>
-                    </div>
-                    <div class="tab__item-nbcgtBC tab__item-nbcgt-2-modules-finance tab__item-nbcgtBC-2-modules">
-                        <p class="">Project Operations</p>
-                    </div>
-                </div>
-                <div class="tab__content-nbcgtBC bg-color-for-thrd-sect-click">
-                    <div class="tab__content-item-nbcgtBC">
-                        <div class="row align-items-center">
-                            <div class="col-xl-12 col-lg-12 col-md-12 mb-3">
-                                <p class="text-center px-3 m-font-p">Monitor Your Global Financial Operations in Real time, Predict Outcomes, and make data-driven decisions to drive business agility and growth.</p>
-                                <div class="text-center"><img class="" src="{{asset('assets')}}/images/new-landing-pages/supply-chain/finance.webp" alt="" /></div>
-                            </div>
 
-                        </div>
-                    </div>
-                    <div class="tab__content-item-nbcgtBC">
-                        <div class="row align-items-center">
-                            <p class="text-center">Dynamics 365 Commerce delivers a comprehensive omnichannel solution that unifies back-office, call center, and digital experiences</p>
-                            <div class="col-xl-12 col-lg-12 col-md-12 mb-3">
-                                <div class="text-center"><img class="" src="{{asset('assets')}}/images/new-landing-pages/supply-chain/commerce.webp" alt="" /></div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="tab__content-item-nbcgtBC">
-                        <div class="row align-items-center">
-                            <div class="col-xl-12 col-lg-12 col-md-12 mb-3">
-                                <p class="text-center">Build, automate workflows, analyze data, rapidly design, configure, and publish modern websites.</p>
-                                <div class="text-center"><img class="" src="{{asset('assets')}}/images/new-landing-pages/supply-chain/power-platform.webp" alt="" /></div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="tab__content-item-nbcgtBC">
-                        <div class="row align-items-center">
-                            <div class="col-xl-12 col-lg-12 col-md-12 mb-3">
-                                <p class="text-center">Project Operations connect sales, resourcing, project management. and finance teams in a single application to win more deals.</p>
-                                <div class="text-center"><img class="" src="{{asset('assets')}}/images/new-landing-pages/supply-chain/project-operations.webp" alt="" /></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 </section>
 <section class="bg-color-5sect">
     <div class="container-lg top-Imp-cSales-5-sec-div">
@@ -295,6 +238,9 @@
             <div class="row row-mrgn-5-sect">
                 <div class="col-xl-6 col-md-6 align-items-stretch">
                     <div class="Impct-card sect-5-para-center">
+                        <div class="align-items-start mb-2 mobile-blocks">
+                            <img src="{{asset('assets')}}/images/new-landing-pages/sales/update1-new-copilot-enhancements.webp" class="img-fluid flex-shrink-0 " alt="">
+                        </div>
                         <div class="align-items-start mb-2">
                             <p class="">New Copilot enhancements, which provide sellers with deeper insights and recommendations.</p>
                         </div>
@@ -302,7 +248,7 @@
                 </div>
                 <div class="col-xl-6 col-md-6 align-items-stretch">
                     <div class="Impct-card">
-                        <div class="align-items-start mb-2">
+                        <div class="align-items-start mobile-none mb-2">
                             <img src="{{asset('assets')}}/images/new-landing-pages/sales/update1-new-copilot-enhancements.webp" class="img-fluid flex-shrink-0 " alt="">
                         </div>
                     </div>
@@ -327,6 +273,9 @@
             <div class="row row-mrgn-5-sect">
                 <div class="col-xl-6 col-md-6 align-items-stretch">
                     <div class="Impct-card sect-5-para-center">
+                        <div class="align-items-start mobile-blocks mb-2">
+                            <img src="{{asset('assets')}}/images/new-landing-pages/sales/improve-email-engagement.webp" class="img-fluid flex-shrink-0" alt="">
+                        </div>
                         <div class="align-items-start mb-2">
                             <p class="">Improved email engagement, which allows you to track email opens, link clicks, and attachment views, and get real-time notifications.</p>
                         </div>
@@ -334,7 +283,7 @@
                 </div>
                 <div class="col-xl-6 col-md-6 align-items-stretch">
                     <div class="Impct-card">
-                        <div class="align-items-start mb-2">
+                        <div class="align-items-start mobile-none mb-2">
                             <img src="{{asset('assets')}}/images/new-landing-pages/sales/improve-email-engagement.webp" class="img-fluid flex-shrink-0" alt="">
                         </div>
                     </div>
@@ -372,11 +321,11 @@
                 <div class="last-blue-sect-mrg-cont">
                     <div class="d-flex align-items-start mb-2">
                         <i class="flex-shrink-0 bi-check2 last-blue-sect-tick"></i>
-                     <h5 class="flex-grow-1 mb-0 ms-3 text-white">10th consecutive year recognized of Success</h5>
+                        <h5 class="flex-grow-1 mb-0 ms-3 text-white">10th consecutive year recognized of Success</h5>
                     </div>
                     <div class="d-flex align-items-start mb-2">
-                        <i class="flex-shrink-0 bi-check2 last-blue-sect-tick" ></i>
-                     <h5 class="flex-grow-1 mb-0 ms-3 text-white">Furthest in Completeness of Vision</h5>
+                        <i class="flex-shrink-0 bi-check2 last-blue-sect-tick"></i>
+                        <h5 class="flex-grow-1 mb-0 ms-3 text-white">Furthest in Completeness of Vision</h5>
                     </div>
                 </div>
             </div>

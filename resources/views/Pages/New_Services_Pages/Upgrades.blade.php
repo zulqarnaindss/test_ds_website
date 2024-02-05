@@ -1,21 +1,21 @@
-@extends('NewMarketingLandingMain')
-@section('title', 'Marketing Landing Page')
+@extends('NewUpgrMain')
+@section('title', 'Upgradation Service')
 @section('meta_description' , '')
 @section('meta_keywords', '')
 @section('contents')
 <!--Header Starts-->
-<header class="header-bg-marketing-sec">
+<header class="header-bg-Upgr-sec">
     <div>
         <div class="container-xl">
             <div class="px-xl-5">
                 <div class="row">
                     <div class="col-xl-5 col-lg-4 order-lg-2 ms-auto text-center mb-4">
-                        <img src="{{asset('assets')}}/images/new-landing-pages/marketing/customer-insight-logo.webp" class="img-fluid rounded-4 mrgtop-mrktng-img" width="600" alt="Header Image" />
+                        <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/separate-image.webp" class="img-fluid rounded-4 mrgtop-hdr-img" width="600" alt="Header Image" />
                     </div>
                     <div class="col-xl-6 col-lg-8 order-lg-1 mb-4">
                         <div class="content-box mb-4 text-lg-start text-center">
-                            <h1 class="cstm-n-bc-lnding-h mb-4">Dynamics 365 Customer Insights</h1>
-                            <p>D365 Customer Insight is a product from Microsoft that helps you deliver personalized customer experiences by unifying and analyzing customer data from different sources. You can also create and orchestrate customer journeys across sales, marketing, and service teams. It consists of two components: Customer Insights - Data and Customer Insights - Journeys.</p>
+                            <h1 class="cstm-n-bc-lnding-h">Dynamics 365 ERP & CRM Migration & Upgrades Partners</h1>
+                            <p>Your Microsoft Dynamics 365 Migration & Upgrades partners that help you to migrate from Microsoft on-premises to cloud, Microsoft GP to Dynamics 365, Microsoft NAV to Dynamics 365, Microsoft AX to Dynamics 365 end to end migration and upgrades. As your business expands so does the business requirements and needs and with timely updates gives you an extra boost in productivity and seamless operations.</p>
                             <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-cfinance-div">
                                 <div class="text-start mb-2">
                                     <a href="#popup1" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
@@ -81,213 +81,206 @@
 
 </header>
 <!--Header Ends-->
-<section class="second-sect-marketing-inc">
-    <div class="container-lg">
-        <div class="px-xl-5">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 mb-3">
-                    <div class="row align-items-center top-Imp-cMarketing-sec-div" id="counter">
-                        <div class="col-xl-3 col-lg-3 col-md-3  text-center">
-                            <h2 class="fw-bold mrgn-btm-SC-per"><span class="count percentplus numbr-color-SC" data-count="20">20</span></h2>
-                            <p class="m-para-second-sec">Years in Business and
-                                Growing Stronger</p>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-3  text-center">
-                            <h2 class="fw-bold mrgn-btm-SC-per"><span class="count percentplus numbr-color-SC" data-count="120">120</span></h2>
-                            <p class="m-para-second-sec">Customers </p>
-
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-3  text-center">
-                            <h2 class="fw-bold mrgn-btm-SC-per"><span class="count percentplus numbr-color-SC" data-count="150">150</span></h2>
-                            <p class="m-para-second-sec">Implementation across various Countries</p>
-
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-3  text-center">
-                            <h2 class="fw-bold mrgn-btm-SC-per"><span class="count percentplus numbr-color-SC" data-count="30">30</span></h2>
-                            <p class="m-para-second-sec">High Qualified Consultants</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <section class="">
-    <div class="bg-color-hr-landing top-Imp-cMarketing-2-sec-div">
-        <div class="container-lg">
-            <div class="px-xl-5">
-                <div class="tab-nbcgtBC tab-nbcgt-new-mBC ">
-                    <h3 class="font-s-h3 mb-3">Deliver connected customer journeys</h3>
-                    <p class="paragraph-for-mobile-res">Understand your customers and create truly personalized experiences.</p>
-                    <div class="tab__content-nbcgtBC bg-color-for-thrd-sect-click ">
-                        <div class="tab__content-item-nbcgtBC">
-                            <div class="row align-items-center">
-                                <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
-                                    <div class=""><img class="" src="{{asset('assets')}}/images/new-landing-pages/marketing/get-richer-view-of-customer.webp" alt="" /></div>
+    <div class="container-lg mt-impl-div">
+        <div class="px-xl-5">
+            <h3 class="mt-impl-div font-s-h3 mb-3">Benefits to Shift your Business from Microsoft to Dynamics 365</h3>
+            <p class="p-m-s">No matter what platform you are using at the moment but you’re missing the Real Seamless Solution by Microsoft Dynamics 365 Business Central & ERP CRM implementation partners with more than 10+ Years of experience in Startup’s | SME’s & enterprises</p>
+            <div class="mrgn-top-upgr-2-sect">
+                <div class="row ">
+                    <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
+                        <div class="upgr-color-bg-sect-card">
+                            <div class="card-content">
+                                <div>
+                                    <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/increase-ROI.webp" class="icon-img-upgr-seco-sect" alt="" />
+                                    <!-- <i class="fa-solid fa-arrows-to-circle capability-sect-icons" style="color: #6307ed;"></i> -->
+                                    <h4>Increased ROI</h4>
                                 </div>
-                                <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
-                                    <h5 class="mb-3">Get a richer View of Customers</h5>
-                                    <p class="paragraph-for-mobile-res">Unify transactional, demographic, and behavioral data with AI-powered identity management for a holistic view of customers.</p>
+                                <div>
+                                    <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="tab__content-item-nbcgtBC">
-                            <div class="row align-items-center">
-                                <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
-                                    <div class=""><img class="" src="{{asset('assets')}}/images/new-landing-pages/marketing/boost-engagement-AI.webp" alt="" /></div>
-                                </div>
-                                <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
-                                    <h5 class="mb-3">Boost Engagement with AI</h5>
-                                    <p class="paragraph-for-mobile-res">Deliver tailored experiences with the right message at the right time using AI-driven channel selection.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab__content-item-nbcgtBC">
-                            <div class="row align-items-center">
-                                <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
-                                    <div class=""><img class="" src="{{asset('assets')}}/images/new-landing-pages/marketing/reach-customers-where-they-are.webp" alt="" /></div>
-                                </div>
-                                <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
-                                    <h5 class="mb-3">Reach Customers where they are</h5>
-                                    <p class="paragraph-for-mobile-res">Engage customers using prebuilt digital channels including text, email, and push notifications, and then seamlessly add custom channels to the journey.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab__content-item-nbcgtBC">
-                            <div class="row align-items-center">
-                                <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
-                                    <div class=""><img class="" src="{{asset('assets')}}/images/new-landing-pages/marketing/simplify-audiance-targeting.webp" alt="" /></div>
-                                </div>
-                                <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
-                                    <h5 class="mb-3">Simplify Audiance Targeting</h5>
-                                    <p class="paragraph-for-mobile-res">Describe your target segments to Copilot and quickly build, review, and modify customer segments.</p>
-                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="tab__list-nbcgtBC">
-                        <div class="tab__item-nbcgtBC tab__itm-finance">
-                            <p class="">Get a richer View of Customers</p>
-                        </div>
-                        <div class="tab__item-nbcgtBC tab__itm-finance">
-                            <p class="">Boost Engagement with AI</p>
-                        </div>
-                        <div class="tab__item-nbcgtBC tab__itm-finance">
-                            <p class="">Reach Customers where they are</p>
-                        </div>
-                        <div class="tab__item-nbcgtBC tab__itm-finance">
-                            <p class="">Simplify Audiance Targeting</p>
-                        </div>
+                    <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
+                        <div class="upgr-color-bg-sect-card">
+                            <div class="card-content">
+                                <div>
 
+                                    <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/move-to-cloud.webp" class="icon-img-upgr-seco-sect" alt="" />
+                                    <h4>Move to Cloud</h4>
+                                </div>
+
+                                <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
+                        <div class="upgr-color-bg-sect-card">
+                            <div class="card-content">
+                                <div>
+                                    <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/improve-productivity.webp" class="icon-img-upgr-seco-sect" alt="" />
+                                    <h4>Improved Productivity & Automate Redundant Processes</h4>
+                                </div>
+                                <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
+                        <div class="upgr-color-bg-sect-card">
+                            <div class="card-content">
+                                <div>
+                                    <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/effortless-integration.webp" class="icon-img-upgr-seco-sect" alt="" />
+                                    <h4>Effortless Integrations & Powerful Features</h4>
+                                </div>
+                                <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
-<section class="new-sect-of-marketing">
+<section class="bg-color-third-upgr">
     <div class="container-lg">
         <div class="px-xl-5">
-            <h3 class="font-s-h3 marketing-row-3">Some of the latest features and updates in Dynamics 365 Marketing</h3>
-            <div class="row">
-                <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
-                    <div class="marketing-color-bg-sect-card">
-                        <div class="card-content">
-                            <p>Copilot and AI Innovation</p>
+            <div class="row  align-items-center">
+                <div class="col-xl-6 col-lg-7 mb-3">
+                    <div class="content-box">
+                        <a href="" class="solutions-links">
+                            <h3 class="text-theme-upgr">From Microsoft On-Premises</h3>
+                        </a>
+                        <h4>To Cloud</h4>
+                        <p class="mb-4">Revolutionize your business management—operate more intelligently, adapt swiftly, and achieve superior performance, business Central boasts a track record of boosting productivity for finance and operations personnel by up to 18%, delivering an impressive 172% ROI.</p>
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
+                            <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
+                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
+                            <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
-                    <div class="marketing-color-bg-sect-card-2">
-                        <div class="card-content">
-                            <p>Seamless experiences that unify sales and marketing</p>
+                <div class="col-xl-5 col-lg-5 ms-auto mb-3">
+                    <div class="business-img">
+                        <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/microsoft-cloud.webp" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-row-lr-upgr align-items-center">
+                <div class="col-xl-6 col-lg-7 ms-auto order-lg-2 mb-3">
+                    <div class="content-box">
+                        <a href="" class="solutions-links">
+                            <h3 class="text-theme-upgr">From Dynamics AX</h3>
+                        </a>
+                        <h4>To Dynamics 365 Finance & Operations</h4>
+                        <p class="mb-4">Recently Microsoft has prohibited implementing Dynamics AX for new clients. Existing clients, meanwhile, may continue to rely on Microsoft's AX support. Furthermore, by upgrading the Dynamics AX account with Dynamics 365 Finance & Operations, organizations may immediately utilize the updated & business-specific functionality to enhance their business operations and growth strategy.</p>
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
+                            <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
+                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
+                            <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 order-lg-1 mb-3">
+                    <div class="text-center">
+                        <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/dynamicsAX-Finance.webp" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-row-lr-upgr align-items-center">
+                <div class="col-xl-6 col-lg-7 mb-3">
+                    <div class="content-box">
+                        <a href="" class="solutions-links">
+                            <h3 class="text-theme-upgr">From Microsoft NAV</h3>
+                        </a>
+                        <h4>To Microsoft Dynamics 365 Business Central</h4>
+                        <p class="mb-4">Upgrade your NAV system to Business Central to increase your business capabilities and overall operations effectiveness while maintaining flexible potential to enhance your production level & generate profitable business outcomes. Ever since Microsoft has stated that it will no longer support earlier NAV versions. As a result, upgrading your current system features becomes necessary.</p>
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
+                            <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
+                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
+                            <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
-                    <div class="marketing-color-bg-sect-card-3">
-                        <div class="card-content">
-                            <p>Real-time customer engagement</p>
+                <div class="col-xl-5 col-lg-5 ms-auto mb-3">
+                    <div class="text-center">
+                        <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/NAV-business-central.webp" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-row-lr-upgr align-items-center">
+                <div class="col-xl-6 col-lg-7 order-lg-2 mb-3">
+                    <div class="content-box">
+                        <a href="" class="solutions-links">
+                            <h3 class="text-theme-upgr">From Complete Upgrade or Migrate</h3>
+                        </a>
+                        <h4>To Microsoft Dynamics 365</h4>
+                        <p class="mb-4">Organizations that rely on outdated systems will not be able to achieve their full potential if their operations keep growing. Whenever you realize that your operations are being challenged, it's time to upgrade your system using Microsoft Dynamics 365. It may be used in collaboration with your business-specific modules to continue enhancing your performance.</p>
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
+                            <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
                         </div>
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
+                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
+                        </div>
+                        <div class="d-flex align-items-start mb-2">
+                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
+                            <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 order-lg-1 ms-auto mb-3">
+                    <div class="">
+                        <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/migrate-to-dynamics365.webp" class="img-fluid" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 </section>
-<section class="new-sect-of-marketing-2">
-    <div class="container-lg">
-        <div class="px-xl-5">
-            <h3 class="font-s-h3 marketing-row-3">Connected customer experiences across teams</h3>
-            <div class="row">
-                <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
-                    <div class="M-color-bg-sect-card">
-                        <div class="card-content">
-                            <div>
-                                <i class="fa-solid fa-bullhorn" style="color: #0a64ff;"></i>
-                                <h4>Marketing</h4>
-                            </div>
-                            <div>
-                                <p>Tailor real-time customer journeys and use Copilot to find new insights, create audience segments, and produce personalized content.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
-                    <div class="M-color-bg-sect-card">
-                        <div class="card-content">
-                            <div>
-
-                                <i class="fa-solid fa-arrow-up-right-dots" style="color: #0d63f8;"></i>
-                                <h4>Sales</h4>
-                            </div>
-
-                            <p>Empower sellers with real-time leads, enabling personalized interactions through AI-generated predictions and product recommendations.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
-                    <div class="M-color-bg-sect-card">
-                        <div class="card-content">
-                            <div>
-                                <i class="fa-solid fa-gears" style="color: #005eff;"></i>
-                                <h4>Services</h4>
-                            </div>
-                            <p>Identify customer issues proactively and provide agents with in-depth customer profiles that help route cases and resolve issues faster.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-<section class="M-Blue-sec-last  ">
-    <div class="top-left-M-Blue">
+<section class="upgr-Blue-sec-last  ">
+    <div class="">
         <div class="container-lg">
             <div class="px-xl-5">
                 <div class="content-box">
-                    <h2 class="my-4">Accelerating the journey to more personalized customer engagement</h2>
-                    <p class="mb-4">To be competitive in today’s market, organizations must harness the power of data to gain a deeper understanding of their customers, anticipate behaviors, and craft one-on-one personalized experiences across all touchpoints, including sales, marketing, business operations, and service functions. Generative AI makes these capabilities within reach for every company. That’s why we’ve brought together Dynamics 365 Marketing and Dynamics 365 Customer Insights as one offering named Dynamics 365 Customer Insights, an AI-led solution to revolutionize customer experience.</p>
-                    <p class="sec-para-blue-sect">The new Customer Insights enables our customers to be more flexible by giving them access to both a modern, AI-driven customer data platform (Customer Insights data application) and real-time marketing with customer journey orchestration (Customer Insights journeys application). Customers can start with one or both applications and invest in the areas where they most want to scale.</p>
-                </div>
-                <div class="last-blue-sect-mrg-cont">
-                    <div class="row">
-                        <div class="col-xl-6 col-md-6 align-items-stretch">
-                            <h6 class="h-6-last-sect-M">Highest in Ability to Execute</h6>
-                        </div>
-                        <div class="col-xl-6 col-md-6 align-items-stretch">
-                            <h6 class="h-6-last-sect-M">2nd consecutive year as a Leader</h6>
-                        </div>
-                    </div>
-
+                    <h2 class="my-4">Why Choose Dynamics Stream UK ?</h2>
+                    <h5>Certified Microsoft Solutions Partner</h5>
+                    <p class="">We are an authorized gold partner for Microsoft products and services, with extensive expertise and years of experience. We manage your complete system requirements, from Dynamics 365 implementation through upgrades and maintenance. We can build a robust, efficient, and profitable solution for your organization since we have professionals, effective methodology, and a safe data migrating skill set.</p>
+                    <h5 class="">Migration Security & Reliability</h5>
+                    <p class="">Our consultants can handle effortless Microsoft Dynamics 365 upgrades and migrations while using proactive procedures to support secure and reliable data movement. We migrate your data from your existing situation to the newly configured system in a systematic and step-by-step manner.</p>
+                    <h5>Experienced consultants with 300+ Migrations & Upgares</h5>
+                    <p class="">It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
                 </div>
             </div>
         </div>
     </div>
-
 </section>
 <div class="container-lg mt-5">
     <div class="px-xl-5">
@@ -323,16 +316,10 @@
                                     Learn More
                                 </a>
                             </div>
-
-
-
-
                         </div>
                     </div>
                     <div class="owl-item " style="width: 208.8px;">
-
                         <div class="item text-center ind-slider-itm-boxs">
-
                             <h6 class="mb-4">Public Sector</h6>
                             <p class="txt-color-st">Most public data consists of accounting, financing, regulatory requirements, and employee management.</p>
                             <div class="mt-4">
@@ -340,9 +327,6 @@
                                     Learn More
                                 </a>
                             </div>
-
-
-
                         </div>
                     </div>
                     <div class="owl-item" style="width: 208.8px;">

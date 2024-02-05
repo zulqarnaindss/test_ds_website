@@ -1,6 +1,35 @@
-
 <!-- Supply Chain Landing page Counter -->
+<!-- Tabs Hover Section -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
+<script>
+    (function($) {
+        $(function() {
+            $(document).off('click.bs.tab.data-api', '[data-hover="tab"]');
+            $(document).on('mouseenter.bs.tab.data-api', '[data-toggle="tab"], [data-hover="tab"]', function() {
+                $(this).tab('show');
+            });
+        });
+    })(jQuery);
 
+    $('.nav li a').on('click', function() {
+        var location = $(this).data('location');
+        window.location = location;
+    })
+    $('.tab-content .tab-pane').each(function() {
+        $(this).removeClass('active');
+    });
+    $('.nav-pills li').each(function() {
+        $(this).removeClass('active');
+    });
+    $('.tab-pane').on('mouseenter', function() {
+        $(this).removeClass('active');
+    });
+    $('.nav-pills li a').on('mouseenter', function() {
+        $($(this).attr('href')).addClass('active');
+    });
+</script>
+<!-- Tabs Hover Section End -->
 <script>
     var counted = 0;
     $(window).scroll(function() {

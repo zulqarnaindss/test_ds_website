@@ -92,22 +92,22 @@
                     <div class="row align-items-center" id="counter">
                         <div class="col-xl-3 col-lg-3 col-md-3  text-center">
                             <h2 class="fw-bold mrgn-btm-SC-per"><span class="count percentplus numbr-color-SC" data-count="20">20</span></h2>
-                            <p class="">Years in Business and
+                            <p class="m-para-second-sec">Years in Business and
                                 Growing Stronger</p>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3  text-center">
                             <h2 class="fw-bold mrgn-btm-SC-per"><span class="count percentplus numbr-color-SC" data-count="120">120</span></h2>
-                            <p class="">Customers </p>
+                            <p class="m-para-second-sec">Customers </p>
 
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3  text-center">
                             <h2 class="fw-bold mrgn-btm-SC-per"><span class="count percentplus numbr-color-SC" data-count="150">150</span></h2>
-                            <p class="">Implementation across various Countries</p>
+                            <p class="m-para-second-sec">Implementation across various Countries</p>
 
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3  text-center">
                             <h2 class="fw-bold mrgn-btm-SC-per"><span class="count percentplus numbr-color-SC" data-count="30">30</span></h2>
-                            <p class="">High Qualified Consultants</p>
+                            <p class="m-para-second-sec">High Qualified Consultants</p>
 
                         </div>
                     </div>
