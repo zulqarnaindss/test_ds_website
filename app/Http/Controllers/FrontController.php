@@ -115,6 +115,24 @@ class FrontController extends Controller
         $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
         return view('Pages.New_Services_Pages.Upgrades', compact('bacontact','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution'));
     }
+    public function NewRemServices()
+    {
+        $bacontact = Bcontact::all();
+        $footersectionone = Footersectionone::all();
+        $footersolution = Footersolution::all();
+        $solutionindustrys = Solutioninsdustry::all();
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
+        return view('Pages.New_Services_Pages.Remote_Resources', compact('bacontact','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution'));
+    }
+    public function NewCustServices()
+    {
+        $bacontact = Bcontact::all();
+        $footersectionone = Footersectionone::all();
+        $footersolution = Footersolution::all();
+        $solutionindustrys = Solutioninsdustry::all();
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
+        return view('Pages.New_Services_Pages.Customization', compact('bacontact','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution'));
+    }
     public function bcGuided()
     {
         $bacontact = Bcontact::all();

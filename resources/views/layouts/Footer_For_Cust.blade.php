@@ -160,50 +160,40 @@
             <div class="faq-container-new">
                 <div class="accordionfaq">
                     <div class="accordion-item">
-                        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">What is Dynamics 365 upgrade service?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">What are the benefits of using D365 Remote Assist?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Dynamics 365 upgrade service is a feature that allows customers to keep their Dynamics 365 applications up to date with the latest features and functionality, without the need for expensive and disruptive upgrades.</p>
+                            <p>D365 Remote Assist can help you reduce travel costs, increase efficiency, improve customer satisfaction, and solve problems faster by enabling hands-free video calls, annotations, file sharing, and more.</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">How often are service updates released for Dynamics 365?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">What are the new features of D365 Remote Assist in current wave of updates (Oct 2023 to Mar 2024)?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Service updates are released four times a year, in February, April, July, and October. Customers can choose to pause one update at a time, but they are required to take a minimum of two updates per year.</p>
+                            <p>Some of the new features include better calling experiences with Dynamics 365 Guides, improved performance and reliability of the app, and support for proxy configuration</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">How can I preview the upcoming service updates for Dynamics 365?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">How can I deploy D365 Remote Assist to external clients with HoloLens 2?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Customers can opt in for early access to the service updates, and test them in their sandbox environments before they are applied to their production environments. Customers can also review the release notes and the release plan to learn about the new features and changes in each update.</p>
-                            <!-- <ol class="ol-style-tp">Experience and expertise in your industry and domain
-                                <li>Certification and accreditation from Microsoft</li>
-                                <li>Proven track record and customer testimonials</li>
-                                <li>Clear and transparent communication and project management</li>
-                                <li>Flexible and adaptable approach and methodology</li>
-                                <li>Post-implementation support and training</li>
-                            </ol>
-                            <p></p> -->
+                            <p>You can use the Remote Assist model-driven app to create and manage external contacts, and then invite them to join a call using a QR code or a link</p>
+                            
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How can I configure the service update settings for Dynamics 365?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How can I start a call with a remote collaborator using D365 Remote Assist on HoloLens?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Customers can use the Lifecycle Services portal to configure the service update settings, such as the preferred update cadence, the auto-update schedule, and the pause option. Customers can also monitor the status of the service updates and view the history of the applied updates.</p>
+                            <p>You can use voice commands, hand gestures, or the app menu to initiate a call.</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">What are the benefits of using Dynamics 365 upgrade service?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How can I share files and annotations with a remote collaborator during a call?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p></p>
-                            <ol class="ol-style-tp">Dynamics 365 upgrade service provides customers with the following benefits:
-                                <li>Continuous access to the latest features and functionality of Dynamics 365</li>
-                                <li>Improved performance, reliability, and security of the applications</li>
-                                <li>Reduced cost and complexity of maintaining the applications</li>
-                                <li>Predictable and consistent update process</li>
-                                <li>Ability to test and validate the updates before they are applied to the production environments</li>
-                                <li>Ability to turn on the new features when they are ready</li>
-                            </ol>
-                            <p></p>
+                            <p>You can use the file picker to access files from OneDrive, SharePoint, or Teams, and then place them in your space.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How can I troubleshoot issues with D365 Remote Assist on HoloLens or mobile devices?</span><span class="icon" aria-hidden="true"></span></button>
+                        <div class="accordion-content">
+                            <p>You can check the troubleshooting guide for common issues and solutions, or contact Microsoft support for further assistance.</p>
                         </div>
                     </div>
                 </div>

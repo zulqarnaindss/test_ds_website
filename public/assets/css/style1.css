@@ -1,5 +1,237 @@
 /* Custom Style For New Website Live */
 /* New Services Pages */
+/* Customization new Service */
+.header-bg-Cust-sec {
+  background-image: url(../images/new-services-pages/customization/customization.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 0 1rem 0 !important;
+}
+
+.header-bg-Cust-sec .content-box h1 {
+  color: white !important;
+  margin-bottom: 2rem;
+}
+
+.header-bg-Cust-sec .content-box p {
+  color: white !important;
+}
+
+.contact-cCust-div {
+  padding: 2rem 0;
+  position: relative;
+}
+
+.mt-Cust-div {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.mrbtom-for-Cust-2 {
+  margin-bottom: 1rem;
+}
+
+.font-s-h3-color-Cust {
+  font-size: 23px;
+  color: #0D858D;
+}
+
+.client-logos-sect-Cust {
+  margin-top: 3rem;
+}
+
+.top-Imp-cCust-div-2-sect-r::before {
+  content: '';
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 65%;
+  right: 0px;
+  background: linear-gradient(270deg, rgba(194, 255, 64, 0.4) 0%, rgba(78, 152, 4, 0.4) 99.98%, rgba(9, 175, 247, 0.4) 99.99%);
+  z-index: 11;
+}
+.top-Imp-cCust-div-2-sect-he::before {
+  content: '';
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  background: linear-gradient(270deg, rgba(194, 255, 64, 0.4) 0%, rgba(78, 152, 4, 0.4) 99.98%, rgba(9, 175, 247, 0.4) 99.99%);
+  z-index: 11;
+}
+.he-sect-2-sect-di{
+  margin-top: 3rem;
+}
+/* Customization new Service End */
+/* Remote Resources */
+.last-blue-sect-mrg-Rem {
+  margin-top: 3rem;
+}
+
+.last-blue-sect-mrg-Rem h5 {
+  font-size: 17px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.h-6-last-sect-Rem {
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.header-bg-Rem-sec {
+  background-image: url(../images/new-services-pages/remote-assist/remote-assist-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 0 1rem 0 !important;
+}
+
+.header-bg-Rem-sec .content-box h1 {
+  color: white !important;
+  margin-bottom: 2rem;
+}
+
+.header-bg-Rem-sec .content-box p {
+  color: white !important;
+}
+
+.bg-img-for-Rem-seco-sect {
+  background-image: url(../images/new-services-pages/remote-assist/project-completion.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.mrgn-top-Rem-2-sect {
+  margin-top: 2rem;
+}
+
+.Rem-color-bg-sect-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-clip: border-box;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.Rem-color-bg-sect-card h4 {
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0px;
+  font-weight: 600;
+  margin: 1rem 0 1rem 0;
+}
+
+.Rem-color-bg-sect-card p {
+  color: #3D3D3D;
+  font-size: 14px;
+}
+
+.mt-Rem-div {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.mrbtom-for-Rem-2 {
+  margin-bottom: 3rem;
+}
+
+.left-para-sect-seco-Rem-wd {
+  width: 75%;
+}
+
+.right-div-sect-seco-Rem-mrgn {
+  margin-left: 5rem;
+}
+
+.contact-sect-new-bg-Rem {
+  background: linear-gradient(180deg, #FFBE0F 0%, rgba(67, 36, 255, 0.8) 100%);
+  padding: 4rem 0 5rem 0 !important;
+}
+
+.contact-card-Rem {
+  width: 85%;
+}
+
+.contact-card-Rem h3 {
+  color: black;
+  margin-bottom: 38px;
+  font-size: 25px;
+}
+
+.contact-form .form-control-Rem {
+  background: #EEEEEE !important;
+  font-size: 12px !important;
+}
+
+.contact-form .form-control-Rem::placeholder {
+  font-size: 12px !important;
+}
+
+.font-s-h3-B-sect-Rem {
+  font-size: 23px;
+}
+
+.last-blue-sect-mrg-Rem-aftr-cont {
+  margin-top: 3rem;
+}
+
+.h-6-last-sect-Rem-aftr-cont {
+  color: black;
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 20px 5px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.h-6-last-sect-Rem-aftr-cont:hover {
+  border: transparent;
+  background: linear-gradient(180deg, #FFC329 0%, #5900FF 100%);
+  color: white;
+}
+
+.Bld-sect-Rem {
+  padding: 5rem 0 2.5rem 0;
+}
+
+.Rem-lst-Blue-sec {
+  padding: 4rem 0 6rem 0;
+  background: #4B0CFF;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.Rem-lst-Blue-sec h2 {
+  font-size: 23px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #fff;
+}
+
+.Rem-lst-Blue-sec .content-box p {
+  color: white;
+}
+
+.Rem-lst-Blue-sec .content-box h5 {
+  color: white;
+  margin-top: 3rem;
+  margin-bottom: 15px;
+}
+
+/* Remote Resources End */
 /* Upgrade Services New page */
 .header-bg-Upgr-sec {
   background-image: url(../images/new-services-pages/Implementation/implementation-bg.webp);
@@ -9,9 +241,7 @@
   padding: 4rem 0 1rem 0 !important;
 }
 
-.mt-impl-div {
-  margin-top: 5rem;
-}
+
 
 .header-bg-Upgr-sec .content-box h1 {
   color: white !important;
@@ -19,11 +249,6 @@
 
 .header-bg-Upgr-sec .content-box p {
   color: white !important;
-}
-
-.icon-img-upgr-seco-sect {
-  width: 12%;
-  height: auto;
 }
 
 .upgr-color-bg-sect-card {
@@ -50,28 +275,39 @@
   font-size: 14px;
 }
 
-.mrgn-top-upgr-2-sect{
+.upgr-color-bg-sect-card i {
+  color: #ffffff;
+  background: #4280FF;
+  font-size: 25px;
+  padding: 11px;
+  border-radius: 90%;
+}
+
+.mrgn-top-upgr-2-sect {
   margin-top: 2rem;
 }
+
 .bg-color-third-upgr {
   background: #F1F1F1;
   padding: 4rem 0;
   margin-top: 3rem;
 }
+
 .text-theme-upgr {
   color: #1D740A;
   font-size: 25px;
 }
-.mt-row-lr-upgr{
-margin-top: 2rem !important;
+
+.mt-row-lr-upgr {
+  margin-top: 2rem !important;
 }
+
 .upgr-Blue-sec-last {
   padding: 4rem 0 6rem 0;
   background: url(../images/new-services-pages/Upgradation/upgrade-last-img.webp);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-top: 3rem;
 }
 
 .upgr-Blue-sec-last .content-box h2 {
@@ -84,12 +320,13 @@ margin-top: 2rem !important;
 .upgr-Blue-sec-last .content-box p {
   color: white;
 }
-.upgr-Blue-sec-last .content-box h5{
+
+.upgr-Blue-sec-last .content-box h5 {
   color: white;
   text-decoration: underline;
   margin-top: 3rem;
   margin-bottom: 15px;
-} 
+}
 
 /* Upgrade Services New page End */
 /* Implementation */
@@ -22489,26 +22726,183 @@ ol li {
     padding: 2px !important;
   }
 
+  /* New Customization Service */
+  .header-bg-Cust-sec {
+    background-position: right;
+    padding: 1rem 0 1rem 0 !important;
+  }
+
+  .mt-Cust-div {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 16px !important;
+    margin-bottom: 1rem;
+  }
+
+  .mrbtom-for-Cust-2 {
+    margin-bottom: 1rem;
+  }
+
+  .prgrph-Cust-2-sect {
+    color: #3D3D3D;
+  }
+
+  .font-s-h3-color-Cust {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /* New Customization Service End */
+  /* Remote Resources */
+  .last-blue-sect-mrg-Rem {
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+
+  .last-blue-sect-mrg-Rem h5 {
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+
+  .h-6-last-sect-Rem {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+
+  .last-blue-sect-mrg-Rem-aftr-cont {
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+
+  .mrbtom-for-Rem-2 {
+    margin-bottom: 1rem;
+  }
+
+  .Rem-lst-Blue-sec h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .Rem-lst-Blue-sec {
+    padding: 2rem 0 3rem 0;
+  }
+
+  .last-logo-img-Rem {
+    width: 60%;
+    margin-top: 2rem;
+  }
+
+  .h-6-last-sect-Rem-aftr-cont {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-bottom: 1rem;
+  }
+
+  .Rem-color-bg-sect-card {
+    text-align: center;
+    padding: 0px 20px;
+    margin-bottom: 2rem;
+  }
+
+  .Rem-color-bg-sect-card h4 {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0.5rem 0 15px 0;
+  }
+
+  .Rem-color-bg-sect-card p {
+    font-size: 13px;
+  }
+
+  .mt-Rem-div {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 16px !important;
+    margin-bottom: 1rem;
+  }
+
+  .font-s-h3-B-sect-Rem {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .Rem-lst-Blue-sec .content-box h5 {
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+
+  .Rem-lst-Blue-sec .content-box h2 {
+    font-size: 18px;
+  }
+
+  .Rem-lst-Blue-sec .content-box p {
+    font-size: 14px;
+  }
+
+  .Rem-lst-Blue-sec .content-box {
+    margin-left: 0rem;
+    text-align: center;
+    padding-inline: 5px;
+  }
+
+  .header-bg-Rem-sec {
+    background-position: right;
+    padding: 1rem 0 1rem 0 !important;
+  }
+
+  .left-para-sect-seco-Rem-wd {
+    width: auto;
+  }
+
+  .right-div-sect-seco-Rem-mrgn {
+    margin-left: 0rem;
+  }
+
+  .bg-img-for-Rem-seco-sect {
+    background: none;
+  }
+
+  .contact-card-Rem h3 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .contact-sect-new-bg-Rem {
+    padding: 2rem 0 3rem 0 !important;
+    text-align: -webkit-center;
+  }
+
+  .Bld-sect-Rem {
+    padding: 3rem 0 0.5rem 0;
+  }
+
+  /* Remote Resources End */
   /* Upgrade New Service page */
   .upgr-Blue-sec-last .content-box h5 {
     margin-top: 2rem;
     font-size: 16px;
   }
-  .bg-color-third-upgr .content-box h4{
+
+  .bg-color-third-upgr .content-box h4 {
     text-align: center;
     font-size: 18px;
   }
-  .bg-color-third-upgr .content-box p{
+
+  .bg-color-third-upgr .content-box p {
     font-size: 14px;
     text-align: center;
   }
+
   .text-theme-upgr {
     font-size: 18px;
     text-align: center;
   }
-  .mrgtop-hdr-img{
+
+  .mrgtop-hdr-img {
     width: 75%;
   }
+
   .upgr-Blue-sec-last .content-box h2 {
     font-size: 18px;
   }
@@ -22522,9 +22916,11 @@ ol li {
     text-align: center;
     padding-inline: 5px;
   }
-  .bg-color-third-upgr{
+
+  .bg-color-third-upgr {
     padding: 2rem 0;
   }
+
   .upgr-color-bg-sect-card {
     text-align: center;
     padding: 0px 20px;

@@ -12,6 +12,8 @@ Route::get('/', [FrontController::class, 'index'])->name('home');
 // New Services Page
 Route::get('/implementation', [FrontController::class, 'NewImplServices']);
 Route::get('/upgrade', [FrontController::class, 'NewUpgrServices']);
+Route::get('/remote-resources', [FrontController::class, 'NewRemServices']);
+Route::get('/customization', [FrontController::class, 'NewCustServices']);
 
 // New Services Page End
 // New Landing Pages

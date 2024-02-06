@@ -1,21 +1,36 @@
-@extends('NewUpgrMain')
-@section('title', 'Upgradation Service')
+@extends('NewRemMain')
+@section('title', 'Remote Resources Service')
 @section('meta_description' , '')
 @section('meta_keywords', '')
 @section('contents')
 <!--Header Starts-->
-<header class="header-bg-Upgr-sec">
+<header class="header-bg-Rem-sec">
     <div>
         <div class="container-xl">
             <div class="px-xl-5">
                 <div class="row">
-                    <div class="col-xl-5 col-lg-4 order-lg-2 ms-auto text-center mb-4">
-                        <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/separate-image.webp" class="img-fluid rounded-4 mrgtop-hdr-img" width="600" alt="Header Image" />
+                    <div class="col-xl-4 col-lg-4 order-lg-2 ms-auto text-center mb-4">
                     </div>
-                    <div class="col-xl-6 col-lg-8 order-lg-1 mb-4">
+                    <div class="col-xl-8 col-lg-8 order-lg-1 mb-4">
                         <div class="content-box mb-4 text-lg-start text-center">
-                            <h1 class="cstm-n-bc-lnding-h">Dynamics 365 ERP & CRM Migration & Upgrades Partners</h1>
-                            <p>Your Microsoft Dynamics 365 Migration & Upgrades partners that help you to migrate from Microsoft on-premises to cloud, Microsoft GP to Dynamics 365, Microsoft NAV to Dynamics 365, Microsoft AX to Dynamics 365 end to end migration and upgrades. As your business expands so does the business requirements and needs and with timely updates gives you an extra boost in productivity and seamless operations.</p>
+                            <h1 class="cstm-n-bc-lnding-h">Are you looking for Remote Resources for Dynamics 365?</h1>
+                            <p>POV:BOOST YOUR BUSINESS WITH REMOTE RESOURCES BY DYNAMICS 365
+                            </p>
+                            <p>
+                                Rapidly bridge the skills gap and grow your in-house Functional & Consultant and development team with Microsoft dynamics 365 Suite featuring D365 Finance. Dynamics 365 Business Central, Dynamics 365 Supply Chain, Dynamics 365 HR & Microsoft Dynamics CRM, .NET QA engineers, solution architects.</p>
+                            <div class="last-blue-sect-mrg-Rem">
+                                <div class="row">
+                                    <div class="col-xl-6 col-md-6 align-items-stretch">
+                                        <h5>Ready in Just 1 Day</h5>
+                                        <h6 class="h-6-last-sect-Rem">Resource will be ready to join in a Day</h6>
+                                    </div>
+                                    <div class="col-xl-6 col-md-6 align-items-stretch">
+                                        <h5>Well Managed Talent</h5>
+                                        <h6 class="h-6-last-sect-Rem">In-house well trained resources</h6>
+                                    </div>
+                                </div>
+
+                            </div>
                             <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-cfinance-div">
                                 <div class="text-start mb-2">
                                     <a href="#popup1" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
@@ -81,58 +96,77 @@
 
 </header>
 <!--Header Ends-->
-<section class="">
-    <div class="container-lg mt-impl-div">
+<section class="bg-img-for-Rem-seco-sect">
+    <div class="container-lg mt-Rem-div">
         <div class="px-xl-5">
-            <h3 class="mt-impl-div font-s-h3 mb-3">Benefits to Shift your Business from Microsoft to Dynamics 365</h3>
-            <p class="p-m-s">No matter what platform you are using at the moment but you’re missing the Real Seamless Solution by Microsoft Dynamics 365 Business Central & ERP CRM implementation partners with more than 10+ Years of experience in Startup’s | SME’s & enterprises</p>
-            <div class="mrgn-top-upgr-2-sect">
+            <h3 class="mt-Rem-div mrbtom-for-Rem-2 font-s-h3 ">Struggling with Resources & project completion? </h3>
+            <div class="mrgn-top-Rem-2-sect">
                 <div class="row ">
                     <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
-                        <div class="upgr-color-bg-sect-card">
+                        <div class="Rem-color-bg-sect-card">
                             <div class="card-content">
                                 <div>
-                                    <i class="fa-solid fa-chart-line"></i>
-                                    <h4>Increased ROI</h4>
+                                    <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/bc.webp" class="img-fluid" alt="" />
+                                    <h4>Dynamics 365 Business Central </h4>
                                 </div>
                                 <div>
-                                    <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                                    <p class="left-para-sect-seco-Rem-wd">D365 Business Central is a cloud-based solution that helps small and medium-sized businesses manage their finances, operations, sales, and customer service.</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
-                        <div class="upgr-color-bg-sect-card">
+                        <div class="Rem-color-bg-sect-card right-div-sect-seco-Rem-mrgn">
                             <div class="card-content">
                                 <div>
-                                    <i class="fa-solid fa-cloud-arrow-up"></i>
-                                    <h4>Move to Cloud</h4>
+                                    <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/finance.webp" class="img-fluid" alt="" />
+                                    <h4>Dynamics 365 Finance</h4>
                                 </div>
-
-                                <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                                <p>D365 Finance integrates seamlessly with other Microsoft applications and services. Whether you need to manage your cash flow, budget, tax, or financial reporting, D365 Finance can help you achieve your goals and transform your business.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
-                        <div class="upgr-color-bg-sect-card">
+                        <div class="Rem-color-bg-sect-card">
                             <div class="card-content">
                                 <div>
-                                <i class="fa-solid fa-arrow-up-right-dots"></i>
-                                    <h4>Improved Productivity & Automate Redundant Processes</h4>
+                                    <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/sc.webp" class="img-fluid" alt="" />
+                                    <h4>Dynamics 365 Supply chain</h4>
                                 </div>
-                                <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                                <p class="left-para-sect-seco-Rem-wd">D365 Supply Chain is a cloud-based solution that helps you optimize your supply chain operations with real-time visibility, agile planning, and advanced insights.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
-                        <div class="upgr-color-bg-sect-card">
+                        <div class="Rem-color-bg-sect-card right-div-sect-seco-Rem-mrgn">
                             <div class="card-content">
                                 <div>
-                                <i class="fa-solid fa-right-to-bracket"></i>
-                                    <h4>Effortless Integrations & Powerful Features</h4>
+                                    <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/hr.webp" class="img-fluid" alt="" />
+                                    <h4>Dynamics 365 HR</h4>
                                 </div>
-                                <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                                <p>D365 Human Resource is part of the Microsoft Dynamics 365 suite of products, which connects your business processes and data across various applications and services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
+                        <div class="Rem-color-bg-sect-card">
+                            <div class="card-content">
+                                <div>
+                                    <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/sales.webp" class="img-fluid" alt="" />
+                                    <h4>Microsoft Dynamics SALES</h4>
+                                </div>
+                                <p class="left-para-sect-seco-Rem-wd">D365 Sales is part of the Microsoft Dynamics 365 suite of products, which connects your business processes and data across various applications and services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
+                        <div class="Rem-color-bg-sect-card right-div-sect-seco-Rem-mrgn">
+                            <div class="card-content">
+                                <div>
+                                    <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/marketing.webp" class="img-fluid" alt="" />
+                                    <h4>Microsoft Dynamics MARKETING</h4>
+                                </div>
+                                <p>D365 Marketing connects your business processes and data across various applications and services. Whether you need to generate leads, nurture prospects, increase loyalty, or measure impact.</p>
                             </div>
                         </div>
                     </div>
@@ -142,140 +176,105 @@
         </div>
     </div>
 </section>
-<section class="bg-color-third-upgr">
+<section class="contact-sect-new-bg-Rem">
     <div class="container-lg">
         <div class="px-xl-5">
-            <div class="row  align-items-center">
-                <div class="col-xl-6 col-lg-7 mb-3">
-                    <div class="content-box">
-                        <a href="" class="solutions-links">
-                            <h3 class="text-theme-upgr">From Microsoft On-Premises</h3>
-                        </a>
-                        <h4>To Cloud</h4>
-                        <p class="mb-4">Revolutionize your business management—operate more intelligently, adapt swiftly, and achieve superior performance, business Central boasts a track record of boosting productivity for finance and operations personnel by up to 18%, delivering an impressive 172% ROI.</p>
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-5 ms-auto mb-3">
-                    <div class="business-img">
-                        <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/microsoft-cloud.webp" class="img-fluid" />
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-row-lr-upgr align-items-center">
-                <div class="col-xl-6 col-lg-7 ms-auto order-lg-2 mb-3">
-                    <div class="content-box">
-                        <a href="" class="solutions-links">
-                            <h3 class="text-theme-upgr">From Dynamics AX</h3>
-                        </a>
-                        <h4>To Dynamics 365 Finance & Operations</h4>
-                        <p class="mb-4">Recently Microsoft has prohibited implementing Dynamics AX for new clients. Existing clients, meanwhile, may continue to rely on Microsoft's AX support. Furthermore, by upgrading the Dynamics AX account with Dynamics 365 Finance & Operations, organizations may immediately utilize the updated & business-specific functionality to enhance their business operations and growth strategy.</p>
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
-                        </div>
-
-
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-5 order-lg-1 mb-3">
-                    <div class="text-center">
-                        <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/dynamicsAX-Finance.webp" class="img-fluid" />
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-row-lr-upgr align-items-center">
-                <div class="col-xl-6 col-lg-7 mb-3">
-                    <div class="content-box">
-                        <a href="" class="solutions-links">
-                            <h3 class="text-theme-upgr">From Microsoft NAV</h3>
-                        </a>
-                        <h4>To Microsoft Dynamics 365 Business Central</h4>
-                        <p class="mb-4">Upgrade your NAV system to Business Central to increase your business capabilities and overall operations effectiveness while maintaining flexible potential to enhance your production level & generate profitable business outcomes. Ever since Microsoft has stated that it will no longer support earlier NAV versions. As a result, upgrading your current system features becomes necessary.</p>
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-5 ms-auto mb-3">
-                    <div class="text-center">
-                        <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/NAV-business-central.webp" class="img-fluid" />
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-row-lr-upgr align-items-center">
-                <div class="col-xl-6 col-lg-7 order-lg-2 mb-3">
-                    <div class="content-box">
-                        <a href="" class="solutions-links">
-                            <h3 class="text-theme-upgr">From Complete Upgrade or Migrate</h3>
-                        </a>
-                        <h4>To Microsoft Dynamics 365</h4>
-                        <p class="mb-4">Organizations that rely on outdated systems will not be able to achieve their full potential if their operations keep growing. Whenever you realize that your operations are being challenged, it's time to upgrade your system using Microsoft Dynamics 365. It may be used in collaboration with your business-specific modules to continue enhancing your performance.</p>
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
-                        </div>
-                        <div class="d-flex align-items-start mb-2">
-                            <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-5 order-lg-1 ms-auto mb-3">
+            <div class="contact-card-Rem">
+                <div>
                     <div class="">
-                        <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/migrate-to-dynamics365.webp" class="img-fluid" />
+                        <h3 class="">Welcome Your NEW Team</h3>
+                    </div>
+                    <form class="contact-form" id="contactForm" action="/contact-form" enctype="multipart/form-data" method="post">
+                        <input type="hidden" name="_token" value="iZ7AUeTd1zBGuKipoXQPlurY1Zhcv9EovLwAJpcf">
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <input type="text" id="name" name="name" class="form-control form-control-Rem" placeholder="Full Name" required="">
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <input type="text" class="form-control form-control-Rem" id="phone" name="phone" placeholder="Number Format +971 52 651 0534" required="">
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <input type="text" id="cname" name="company" class="form-control form-control-Rem" placeholder="Organization Name">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="email" id="email" name="email" class="form-control form-control-Rem" placeholder="Email" required="">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <select id="solution" class="form-control form-control-Rem" name="solutions" required="">
+                                    <option disabled="disabled" selected="selected" value="">Select your Product/ Solution</option>
+                                    <option value="Dynamics 365 Business Central">Dynamics 365 Business Central</option>
+                                    <option value="Dynamics 365 Finance and Supply Chain">Dynamics 365
+                                        Finance and Supply Chain
+                                    </option>
+                                    <option value="Dynamics AX">Dynamics AX</option>
+                                    <option value="Dynamics Navision">Dynamics Navision</option>
+                                    <option value="Dynamics 365 Sales ">Dynamics 365 Sales </option>
+                                    <option value="Dynamics 365 Service">Dynamics 365 Service</option>
+                                    <option value="Dynamics 365 Marketing">Dynamics 365 Marketing
+                                    </option>
+                                    <option value="Dynamics 365 Retail and Commerce">Dynamics 365 Retail and Commerce</option>
+                                    <option value="Dynamics 365 HR">Dynamics 365 HR</option>
+                                    <option value="Dynamics 365 Project Management">Dynamics 365 Project Management</option>
+                                    <option value="Microsoft Office 365">Microsoft Office 365</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <textarea name="message" class="form-control form-control-Rem" rows="4" placeholder="Please explain your project/ requirement &amp; our consultant will connect with you with relevant solution."></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-32 btn-outline-theme px-5">Hire a Team NOW</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="Bld-sect-Rem">
+    <div class="container-lg">
+        <div class="px-xl-5">
+            <h3 class="mrbtom-for-Rem-2 font-s-h3-B-sect-Rem text-center ">Build Amazing Teams on Demand</h3>
+            <div class="last-blue-sect-mrg-Rem-aftr-cont">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 align-items-stretch">
+                        <h6 class="h-6-last-sect-Rem-aftr-cont">Pre vetted & Well Trained Resources</h6>
+                    </div>
+                    <div class="col-xl-4 col-md-4 align-items-stretch">
+                        <h6 class="h-6-last-sect-Rem-aftr-cont">Ready To Join FromToday</h6>
+                    </div>
+                    <div class="col-xl-4 col-md-4 align-items-stretch">
+                        <h6 class="h-6-last-sect-Rem-aftr-cont">Save 50% Of Resource Logistics Cost</h6>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
 
 </section>
-<section class="upgr-Blue-sec-last  ">
+<section class="Rem-lst-Blue-sec">
     <div class="">
         <div class="container-lg">
             <div class="px-xl-5">
-                <div class="content-box">
-                    <h2 class="my-4">Why Choose Dynamics Stream UK ?</h2>
-                    <h5>Certified Microsoft Solutions Partner</h5>
-                    <p class="">We are an authorized gold partner for Microsoft products and services, with extensive expertise and years of experience. We manage your complete system requirements, from Dynamics 365 implementation through upgrades and maintenance. We can build a robust, efficient, and profitable solution for your organization since we have professionals, effective methodology, and a safe data migrating skill set.</p>
-                    <h5 class="">Migration Security & Reliability</h5>
-                    <p class="">Our consultants can handle effortless Microsoft Dynamics 365 upgrades and migrations while using proactive procedures to support secure and reliable data movement. We migrate your data from your existing situation to the newly configured system in a systematic and step-by-step manner.</p>
-                    <h5>Experienced consultants with 300+ Migrations & Upgares</h5>
-                    <p class="">It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                <h2 class="my-4">Why Choose Dynamics Stream UK ?</h2>
+                <div class="row align-items-center">
+                    <div class="col-xl-8 col-md-8 align-items-stretch">
+                        <div class="content-box">
+
+                            <h5>Migration Security & Reliability</h5>
+                            <p class="">Our consultants can manage smooth Microsoft Dynamics 365 upgrades and migrations by using proactive methods to ensure safe and dependable data transfer. We move your data from your current state to the new system in an orderly and gradual way.</p>
+                            <h5 class="">Certified Microsoft Solutions Partner</h5>
+                            <p class="">We are an authorized gold partner for Microsoft products and services, with extensive expertise and years of experience. We manage your complete system requirements, from Dynamics 365 implementation through upgrades and maintenance. We can build a robust, efficient, and profitable solution for your organization since we have professionals, effective methodology, and a safe data migrating skill set.</p>
+                            <h5>Experienced consultants with 300+ Migrations & Upgares</h5>
+                            <p class="">It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 align-items-stretch text-center">
+                        <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/why-choose-ds-remote.webp" class="img-fluid last-logo-img-Rem" alt="" />
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
