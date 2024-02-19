@@ -116,8 +116,8 @@
     <div class="container-lg">
         <div class="row">
             <div class="col-xl-12">
-                <h5 class="text-center mb-5">Our Partnerships & Strategic Alliances</h5>
-                <div class="d-flex flex-wrap justify-content-between align-items-center">
+            <h5 class="mt-5 font-s-h3-new mb-5">We’re Certified Partners <br> With Advanced Product Knowledge</h5>
+                <div class="d-flex-new text-center flex-wrap justify-content-between align-items-center">
                     <img src="{{asset('newassets')}}/images/brand/microsoft-logo.png" class="img-fluid me-4" alt="Microsoft Logo" width="160" />
                     <img src="{{asset('newassets')}}/images/brand/shopify-logo.png" class="img-fluid me-4" alt="Shopify Logo" width="160" />
                     <img src="{{asset('newassets')}}/images/brand/micro-gold-logo.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
@@ -203,12 +203,12 @@
 </section>
 <!--section Ends-->
 <!--Section Starts-->
-<!--Section Starts-->
+<!--Section CTA Starts-->
 <section class="contact-sec">
     <div class="container-fluid px-0">
-        <div class="row g-0 align-items-center">
+        <div class="row g-0">
             <div class="col-lg-4 col-md-6">
-                <div class="contact-card p-5">
+                <div class="contact-card pdgn-5">
                     <div class="px-5-new-cstm">
                         <div class="ringing-bell mb-5">
                             <div class="wrapper">
@@ -222,9 +222,10 @@
                                 </div>
                             </div>
                         </div>
-                        <h6 class="mb-5">Our consultants make sure that you getthe right solution & care.</h6>
-                        <p class="mb-5">Call & get your demo ready!</p>
-                        <h4 class="fw-bold fst-italic">+971 (04) 437 3103</h4>
+                        <h6 class="mb-5">Our consultants make sure that you get the right solution & care.</h6>
+                        <p class="mrgn-btm-3pont5rem">Call & get your demo ready!</p>
+                        <a href="tel:+971 (04) 437 3103" class="fw-bold fst-italic btn btn-outline-theme ms-lg-auto ms-3 order-lg-3">+971 (04) 437 3103</a>
+
                     </div>
                 </div>
             </div>
@@ -300,7 +301,7 @@
                                     </select>
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <textarea name="message" class="form-control" rows="4" placeholder="Please explain your project/ requirement & our consultant will connect with you with relevant solution."></textarea>
+                                    <textarea name="message" class="form-control" rows="3" placeholder="Please explain your project/ requirement & our consultant will connect with you with relevant solution."></textarea>
                                 </div>
                                 <div class="col-md-12">
                                     <button type="submit" class="btn btn-32 btn-outline-theme px-5">Book Free Consultation</a>
@@ -311,9 +312,10 @@
                 </div>
             </div>
         </div>
+
     </div>
 </section>
-<!--section Ends-->
+<!--section CTA Ends-->
 <!--Footer Starts-->
 <section class="foot-sec">
     <div class="container-lg">
@@ -394,7 +396,7 @@
                         <h5 class="fw-bold lh-base">Branch Office</h5>
                         <h5 class="mb-5 fw-bold lh-base">2000 Cropsey Ave <br />Brooklyn - New York <br />Post Code 11214</h5>
                         <h5 class="fw-bold">For Sales, Support & Enquiries</h5>
-                        <h5 class="fw-bold"><a href="tel:+14158004787" class="anch-color-and-deco">+1 (415) 800 4787</a> </h5>
+                        <h5 class="fw-bold"><a href="tel:+44 7376 588837" class="anch-color-and-deco">+44 7376 588837</a> </h5>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4">
@@ -412,9 +414,9 @@
                         <h5 class="mb-4 fw-bold">United Kingdom</h5>
                         <h5 class="mb-4 fw-bold"></h5>
                         <h5 class="fw-bold lh-base">Branch Office</h5>
-                        <h5 class="mb-5 fw-bold lh-base">Stembridge Road <br />London <br />PO Box SE20 UE</h5>
+                        <h5 class="mb-5 fw-bold lh-base">Stembridge Road <br />London <br /><br></h5>
                         <h5 class="fw-bold">For Sales, Support & Enquiries</h5>
-                        <h5 class="fw-bold"><a href="tel:+14158004787" class="anch-color-and-deco">+1 (415) 800 4787</a> </h5>
+                        <h5 class="fw-bold"><a href="tel:+44 7376 588837" class="anch-color-and-deco">+44 7376 588837</a> </h5>
                     </div>
                 </div>
             </div>

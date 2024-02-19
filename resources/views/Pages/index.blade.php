@@ -6,7 +6,7 @@
 @endforeach
 @section('contents')
 <!--Header Starts-->
-<header>
+<header class="pdn-btm-header-home">
     <div class="container-xl">
         <div class="px-xl-5">
             <div class="row">
@@ -34,7 +34,7 @@
                         </div>
                         <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-div">
                             <div class="text-start mb-2">
-                                <a href="#popup1" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
+                                <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                             </div>
                             <div class="text-md-start ms-md-3 mb-2">
                                 <p class="mb-0 fw-semibold">Support 24/7 <a class="ms-3 fw-semibold text-decoration-none text-dark" href="tel:+971526510534">+971 52 651 0534</a></p>
@@ -116,14 +116,14 @@
 <!--Header Ends-->
 
 <!--Section Starts-->
-<section class="logo-sec py-4">
+<section class="logo-sec">
     <div class="container-lg">
         <div class="px-5">
             <div class="row">
                 <div class="col-xl-12">
-                    <p class="text-center mb-5 sec-he-sect">Organizations that have placed their trust in Microsoft Dynamics
+                    <p class="text-center mb-4  sec-he-sect">Organizations that have placed their trust in Microsoft Dynamics
                         365</p>
-                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                    <div class="d-flex flex-wrap mrg-in-home-2-sect justify-content-between align-items-center">
                         <img src="{{asset('newassets')}}/images/brand/ikea.png" class="img-fluid" alt="Ikea Logo" width="80" />
                         <img src="{{asset('newassets')}}/images/brand/mercedeze.png" class="img-fluid" alt="Mercedes Logo" width="80" />
                         <img src="{{asset('newassets')}}/images/brand/loreal.png" class="img-fluid" alt="LoReal Logo" width="80" />
@@ -157,9 +157,9 @@
                             <p>With 20+ years of experience, we turn complexity into simplicity. Our expertise
                                 your complex business operations into seamless & profitable machine.</p>
                         </div>
-                        <div class="d-grid mt-5">
+                        <div class="d-grid">
                             <a href="/microsoft-dynamics-365-implementation-services">
-                                <button type="button" class="btn btn-32 btn-theme">Seamless Implementation <i class="bi-chevron-right ms-2"></i></button>
+                                <button type="button" class="btn btn-32 btn-theme-Service-btns">Seamless Implementation <i class="bi-chevron-right ms-2"></i></button>
                             </a>
                         </div>
                     </div>
@@ -172,9 +172,9 @@
                             <p>Whether it’s revamp of the App architect, adding new features, security,
                                 regulatory compliance, user-experience or complete systems.</p>
                         </div>
-                        <div class="d-grid mt-5">
+                        <div class="d-grid">
                             <a href="/microsoft-dynamics-upgraded-services">
-                                <button type="button" class="btn btn-32 btn-theme">Upgrade Performance <i class="bi-chevron-right ms-2"></i></button>
+                                <button type="button" class="btn btn-32 btn-theme-Service-btns">Upgrade Performance <i class="bi-chevron-right ms-2"></i></button>
                             </a>
                         </div>
                     </div>
@@ -187,9 +187,9 @@
                             <p>We craft softwares that fits your business perfection with team of 300+
                                 consultants, App architects, UI/UX, DevOps & QA Professionals.</p>
                         </div>
-                        <div class="d-grid mt-5">
+                        <div class="d-grid">
                             <a href="/microsoft-dynamics-customization-service">
-                                <button type="button" class="btn btn-32 btn-theme">Custom As You Need <i class="bi-chevron-right ms-2"></i></button>
+                                <button type="button" class="btn btn-32 btn-theme-Service-btns">Custom As You Need <i class="bi-chevron-right ms-2"></i></button>
                             </a>
                         </div>
                     </div>
@@ -202,9 +202,9 @@
                             <p>Your business operates around the clock, and so should your software support.
                                 With 100+ team member, 24/7 committed to your uninterrupted success.</p>
                         </div>
-                        <div class="d-grid mt-5">
+                        <div class="d-grid">
                             <a href="/microsoft-dynamics-support-services">
-                                <button type="button" class="btn btn-32 btn-theme">Support That You Need <i class="bi-chevron-right ms-2"></i></button>
+                                <button type="button" class="btn btn-32 btn-theme-Service-btns">Support That You Need <i class="bi-chevron-right ms-2"></i></button>
                             </a>
                         </div>
                     </div>
@@ -216,6 +216,12 @@
                         <div class="content-box">
                             <h3 class="res-augmnt-he mb-4">Are You Looking For a remote or in-person resource for Microsoft Dynamics 365 suite implementation?</h3>
                             <p>If yes, our round-the-clock Top-rated support team is available to provide you with the right resource out of our in-house 300+ well-trained resources. They’re available on remote, full-time/ part-time, project basis, anytime, anywhere for any Microsoft Dynamics 365 Suite.</p>
+                            <div class="mt-4 mrg-b-2rem">
+                                <a href="/microsoft-dynamics-support-services">
+                                    <button type="button" class="btn btn-theme-argu-btns">Schedule A Call For right Resource <i class="bi-chevron-right ms-2"></i></button>
+                                </a>
+                            </div>
+
                             <div class="d-flex flex-wrap align-items-center my-3">
                                 <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="36" height="34" viewBox="0 0 46 44" fill="none">
                                     <path d="M44.2935 22.5C44.2935 20.94 44.1497 19.44 43.8827 18H22.5986V26.52H34.7609C34.2268 29.26 32.6243 31.58 30.2206 33.14V38.68H37.555C41.8282 34.84 44.2935 29.2 44.2935 22.5Z" fill="#4285F4" />
@@ -233,11 +239,11 @@
                                 </div>
                                 <h6 class="mb-0 ms-3 text-info small">Top-rated care</h6>
                             </div>
-                            <div class="mt-5">
+                            <!-- <div class="mt-5">
                                 <a href="tel:+971(04)4373103" class="btn btn-outline-theme mb-2">+971 (04) 437
                                     3103</a>
                                 <a href="tel:+971526510534" class="btn btn-theme ms-sm-3 mb-2">+971 52 651 0534</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-xl-5 col-lg-5 text-center order-lg-1">
@@ -470,7 +476,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-3">
                 <div class="col-xl-4 col-lg-6 col-md-6 mb-3">
                     <a href="/microsoft-dynamics-365-crm" class="service-link">Microsoft Sales <i class="bi-chevron-right"></i></a>
                 </div>
@@ -630,15 +636,13 @@
 </section>
 <!--section Ends-->
 
-<!--Section Starts-->
+<!--Section CTA Starts-->
 <section class="contact-sec">
     <div class="container-fluid px-0">
-        <div class="row g-0 align-items-center">
+        <div class="row g-0">
             <div class="col-lg-4 col-md-6">
-                <div class="contact-card p-5">
+                <div class="contact-card pdgn-5">
                     <div class="px-5">
-
-                        <!-- <img src="{{asset('newassets')}}/images/icons/phone-icon.png" class="img-fluid mb-4" alt="Phone Icon" width="150"/> -->
                         <div class="ringing-bell mb-5">
                             <div class="wrapper">
                                 <div class="ring">
@@ -652,8 +656,9 @@
                             </div>
                         </div>
                         <h6 class="mb-5">Our consultants make sure that you get the right solution & care.</h6>
-                        <p class="mb-5">Call & get your demo ready!</p>
-                        <h4 class="fw-bold fst-italic"><a href="tel:++971 (04) 437 3103" class="clr-numbr">+971 (04) 437 3103</a> </h4>
+                        <p class="mrgn-btm-3pont5rem">Call & get your demo ready!</p>
+                        <a href="tel:+971 (04) 437 3103" class="fw-bold fst-italic btn btn-outline-theme ms-lg-auto ms-3 order-lg-3">+971 (04) 437 3103</a>
+
                     </div>
                 </div>
             </div>
@@ -729,7 +734,7 @@
                                     </select>
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <textarea name="message" class="form-control" rows="4" placeholder="Please explain your project/ requirement & our consultant will connect with you with relevant solution."></textarea>
+                                    <textarea name="message" class="form-control" rows="3" placeholder="Please explain your project/ requirement & our consultant will connect with you with relevant solution."></textarea>
                                 </div>
                                 <div class="col-md-12">
                                     <button type="submit" class="btn btn-32 btn-outline-theme px-5">Book Free Consultation</a>
@@ -743,19 +748,19 @@
 
     </div>
 </section>
-<!--section Ends-->
+<!--section CTA Ends-->
 
-<!--Section Starts-->
+<!--Section Testimonials Starts-->
 <section class="industry-sec">
     <div class="container-lg">
         <div class="px-xl-5">
-            <h2 class="mb-5 section-title">Trusted Across Industries</h2>
+            <h2 class="mrgb-testi-h-new section-title">Trusted Across Industries</h2>
             <div class="row industry-row">
                 <div class="col-xl-4 col-lg-6 col-md-6 d-flex align-items-stretch mb-3">
-                    <div class="industry-card">
-                        <div class="mb-4">
+                    <div class="industry-card testimonials-prgph-new">
+                        <div class="mb-2">
                             <div class="text-center">
-                                <img src="{{asset('newassets')}}/images/brand/cortec-img.png" class="img-fluid mb-5" width="200" />
+                                <img src="{{asset('newassets')}}/images/brand/cortec-img.png" class="img-fluid mb-4" width="200" />
                             </div>
                             <h6 class="fw-600">Manufacturing</h6>
                             <p>Middle East and North Africa, Cortec® Middle East, the leading manufacturer of
@@ -771,10 +776,10 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 d-flex align-items-stretch mb-3">
-                    <div class="industry-card">
-                        <div class="mb-4">
+                    <div class="industry-card testimonials-prgph-new">
+                        <div class="mb-2">
                             <div class="text-center">
-                                <img src="{{asset('newassets')}}/images/brand/gulf-img.png" class="img-fluid mb-5" width="200" />
+                                <img src="{{asset('newassets')}}/images/brand/gulf-img.png" class="img-fluid mb-4" width="200" />
                             </div>
                             <h6 class="fw-600">Investments</h6>
                             <p>Gulf Capital is a leading thematically driven and socially conscious alternative
@@ -791,10 +796,10 @@
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-12 d-flex align-items-stretch mb-3">
-                    <div class="industry-card">
-                        <div class="mb-4">
+                    <div class="industry-card testimonials-prgph-new">
+                        <div class="mb-2">
                             <div class="text-center">
-                                <img src="{{asset('newassets')}}/images/brand/khiara-img.png" class="img-fluid mb-5" width="200" />
+                                <img src="{{asset('newassets')}}/images/brand/khiara-img.png" class="img-fluid mb-4" width="200" />
                             </div>
                             <h6 class="fw-600">eCommerce & Trading</h6>
                             <p>Khiara Stores has been a leading regional supplier of kitchenware, tableware, and
@@ -812,7 +817,7 @@
         </div>
     </div>
 </section>
-<!--section Ends-->
+<!--section Testimonials Ends-->
 
 <!--Section Starts-->
 <section class="pilot-sec">

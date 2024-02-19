@@ -11,29 +11,13 @@
 <section class="resource-contact-sect">
     <div class="container-lg">
         <div class="px-xl-5">
-            <div class="row-card-resource" id="Resource-augmentation">
+            <div class="row-card-resource row-card-resource-implementation-bg" id="Resource-augmentation">
                 <div class="row align-items-end">
                     <div class="col-xl-7 col-lg-7 mb-3 order-lg-1">
                         <div class="content-box">
                             <h3 class="res-augmnt-he mb-4">Are you Ready to Transform your Business on a Digital Landscape</h3>
                             <p>If yes, our round-the-clock Top-rated support team is available to provide you with the right resource out of our in-house 300+ well-trained resources. </p>
-                            <!-- <div class="d-flex flex-wrap align-items-center my-3">
-                                <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="36" height="34" viewBox="0 0 46 44" fill="none">
-                                    <path d="M44.2935 22.5C44.2935 20.94 44.1497 19.44 43.8827 18H22.5986V26.52H34.7609C34.2268 29.26 32.6243 31.58 30.2206 33.14V38.68H37.555C41.8282 34.84 44.2935 29.2 44.2935 22.5Z" fill="#4285F4"></path>
-                                    <path d="M22.5984 43.9999C28.7001 43.9999 33.8157 42.0399 37.5548 38.6799L30.2204 33.1399C28.2071 34.4599 25.639 35.2599 22.5984 35.2599C16.7227 35.2599 11.7305 31.3999 9.94309 26.2H2.42383V31.8799C6.14237 39.0599 13.7643 43.9999 22.5984 43.9999Z" fill="#34A853"></path>
-                                    <path d="M9.9435 26.1799C9.49152 24.8599 9.22444 23.4599 9.22444 21.9999C9.22444 20.5399 9.49152 19.1399 9.9435 17.8199V12.1399H2.42424C0.88341 15.0999 0 18.4399 0 21.9999C0 25.5599 0.88341 28.8999 2.42424 31.8599L8.2794 27.4199L9.9435 26.1799Z" fill="#FBBC05"></path>
-                                    <path d="M22.5984 8.75999C25.9266 8.75999 28.885 9.87998 31.2476 12.04L37.7191 5.73999C33.7952 2.18 28.7001 0 22.5984 0C13.7643 0 6.14237 4.93999 2.42383 12.14L9.94309 17.82C11.7305 12.62 16.7227 8.75999 22.5984 8.75999Z" fill="#EA4335"></path>
-                                </svg>
-                                <h6 class="mb-0 ms-3 text-warning fw-semibold">4.2</h6>
-                                <div class="ms-3">
-                                    <i class="bi-star-fill text-warning"></i>
-                                    <i class="bi-star-fill text-warning"></i>
-                                    <i class="bi-star-fill text-warning"></i>
-                                    <i class="bi-star-fill text-warning"></i>
-                                    <i class="bi-star-fill text-warning"></i>
-                                </div>
-                                <h6 class="mb-0 ms-3 text-info small">Top-rated care</h6>
-                            </div> -->
+
                             <div class="mt-4">
                                 <a href="/contact-us" class="btn contct-us-btn-pdgn btn-outline-theme mb-2">Contact Us</a>
                             </div>
@@ -109,54 +93,12 @@
     </div>
 </section>
 <!-- Client Sect End -->
-
-
-<!--Section Starts-->
-<section class="">
-    <div class="container-lg">
-        <div class="row">
-            <div class="col-xl-12">
-                <h5 class="text-center mb-5">Our Partnerships & Strategic Alliances</h5>
-                <div class="d-flex flex-wrap justify-content-between align-items-center">
-                    <img src="{{asset('newassets')}}/images/brand/microsoft-logo.png" class="img-fluid me-4" alt="Microsoft Logo" width="160" />
-                    <img src="{{asset('newassets')}}/images/brand/shopify-logo.png" class="img-fluid me-4" alt="Shopify Logo" width="160" />
-                    <img src="{{asset('newassets')}}/images/brand/micro-gold-logo.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
-                    <img src="{{asset('newassets')}}/images/brand/iso-img.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
-                    <img src="{{asset('newassets')}}/images/brand/hubspot-logo.png" class="img-fluid" alt="Hubspot Logo" width="160" />
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--section Ends-->
-<!--Section Starts-->
-<section class="blog-sec py-5">
-    <div class="container px-md-5">
-        <div class="row mt-4">
-            @foreach($blogsndss as $blogss)
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                <div class="blog-card">
-                    <div>
-                        <img src="{{asset( '/storage/' .$blogss->images)}}" class="img-fluid w-100 mb-4" alt="{{$blogss->alt_image }}" />
-                        <h6 class="mb-4 m-text-centr">{{$blogss->title}} </h6>
-                        <p class="mb-5 m-font-p">{{$blogss->excerpt }}</p>
-                    </div>
-                    <div>
-                        <a href="{{ route('blogs_detail', ['slug' =>$blogss->slug]) }}" class="text-dark text-decoration-none">Read the blog <i class="bi-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-            @endforeach
-        </div>
-    </div>
-</section>
-<!--section Ends-->
 <!--Section Starts-->
 <section class="tabsFaq-sec">
 
     <div class="container-lg">
         <div class="px-xl-5">
-            <h3 class="mb-5 Faq-he font-s-h3">We would try to cover most important FAQ’s here!</h3>
+            <h3 class="mb-5 Faq-he font-s-h3-new">We would try to cover most important FAQ’s here!</h3>
             <div class="faq-container-new">
                 <div class="accordionfaq">
                     <div class="accordion-item">
@@ -204,13 +146,56 @@
     </div>
 </section>
 <!--section Ends-->
+
 <!--Section Starts-->
+<section class="">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-xl-12">
+                <h5 class="mt-5 font-s-h3-new mb-5">We’re Certified Partners <br> With Advanced Product Knowledge</h5>
+                <div class="d-flex-new text-center flex-wrap justify-content-between align-items-center">
+                    <img src="{{asset('newassets')}}/images/brand/microsoft-logo.png" class="img-fluid me-4" alt="Microsoft Logo" width="160" />
+                    <img src="{{asset('newassets')}}/images/brand/shopify-logo.png" class="img-fluid me-4" alt="Shopify Logo" width="160" />
+                    <img src="{{asset('newassets')}}/images/brand/micro-gold-logo.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
+                    <img src="{{asset('newassets')}}/images/brand/iso-img.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
+                    <img src="{{asset('newassets')}}/images/brand/hubspot-logo.png" class="img-fluid" alt="Hubspot Logo" width="160" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--section Ends-->
 <!--Section Starts-->
+<section class="blog-sec py-5">
+    <div class="container px-md-5">
+        <h5 class="mt-5 font-s-h3-new mb-5">Knowledge Sharing Blogs & White-Papers</h5>
+        <div class="row mt-4">
+            @foreach($blogsndss as $blogss)
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="blog-card">
+                    <div>
+                        <img src="{{asset( '/storage/' .$blogss->images)}}" class="img-fluid w-100 mb-4" alt="{{$blogss->alt_image }}" />
+                        <h6 class="mb-4 m-text-centr">{{$blogss->title}} </h6>
+                        <p class="mb-5 m-font-p">{{$blogss->excerpt }}</p>
+                    </div>
+                    <div>
+                        <a href="{{ route('blogs_detail', ['slug' =>$blogss->slug]) }}" class="text-dark text-decoration-none">Read the blog <i class="bi-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            @endforeach
+        </div>
+    </div>
+</section>
+<!--section Ends-->
+
+<!--Section Starts-->
+<!--Section CTA Starts-->
 <section class="contact-sec">
     <div class="container-fluid px-0">
-        <div class="row g-0 align-items-center">
+        <div class="row g-0">
             <div class="col-lg-4 col-md-6">
-                <div class="contact-card p-5">
+                <div class="contact-card pdgn-5">
                     <div class="px-5-new-cstm">
                         <div class="ringing-bell mb-5">
                             <div class="wrapper">
@@ -224,9 +209,10 @@
                                 </div>
                             </div>
                         </div>
-                        <h6 class="mb-5">Our consultants make sure that you getthe right solution & care.</h6>
-                        <p class="mb-5">Call & get your demo ready!</p>
-                        <h4 class="fw-bold fst-italic">+971 (04) 437 3103</h4>
+                        <h6 class="mb-5">Our consultants make sure that you get the right solution & care.</h6>
+                        <p class="mrgn-btm-3pont5rem">Call & get your demo ready!</p>
+                        <a href="tel:+971 (04) 437 3103" class="fw-bold fst-italic btn btn-outline-theme ms-lg-auto ms-3 order-lg-3">+971 (04) 437 3103</a>
+
                     </div>
                 </div>
             </div>
@@ -302,7 +288,7 @@
                                     </select>
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <textarea name="message" class="form-control" rows="4" placeholder="Please explain your project/ requirement & our consultant will connect with you with relevant solution."></textarea>
+                                    <textarea name="message" class="form-control" rows="3" placeholder="Please explain your project/ requirement & our consultant will connect with you with relevant solution."></textarea>
                                 </div>
                                 <div class="col-md-12">
                                     <button type="submit" class="btn btn-32 btn-outline-theme px-5">Book Free Consultation</a>
@@ -313,9 +299,10 @@
                 </div>
             </div>
         </div>
+
     </div>
 </section>
-<!--section Ends-->
+<!--section CTA Ends-->
 <!--Footer Starts-->
 <section class="foot-sec">
     <div class="container-lg">
@@ -396,7 +383,7 @@
                         <h5 class="fw-bold lh-base">Branch Office</h5>
                         <h5 class="mb-5 fw-bold lh-base">2000 Cropsey Ave <br />Brooklyn - New York <br />Post Code 11214</h5>
                         <h5 class="fw-bold">For Sales, Support & Enquiries</h5>
-                        <h5 class="fw-bold"><a href="tel:+14158004787" class="anch-color-and-deco">+1 (415) 800 4787</a> </h5>
+                        <h5 class="fw-bold"><a href="tel:+44 7376 588837" class="anch-color-and-deco">+44 7376 588837</a> </h5>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4">
@@ -414,9 +401,9 @@
                         <h5 class="mb-4 fw-bold">United Kingdom</h5>
                         <h5 class="mb-4 fw-bold"></h5>
                         <h5 class="fw-bold lh-base">Branch Office</h5>
-                        <h5 class="mb-5 fw-bold lh-base">Stembridge Road <br />London <br />PO Box SE20 UE</h5>
+                        <h5 class="mb-5 fw-bold lh-base">Stembridge Road <br />London <br /><br></h5>
                         <h5 class="fw-bold">For Sales, Support & Enquiries</h5>
-                        <h5 class="fw-bold"><a href="tel:+14158004787" class="anch-color-and-deco">+1 (415) 800 4787</a> </h5>
+                        <h5 class="fw-bold"><a href="tel:+44 7376 588837" class="anch-color-and-deco">+44 7376 588837</a> </h5>
                     </div>
                 </div>
             </div>

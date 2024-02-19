@@ -60,11 +60,42 @@ header, section{
 	background: #000;
     border-color: #000;
 }
-.btn-theme:hover,
-.btn-theme:focus{	
+.btn-theme-Service-btns{
+	color: black;
+	font-weight: 700;
+	background:transparent;
+    border-color:transparent;
+}
+.btn-theme-Service-btns:hover,
+.btn-theme-Service-btns:focus{	
 	color: #000;
 	background: #b9c5f1;
     border-color: #b9c5f1;
+}
+.btn-theme-argu-btns{
+	color: black;
+	font-weight: 700;
+	background:transparent;
+	padding: 0;
+    border-color:transparent;
+}
+.btn-theme-argu-btns:hover,
+.btn-theme-argu-btns:focus{	
+	color: #1D740A;
+}
+.btn-theme-argu-btns i{
+	transition: all 0.4s ease;
+}
+.btn-theme-argu-btns:hover i{
+	padding-left: 5px;
+	color: #1D740A;
+	transition: all 0.4s ease;
+}
+.btn-theme:hover,
+.btn-theme:focus{	
+	color: #000 !important;
+	background: #b9c5f1  !important;
+    border-color: #b9c5f1 !important;
 }
 .btn-outline-theme{
 	box-shadow: 4px 4px 0px #000;
@@ -202,7 +233,7 @@ header .content-box p {
 }
 /*Service Sec*/
 .service-sec{
-	padding:4rem 0;
+	padding:4rem 0 2rem 0;
 	overflow:hidden;
 	background: linear-gradient(180deg, rgba(48, 86, 183, 0.00) 0%, rgba(22, 65, 176, 0.09) 100%);
 }
@@ -225,7 +256,8 @@ header .content-box p {
 	justify-content:space-between;
 	border-radius: 8px;
 	background: #FFF;
-	padding:25px 20px;
+	border: 2px solid black;
+	padding:15px 20px;
 	margin-bottom:1rem;
 	cursor:pointer;
 	transition:all 0.2s linear;
@@ -243,8 +275,11 @@ header .content-box p {
     line-height: 28px;
     /* font-style: italic; */
     letter-spacing: 0px;
-    font-weight: 600;
-    margin: 1.5rem 0;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+.service-card p{
+	font-size: 13px;
 }
 .service-card .btn{
 	font-size:10px;
@@ -287,7 +322,7 @@ header .content-box p {
 
 /*Faq section*/
 .product-sec{
-	padding: 2rem 0 4rem 0;
+	padding: 0rem 0 3rem 0;
 	position:relative;
 }
 .product-sec .content-box h3{
@@ -355,7 +390,7 @@ linear-gradient(0deg, rgba(162, 157, 157, 0.2), rgba(162, 157, 157, 0.2));
 }
 .contact-card2{
 	background: #1A86C3;
-	padding:4rem;
+	padding: 1rem 3rem 1.5rem 3rem;
 }
 .contact-form .form-control {
 	border-radius: 8px;
@@ -482,7 +517,7 @@ linear-gradient(0deg, rgba(162, 157, 157, 0.2), rgba(162, 157, 157, 0.2));
 
 /*Pilot sec*/
 .pilot-sec {
-    padding: 8rem 0 5rem;
+        padding: 5rem 0 2rem;
     background:linear-gradient(180deg, #316FE5 0%, rgba(30, 219, 231, 0.00) 100%), url(../images/backgrounds/pilot-bg.png);
     background-position: 120% 50%;
     background-repeat: no-repeat;
@@ -521,16 +556,16 @@ linear-gradient(0deg, rgba(162, 157, 157, 0.2), rgba(162, 157, 157, 0.2));
 	letter-spacing: -0.28px;
 }
 .industry-sec{
-	padding:4rem 0 8rem;
+    padding:2.5rem 0 4rem;
 	background: linear-gradient(180deg, rgba(48, 86, 183, 0.00) 0%, rgba(22, 65, 176, 0.09) 100%);
 }
 .industry-card{
-	display:flex;
+		display:flex;
 	flex-direction:column;
 	min-width:0;
 	background-clip: border-box;
 	/* justify-content:space-between; */
-	padding:30px 30px;
+	padding:15px 15px;
 	background:#ffffff;
 	border-radius:10px;
 	margin-bottom:1rem;
@@ -550,25 +585,25 @@ linear-gradient(0deg, rgba(162, 157, 157, 0.2), rgba(162, 157, 157, 0.2));
 	padding:10rem 0 4rem;
 }
 .google-rating {
-	position: absolute;
+  position: absolute;
     background-color: #000;
-    padding: 10px 10px;
+    padding: 5px 5px;
     border-radius: 8px;
     text-align: center;
-    top: -50px;
+    top: -35px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    max-width: 320px;
+    max-width: 300px;
 }
 .google-rating i{
-	font-size:25px;
+	font-size:20px;
 	color:rgba(254, 165, 0, 1);
 	margin-right:10px;
 }
 .google-rating h4 {
 	color: #00A3F4;
-	font-size: 16px;
+	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
@@ -576,12 +611,12 @@ linear-gradient(0deg, rgba(162, 157, 157, 0.2), rgba(162, 157, 157, 0.2));
 .google-rating h4 span{
 	color: #FEA500;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     vertical-align: middle;
-    margin-left: 7px;
+    margin-left: 4px;
     font-weight: 600;
-    line-height: 40px;
+    line-height: 28px;
 }
 .service-link2{
 	display:flex;
@@ -667,7 +702,7 @@ linear-gradient(0deg, rgba(162, 157, 157, 0.2), rgba(162, 157, 157, 0.2));
 /*Footer*/
 .foot-sec{
 	background: #D9D9D9;
-	padding:4rem 0 2rem;
+	padding:4rem 0 0rem 0;
 }
 .foot-sec h6 {
     margin-bottom: 1rem;

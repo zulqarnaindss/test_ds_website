@@ -11,7 +11,7 @@
 <section class="resource-contact-sect">
     <div class="container-lg">
         <div class="px-xl-5">
-            <div class="row-card-resource" id="Resource-augmentation">
+            <div class="row-card-resource row-card-resource-upgr-bg" id="Resource-augmentation">
                 <div class="row align-items-end">
                     <div class="col-xl-7 col-lg-7 mb-3 order-lg-1">
                         <div class="content-box">
@@ -63,7 +63,6 @@
                 <path d="M9.9435 26.1796C9.49152 24.8596 9.22444 23.4596 9.22444 21.9996C9.22444 20.5396 9.49152 19.1396 9.9435 17.8196V12.1396H2.42424C0.88341 15.0996 0 18.4396 0 21.9996C0 25.5596 0.88341 28.8996 2.42424 31.8596L8.2794 27.4196L9.9435 26.1796Z" fill="#FBBC05" />
                 <path d="M22.5989 8.75999C25.9271 8.75999 28.8855 9.87998 31.2481 12.04L37.7196 5.73999C33.7956 2.18 28.7006 0 22.5989 0C13.7648 0 6.14286 4.93999 2.42432 12.14L9.94357 17.82C11.7309 12.62 16.7232 8.75999 22.5989 8.75999Z" fill="#EA4335" />
             </svg><span>4.2</span> Top-rated care</h4>
-
     </div>
     <div class="container-lg">
         <div class="px-xl-5">
@@ -77,7 +76,6 @@
                             </div>
                             <p>Dynamics Stream possesses extensive expertise in Microsoft ERP and CRM, delivering tailored solutions that cater to our specific business requirements. Their knowledge has significantly enhanced our operations and customer relationship management. I enthusiastically endorse Dynamics Stream as a Microsoft service provider for Business Central and CRM. Their holistic solutions, exemplary customer service, and technical proficiency position them as a trusted partner for success with Microsoft's business solutions.</p>
                         </div>
-
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 d-flex align-items-stretch mb-3">
@@ -89,13 +87,11 @@
                             </div>
                             <p>Dynamics Stream effectively executed the implementation of D365 Business Central in accordance with my specifications, demonstrating excellent planning. Their post-implementation support is noteworthy. The team is diligent, responsive, and committed to addressing any issues or inquiries promptly. I highly endorse them for ERP implementation.</p>
                         </div>
-
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-12 d-flex align-items-stretch mb-3">
                     <i class="bi-star-fill str-icn"></i>
                     <div class="Test-for-new-serv-card">
-
                         <div class="">
                             <div class="">
                                 <img src="{{asset('assets')}}/images/new-services-pages/gulf-capital.webp" class="img-fluid mb-3" width="200" />
@@ -110,50 +106,8 @@
 </section>
 <!-- Client Sect End -->
 
-
-<!--Section Starts-->
-<section class="">
-    <div class="container-lg">
-        <div class="row">
-            <div class="col-xl-12">
-                <h5 class="text-center mb-5">Our Partnerships & Strategic Alliances</h5>
-                <div class="d-flex flex-wrap justify-content-between align-items-center">
-                    <img src="{{asset('newassets')}}/images/brand/microsoft-logo.png" class="img-fluid me-4" alt="Microsoft Logo" width="160" />
-                    <img src="{{asset('newassets')}}/images/brand/shopify-logo.png" class="img-fluid me-4" alt="Shopify Logo" width="160" />
-                    <img src="{{asset('newassets')}}/images/brand/micro-gold-logo.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
-                    <img src="{{asset('newassets')}}/images/brand/iso-img.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
-                    <img src="{{asset('newassets')}}/images/brand/hubspot-logo.png" class="img-fluid" alt="Hubspot Logo" width="160" />
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--section Ends-->
-<!--Section Starts-->
-<section class="blog-sec py-5">
-    <div class="container px-md-5">
-        <div class="row mt-4">
-            @foreach($blogsndss as $blogss)
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-                <div class="blog-card">
-                    <div>
-                        <img src="{{asset( '/storage/' .$blogss->images)}}" class="img-fluid w-100 mb-4" alt="{{$blogss->alt_image }}" />
-                        <h6 class="mb-4 m-text-centr">{{$blogss->title}} </h6>
-                        <p class="mb-5 m-font-p">{{$blogss->excerpt }}</p>
-                    </div>
-                    <div>
-                        <a href="{{ route('blogs_detail', ['slug' =>$blogss->slug]) }}" class="text-dark text-decoration-none">Read the blog <i class="bi-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
-            </div>
-            @endforeach
-        </div>
-    </div>
-</section>
-<!--section Ends-->
 <!--Section Starts-->
 <section class="tabsFaq-sec">
-
     <div class="container-lg">
         <div class="px-xl-5">
             <h3 class="mb-5 Faq-he font-s-h3">We would try to cover most important FAQ’s here!</h3>
@@ -175,14 +129,7 @@
                         <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">How can I preview the upcoming service updates for Dynamics 365?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
                             <p>Customers can opt in for early access to the service updates, and test them in their sandbox environments before they are applied to their production environments. Customers can also review the release notes and the release plan to learn about the new features and changes in each update.</p>
-                            <!-- <ol class="ol-style-tp">Experience and expertise in your industry and domain
-                                <li>Certification and accreditation from Microsoft</li>
-                                <li>Proven track record and customer testimonials</li>
-                                <li>Clear and transparent communication and project management</li>
-                                <li>Flexible and adaptable approach and methodology</li>
-                                <li>Post-implementation support and training</li>
-                            </ol>
-                            <p></p> -->
+                            
                         </div>
                     </div>
                     <div class="accordion-item">
@@ -213,12 +160,54 @@
 </section>
 <!--section Ends-->
 <!--Section Starts-->
+<section class="">
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-xl-12">
+                <h5 class="mt-5 font-s-h3-new mb-5">We’re Certified Partners <br> With Advanced Product Knowledge</h5>
+                <div class="d-flex-new text-center flex-wrap justify-content-between align-items-center">
+                    <img src="{{asset('newassets')}}/images/brand/microsoft-logo.png" class="img-fluid me-4" alt="Microsoft Logo" width="160" />
+                    <img src="{{asset('newassets')}}/images/brand/shopify-logo.png" class="img-fluid me-4" alt="Shopify Logo" width="160" />
+                    <img src="{{asset('newassets')}}/images/brand/micro-gold-logo.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
+                    <img src="{{asset('newassets')}}/images/brand/iso-img.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
+                    <img src="{{asset('newassets')}}/images/brand/hubspot-logo.png" class="img-fluid" alt="Hubspot Logo" width="160" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--section Ends-->
 <!--Section Starts-->
+<section class="blog-sec py-5">
+    <div class="container px-md-5">
+        <h5 class="mt-5 font-s-h3-new mb-5">Knowledge Sharing Blogs & White-Papers</h5>
+        <div class="row mt-4">
+            @foreach($blogsndss as $blogss)
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                <div class="blog-card">
+                    <div>
+                        <img src="{{asset( '/storage/' .$blogss->images)}}" class="img-fluid w-100 mb-4" alt="{{$blogss->alt_image }}" />
+                        <h6 class="mb-4 m-text-centr">{{$blogss->title}} </h6>
+                        <p class="mb-5 m-font-p">{{$blogss->excerpt }}</p>
+                    </div>
+                    <div>
+                        <a href="{{ route('blogs_detail', ['slug' =>$blogss->slug]) }}" class="text-dark text-decoration-none">Read the blog <i class="bi-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            @endforeach
+        </div>
+    </div>
+</section>
+<!--section Ends-->
+
+<!--Section Starts-->
+<!--Section CTA Starts-->
 <section class="contact-sec">
     <div class="container-fluid px-0">
-        <div class="row g-0 align-items-center">
+        <div class="row g-0">
             <div class="col-lg-4 col-md-6">
-                <div class="contact-card p-5">
+                <div class="contact-card pdgn-5">
                     <div class="px-5-new-cstm">
                         <div class="ringing-bell mb-5">
                             <div class="wrapper">
@@ -232,9 +221,10 @@
                                 </div>
                             </div>
                         </div>
-                        <h6 class="mb-5">Our consultants make sure that you getthe right solution & care.</h6>
-                        <p class="mb-5">Call & get your demo ready!</p>
-                        <h4 class="fw-bold fst-italic">+971 (04) 437 3103</h4>
+                        <h6 class="mb-5">Our consultants make sure that you get the right solution & care.</h6>
+                        <p class="mrgn-btm-3pont5rem">Call & get your demo ready!</p>
+                        <a href="tel:+971 (04) 437 3103" class="fw-bold fst-italic btn btn-outline-theme ms-lg-auto ms-3 order-lg-3">+971 (04) 437 3103</a>
+
                     </div>
                 </div>
             </div>
@@ -310,7 +300,7 @@
                                     </select>
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <textarea name="message" class="form-control" rows="4" placeholder="Please explain your project/ requirement & our consultant will connect with you with relevant solution."></textarea>
+                                    <textarea name="message" class="form-control" rows="3" placeholder="Please explain your project/ requirement & our consultant will connect with you with relevant solution."></textarea>
                                 </div>
                                 <div class="col-md-12">
                                     <button type="submit" class="btn btn-32 btn-outline-theme px-5">Book Free Consultation</a>
@@ -321,9 +311,10 @@
                 </div>
             </div>
         </div>
+
     </div>
 </section>
-<!--section Ends-->
+<!--section CTA Ends-->
 <!--Footer Starts-->
 <section class="foot-sec">
     <div class="container-lg">
@@ -404,7 +395,7 @@
                         <h5 class="fw-bold lh-base">Branch Office</h5>
                         <h5 class="mb-5 fw-bold lh-base">2000 Cropsey Ave <br />Brooklyn - New York <br />Post Code 11214</h5>
                         <h5 class="fw-bold">For Sales, Support & Enquiries</h5>
-                        <h5 class="fw-bold"><a href="tel:+14158004787" class="anch-color-and-deco">+1 (415) 800 4787</a> </h5>
+                        <h5 class="fw-bold"><a href="tel:+44 7376 588837" class="anch-color-and-deco">+44 7376 588837</a> </h5>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4">
@@ -422,9 +413,9 @@
                         <h5 class="mb-4 fw-bold">United Kingdom</h5>
                         <h5 class="mb-4 fw-bold"></h5>
                         <h5 class="fw-bold lh-base">Branch Office</h5>
-                        <h5 class="mb-5 fw-bold lh-base">Stembridge Road <br />London <br />PO Box SE20 UE</h5>
+                        <h5 class="mb-5 fw-bold lh-base">Stembridge Road <br />London <br /><br></h5>
                         <h5 class="fw-bold">For Sales, Support & Enquiries</h5>
-                        <h5 class="fw-bold"><a href="tel:+14158004787" class="anch-color-and-deco">+1 (415) 800 4787</a> </h5>
+                        <h5 class="fw-bold"><a href="tel:+44 7376 588837" class="anch-color-and-deco">+44 7376 588837</a> </h5>
                     </div>
                 </div>
             </div>

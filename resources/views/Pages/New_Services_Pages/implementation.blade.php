@@ -9,118 +9,135 @@
         <div class="container-xl">
             <div class="px-xl-5">
                 <div class="row">
-                    <div class="col-xl-5 col-lg-4 order-lg-2 ms-auto text-center mb-4">
-                        <img src="{{asset('assets')}}/images/new-services-pages/Implementation/implementation-img.webp" class="img-fluid rounded-4 mrgtop-hdr-img" width="600" alt="Header Image" />
+                    <div class="col-xl-4 col-lg-4 order-lg-2 ms-auto text-center mb-4">
+                        <!-- <img src="{{asset('assets')}}/images/new-services-pages/Implementation/implementation-img.webp" class="img-fluid rounded-4 mrgtop-hdr-img" width="600" alt="Header Image" /> -->
                     </div>
-                    <div class="col-xl-6 col-lg-8 order-lg-1 mb-4">
+                    <div class="col-xl-8 col-lg-8 order-lg-1 mb-4">
                         <div class="content-box mb-4 text-lg-start text-center">
-                            <h1 class="cstm-n-bc-lnding-h">Implementation Partners of Microsoft Dynamics 365 ERP | CRM Suite</h1>
+                            <h1 class="cstm-n-bc-lnding-h">Implementation Partners of <br> Microsoft Dynamics 365 ERP | CRM Suite</h1>
                             <p>Your Microsoft Dynamics 365 Business Central & ERP CRM implementation partners with more than 10+ Years of experience in Startup’s | SME’s & enterprises, is a cloud-based enterprise resource planning (ERP) solution that helps small & medium-sized businesses manage their finances, operations, sales, and customer service. It integrates with other Microsoft products such as Office 365, Power BI, and Teams, and offers a range of features such as accounting, inventory management, project management, and reporting. Business Central can be customized and extended with apps from Microsoft AppSource or developed by partners.</p>
-                            <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-cfinance-div">
+                            <!-- <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-cfinance-div">
                                 <div class="text-start mb-2">
                                     <a href="#popup1" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                                     <a href="tel:+971526510534" class="btn m-mrgn-top-f btn-theme ms-sm-3 vert-align-sub">+971 52 651 0534</a>
                                 </div>
+                            </div> -->
+                            <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-cfinance-div">
+                                <div class="text-start mb-2">
+                                    <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
+                                </div>
+                                <div class="text-md-start ms-md-3 mb-2">
+                                    <p class="mb-0 fw-semibold">Support 24/7 <a class="ms-3 fw-semibold text-decoration-none text-white" href="tel:+971526510534">+971 52 651 0534</a></p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center mb-4">
+                                <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="36" height="34" viewBox="0 0 46 44" fill="none">
+                                    <path d="M44.2935 22.5C44.2935 20.94 44.1497 19.44 43.8827 18H22.5986V26.52H34.7609C34.2268 29.26 32.6243 31.58 30.2206 33.14V38.68H37.555C41.8282 34.84 44.2935 29.2 44.2935 22.5Z" fill="#4285F4" />
+                                    <path d="M22.5984 43.9999C28.7001 43.9999 33.8157 42.0399 37.5548 38.6799L30.2204 33.1399C28.2071 34.4599 25.639 35.2599 22.5984 35.2599C16.7227 35.2599 11.7305 31.3999 9.94309 26.2H2.42383V31.8799C6.14237 39.0599 13.7643 43.9999 22.5984 43.9999Z" fill="#34A853" />
+                                    <path d="M9.9435 26.1799C9.49152 24.8599 9.22444 23.4599 9.22444 21.9999C9.22444 20.5399 9.49152 19.1399 9.9435 17.8199V12.1399H2.42424C0.88341 15.0999 0 18.4399 0 21.9999C0 25.5599 0.88341 28.8999 2.42424 31.8599L8.2794 27.4199L9.9435 26.1799Z" fill="#FBBC05" />
+                                    <path d="M22.5984 8.75999C25.9266 8.75999 28.885 9.87998 31.2476 12.04L37.7191 5.73999C33.7952 2.18 28.7001 0 22.5984 0C13.7643 0 6.14237 4.93999 2.42383 12.14L9.94309 17.82C11.7305 12.62 16.7227 8.75999 22.5984 8.75999Z" fill="#EA4335" />
+                                </svg>
+                                <h6 class="mb-0 ms-3 text-warning fw-semibold">4.2</h6>
+                                <div class="ms-3">
+                                    <i class="bi-star-fill text-warning"></i>
+                                    <i class="bi-star-fill text-warning"></i>
+                                    <i class="bi-star-fill text-warning"></i>
+                                    <i class="bi-star-fill text-warning"></i>
+                                    <i class="bi-star-fill text-warning"></i>
+                                </div>
+                                <h6 class="mb-0 ms-3 text-info small text-white">Top-rated care</h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="popup1" class="overlay">
-                <div class="popup">
-                    <div class="contact-card">
-                        <div>
-                            <h2>Start your ERP journey!</h2>
-                            <a class="close" href="#">&times;</a>
-                            <form class="contact-form" id="contactForm" action="/contact-form" enctype="multipart/form-data" method="post">
-                                @csrf
-                                <div class="row">
-                                    <div class="col-md-6 mb-4">
-                                        <input type="text" id="name" name="name" class="form-control" placeholder="Full Name" required />
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <input type="text" id="cname" name="company" class="form-control" placeholder="Company Name" />
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <input type="number" id="phone" name="phone" class="form-control" placeholder="Phone Number +97152 768 4867*" required="" />
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <input type="email" id="emailst" onkeyup="validateEmailst()" name="email" class="form-control" placeholder="Email*" required="" />
-                                        <span id="error-messagest" class="error-message"></span>
-                                    </div>
-                                    <div class="col-md-12 mb-4">
-                                        <select id="solution" class="form-control" name="solutions" required="">
-                                            <option disabled="disabled" selected="selected" value="">Choose a Solution</option>
-                                            <option value="Dynamics 365 Business Central">Dynamics 365 Business Central</option>
-                                            <option value="Dynamics 365 Finance and Supply Chain">Dynamics 365
-                                                Finance and Supply Chain
-                                            </option>
-                                            <option value="Dynamics AX">Dynamics AX</option>
-                                            <option value="Dynamics Navision">Dynamics Navision</option>
-                                            <option value="Dynamics 365 Sales ">Dynamics 365 Sales </option>
-                                            <option value="Dynamics 365 Service">Dynamics 365 Service</option>
-                                            <option value="Dynamics 365 Marketing">Dynamics 365 Marketing
-                                            </option>
-                                            <option value="Dynamics 365 Retail and Commerce">Dynamics 365 Retail and Commerce</option>
-                                            <option value="Dynamics 365 HR">Dynamics 365 HR</option>
-                                            <option value="Dynamics 365 Project Management">Dynamics 365 Project Management</option>
-                                            <option value="Microsoft Office 365">Microsoft Office 365</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button type="submit" class="btn btn-outline-theme px-5">Submit</a>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
 
 </header>
 <!--Header Ends-->
 <section class="">
-    <div class="container-lg top-Imp-cSales-3-sec-div mt-impl-div">
+    <div class="container-lg mt-impl-div">
         <div class="px-xl-5">
-            <h3 class="mt-impl-div font-s-h3 mb-3">Problem Envisioning by Dynamics Stream UK consultants</h3>
-            <p class="p-m-s">No matter what platform you are using at the moment but you’re missing the Real Seamless Solution by Microsoft Dynamics 365 Business Central & ERP CRM implementation partners with more than 10+ Years of experience in Startup’s | SME’s & enterprises</p>
-            <div class="row">
-                <div class="col-xl-6 col-md-6 align-items-stretch">
-                    <div class="Impct-card-impl mt-4">
-                        <div class="align-items-start mb-2">
-                            <h5 class="h-bg-color-Impl">Diagnosis</h5>
-                            <p class="ml-Impl-h4-p">It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-md-6 align-items-stretch">
-                    <div class="Impct-card-impl mt-4">
-                        <div class="align-items-start mb-2">
-                            <h5 class="h-bg-color-Impl">Reduce the cost of Ownership</h5>
-                            <p class="ml-Impl-h4-p">It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
-
-                        </div>
-                    </div>
-                </div>
+            <div class="URLS">
+                <ul>
+                    <li> <a href="/"><b> URL 1 </b></a>
+                        <ul>
+                            <li> <a href="/sub-1"> Sub URL 1 </a> </li>
+                            <li> <a href="/sub-2"> Sub URL 2 </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#"><b> URL 2 </b></a>
+                        <ul>
+                            <li> <a href="#"> Sub URL 1 </a> </li>
+                            <li> <a href="#"> Sub URL 2</a>
+                                <ul>
+                                    <li> <a href="#"><i> Sub Sub URL 1 </i></a> </li>
+                                    <li> <a href="#"><i> Sub Sub URL 2 </i></a> </li>
+                                </ul>
+                            </li>
+                            <li> <a href="#"> Sub URL 3 </a> </li>
+                            <li> <a href="#"> Sub URL 4 </a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#"> <b> URL 3 </b> </a>
+                        <ul>
+                            <li> <a href="#"> Sub URL 1 </a> </li>
+                            <li> <a href=" #"> Sub URL 2 </a> </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
-            <div class="row margn-top-sec-impl">
-                <div class="col-xl-6 col-md-6 align-items-stretch">
-                    <div class="Impct-card-impl mt-4">
-                        <div class="align-items-start mb-2">
-                            <h5 class="h-bg-color-Impl">Reduce the cost of Ownership</h5>
-                            <p class="ml-Impl-h4-p">It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
-
+            <p class="breadcrumbs"></p>
+            <h3 class="mt-impl-div font-s-h3-new mb-3">Problem Envisioning With <br> Dynamics Stream Consultants In The UK</h3>
+            <p class="p-m-s">No matter what platform you are using at the moment but you’re missing the Real Seamless Solution by Microsoft Dynamics 365 Business Central & ERP CRM implementation partners with more than 10+ Years of experience in Startup’s | SME’s & enterprises</p>
+            <div class="rw-mrtop-Impl">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-md-6 align-items-stretch">
+                        <div class="bg-gry-Imp">
+                            <div class="bg-blue-img-di">
+                                <img src="{{asset('assets')}}/images/new-services-pages/Implementation/implementation-person-img.webp" class="img-fluid rounded-4" width="600" alt="">
+                            </div>
+                            <h5 class="font-st-h5-new">Our Consultants <br> Sure Steps Methodology</h5>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-6 col-md-6 align-items-stretch">
-                    <div class="Impct-card-impl mt-4">
-                        <div class="align-items-start mb-2">
-                            <h5 class="h-bg-color-Impl">Reduce the cost of Ownership</h5>
-                            <p class="ml-Impl-h4-p">It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                    <div class="col-xl-6 col-md-6 align-items-stretch">
+                        <div class="col-xl-12 col-md-12  align-items-stretch">
+                            <div class="sect-sec-card-Impl-new-bg-blue">
+                                <div>
+                                    <h4 class="">Data migration</h4>
+                                    <p>Moving data from the old system to D365 can be a complex and time-consuming process, depending on the data amount, quality, and format.</p>
+                                </div>
 
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-md-12 align-items-stretch">
+                            <div class="sect-sec-card-Impl-new-bg-blue">
+                                <div>
+                                    <h4 class="">Unnecessary customization</h4>
+                                    <p>D365 is highly customizable, but excessive customization can cause performance issues, compatibility problems, or increased maintenance costs.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-md-12 align-items-stretch">
+                            <div class="sect-sec-card-Impl-new-bg-blue">
+                                <div>
+                                    <h4 class="">Lack of user adoption</h4>
+                                    <p>User adoption can be hindered by factors such as resistance to change, lack of training, poor communication, or unclear benefits</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-md-12 align-items-stretch">
+                            <div class="sect-sec-card-Impl-new-bg-blue">
+                                <div>
+                                    <h4 class="">Implementing at one go</h4>
+                                    <p>Trying to implement all the features and functionalities of D365 at once can be overwhelming and risky. It is better to adopt an agile approach.</p>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -129,11 +146,309 @@
     </div>
 </section>
 <section class="bg-color-third-impl">
-    <div class="container-lg top-Imp-cSales-3-sec-div">
+    <div class="container-lg">
         <div class="px-xl-5">
-            <h3 class="font-s-h3 mb-4-mrgn-bottom-impl mb-3">Solution Envisioning by Dynamics Stream UK consultants</h3>
+            <h3 class="font-s-h3-new mb-3">Perfect Solutions For Every Business Need <br> Dynamics Stream Consultants In UK</h3>
             <p class="p-m-s">Our Consultants throughly study and understand everything about your business and suggest the best product out of Dynamics 365 Family, that could be Microsoft Dynamics 365 Business Central, Microsoft Dynamics 365 Finance, Microsoft Dynamics 365 Supply Chain, Microsoft Dynamics 365 HR, Microsoft Dynamics 365 Sales or Microsoft Dynamics 365 Marketing depends on your business scale and operations complexity.</p>
+            <div class="row" style="margin-top: 3rem;">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="blog-card">
+                        <div>
+                            <h6 class="font-st-h6-new-impl">Dynamics 365 - Business Central </h6>
+                            <img src="{{asset('assets')}}/images/new-services-pages/Implementation/business-central-dash.webp" class="img-fluid w-100 mb-3" alt="" />
+                            <div class="d-flex align-items-start hgt-25px">
+                                <p class="flex-shrink-0 bg-clr-p-usr">Per User/ Per Month</p>
+                                <p class="flex-grow-1 mb-0 ms-3 p-dollr-st">Starts at $70</p>
+                            </div>
+                            <div class="d-flex align-items-start">
+                                <p class="flex-shrink-0  p-st-btn-lft-h">Complete Business Management</p>
+                                <a href="" class="mb-0 ms-3 flex-grow-1 btn-tour-st-new btn btn-outline-theme">Product Tour</a>
+                            </div>
+                            <div class="mtop-3rem-new">
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Boost sales & Service</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Facilitate project success</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Transform Business Operations</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Optimize Supply Chain</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Improve financial performance</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Reduce unnecessary customization</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Agile approach allows you to implement in phases</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Improved user adoption by user-friendly interface</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="blog-card">
+                        <div>
+                            <h6 class="font-st-h6-new-impl">Dynamics 365 - Finance </h6>
+                            <img src="{{asset('assets')}}/images/new-services-pages/Implementation/finance.webp" class="img-fluid w-100 mb-3" alt="" />
+                            <div class="d-flex align-items-start hgt-25px">
+                                <p class="flex-shrink-0 bg-clr-p-usr">Per User/ Per Month</p>
+                                <p class="flex-grow-1 mb-0 ms-3 p-dollr-st">Starts at $180</p>
+                            </div>
+                            <div class="d-flex align-items-start">
+                                <p class="flex-shrink-0  p-st-btn-lft-h">Enterprise Finance Management</p>
+                                <a href="" class="mb-0 ms-3 flex-grow-1 btn-tour-st-new btn btn-outline-theme">Product Tour</a>
+                            </div>
+                            <div class="mtop-3rem-new">
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Accounts Receivable</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Supply Chain Management</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Scale Globally</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Drive Growth Cut Cost</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Forecasting Of Accounts</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Financial Performance</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">enhanced Decision Making</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Handle tax jurisdictions, rates, and deductibility using a unified tax data model</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="blog-card">
+                        <div>
+                            <h6 class="font-st-h6-new-impl">Dynamics 365 - Supply Chain</h6>
+                            <img src="{{asset('assets')}}/images/new-services-pages/Implementation/supply-chain.webp" class="img-fluid w-100 mb-3" alt="" />
+                            <div class="d-flex align-items-start hgt-25px">
+                                <p class="flex-shrink-0 bg-clr-p-usr">Per User/ Per Month</p>
+                                <p class="flex-grow-1 mb-0 ms-3 p-dollr-st">Starts at $180</p>
+                            </div>
+                            <div class="d-flex align-items-start">
+                                <p class="flex-shrink-0  p-st-btn-lft-h">Supply Chain Management </p>
+                                <a href="" class="mb-0 ms-3 flex-grow-1 btn-tour-st-new btn btn-outline-theme">Product Tour</a>
+                            </div>
+                            <div class="mtop-3rem-new">
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Procurement & Sourcing</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">supply Chain Planning</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Floor Management & Manufacturing</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Warehouse Management & Filment</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Asset Management & Maintenance</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Upgrade Complete System Overhaul In Go</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Over 5,000 developer extensibility points offered by our open platform.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
             <div class="row">
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="blog-card">
+                        <div>
+                            <h6 class="font-st-h6-new-impl">Dynamics 365 - Human Resource </h6>
+                            <img src="{{asset('assets')}}/images/new-services-pages/Implementation/human-resourece.webp" class="img-fluid w-100 mb-3" alt="" />
+                            <div class="d-flex align-items-start hgt-25px">
+                                <p class="flex-shrink-0 bg-clr-p-usr">Per User/ Per Month</p>
+                                <p class="flex-grow-1 mb-0 ms-3 p-dollr-st">Starts at $70</p>
+                            </div>
+                            <div class="d-flex align-items-start">
+                                <p class="flex-shrink-0  p-st-btn-lft-h">Improve HR & Team Performance</p>
+                                <a href="" class="mb-0 ms-3 flex-grow-1 btn-tour-st-new btn btn-outline-theme">Product Tour</a>
+                            </div>
+                            <div class="mtop-3rem-new">
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Manage Payroll</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Leave Tracking</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Self-Service Capabilities</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Employee Profiles</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Employee Performance Management</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Recruitment & Onboarding</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">End Of ServiceAgile approach allows you to</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">implement in phases Improved user adoption by user-friendly interface</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="blog-card">
+                        <div>
+                            <h6 class="font-st-h6-new-impl">Dynamics 365 - Marketing CRM</h6>
+                            <img src="{{asset('assets')}}/images/new-services-pages/Implementation/marketing.webp" class="img-fluid w-100 mb-3" alt="" />
+                            <div class="d-flex align-items-start hgt-25px">
+                                <p class="flex-shrink-0 bg-clr-p-usr">Per User/ Per Month</p>
+                                <p class="flex-grow-1 mb-0 ms-3 p-dollr-st">Starts at $2,700</p>
+                            </div>
+                            <div class="d-flex align-items-start">
+                                <p class="flex-shrink-0  p-st-btn-lft-h">Customers Insights & Holistic View</p>
+                                <a href="" class="mb-0 ms-3 flex-grow-1 btn-tour-st-new btn btn-outline-theme">Product Tour</a>
+                            </div>
+                            <div class="mtop-3rem-new">
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Deliver Exceptional Customer Experiences</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Create Truly Personalized, Responsive & Connected</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Customer Journeys Across Sales, Marketing & Service Teams.</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">360 Degree Marketing Campaign Management</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Data-Driven Campaigns & Customer Insights</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Unify Transactional, Demographic & Behavioral</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Data To Get A Holistic View Of Your Customers</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div class="blog-card">
+                        <div>
+                            <h6 class="font-st-h6-new-impl">Dynamics 365 - Sales CRM</h6>
+                            <img src="{{asset('assets')}}/images/new-services-pages/Implementation/sales.webp" class="img-fluid w-100 mb-3" alt="" />
+                            <div class="d-flex align-items-start hgt-25px">
+                                <p class="flex-shrink-0 bg-clr-p-usr">Per User/ Per Month</p>
+                                <p class="flex-grow-1 mb-0 ms-3 p-dollr-st">Starts at $65</p>
+                            </div>
+                            <div class="d-flex align-items-start">
+                                <p class="flex-shrink-0  p-st-btn-lft-h">Close More Deals & Reduce <br> Mundane Task </p>
+                                <a href="" class="mb-0 ms-3 flex-grow-1 btn-tour-st-new btn btn-outline-theme">Product Tour</a>
+                            </div>
+                            <div class="mtop-3rem-new">
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Track The Progress Of Potential business, automate sales workflows, and gain AI-driven insights into customers’ preferences</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Embrace automation and boost business efficiency</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Leverage data-driven insights for customer win</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Enhance team collaboration</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Ensure personalized customer service experience</p>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <i class="flex-shrink-0 bi-check2 i-st-new"></i>
+                                    <p class="flex-grow-1 mb-0 p-st-new ms-1">Empower your sales teams to manage client interactions, leads, opportunities, and accounts</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="row">
                 <div class="col-xl-6 col-md-6 align-items-stretch">
                     <div class="Impct-card-impl mt-4">
                         <div class="align-items-start mb-2">
@@ -187,7 +502,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -195,49 +510,52 @@
 <section class="hovr-bg-color-change-div">
     <div class="container-lg">
         <div class="px-xl-5">
-            <div class="hovr-content-main-div">
-                <h3 class="font-s-h3 mb-4-mrgn-bottom"> Microsoft Dynamics 365 Implementation Sure Step Methology</h3>
-                <p class="mt-3">Analyses is a 1st step towards a Successful Implementation. In the analysis phase, most business processes are identified & documented at a high level.</p>
+            <h3 class="font-s-h3-new mb-3">Perfect Solutions For Every Business Need <br> Dynamics Stream Consultants In UK</h3>
+            <!-- <div class="hovr-content-main-div">
+                <h3 class="font-s-h3 mb-4-mrgn-bottom">Microsoft Dynamics 365 Implementation Sure Step Methology</h3>
+                <p>Analyses is a 1st step towards a Successful Implementation. In the analysis phase, most business processes are identified & documented at a high level.</p>
+            </div> -->
+            <div class="border-whol-di-new-impl">
+                <div class="tab-content well">
+                    <div class="tab-pane active" id="tab-1">
+                        <div class="hovr-content-main-div">
+                            <h3 class="font-s-h3 mb-4-mrgn-bottom">Analyses is a 1st step towards a Successful Implementation. <br> In the analysis phase, most business processes are identified & documented at a high level.</h3>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-2">
+                        <div class="hovr-content-main-div">
+                            <h3 class="font-s-h3 mb-4-mrgn-bottom">Design is the 2nd step towards a Successful Implementation. <br> Most Business Processes are designed and idenfied</h3>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-3">
+                        <div class="hovr-content-main-div">
+                            <h3 class="font-s-h3 mb-4-mrgn-bottom"> The development covers creating new features, adaptation of existing components, & data migration.</h3>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-4">
+                        <div class="hovr-content-main-div">
+                            <h3 class="font-s-h3 mb-4-mrgn-bottom">The goal of the deployment phase is to set up the operational dynamics environment at the customer.</h3>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab-5">
+                        <div class="hovr-content-main-div">
+                            <h3 class="font-s-h3 mb-4-mrgn-bottom">The purpose of the Operations phase is to support the customer technically and functionally during the initial Go-Live period for the new system.</h3>
+
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav nav-pills">
+                    <li class="active"><a data-location="#tab-1" href="#tab-1" data-toggle="tab" class="tab-btn-st-impl">Analysis</a></li>
+                    <li><a data-location="#tab-2" href="#tab-2" data-toggle="tab" class="tab-btn-st-impl">Design</a></li>
+                    <li><a data-location="#tab-3" href="#tab-3" data-toggle="tab" class="tab-btn-st-impl">Development</a></li>
+                    <li><a data-location="#tab-4" href="#tab-4" data-toggle="tab" class="tab-btn-st-impl">Deployment</a></li>
+                    <li><a data-location="#tab-5" href="#tab-5" data-toggle="tab" class="tab-btn-st-impl">Operational</a></li>
+                </ul>
             </div>
-            <div class="tab-content well">
-                <div class="tab-pane active" id="tab-1" style="background:#008EF4;">
-                    <div class="hovr-content-main-div">
-                        <h3 class="font-s-h3 mb-4-mrgn-bottom">Microsoft Dynamics 365 Implementation Sure Step Methology</h3>
-                        <p>Analyses is a 1st step towards a Successful Implementation. In the analysis phase, most business processes are identified & documented at a high level.</p>
-                    </div>
-                </div>
-                <div class="tab-pane" id="tab-2" style="background:#5D00F4;">
-                    <div class="hovr-content-main-div">
-                        <h3 class="font-s-h3 mb-4-mrgn-bottom"> Microsoft Dynamics 365 Implementation Sure Step Methology</h3>
-                        <p>Design is the 2nd step towards a Successful Implementation. Most Business Processes are designed and idenfied</p>
-                    </div>
-                </div>
-                <div class="tab-pane" id="tab-3" style="background:#11B89A;">
-                    <div class="hovr-content-main-div">
-                        <h3 class="font-s-h3 mb-4-mrgn-bottom"> Microsoft Dynamics 365 Implementation Sure Step Methology</h3>
-                        <p> The development covers creating new features, adaptation of existing components, & data migration.</p>
-                    </div>
-                </div>
-                <div class="tab-pane" id="tab-4" style="background:#477C03;">
-                    <div class="hovr-content-main-div">
-                        <h3 class="font-s-h3 mb-4-mrgn-bottom"> Microsoft Dynamics 365 Implementation Sure Step Methology</h3>
-                        <p>The goal of the deployment phase is to set up the operational dynamics environment at the customer.</p>
-                    </div>
-                </div>
-                <div class="tab-pane" id="tab-5" style="background:#D98F01;">
-                    <div class="hovr-content-main-div">
-                        <h3 class="font-s-h3 mb-4-mrgn-bottom"> Microsoft Dynamics 365 Implementation Sure Step Methology</h3>
-                        <p>The purpose of the Operations phase is to support the customer technically and functionally during the initial Go-Live period for the new system.</p>
-                    </div>
-                </div>
-            </div>
-            <ul class="nav nav-pills">
-                <li class="active"><a data-location="#tab-1" href="#tab-1" data-toggle="tab" class="tab-btn-st-impl"><i class="fa-solid fa-magnifying-glass-chart icon-1-btn"></i> Analysis</a></li>
-                <li><a data-location="#tab-2" href="#tab-2" data-toggle="tab" class="tab-btn-st-impl"><i class="fa-solid fa-pen-ruler icon-2-btn"></i>Design</a></li>
-                <li><a data-location="#tab-3" href="#tab-3" data-toggle="tab" class="tab-btn-st-impl"><i class="fa-solid fa-window-restore icon-3-btn"></i>Development</a></li>
-                <li><a data-location="#tab-4" href="#tab-4" data-toggle="tab" class="tab-btn-st-impl"><i class="fa-solid fa-person-walking-luggage icon-4-btn"></i>Deployment</a></li>
-                <li><a data-location="#tab-5" href="#tab-5" data-toggle="tab" class="tab-btn-st-impl"><i class="fa-brands fa-ubuntu icon-5-btn"></i>Operational</a></li>
-            </ul>
+
         </div>
     </div>
 </section>

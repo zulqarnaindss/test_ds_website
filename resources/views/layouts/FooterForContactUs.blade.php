@@ -131,8 +131,8 @@
 	<div class="container-lg">
 		<div class="row">
 			<div class="col-xl-12">
-				<h5 class="text-center mb-5">Our Partnerships & Strategic Alliances</h5>
-				<div class="d-flex flex-wrap justify-content-between align-items-center">
+			<h5 class="mt-5 font-s-h3-new mb-5">We’re Certified Partners <br> With Advanced Product Knowledge</h5>
+				<div class="d-flex-new text-center flex-wrap justify-content-between align-items-center">
 					<img src="{{asset('newassets')}}/images/brand/microsoft-logo.png" class="img-fluid me-4" alt="Microsoft Logo" width="160" />
 					<img src="{{asset('newassets')}}/images/brand/shopify-logo.png" class="img-fluid me-4" alt="Shopify Logo" width="160" />
 					<img src="{{asset('newassets')}}/images/brand/micro-gold-logo.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
@@ -161,7 +161,7 @@
 						<h5 class="fw-bold lh-base">Branch Office</h5>
 						<h5 class="mb-5 fw-bold lh-base">2000 Cropsey Ave <br />Brooklyn - New York <br />Post Code 11214</h5>
 						<h5 class="fw-bold">For Sales, Support & Enquiries</h5>
-						<h5 class="fw-bold"><a href="tel:+14158004787" class="anch-color-and-deco">+1 (415) 800 4787</a> </h5>
+						<h5 class="fw-bold"><a href="tel:+44 7376 588837" class="anch-color-and-deco">+44 7376 588837</a> </h5>
 					</div>
 				</div>
 				<div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4">
@@ -179,9 +179,9 @@
 						<h5 class="mb-4 fw-bold">United Kingdom</h5>
 						<h5 class="mb-4 fw-bold"></h5>
 						<h5 class="fw-bold lh-base">Branch Office</h5>
-						<h5 class="mb-5 fw-bold lh-base">Stembridge Road <br />London <br />PO Box SE20 UE</h5>
+						<h5 class="mb-5 fw-bold lh-base">Stembridge Road <br />London <br /><br></h5>
 						<h5 class="fw-bold">For Sales, Support & Enquiries</h5>
-						<h5 class="fw-bold"><a href="tel:+14158004787" class="anch-color-and-deco">+1 (415) 800 4787</a> </h5>
+						<h5 class="fw-bold"><a href="tel:+44 7376 588837" class="anch-color-and-deco">+44 7376 588837</a> </h5>
 					</div>
 				</div>
 			</div>

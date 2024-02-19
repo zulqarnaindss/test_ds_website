@@ -9,20 +9,23 @@ Route::get('/link', function () {
     Artisan::call('storage:link');
 });
 Route::get('/', [FrontController::class, 'index'])->name('home');
+
+Route::get('/request-demo', [FrontController::class, 'RequestDemoPage']);
 // New Services Page
 Route::get('/implementation', [FrontController::class, 'NewImplServices']);
 Route::get('/upgrade', [FrontController::class, 'NewUpgrServices']);
 Route::get('/remote-resources', [FrontController::class, 'NewRemServices']);
 Route::get('/customization', [FrontController::class, 'NewCustServices']);
 
+
 // New Services Page End
 // New Landing Pages
-Route::get('/business-central-landing-page', [FrontController::class, 'bcNewLanding']);
-Route::get('/finance-landing-page', [FrontController::class, 'financeNewLanding']);
-Route::get('/supply-chain-landing-page', [FrontController::class, 'SCNewLanding']);
-Route::get('/hr-landing-page', [FrontController::class, 'HRNewLanding']);
-Route::get('/sales-landing-page', [FrontController::class, 'SalesNewLanding']);
-Route::get('/marketing-landing-page', [FrontController::class, 'MarketingNewLanding']);
+Route::get('/business-central', [FrontController::class, 'bcNewLanding']);
+Route::get('/finance', [FrontController::class, 'financeNewLanding']);
+Route::get('/supply-chain', [FrontController::class, 'SCNewLanding']);
+Route::get('/human-resource', [FrontController::class, 'HRNewLanding']);
+Route::get('/sales', [FrontController::class, 'SalesNewLanding']);
+Route::get('/marketing', [FrontController::class, 'MarketingNewLanding']);
 // New Landing Pages End
 // Guided Tour
 Route::get('/business-central-guided-tour', [FrontController::class, 'bcGuided']);

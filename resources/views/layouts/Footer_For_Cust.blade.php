@@ -11,12 +11,12 @@
 <section class="resource-contact-sect">
     <div class="container-lg">
         <div class="px-xl-5">
-            <div class="row-card-resource" id="Resource-augmentation">
+            <div class="row-card-resource row-card-resource-Cust-bg" id="Resource-augmentation">
                 <div class="row align-items-end">
                     <div class="col-xl-7 col-lg-7 mb-3 order-lg-1">
                         <div class="content-box">
-                            <h3 class="res-augmnt-he mb-4">Are you Ready to Transform your Business on a Digital Landscape</h3>
-                            <p>If yes, our round-the-clock Top-rated support team is available to provide you with the right resource out of our in-house 300+ well-trained resources. </p>
+                            <h3 class="res-augmnt-he text-white mb-4">Are you Ready to Transform your Business on a Digital Landscape</h3>
+                            <p class="text-white">If yes, our round-the-clock Top-rated support team is available to provide you with the right resource out of our in-house 300+ well-trained resources. </p>
                             <!-- <div class="d-flex flex-wrap align-items-center my-3">
                                 <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="36" height="34" viewBox="0 0 46 44" fill="none">
                                     <path d="M44.2935 22.5C44.2935 20.94 44.1497 19.44 43.8827 18H22.5986V26.52H34.7609C34.2268 29.26 32.6243 31.58 30.2206 33.14V38.68H37.555C41.8282 34.84 44.2935 29.2 44.2935 22.5Z" fill="#4285F4"></path>
@@ -116,8 +116,8 @@
     <div class="container-lg">
         <div class="row">
             <div class="col-xl-12">
-                <h5 class="text-center mb-5">Our Partnerships & Strategic Alliances</h5>
-                <div class="d-flex flex-wrap justify-content-between align-items-center">
+            <h5 class="mt-5 font-s-h3-new mb-5">We’re Certified Partners <br> With Advanced Product Knowledge</h5>
+                <div class="d-flex-new text-center flex-wrap justify-content-between align-items-center">
                     <img src="{{asset('newassets')}}/images/brand/microsoft-logo.png" class="img-fluid me-4" alt="Microsoft Logo" width="160" />
                     <img src="{{asset('newassets')}}/images/brand/shopify-logo.png" class="img-fluid me-4" alt="Shopify Logo" width="160" />
                     <img src="{{asset('newassets')}}/images/brand/micro-gold-logo.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
@@ -160,42 +160,25 @@
             <div class="faq-container-new">
                 <div class="accordionfaq">
                     <div class="accordion-item">
-                        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">What are the benefits of using D365 Remote Assist?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">What is d365 customization service?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>D365 Remote Assist can help you reduce travel costs, increase efficiency, improve customer satisfaction, and solve problems faster by enabling hands-free video calls, annotations, file sharing, and more.</p>
+                            <p>d365 customization service is a service that allows you to tailor Dynamics 365 Customer Engagement (on-premises) to your specific business needs. You can use various tools and components to create and modify entities, fields, forms, views, dashboards, workflows, and more.</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">What are the new features of D365 Remote Assist in current wave of updates (Oct 2023 to Mar 2024)?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">What are the benefits of using d365 customization service?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>Some of the new features include better calling experiences with Dynamics 365 Guides, improved performance and reliability of the app, and support for proxy configuration</p>
+                            <p>d365 customization service can help you to improve the user experience, productivity, and efficiency of your Dynamics 365 Customer Engagement (on-premises) app. You can also extend the functionality and capabilities of your app by integrating it with other services and applications.</p>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">How can I deploy D365 Remote Assist to external clients with HoloLens 2?</span><span class="icon" aria-hidden="true"></span></button>
+                        <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">What are the tools and components available for d365 customization service?</span><span class="icon" aria-hidden="true"></span></button>
                         <div class="accordion-content">
-                            <p>You can use the Remote Assist model-driven app to create and manage external contacts, and then invite them to join a call using a QR code or a link</p>
+                            <p>d365 customization service provides a comprehensive set of WYSIWYG designer and editor tools, such as app designer, entity designer, form designer, view designer, dashboard designer, workflow designer, and more. You can also use code and scripts to customize your app using web resources, plugins, custom actions, and custom workflow activities.</p>
                             
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How can I start a call with a remote collaborator using D365 Remote Assist on HoloLens?</span><span class="icon" aria-hidden="true"></span></button>
-                        <div class="accordion-content">
-                            <p>You can use voice commands, hand gestures, or the app menu to initiate a call.</p>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How can I share files and annotations with a remote collaborator during a call?</span><span class="icon" aria-hidden="true"></span></button>
-                        <div class="accordion-content">
-                            <p>You can use the file picker to access files from OneDrive, SharePoint, or Teams, and then place them in your space.</p>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How can I troubleshoot issues with D365 Remote Assist on HoloLens or mobile devices?</span><span class="icon" aria-hidden="true"></span></button>
-                        <div class="accordion-content">
-                            <p>You can check the troubleshooting guide for common issues and solutions, or contact Microsoft support for further assistance.</p>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -203,12 +186,12 @@
 </section>
 <!--section Ends-->
 <!--Section Starts-->
-<!--Section Starts-->
+<!--Section CTA Starts-->
 <section class="contact-sec">
     <div class="container-fluid px-0">
-        <div class="row g-0 align-items-center">
+        <div class="row g-0">
             <div class="col-lg-4 col-md-6">
-                <div class="contact-card p-5">
+                <div class="contact-card pdgn-5">
                     <div class="px-5-new-cstm">
                         <div class="ringing-bell mb-5">
                             <div class="wrapper">
@@ -222,9 +205,10 @@
                                 </div>
                             </div>
                         </div>
-                        <h6 class="mb-5">Our consultants make sure that you getthe right solution & care.</h6>
-                        <p class="mb-5">Call & get your demo ready!</p>
-                        <h4 class="fw-bold fst-italic">+971 (04) 437 3103</h4>
+                        <h6 class="mb-5">Our consultants make sure that you get the right solution & care.</h6>
+                        <p class="mrgn-btm-3pont5rem">Call & get your demo ready!</p>
+                        <a href="tel:+971 (04) 437 3103" class="fw-bold fst-italic btn btn-outline-theme ms-lg-auto ms-3 order-lg-3">+971 (04) 437 3103</a>
+
                     </div>
                 </div>
             </div>
@@ -300,7 +284,7 @@
                                     </select>
                                 </div>
                                 <div class="col-md-12 mb-3">
-                                    <textarea name="message" class="form-control" rows="4" placeholder="Please explain your project/ requirement & our consultant will connect with you with relevant solution."></textarea>
+                                    <textarea name="message" class="form-control" rows="3" placeholder="Please explain your project/ requirement & our consultant will connect with you with relevant solution."></textarea>
                                 </div>
                                 <div class="col-md-12">
                                     <button type="submit" class="btn btn-32 btn-outline-theme px-5">Book Free Consultation</a>
@@ -311,9 +295,10 @@
                 </div>
             </div>
         </div>
+
     </div>
 </section>
-<!--section Ends-->
+<!--section CTA Ends-->
 <!--Footer Starts-->
 <section class="foot-sec">
     <div class="container-lg">
@@ -394,7 +379,7 @@
                         <h5 class="fw-bold lh-base">Branch Office</h5>
                         <h5 class="mb-5 fw-bold lh-base">2000 Cropsey Ave <br />Brooklyn - New York <br />Post Code 11214</h5>
                         <h5 class="fw-bold">For Sales, Support & Enquiries</h5>
-                        <h5 class="fw-bold"><a href="tel:+14158004787" class="anch-color-and-deco">+1 (415) 800 4787</a> </h5>
+                        <h5 class="fw-bold"><a href="tel:+44 7376 588837" class="anch-color-and-deco">+44 7376 588837</a> </h5>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4">
@@ -412,9 +397,9 @@
                         <h5 class="mb-4 fw-bold">United Kingdom</h5>
                         <h5 class="mb-4 fw-bold"></h5>
                         <h5 class="fw-bold lh-base">Branch Office</h5>
-                        <h5 class="mb-5 fw-bold lh-base">Stembridge Road <br />London <br />PO Box SE20 UE</h5>
+                        <h5 class="mb-5 fw-bold lh-base">Stembridge Road <br />London <br /><br></h5>
                         <h5 class="fw-bold">For Sales, Support & Enquiries</h5>
-                        <h5 class="fw-bold"><a href="tel:+14158004787" class="anch-color-and-deco">+1 (415) 800 4787</a> </h5>
+                        <h5 class="fw-bold"><a href="tel:+44 7376 588837" class="anch-color-and-deco">+44 7376 588837</a> </h5>
                     </div>
                 </div>
             </div>

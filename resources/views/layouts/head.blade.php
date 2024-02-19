@@ -2,6 +2,7 @@
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta name="robots" content="noindex,nofollow">
 <title>@yield('title')</title>
 <meta content="@yield('meta_description')" name="description">
 <meta content="@yield('meta_keywords')" name="keywords">
@@ -36,11 +37,11 @@
 <!-- Slider for industries for BC landing End -->
 
 <!-- image animation about us section End -->
-<link rel="stylesheet" rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <!-- Fonts and Material Icons -->
 <link rel="preload" as="image" fetchpriority="high" href="https://dynamicsstream.com/assets/images/new-home-images/slider-images/finance-slider.webp">
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0RGRQ93T3V"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16453423341"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
 
@@ -48,27 +49,8 @@
     dataLayer.push(arguments);
   }
   gtag('js', new Date());
-
-  gtag('config', 'G-0RGRQ93T3V');
+  gtag('config', 'AW-16453423341');
 </script>
-<!-- Google Tag Manager -->
-<script>
-  (function(w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-      'gtm.start': new Date().getTime(),
-      event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-NTRZLFP');
-</script>
-<!-- End Google Tag Manager -->
 <!-- Event snippet for Nov_LeadForm conversion page -->
 <script>
   gtag('event', 'conversion', {
@@ -76,9 +58,7 @@
   });
 </script>
 
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
 <!-- Meta Pixel Code -->
 <script>
   ! function(f, b, e, v, n, t, s) {
@@ -106,3 +86,5 @@
 https://www.facebook.com/tr?id=2119296408408049&ev=PageView&noscript=1" /></noscript>
 <!-- End Meta Pixel Code -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+

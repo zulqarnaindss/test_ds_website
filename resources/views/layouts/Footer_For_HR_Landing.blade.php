@@ -8,35 +8,119 @@
         </div>
     </div>
 </div>
-<!--Section Starts-->
-<section class="industry-sec">
-    <div class="top-Imp-cHR-capability-div">
-        <div class="container-lg">
-            <div class="px-xl-5 mb-5">
-                <h2 class="CTesti-title">Enabling Global Companies</h2>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-6 col-md-6   text-center align-items-stretch mb-3">
-                        <div>
-                            <img src="{{asset('assets')}}/images/new-landing-pages/new-finance-landing-page/deliotte.webp" class="img-fluid client-img-st" alt="">
+<!--Section CTA Starts-->
+<section class="contact-sec">
+    <div class="container-fluid px-0">
+        <div class="row g-0">
+            <div class="col-lg-4 col-md-6">
+                <div class="contact-card pdgn-5">
+                    <div class="px-5">
+                        <div class="ringing-bell mb-5">
+                            <div class="wrapper">
+                                <div class="ring">
+                                    <div class="coccoc-alo-phone coccoc-alo-green coccoc-alo-show">
+                                        <i class="bi-telephone faa-ring"></i>
+                                        <div class="coccoc-alo-ph-circle"></div>
+                                        <div class="coccoc-alo-ph-circle-fill"></div>
+                                        <div class="coccoc-alo-ph-img-circle"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        <h6 class="mb-5">Our consultants make sure that you get the right solution & care.</h6>
+                        <p class="mrgn-btm-3pont5rem">Call & get your demo ready!</p>
+                        <a href="tel:+971 (04) 437 3103" class="fw-bold fst-italic btn btn-outline-theme ms-lg-auto ms-3 order-lg-3">+971 (04) 437 3103</a>
+
                     </div>
-                    <div class="col-xl-4 col-lg-6 col-md-6   text-center align-items-stretch mb-3">
-                        <div>
-                            <img src="{{asset('assets')}}/images/new-landing-pages/hr/zmi.webp" class="img-fluid client-img-st" alt="">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-6">
+                <div class="contact-card2">
+                    <div>
+                        <div class="text-center">
+                            <h2 class="text-white">Get Free Demo</h2>
+                            <p class="text-white mb-4">Success starts with a Great product & right
+                                consultationGet a free demo & increase your business potential with ERP & CRM
+                                digital transformation.</p>
                         </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-12   text-center align-items-stretch mb-3">
-                        <div>
-                            <img src="{{asset('assets')}}/images/new-landing-pages/hr/moon-group.webp" class="img-fluid client-img-st" alt="">
-                        </div>
+                        <form class="contact-form" id="contactForm" action="/contact-form" enctype="multipart/form-data" method="post">
+                            @csrf
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" id="name" name="name" class="form-control" placeholder="Full Name" required />
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Number Format +971 52 651 0534" required />
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" id="cname" name="company" class="form-control" placeholder="Organization Name" />
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="email" id="email" name="email" class="form-control" placeholder="Email" required />
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <select id="solution" class="form-control" name="solutions" required="">
+                                        <option disabled="disabled" selected="selected" value="">Product Interested</option>
+                                        <option value="Dynamics 365 Business Central">Dynamics 365 Business Central</option>
+                                        <option value="Dynamics 365 Finance and Supply Chain">Dynamics 365
+                                            Finance and Supply Chain
+                                        </option>
+                                        <option value="Dynamics AX">Dynamics AX</option>
+                                        <option value="Dynamics Navision">Dynamics Navision</option>
+                                        <option value="Dynamics 365 Sales ">Dynamics 365 Sales </option>
+                                        <option value="Dynamics 365 Service">Dynamics 365 Service</option>
+                                        <option value="Dynamics 365 Marketing">Dynamics 365 Marketing
+                                        </option>
+                                        <option value="Dynamics 365 Retail and Commerce">Dynamics 365 Retail and Commerce</option>
+                                        <option value="Dynamics 365 HR">Dynamics 365 HR</option>
+                                        <option value="Dynamics 365 Project Management">Dynamics 365 Project Management</option>
+                                        <option value="Microsoft Office 365">Microsoft Office 365</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <select id="industries" class="form-control" name="industries" required>
+                                        <option disabled="disabled" selected="selected" value="">Choose your Industry</option>
+                                        <option value="Manufacturing">Manufacturing</option>
+                                        <option value="Retail">Retail</option>
+                                        <option value="Public Sector">Public Sector</option>
+                                        <option value="Financial Service">Financial Service</option>
+                                        <option value="Trading & Distribution">Trading & Distribution </option>
+                                        <option value="Professional Services">Professional Services</option>
+                                        <option value="eCommerce">eCommerce</option>
+                                        <option value="Hospitality">Hospitality</option>
+                                        <option value="Transport">Transport</option>
+                                        <option value="Entertainment">Entertainment</option>
+                                        <option value="Eduction">Eduction</option>
+                                        <option value="Construction">Construction</option>
+                                        <option value="Real Estate">Real Estate</option>
+                                        <option value="Legals">Legals</option>
+                                        <option value="Food Delivery Apps">Food Delivery Apps</option>
+                                        <option value="Capital Investments">Capital Investments</option>
+                                        <option value="Oil & Gas">Oil & Gas</option>
+                                        <option value="Logistics">Logistics</option>
+                                        <option value="Media">Media</option>
+                                        <option value="Healthcare">Healthcare</option>
+                                        <option value="Non-Profit Org">Non-Profit Org</option>
+                                        <option value="Governments">Governments</option>
+                                        <option value="HR">HR</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <textarea name="message" class="form-control" rows="3" placeholder="Please explain your project/ requirement & our consultant will connect with you with relevant solution."></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-32 btn-outline-theme px-5">Book Free Consultation</a>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
+    </div>
 </section>
-<!--section Ends-->
+<!--section CTA Ends-->
 
 <!--Section Starts-->
 <section class="tabsFaq-sec">
@@ -295,8 +379,8 @@
     <div class="container-lg">
         <div class="row">
             <div class="col-xl-12">
-                <h5 class="text-center mb-5">Our Partnerships & Strategic Alliances</h5>
-                <div class="d-flex flex-wrap justify-content-between align-items-center">
+            <h5 class="font-s-h3-new mb-5">We’re Certified Partners <br> With Advanced Product Knowledge</h5>
+                <div class="d-flex-new text-center flex-wrap justify-content-between align-items-center">
                     <img src="{{asset('newassets')}}/images/brand/microsoft-logo.png" class="img-fluid me-4" alt="Microsoft Logo" width="160" />
                     <img src="{{asset('newassets')}}/images/brand/shopify-logo.png" class="img-fluid me-4" alt="Shopify Logo" width="160" />
                     <img src="{{asset('newassets')}}/images/brand/micro-gold-logo.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160" />
@@ -325,7 +409,7 @@
                         <h5 class="fw-bold lh-base">Branch Office</h5>
                         <h5 class="mb-5 fw-bold lh-base">2000 Cropsey Ave <br />Brooklyn - New York <br />Post Code 11214</h5>
                         <h5 class="fw-bold">For Sales, Support & Enquiries</h5>
-                        <h5 class="fw-bold"><a href="tel:+14158004787" class="anch-color-and-deco">+1 (415) 800 4787</a> </h5>
+                        <h5 class="fw-bold"><a href="tel:+44 7376 588837" class="anch-color-and-deco">+44 7376 588837</a> </h5>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6 d-flex align-items-stretch mb-4">
@@ -343,7 +427,7 @@
                         <h5 class="mb-4 fw-bold">United Kingdom</h5>
                         <h5 class="mb-4 fw-bold"></h5>
                         <h5 class="fw-bold lh-base">Branch Office</h5>
-                        <h5 class="mb-5 fw-bold lh-base">Stembridge Road <br />London <br />PO Box SE20 UE</h5>
+                        <h5 class="mb-5 fw-bold lh-base">Stembridge Road <br />London <br /><br></h5>
                         <h5 class="fw-bold">For Sales, Support & Enquiries</h5>
                         <h5 class="fw-bold"><a href="tel:+14158004787" class="anch-color-and-deco">+1 (415) 800 4787</a> </h5>
                     </div>
