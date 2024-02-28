@@ -35,8 +35,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <a href="tel:+971044373103" class="btn btn-outline-theme ms-lg-auto ms-3 order-lg-3">+971 (04)
-                437 3103</a>
+            <a href="tel:+44 7376 588837" class="btn btn-outline-theme ms-lg-auto ms-3 order-lg-3">+44 7376 588837</a>
             <div class="collapse navbar-collapse order-lg-2" id="navbarSupportedContent">
 
                 <section class="navbar__center navbar-nav mx-auto">
@@ -55,7 +54,7 @@
                                 </a>
                                 <div class="submenu megamenu__text wdth-for-mega-menu">
                                     <div class="submenu__inner">
-                                        <a href="/implementation" style="text-decoration: none;">
+                                        <a href="/implementation" class="anchr" style="text-decoration: none;">
                                             <h4 class="submenu__title">Implementation</h4>
                                             <p class="sub-p-menu">The right implementation partner for a successful ERP\CRM journey</p>
                                         </a>
@@ -65,7 +64,7 @@
                                         </ul>
                                     </div>
                                     <div class="submenu__inner">
-                                        <a href="/upgrade" style="text-decoration: none;">
+                                        <a href="/upgrade" class="anchr" style="text-decoration: none;">
                                             <h4 class="submenu__title">Migration</h4>
                                             <p class="sub-p-menu">We ensure to take proactive measure to enhance security, performance, and functionality, ensuring that technology remains a valuable asset to organizations and keeps pace with the evolving digital landscape.</p>
                                         </a>
@@ -75,7 +74,7 @@
                                         </ul>
                                     </div>
                                     <div class="submenu__inner">
-                                        <a href="/customization" style="text-decoration: none;">
+                                        <a href="/customization" class="anchr" style="text-decoration: none;">
                                             <h4 class="submenu__title">Customization</h4>
                                             <p class="sub-p-menu">Whether it's adapting workflows, incorporating industry-specific modules, or creating bespoke reporting tools, our customizations empowers you to maximize the utility of the software according to your specific needs.</p>
                                         </a>
@@ -84,7 +83,7 @@
                                         </ul>
                                     </div>
                                     <div class="submenu__inner">
-                                        <a href="/microsoft-dynamics-support-services" style="text-decoration: none;">
+                                        <a href="/support" class="anchr" style="text-decoration: none;">
                                             <h4 class="submenu__title">Support</h4>
                                             <p class="sub-p-menu">We ensures the seamless operation and optimization of your critical software solutions for uninterrupted business performance.</p>
                                         </a>
@@ -92,8 +91,8 @@
                                             <li><a href="#"></a></li>
                                         </ul>
                                     </div>
-									<div class="submenu__inner">
-                                        <a href="/remote-resources" style="text-decoration: none;">
+                                    <div class="submenu__inner">
+                                        <a href="/remote-resources" class="anchr" style="text-decoration: none;">
                                             <h4 class="submenu__title">Remote Resources</h4>
                                             <p class="sub-p-menu">Boost your Business with Remote Resources by Dynamics 365</p>
                                         </a>
@@ -205,25 +204,27 @@
                                 </div>
                             </li>
                             <li class="menu__item menu__dropdown">
+                                <a href="/blogs" class="menu__link">
+                                    Blogs
+                                </a>
+                            </li>
+                            <li class="menu__item menu__dropdown">
                                 <a href="#" class="menu__link">
-                                    Resources
+                                    Insights
                                     <i class="bx bx-chevron-right"></i>
                                 </a>
                                 <div class="submenu megamenu__normal">
                                     <div class="submenu__inners">
                                         <ul class="submenu__list">
-                                            <li><a href="/microsoft-dynamics-365-for-manufacturing">Events</a></li>
-                                            <li><a href="/microsoft-dynamics-365-wholesale-and-distribution">White Papers</a></li>
+                                            <li><a href="">Case Studies</a></li>
+                                            <li><a href="">White Papers</a></li>
+                                            <li><a href="">Events</a></li>
+                                            <li><a href="">Podcast</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </li>
-                            <li class="menu__item menu__dropdown">
-                                <a href="#" class="menu__link">
-                                    Blogs
-                                    
-                                </a>
-                            </li>
+
                         </ul>
                     </div>
                 </section>

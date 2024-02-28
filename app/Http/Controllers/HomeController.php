@@ -182,10 +182,11 @@ class HomeController extends Controller
         $mainblog = Mainblog::all();
         $navbars = Navbar::all();
         $careermain=careermain::all();
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
         // $careermain = careermain::where('slug', '=', $request->slug)->first();
         //   dd($blogs);
         if ($careermain) {
-            return view('careers.careers', compact('careermain','footersectionone','footersolution',
+            return view('careers.careers', compact('careermain','blogsndss','footersectionone','footersolution',
             'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs', 'navbars','mainblog','solutionindustrys'));
         } else {
             abort(404);
@@ -205,10 +206,11 @@ class HomeController extends Controller
         $navbars = Navbar::all();
         $featuredjob=featuredjob::all();
         $blogs=Whychoose::all();
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
         $featuredjob =featuredjob::where('slug', '=', $request->slug)->first();
         //   dd($blogs);
         if ($featuredjob) {
-            return view('careers.career_jobs', compact('blogs','featuredjob','footersectionone','footersolution',
+            return view('careers.career_jobs', compact('blogs','blogsndss','featuredjob','footersectionone','footersolution',
             'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs', 'navbars','mainblog','solutionindustrys'));
         } else {
             abort(404);
@@ -236,7 +238,7 @@ class HomeController extends Controller
         $data->solutions = $request->solutions;
         $data->message = $request->message;
         $data->save();
-        Mail::to('info@dynamicsstream.com')->send(new VisitorContact($data));
+        Mail::to('zulqarnainsaeedi019@gmail.com')->send(new VisitorContact($data));
 
         return redirect()->back()->with('success', 'Form Submit Successfully!');
     }

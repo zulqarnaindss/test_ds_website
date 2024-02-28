@@ -12,7 +12,7 @@ return [
     |
     */
 
-    'default' => env('MAIL_MAILER', 'sendmail'),
+    'default' => env('MAIL_MAILER', 'smtp'),
 
     /*
     |--------------------------------------------------------------------------
@@ -32,7 +32,7 @@ return [
     |
     */
      'mailers' => [
-        'sendmail' => [
+        'smtp' => [
             'transport' => 'smtp',
             'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
             'port' => env('MAIL_PORT', 587),

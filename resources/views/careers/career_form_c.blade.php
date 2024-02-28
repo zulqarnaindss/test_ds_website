@@ -1,4 +1,4 @@
-@extends('main_2')
+@extends('newhomemain')
 @section('title', 'Dynamics Stream careers Detail')
 @section('contents')
 <section class="slide  kenBurns">

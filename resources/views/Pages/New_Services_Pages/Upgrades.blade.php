@@ -14,8 +14,8 @@
                     </div>
                     <div class="col-xl-8 col-lg-8 order-lg-1 mb-4">
                         <div class="content-box mb-4 text-lg-start text-center">
-                            <h1 class="">Dynamics 365 ERP & CRM Migration & <br class="br-ds-none"> Upgrades Partners</h1>
-                            <p>Your Microsoft Dynamics 365 Migration & Upgrades partners that help you to migrate from Microsoft on-premises to cloud, Microsoft GP to Dynamics 365, Microsoft NAV to Dynamics 365, Microsoft AX to Dynamics 365 end to end migration and upgrades. As your business expands so does the business requirements and needs and with timely updates gives you an extra boost in productivity and seamless operations.</p>
+                            <h1 class="">Revolutionize Your Business with <br class="br-ds-none"> Seamless Microsoft Dynamics 365 Migration Partners</h1>
+                            <p>At Dynamics Stream, we're committed to revolutionizing your business operations through cutting-edge Dynamics 365 Migration Solutions. With over a decade of experience serving startups, SMEs, and enterprises, we specialize in facilitating seamless transitions to cloud-based ERP and CRM solutions. Our bespoke Dynamics 365 migration services in the UK are meticulously tailored to meet the evolving needs of businesses across diverse industries. By empowering your team and enhancing your operational efficiency, we ensure that your journey towards digital transformation is both smooth and rewarding.</p>
                             <!-- <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-cfinance-div">
                                 <div class="text-start mb-2">
                                     <a href="#popup1" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
@@ -26,26 +26,24 @@
                                 <div class="text-start mb-2">
                                     <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                                 </div>
-                                <div class="text-md-start ms-md-3 mb-2">
-                                    <p class="mb-0 fw-semibold">Support 24/7 <a class="ms-3 fw-semibold text-decoration-none text-white" href="tel:+971526510534">+971 52 651 0534</a></p>
-                                </div>
+
                             </div>
                             <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center mb-4">
-                                <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="36" height="34" viewBox="0 0 46 44" fill="none">
+                                <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="34" viewBox="0 0 46 44" fill="none">
                                     <path d="M44.2935 22.5C44.2935 20.94 44.1497 19.44 43.8827 18H22.5986V26.52H34.7609C34.2268 29.26 32.6243 31.58 30.2206 33.14V38.68H37.555C41.8282 34.84 44.2935 29.2 44.2935 22.5Z" fill="#4285F4" />
                                     <path d="M22.5984 43.9999C28.7001 43.9999 33.8157 42.0399 37.5548 38.6799L30.2204 33.1399C28.2071 34.4599 25.639 35.2599 22.5984 35.2599C16.7227 35.2599 11.7305 31.3999 9.94309 26.2H2.42383V31.8799C6.14237 39.0599 13.7643 43.9999 22.5984 43.9999Z" fill="#34A853" />
                                     <path d="M9.9435 26.1799C9.49152 24.8599 9.22444 23.4599 9.22444 21.9999C9.22444 20.5399 9.49152 19.1399 9.9435 17.8199V12.1399H2.42424C0.88341 15.0999 0 18.4399 0 21.9999C0 25.5599 0.88341 28.8999 2.42424 31.8599L8.2794 27.4199L9.9435 26.1799Z" fill="#FBBC05" />
                                     <path d="M22.5984 8.75999C25.9266 8.75999 28.885 9.87998 31.2476 12.04L37.7191 5.73999C33.7952 2.18 28.7001 0 22.5984 0C13.7643 0 6.14237 4.93999 2.42383 12.14L9.94309 17.82C11.7305 12.62 16.7227 8.75999 22.5984 8.75999Z" fill="#EA4335" />
                                 </svg>
-                                <h6 class="mb-0 ms-3 text-warning fw-semibold">4.2</h6>
-                                <div class="ms-3">
+                                <h6 class="mb-0 ms-2 text-warning google-rated-point fw-semibold">4.2</h6>
+                                <div class="ms-2 stars-inner-st">
                                     <i class="bi-star-fill text-warning"></i>
                                     <i class="bi-star-fill text-warning"></i>
                                     <i class="bi-star-fill text-warning"></i>
                                     <i class="bi-star-fill text-warning"></i>
                                     <i class="bi-star-fill text-warning"></i>
                                 </div>
-                                <h6 class="mb-0 ms-3 text-info small text-white">Top-rated care</h6>
+                                <h6 class="mb-0 ms-2 text-info rated-care-txt text-white">Top-rated care</h6>
                             </div>
                         </div>
                     </div>
@@ -110,7 +108,7 @@
     <div class="container-lg mt-impl-div">
         <div class="px-xl-5">
             <h3 class="mt-impl-div font-s-h3-new mb-3">Benefits to Shift your Business <br> from Microsoft to Dynamics 365</h3>
-            <p class="p-m-s">No matter what platform you are using at the moment but you’re missing the Real Seamless Solution by Microsoft Dynamics 365 Business Central & ERP CRM implementation partners with more than 10+ Years of experience in Startup’s | SME’s & enterprises</p>
+            <p class="p-m-s">Elevate your business efficiency, streamline operations, and embrace a future-ready approach to growth and innovation. As your Dynamics 365 Migration partner, we ensure seamless transition to Microsoft's cutting-edge cloud-based ERP and CRM solutions to revolutionize your business operations.</p>
             <div class="mrgn-top-upgr-2-sect">
                 <div class="row ">
                     <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
@@ -121,7 +119,7 @@
                                     <h4>Increased ROI</h4>
                                 </div>
                                 <div>
-                                    <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                                    <p>Say goodbye to costly infrastructure investments, upgrade expenses, and the burden of maintaining dedicated IT resources. With Dynamics 365, you can optimize your resources and maximize profitability.</p>
                                 </div>
 
                             </div>
@@ -132,10 +130,10 @@
                             <div class="card-content">
                                 <div>
                                     <i class="fa-solid fa-cloud-arrow-up"></i>
-                                    <h4>Move to Cloud</h4>
+                                    <h4>Seamless Transition to the Cloud</h4>
                                 </div>
 
-                                <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                                <p>Transitioning to the cloud with Microsoft Dynamics 365 reduces the cost of ownership and eliminates the need for on-premises infrastructure. Enjoy unprecedented scalability for your business, enabling effortless expansion, agility, and adaptability to market changes.</p>
                             </div>
                         </div>
                     </div>
@@ -144,9 +142,9 @@
                             <div class="card-content">
                                 <div>
                                     <i class="fa-solid fa-arrow-up-right-dots"></i>
-                                    <h4>Improved Productivity & Automate Redundant Processes</h4>
+                                    <h4>Enhanced Productivity & Automated Processes</h4>
                                 </div>
-                                <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                                <p>Microsoft Dynamics 365 empowers your workforce by automating redundant processes and streamlining workflows. Say hello to improved productivity and efficiency as you harness the full potential of Dynamics 365 to automate tasks, streamline operations, and focus on strategic initiatives.</p>
                             </div>
                         </div>
                     </div>
@@ -155,9 +153,9 @@
                             <div class="card-content">
                                 <div>
                                     <i class="fa-regular fa-circle-check"></i>
-                                    <h4>Effortless Integrations & Powerful Features</h4>
+                                    <h4>Effortless Integrations & Robust Features</h4>
                                 </div>
-                                <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                                <p>With Dynamics 365, integration becomes seamless and effortless. Unlock the power of robust features and functionalities that Dynamics 365 offers, allowing you to integrate with existing systems, leverage powerful analytics, and drive informed decision-making across your organization.</p>
                             </div>
                         </div>
                     </div>
@@ -170,26 +168,26 @@
 <section class="bg-color-third-upgr">
     <div class="container-lg">
         <div class="px-xl-5">
-            <h3 class="font-s-h3-new upgr-3rd-he-mgn">Migrate to Transform Organization</h3>
+            <h3 class="font-s-h3-new upgr-3rd-he-mgn">Effortless Upgrade, Endless Opportunities:</h3>
             <div class="row  align-items-center">
                 <div class="col-xl-6 col-lg-7 mb-3">
                     <div class="content-box">
-                        <h4>From Microsoft On-Premises <br> To Cloud</h4>
-                        <p class="mb-4">Revolutionize your business management—operate more intelligently, adapt swiftly, and achieve superior performance, business Central boasts a track record of boosting productivity for finance and operations personnel by up to 18%, delivering an impressive 172% ROI.</p>
+                        <h4>Transitioning from Microsoft On-Premises <br> to Cloud</h4>
+                        <p class="mb-4">In today's dynamic business landscape, the shift from Microsoft On-Premises to Cloud is pivotal for unlocking your business's full potential. Embrace the future of business management with Dynamics 365 Business Central, where intelligence meets adaptability. Experience a remarkable transformation as your finance and operations personnel witness a surge in productivity by up to 18%. With an impressive 172% ROI, Dynamics 365 Business Central sets the stage for unparalleled growth and efficiency.</p>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
+                            <p class="flex-grow-1 mb-0 ms-3">FORBES Recognized: Top ERP System of 2023</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Tailored for: Startups, SMEs, and Enterprises</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Affordable: Get Started from just $70 per user/month</p>
                         </div>
                         <div class="text-start reqst-bt-3rd-sect-mgn mb-2">
-                            <a href="#popup1" class="btn btn-outline-theme">Request a Free Consultation <i class="bi-chevron-right ms-3"></i></a>
+                            <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -202,22 +200,22 @@
             <div class="row mt-row-lr-upgr align-items-center">
                 <div class="col-xl-6 col-lg-7 ms-auto order-lg-2 mb-3">
                     <div class="content-box">
-                        <h4>From Dynamics AX to <br> D365 Finance & Operations</h4>
-                        <p class="mb-4">Recently Microsoft has prohibited implementing Dynamics AX for new clients. Existing clients, meanwhile, may continue to rely on Microsoft's AX support. Furthermore, by upgrading the Dynamics AX account with Dynamics 365 Finance & Operations, organizations may immediately utilize the updated & business-specific functionality to enhance their business operations and growth strategy.</p>
+                        <h4>Evolution from Dynamics AX to <br> Dynamics 365 Finance & Operations</h4>
+                        <p class="mb-4">In light of recent updates, Microsoft has ceased new client implementations of Dynamics AX. However, existing clients can still benefit from ongoing support. By transitioning their Dynamics AX accounts to Dynamics 365 Finance & Operations, organizations gain access to enhanced, business-specific functionalities tailored to bolster operational efficiency and drive strategic growth.</p>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
+                            <p class="flex-grow-1 mb-0 ms-3">FORBES Recognized: Top ERP System of 2023</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Tailored for: Startups, SMEs, and Enterprises</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
+                            <p class="flex-grow-1 mb-0 ms-3"> Affordable: Get Started from just $70 per user/month</p>
                         </div>
                         <div class="text-start reqst-bt-3rd-sect-mgn mb-2">
-                            <a href="#popup1" class="btn btn-outline-theme">Request a Free Consultation <i class="bi-chevron-right ms-3"></i></a>
+                            <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                         </div>
 
                     </div>
@@ -249,7 +247,7 @@
                             <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
                         </div>
                         <div class="text-start reqst-bt-3rd-sect-mgn mb-2">
-                            <a href="#popup1" class="btn btn-outline-theme">Request a Free Consultation <i class="bi-chevron-right ms-3"></i></a>
+                            <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -280,7 +278,7 @@
                             <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
                         </div>
                         <div class="text-start reqst-bt-3rd-sect-mgn mb-2">
-                            <a href="#popup1" class="btn btn-outline-theme">Request a Free Consultation <i class="bi-chevron-right ms-3"></i></a>
+                            <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                         </div>
                     </div>
                 </div>

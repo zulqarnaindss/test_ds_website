@@ -1,4 +1,4 @@
-@extends('main_2')
+@extends('newhomemain')
 @section('title', $featuredjob->meta_title)
 @section('meta_description', $featuredjob->meta_description)
 @section('meta_keywords', $featuredjob->meta_keyword)

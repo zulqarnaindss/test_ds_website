@@ -1,0 +1,498 @@
+/* Custom Remote */
+.contact-Rem-div {
+    padding: 1rem 0;
+    position: relative;
+}
+
+.contact-Rem-div::before {
+    content: '';
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 150px;
+    background: linear-gradient(270deg, rgba(41, 63, 70, 0.2) 14.94%, rgba(72, 136, 156, 0) 100%);
+    z-index: 0;
+}
+
+.bg-color-plus-Rem {
+    background: #EDEDF1 !important;
+    font-weight: 400 !important;
+}
+
+.bg-color-plus-Rem:after {
+    font-weight: 400 !important;
+}
+
+/* Custom Remote End */
+.hero-sec-padding {
+    padding-top: 190px;
+    padding-bottom: 25px;
+    background: linear-gradient(to bottom right, #F0F5F9, #ffffff);
+}
+
+.hero-sec-content {
+    max-width: 650px;
+}
+
+.hero-sec-content h3 {
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.hero-sec-content p {
+    font-size: 14px;
+    color: #000;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+.btn-hero-sec {
+    color: #fff;
+    background-color: #18233F;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+}
+
+a.btn-hero-sec:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-text-support {
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: start;
+    padding-top: 10px;
+}
+
+.slick-arrow {
+    font-size: 0px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border: none;
+}
+
+/* .slick-arrow:before {
+    position: relative;
+    content: "";
+    background-image: url('/newassets/karimages/sesfa.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block;
+    color: transparent;
+    top: 174px;
+    right: -45px;
+} */
+.slick-prev:before,
+.slick-next:before {
+    color: black !important;
+    font-size: 25px !important;
+}
+
+/* .slick-arrow:after {
+    content: "";
+    background-image: url(/newassets/karimages/asef.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: relative;
+    right: 0px;
+    bottom: 150px;
+} */
+
+/* .slick-arrow:after {
+    content: "";
+    background-image: url('/newassets/karimages/asef.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: block;
+} */
+
+.slick-prev:before {
+    /* display: block !important;
+    transform: rotate(1deg) translateY(-13%); */
+}
+
+button.slick-next.slick-arrow {
+    position: absolute;
+    top: 80%;
+    right: 10px;
+}
+
+.slick-prev {
+    left: 90% !important;
+    position: absolute !important;
+    top: 80% !important;
+}
+
+button.slick-prev.slick-arrow {
+    /* right: 60px !important; */
+}
+
+.hero-sec-img {
+    position: relative;
+}
+
+.hero-sec-img::after {
+    content: "";
+    display: block;
+    width: 106px;
+    height: 208px;
+    background-image: url('/newassets/karimages/hero-after.png');
+    background-size: cover;
+    position: absolute;
+    top: -34px;
+    left: 281px;
+    z-index: -4;
+}
+
+/* about us section  */
+.about-sec-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.kar-about-sec-heading h3 {
+    padding-bottom: 60px;
+    font-size: 32px;
+}
+
+.kar-about-content-h4 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.kar-about-desc {
+    color: #000;
+    font-size: 14px;
+}
+
+.kar-card-img-top {
+    width: 30px;
+    height: 30px;
+}
+
+.kar-arrow-slider {
+    width: 33px;
+    height: 44px;
+}
+
+/* about section slider */
+/* .slider-arrows {
+    display: block;
+    max-width: 100px;
+    position: relative;
+    left: 1000px;
+    bottom: 106px;
+} */
+.card-text {
+    font-size: 11px;
+}
+
+.kar-about-img {
+    padding: 10px;
+}
+
+.carousel-control-next {
+    right: 20px;
+}
+
+.carousel-control-prev {
+    left: 20px;
+}
+
+/* benifit section */
+.card-body {
+    padding: 0.6rem;
+}
+
+.kar-benfit-padding {
+    background: #F0F5F9;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.kar-benifit-main-cont {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.kar-benifit-mhead {
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.kar-benifit-mdesc {
+    font-size: 14px;
+    margin-bottom: 3rem;
+}
+
+.card {
+    text-align: center;
+    background-color: #fff0;
+    background-clip: border-box;
+    border: 1px solid rgb(0 0 0 / 0%);
+}
+
+.card img {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.kar-benifit-card-text {
+    font-size: 12px;
+}
+
+.card:hover {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 15px;
+}
+
+.kar-benfit-padding::before {
+    content: "";
+    display: block;
+    width: 106px;
+    height: 208px;
+    background-image: url('/newassets/karimages/hero-after.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+}
+
+.kar-benfit-padding::after {
+    content: "";
+    display: block;
+    width: 173px;
+    height: 173px;
+    background-image: url('/newassets/karimages/Ellipse.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 4;
+}
+
+/* accordian section */
+.kar-faq-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.kar-main-heading {
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.kar-main-disc {
+    padding-bottom: 40px;
+    font-size: 14px;
+}
+
+.kar-header-rad {
+    text-align: left;
+    border-radius: 10px !important;
+}
+
+.kar-accor-body {
+    text-align: left;
+    height: 200px;
+    font-size: 16px;
+}
+
+.kar-faq-padding {
+    position: relative;
+}
+
+.card-header h5 .btn {
+    font-size: 20px !important;
+}
+
+.kar-faq-padding::before {
+    content: "";
+    display: block;
+    width: 106px;
+    height: 208px;
+    background-image: url('/newassets/karimages/hero-after.png');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+}
+
+/* migration section */
+.migration-sec-padding {
+    background-image: url('/newassets/karimages/Group420.png');
+    background-color: #192440;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.kar-mig-content {
+    color: #fff;
+}
+
+.kar-mig-content h5 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.kar-mig-content p {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1168px) {
+    .hero-sec-img::after {
+        top: -44px;
+        left: 230px;
+    }
+
+    .slider-arrows {
+        display: block;
+        max-width: 100px;
+        position: relative;
+        left: 730px;
+        bottom: 106px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .hero-sec-img::after,
+    .kar-benfit-padding::before,
+    .kar-benfit-padding::after,
+    .kar-faq-padding::before {
+        display: none;
+    }
+
+    .kar-accor-body {
+        height: auto;
+    }
+
+    .kar-left-img {
+        text-align: center;
+    }
+
+    .hero-sec-img {
+        padding-top: 30px;
+    }
+
+    .slider-arrows {
+        display: block;
+        max-width: 100px;
+        position: relative;
+        left: 500px;
+        bottom: 106px;
+    }
+
+    .migration-sec-padding {
+        background-image: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin: 0 auto;
+    }
+
+    .kar-accor-body {
+        height: auto;
+    }
+
+    .kar-about-content-h4 {
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .slick-prev {
+        left: 0% !important;
+        position: absolute !important;
+        top: -2% !important;
+    }
+
+    button.slick-next.slick-arrow {
+        position: absolute;
+        top: -2%;
+        right: 10px;
+    }
+
+    .kar-about-desc {
+        text-align: center;
+    }
+
+    .hero-sec-content p {
+        text-align: center;
+    }
+
+    .hero-sec-content h3,
+    .kar-about-sec-heading h3,
+    .kar-benifit-mhead,
+    .kar-main-heading {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .slider-arrows {
+        display: none;
+    }
+
+    .kar-about-img {
+        padding: 10px;
+    }
+
+    .about-sec-padding {
+        padding-top: 20px;
+    }
+
+    .kar-about-sec-heading h3 {
+        padding-bottom: 50px;
+    }
+
+    .hero-sec-padding {
+        padding-top: 180px;
+    }
+
+    .slick-arrow:after {
+        display: block;
+    }
+
+    .slick-arrow:before {
+        display: block;
+    }
+}

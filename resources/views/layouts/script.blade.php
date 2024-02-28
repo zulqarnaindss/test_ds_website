@@ -1,29 +1,117 @@
-<!-- Supply Chain Landing page Counter -->
-<!-- breadcrumbs -->
-<script type="text/javascript">
-    // added click event on every anchor element
-    $('.URLS a').on('click', function() {
-
-        // selecting P element to append texts
-        $select = $('<p class="breadcrumbs"></p>');
-
-        // iterate through each <li> which are parent of clicked <a> element
-        $(this).parents('li').each(function(index, list) {
-
-            // make a clone of current <a> element
-            let anchor = $(list).children('a').clone();
-
-            // prepend current <a> element to breadcrumbs
-            $select.prepend(' / ', anchor);
-        });
-
-        // prepend tutorialspoint.com at the beginning of the breadcrumb menu.
-        $select.prepend('<a href="#">TutorialsPoint.com</a>')
-        $('.breadcrumbs').html($select);
+<!-- Thank You Page Last Section Slider -->
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+    const splide = new Splide('.splide', {
+        type: 'loop',
+        rewind: true,
+        pagination: false,
+        perPage: 3,
+        breakpoints: {
+            1200: {
+                perPage: 2,
+            },
+            767: {
+                perPage: 1,
+            },
+        },
+        gap: '60px',
+        arrows: false,
     })
-    
+
+    document.querySelector('.splide_next').addEventListener('click', e => {
+        splide.go('+1')
+    })
+
+    document.querySelector('.splide_prev').addEventListener('click', e => {
+        splide.go('-1')
+    })
+
+    splide.mount()
 </script>
-<!-- breadcrumbs end -->
+<!-- Thank You Page Last Section Slider End -->
+<!-- New Tabs Hover Imple -->
+<!-- New Tabs Hover Imple end -->
+<!-- Kar Script -->
+<!-- Karamat js -->
+<script>
+    $(document).ready(function() {
+        $('.slick-slider').slick({
+            // Your Slick Slider options go here
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $("#karousel").owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            navText: ["<span class='carousel-control-prev-icon' aria-hidden='true'></span>", "<span class='carousel-control-next-icon' aria-hidden='true'></span>"]
+        });
+    });
+</script>
+<!-- Kar Script End -->
+<!-- Supply Chain Landing page Counter -->
+<!-- Support Service Accordian -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const accordionItems = document.querySelectorAll(".acc-item");
+
+        accordionItems.forEach((item) => {
+            const title = item.querySelector(".acc-item h3");
+            const content = item.querySelector(".acc-item p");
+            const chevron = item.querySelector(".acc-chevron");
+
+            title.addEventListener("click", () => {
+                const isExpanded = content.style.display === "block";
+
+                // Close all accordion items
+                accordionItems.forEach((otherItem) => {
+                    if (otherItem !== item) {
+                        otherItem.querySelector(".acc-item p").style.display = "none";
+                        otherItem.querySelector(".acc-chevron").style.transform =
+                            "rotate(180deg)";
+                    }
+                });
+
+                // Toggle the clicked accordion item
+
+                content.style.display = isExpanded ? "none" : "block";
+                chevron.style.transform = isExpanded ? "rotate(180deg)" : "rotate(0deg)";
+            });
+        });
+    });
+
+    // the following code allows opening of all accordions
+
+    // document.addEventListener("DOMContentLoaded", function () {
+    //   const accordionItems = document.querySelectorAll(".acc-item");
+
+    //   accordionItems.forEach((item) => {
+    //     const title = item.querySelector(".acc-item h3");
+    //     const content = item.querySelector(".acc-item p");
+    //     const chevron = item.querySelector(".acc-chevron");
+
+    //     title.addEventListener("click", () => {
+    //       const isExpanded = content.style.display === "block";
+
+    //       content.style.display =
+    //         content.style.display === "none" ? "block" : "none";
+    //       content.style.display = isExpanded ? "none" : "block";
+
+    //       chevron.style.transform = isExpanded ? "rotate(180deg)" : "rotate(0deg)";
+    //     });
+    //   });
+    // });
+</script>
+<!-- Support Service Accordian End -->
 <!-- Customization 2 sect slider -->
 <script>
     $(".owl-carousel").owlCarousel({
@@ -38,199 +126,13 @@
     });
 </script>
 <!-- Customization 2 sect slider End -->
-<!-- Request Demo Page -->
-<script>
-    //DOM elements
-    const DOMstrings = {
-        stepsBtnClass: 'multisteps-form__progress-btn',
-        stepsBtns: document.querySelectorAll(`.multisteps-form__progress-btn`),
-        stepsBar: document.querySelector('.multisteps-form__progress'),
-        stepsForm: document.querySelector('.multisteps-form__form'),
-        stepsFormTextareas: document.querySelectorAll('.multisteps-form__textarea'),
-        stepFormPanelClass: 'multisteps-form__panel',
-        stepFormPanels: document.querySelectorAll('.multisteps-form__panel'),
-        stepPrevBtnClass: 'js-btn-prev',
-        stepNextBtnClass: 'js-btn-next'
-    };
+<!--  -->
 
-
-    //remove class from a set of items
-    const removeClasses = (elemSet, className) => {
-
-        elemSet.forEach(elem => {
-
-            elem.classList.remove(className);
-
-        });
-
-    };
-
-    //return exect parent node of the element
-    const findParent = (elem, parentClass) => {
-
-        let currentNode = elem;
-
-        while (!currentNode.classList.contains(parentClass)) {
-            currentNode = currentNode.parentNode;
-        }
-
-        return currentNode;
-
-    };
-
-    //get active button step number
-    const getActiveStep = elem => {
-        return Array.from(DOMstrings.stepsBtns).indexOf(elem);
-    };
-
-    //set all steps before clicked (and clicked too) to active
-    const setActiveStep = activeStepNum => {
-
-        //remove active state from all the state
-        removeClasses(DOMstrings.stepsBtns, 'js-active');
-
-        //set picked items to active
-        DOMstrings.stepsBtns.forEach((elem, index) => {
-
-            if (index <= activeStepNum) {
-                elem.classList.add('js-active');
-            }
-
-        });
-    };
-
-    //get active panel
-    const getActivePanel = () => {
-
-        let activePanel;
-
-        DOMstrings.stepFormPanels.forEach(elem => {
-
-            if (elem.classList.contains('js-active')) {
-
-                activePanel = elem;
-
-            }
-
-        });
-
-        return activePanel;
-
-    };
-
-    //open active panel (and close unactive panels)
-    const setActivePanel = activePanelNum => {
-
-        //remove active class from all the panels
-        removeClasses(DOMstrings.stepFormPanels, 'js-active');
-
-        //show active panel
-        DOMstrings.stepFormPanels.forEach((elem, index) => {
-            if (index === activePanelNum) {
-
-                elem.classList.add('js-active');
-
-                setFormHeight(elem);
-
-            }
-        });
-
-    };
-
-    //set form height equal to current panel height
-    const formHeight = activePanel => {
-
-        const activePanelHeight = activePanel.offsetHeight;
-
-        DOMstrings.stepsForm.style.height = `${activePanelHeight}px`;
-
-    };
-
-    const setFormHeight = () => {
-        const activePanel = getActivePanel();
-
-        formHeight(activePanel);
-    };
-
-    //STEPS BAR CLICK FUNCTION
-    DOMstrings.stepsBar.addEventListener('click', e => {
-
-        //check if click target is a step button
-        const eventTarget = e.target;
-
-        if (!eventTarget.classList.contains(`${DOMstrings.stepsBtnClass}`)) {
-            return;
-        }
-
-        //get active button step number
-        const activeStep = getActiveStep(eventTarget);
-
-        //set all steps before clicked (and clicked too) to active
-        setActiveStep(activeStep);
-
-        //open active panel
-        setActivePanel(activeStep);
-    });
-
-    //PREV/NEXT BTNS CLICK
-    DOMstrings.stepsForm.addEventListener('click', e => {
-
-        const eventTarget = e.target;
-
-        //check if we clicked on `PREV` or NEXT` buttons
-        if (!(eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`) || eventTarget.classList.contains(`${DOMstrings.stepNextBtnClass}`))) {
-            return;
-        }
-
-        //find active panel
-        const activePanel = findParent(eventTarget, `${DOMstrings.stepFormPanelClass}`);
-
-        let activePanelNum = Array.from(DOMstrings.stepFormPanels).indexOf(activePanel);
-
-        //set active step and active panel onclick
-        if (eventTarget.classList.contains(`${DOMstrings.stepPrevBtnClass}`)) {
-            activePanelNum--;
-
-        } else {
-
-            activePanelNum++;
-
-        }
-
-        setActiveStep(activePanelNum);
-        setActivePanel(activePanelNum);
-
-    });
-
-    //SETTING PROPER FORM HEIGHT ONLOAD
-    window.addEventListener('load', setFormHeight, false);
-
-    //SETTING PROPER FORM HEIGHT ONRESIZE
-    window.addEventListener('resize', setFormHeight, false);
-
-    //changing animation via animation select !!!YOU DON'T NEED THIS CODE (if you want to change animation type, just change form panels data-attr)
-
-    const setAnimationType = newType => {
-        DOMstrings.stepFormPanels.forEach(elem => {
-            elem.dataset.animation = newType;
-        });
-    };
-
-    //selector onchange - changing animation
-    const animationSelect = document.querySelector('.pick-animation__select');
-
-    animationSelect.addEventListener('change', () => {
-        const newAnimationType = animationSelect.value;
-
-        setAnimationType(newAnimationType);
-    });
-</script>
-<!-- Request Demo Page End -->
 <!-- Cust 2 sect Slider Script -->
 
 <!-- Cust 2 sect Slider Script End -->
 <!-- Tabs Hover Section -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
 <script>
     (function($) {

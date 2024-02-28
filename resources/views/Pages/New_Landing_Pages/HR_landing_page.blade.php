@@ -18,67 +18,16 @@
                             <p>Dynamics 365 Human Resources is a cloud-based application that helps organizations manage their human capital and optimize their workforce. It provides features such as employee profiles, performance management, compensation management, benefits management, leave and absence management, employee development, and analytics. Dynamics 365 Human Resources also integrates with other Dynamics 365 applications and Microsoft products, such as Power Platform, Teams, and LinkedIn</p>
                             <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-hr-div">
                                 <div class="text-start mb-2">
-                                    <a href="#popup1" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
-                                    <a href="tel:+971526510534" class="btn m-mrgn-top-f btn-theme ms-sm-3 vert-align-sub">+971 52 651 0534</a>
+                                    <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="popup1" class="overlay">
-                <div class="popup">
-                    <div class="contact-card">
-                        <div>
-                            <h2>Start your ERP journey!</h2>
-                            <a class="close" href="#">&times;</a>
-                            <form class="contact-form" id="contactForm" action="/contact-form" enctype="multipart/form-data" method="post">
-                                @csrf
-                                <div class="row">
-                                    <div class="col-md-6 mb-4">
-                                        <input type="text" id="name" name="name" class="form-control" placeholder="Full Name" required />
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <input type="text" id="cname" name="company" class="form-control" placeholder="Company Name" />
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <input type="number" id="phone" name="phone" class="form-control" placeholder="Phone Number +97152 768 4867*" required="" />
-                                    </div>
-                                    <div class="col-md-6 mb-4">
-                                        <input type="email" id="emailst" onkeyup="validateEmailst()" name="email" class="form-control" placeholder="Email*" required="" />
-                                        <span id="error-messagest" class="error-message"></span>
-                                    </div>
-                                    <div class="col-md-12 mb-4">
-                                        <select id="solution" class="form-control" name="solutions" required="">
-                                            <option disabled="disabled" selected="selected" value="">Choose a Solution</option>
-                                            <option value="Dynamics 365 Business Central">Dynamics 365 Business Central</option>
-                                            <option value="Dynamics 365 Finance and Supply Chain">Dynamics 365
-                                                Finance and Supply Chain
-                                            </option>
-                                            <option value="Dynamics AX">Dynamics AX</option>
-                                            <option value="Dynamics Navision">Dynamics Navision</option>
-                                            <option value="Dynamics 365 Sales ">Dynamics 365 Sales </option>
-                                            <option value="Dynamics 365 Service">Dynamics 365 Service</option>
-                                            <option value="Dynamics 365 Marketing">Dynamics 365 Marketing
-                                            </option>
-                                            <option value="Dynamics 365 Retail and Commerce">Dynamics 365 Retail and Commerce</option>
-                                            <option value="Dynamics 365 HR">Dynamics 365 HR</option>
-                                            <option value="Dynamics 365 Project Management">Dynamics 365 Project Management</option>
-                                            <option value="Microsoft Office 365">Microsoft Office 365</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button type="submit" class="btn btn-outline-theme px-5">Submit</a>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-
 </header>
 <!--Header Ends-->
 <section class="second-sect-hr-inc">

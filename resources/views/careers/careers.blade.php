@@ -1,4 +1,4 @@
-@extends('main')
+@extends('newhomemain')
 @foreach($careermain as $careermains)
 @section('title', $careermains->meta_title)
 @section('meta_description', $careermains->meta_description)

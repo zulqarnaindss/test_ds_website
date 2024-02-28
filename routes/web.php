@@ -16,6 +16,7 @@ Route::get('/implementation', [FrontController::class, 'NewImplServices']);
 Route::get('/upgrade', [FrontController::class, 'NewUpgrServices']);
 Route::get('/remote-resources', [FrontController::class, 'NewRemServices']);
 Route::get('/customization', [FrontController::class, 'NewCustServices']);
+Route::get('/support', [FrontController::class, 'NewSupportService']);
 
 
 // New Services Page End

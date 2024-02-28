@@ -125,6 +125,15 @@ class FrontController extends Controller
         $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
         return view('Pages.New_Services_Pages.Upgrades', compact('bacontact','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution'));
     }
+    public function NewSupportService()
+    {
+        $bacontact = Bcontact::all();
+        $footersectionone = Footersectionone::all();
+        $footersolution = Footersolution::all();
+        $solutionindustrys = Solutioninsdustry::all();
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
+        return view('Pages.New_Services_Pages.Support', compact('bacontact','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution'));
+    }
     public function NewRemServices()
     {
         $bacontact = Bcontact::all();
@@ -403,8 +412,8 @@ class FrontController extends Controller
         $topheader = Topheader::all();
         $navs = Navlogo::all();
         $navbars = Navbar::all();
-
-        return view('careers.career_form_finance', compact('navbars', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs'));
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
+        return view('careers.career_form_finance', compact('navbars','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs'));
     }
 
     public function careerFormbusiness()
@@ -418,8 +427,8 @@ class FrontController extends Controller
         $topheader = Topheader::all();
         $navs = Navlogo::all();
         $navbars = Navbar::all();
-
-        return view('careers.career_form_business', compact('navbars', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs'));
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
+        return view('careers.career_form_business', compact('navbars','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs'));
     }
 
     public function careerFormc()
@@ -433,8 +442,8 @@ class FrontController extends Controller
         $topheader = Topheader::all();
         $navs = Navlogo::all();
         $navbars = Navbar::all();
-
-        return view('careers.career_form_c', compact('navbars', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs'));
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
+        return view('careers.career_form_c', compact('navbars','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs'));
     }
 
     public function careerForm(Request $request)
@@ -448,11 +457,12 @@ class FrontController extends Controller
         $topheader = Topheader::all();
         $navs = Navlogo::all();
         $navbars = Navbar::all();
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
         $blog = Whychoose::where('slug', '=', $request->slug)->first();
         $featuredjob = featuredjob::all();
         //   dd($blogs);
         if ($blog) {
-            return view('careers.career_form', compact('featuredjob', 'navbars', 'blog', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs'));
+            return view('careers.career_form', compact('featuredjob','blogsndss', 'navbars', 'blog', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs'));
         } else {
             abort(404);
         }
@@ -502,7 +512,8 @@ class FrontController extends Controller
         $topheader = Topheader::all();
         $navs = Navlogo::all();
         $navbars = Navbar::all();
-        return view('Pages.thank', compact( 'backgetquote', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs', 'navbars'));
+        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
+        return view('Pages.thank', compact( 'backgetquote','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs', 'navbars'));
     }
     public function landing_fo()
     {

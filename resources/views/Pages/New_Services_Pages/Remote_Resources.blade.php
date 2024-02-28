@@ -3,233 +3,500 @@
 @section('meta_description' , '')
 @section('meta_keywords', '')
 @section('contents')
-<!--Header Starts-->
-<header class="header-bg-Rem-sec">
-    <div>
-        <div class="container-xl">
+<div class="hero-sec-padding">
+    <div class="container">
+        <div class="px-xl-5">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="hero-sec-content">
+                        <h3>Are you looking for Remote Resources for Dynamics 365?</h3>
+                        <p>POV:BOOST YOUR BUSINESS WITH REMOTE RESOURCES BY DYNAMICS 365 Rapidly bridge the skills gap and grow your in-house Functional & Consultant and development team with Microsoft dynamics 365 Suite featuring D365 Finance. Dynamics 365 Business Central, Dynamics 365 Supply Chain, Dynamics 365 HR & Microsoft Dynamics CRM, .NET QA engineers, solution architects.</p>
+                    </div>
+                    <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-Rem-div">
+                        <div class="text-start mb-2">
+                            <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center mb-4">
+                        <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="34" viewBox="0 0 46 44" fill="none">
+                            <path d="M44.2935 22.5C44.2935 20.94 44.1497 19.44 43.8827 18H22.5986V26.52H34.7609C34.2268 29.26 32.6243 31.58 30.2206 33.14V38.68H37.555C41.8282 34.84 44.2935 29.2 44.2935 22.5Z" fill="#4285F4" />
+                            <path d="M22.5984 43.9999C28.7001 43.9999 33.8157 42.0399 37.5548 38.6799L30.2204 33.1399C28.2071 34.4599 25.639 35.2599 22.5984 35.2599C16.7227 35.2599 11.7305 31.3999 9.94309 26.2H2.42383V31.8799C6.14237 39.0599 13.7643 43.9999 22.5984 43.9999Z" fill="#34A853" />
+                            <path d="M9.9435 26.1799C9.49152 24.8599 9.22444 23.4599 9.22444 21.9999C9.22444 20.5399 9.49152 19.1399 9.9435 17.8199V12.1399H2.42424C0.88341 15.0999 0 18.4399 0 21.9999C0 25.5599 0.88341 28.8999 2.42424 31.8599L8.2794 27.4199L9.9435 26.1799Z" fill="#FBBC05" />
+                            <path d="M22.5984 8.75999C25.9266 8.75999 28.885 9.87998 31.2476 12.04L37.7191 5.73999C33.7952 2.18 28.7001 0 22.5984 0C13.7643 0 6.14237 4.93999 2.42383 12.14L9.94309 17.82C11.7305 12.62 16.7227 8.75999 22.5984 8.75999Z" fill="#EA4335" />
+                        </svg>
+                        <h6 class="mb-0 ms-2 text-warning google-rated-point fw-semibold">4.2</h6>
+                        <div class="ms-2 stars-inner-st">
+                            <i class="bi-star-fill text-warning"></i>
+                            <i class="bi-star-fill text-warning"></i>
+                            <i class="bi-star-fill text-warning"></i>
+                            <i class="bi-star-fill text-warning"></i>
+                            <i class="bi-star-fill text-warning"></i>
+                        </div>
+                        <h6 class="mb-0 ms-2 text-info rated-care-txt">Top-rated care</h6>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="hero-sec-img">
+                        <img src="{{asset('newassets')}}/karimages/remote-resource.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- 2nd Section Resource -->
+<section class="">
+    <div class="container about-sec-padding">
+        <div class="px-xl-5">
+            <div class="row kar-about-sec-heading">
+                <h3 class="col-lg-12 font-s-h3-new">Accelerate your Business with Resource Augmentation</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="slick-slider">
+                        <!-- Slick Slide one -->
+                        <div class="slick-slide">
+                            <div class=" d-flex align-items-center row">
+                                <div class=" col-lg-6 col-sm-12 pr-5">
+                                    <div class="kar-about-content">
+                                        <h4 class="kar-about-content-h4">Resource & Staff Augmentation Services for a range of Industries</h4>
+                                        <p class="kar-about-desc">We have full-fledge team of 300+ consultants that can assist you with complete digital transformation of your business processes and optimize it to increase productivity & Profits. We have a list of 100+ Satisfied Customers, based in Dubai USA & UK, who are taking our resources on Project or Full time basis.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12 p-0">
+                                    <div class="kar-about-img">
+                                        <img src="{{asset('newassets')}}/karimages/resource-augmentation.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-5">
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/arrow-narrow-up-right.svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Access Unique expertise</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/code-browser.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Optimize development cost</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/dataflow-04.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Remote flexibility</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/svgexport-6 1.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Move to the Faster</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 d-flex align-items-center justify-content-center mb-5">
+                                </div>
+                            </div>
+                            <!-- Additional slides here -->
+                        </div>
+                        <!-- Slick Slide two -->
+                        <div class="slick-slide">
+                            <div class=" d-flex align-items-center row">
+                                <div class=" col-lg-6 col-sm-12 pr-5">
+                                    <div class="kar-about-content">
+                                        <h4 class="kar-about-content-h4">Based On Dynamics 365 Business Central</h4>
+                                        <p class="kar-about-desc">Remote resource in D365 Business Central is a feature that allows you to host your data in an Azure Data Lake outside of Business Central.
+                                            Remote resource in D365 Business Central can help you optimize your data storage and analysis, as well as manage your projects and resources more efficiently.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12 p-0">
+                                    <div class="kar-about-img">
+                                        <img src="{{asset('newassets')}}/karimages/business-central.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-5">
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 382.svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Access Unique expertise</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 383.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Optimize development cost</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 384.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Remote flexibility</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 385.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Move to the Faster</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 d-flex align-items-center justify-content-center mb-5">
+                                </div>
+                            </div>
+                            <!-- Additional slides here -->
+                        </div>
+                        <!-- slick slider three -->
+                        <div class="slick-slide">
+                            <div class=" d-flex align-items-center row">
+                                <div class=" col-lg-6 col-sm-12 pr-5">
+                                    <div class="kar-about-content">
+                                        <h4 class="kar-about-content-h4">Based On Dynamics 365 Finance</h4>
+                                        <p class="kar-about-desc">Our 10+ years of experienced Digital Transformation & Business Consultant has implemented Finance in over 100+ organization, this gives us an edge of complete product knowledge as well as implementation knowhow. Being a Microsoft Partners we are always one step a head to understand your project delivery pain- points and team management challenges. We have a Application architects, Project Managers, Account Managers, Technical & Functional resources.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12 p-0">
+                                    <div class="kar-about-img">
+                                        <img src="{{asset('newassets')}}/karimages/finance.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-5">
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 388.svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Access Unique expertise</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 389.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Optimize development cost</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 390.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Remote flexibility</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 391.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Move to the Faster</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 d-flex align-items-center justify-content-center mb-5">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slick slider four -->
+                        <div class="slick-slide">
+                            <div class=" d-flex align-items-center row">
+                                <div class=" col-lg-6 col-sm-12 pr-5">
+                                    <div class="kar-about-content">
+                                        <h4 class="kar-about-content-h4">Based On Dynamics 365 Supply Chain</h4>
+                                        <p class="kar-about-desc">In D354 supply chain, remote resources are used to optimize the production process and reduce costs. Remote resources can perform operations such as assembly, testing, quality control, packaging, or shipping from various locations around the world. Remote resources can also collaborate with other resources through online platforms and tools. Remote resources can be scheduled and monitored through the D354 supply chain management system, which integrates with the Dynamics 365 platform.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12 p-0">
+                                    <div class="kar-about-img">
+                                        <img src="{{asset('newassets')}}/karimages/supply-chain 2.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-5">
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 392.svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Streamline warehouse operations</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 393.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Build an Intelligent Factory</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 394.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Maximize Asset Productivity</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 d-flex align-items-center justify-content-center mb-5">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slick slider five -->
+                        <div class="slick-slide">
+                            <div class=" d-flex align-items-center row">
+                                <div class=" col-lg-6 col-sm-12 pr-5">
+                                    <div class="kar-about-content">
+                                        <h4 class="kar-about-content-h4">Based On Dynamics 365 HR & Payroll</h4>
+                                        <p class="kar-about-desc">Remote resource in D365 Human Resources and Payroll is a feature that allows you to manage your workers’ payroll information and processes from within Human Resources.
+                                            Remote resource in D365 Human Resources and Payroll can help you optimize your payroll and benefits administration, as well as comply with the legal and tax requirements of your region.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12 p-0">
+                                    <div class="kar-about-img">
+                                        <img src="{{asset('newassets')}}/karimages/hr-payroll 1.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-5">
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 395.svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Streamline warehouse operations</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 396.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Build an Intelligent Factory</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 397.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Maximize Asset Productivity</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 d-flex align-items-center justify-content-center mb-5">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slick slider six -->
+                        <div class="slick-slide">
+                            <div class=" d-flex align-items-center row">
+                                <div class=" col-lg-6 col-sm-12 pr-5">
+                                    <div class="kar-about-content">
+                                        <h4 class="kar-about-content-h4">Based On Dynamics 365 Sales</h4>
+                                        <p class="kar-about-desc">Remote resource in D365 Sales is a feature that allows you to host your data in an Azure Data Lake outside of Business Central. Remote resource in D365 Sales can help you optimize your data storage and analysis, as well as manage your projects and resources more efficiently.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-12 p-0">
+                                    <div class="kar-about-img">
+                                        <img src="{{asset('newassets')}}/karimages/sales 3.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-5">
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 399.svg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Streamline warehouse operations</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 400.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Build an Intelligent Factory</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                    <div class="card">
+                                        <img src="{{asset('newassets')}}/karimages/image 401.svg" class="card-img-top kar-card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <p class="card-text">Maximize Asset Productivity</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 mb-4">
+                                </div>
+                                <div class="col-lg col-md-4 col-sm-6 d-flex align-items-center justify-content-center mb-5">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more slides as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Benifits Section -->
+<section>
+    <div class="kar-benfit-padding">
+        <div class="container">
             <div class="px-xl-5">
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4 order-lg-2 ms-auto text-center mb-4">
-                    </div>
-                    <div class="col-xl-8 col-lg-8 order-lg-1 mb-4">
-                        <div class="content-box mb-4 text-lg-start text-center">
-                            <h1 class="cstm-n-bc-lnding-h">Are you looking for Remote Resources for Dynamics 365?</h1>
-                            <p>POV:BOOST YOUR BUSINESS WITH REMOTE RESOURCES BY DYNAMICS 365
-                            </p>
-                            <p>
-                                Rapidly bridge the skills gap and grow your in-house Functional & Consultant and development team with Microsoft dynamics 365 Suite featuring D365 Finance. Dynamics 365 Business Central, Dynamics 365 Supply Chain, Dynamics 365 HR & Microsoft Dynamics CRM, .NET QA engineers, solution architects.</p>
-                            <div class="last-blue-sect-mrg-Rem">
-                                <div class="row">
-                                    <div class="col-xl-6 col-md-6 align-items-stretch">
-                                        <h5>Ready in Just 1 Day</h5>
-                                        <h6 class="h-6-last-sect-Rem">Resource will be ready to join in a Day</h6>
-                                    </div>
-                                    <div class="col-xl-6 col-md-6 align-items-stretch">
-                                        <h5>Well Managed Talent</h5>
-                                        <h6 class="h-6-last-sect-Rem">In-house well trained resources</h6>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-cfinance-div">
-                                <div class="text-start mb-2">
-                                    <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
-                                    <a href="tel:+971526510534" class="btn m-mrgn-top-f btn-theme ms-sm-3 vert-align-sub">+971 52 651 0534</a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-10 kar-benifit-main-cont">
+                        <h3 class="kar-benifit-mhead">The benefits of using our remote IT support services</h3>
+                        <p class="kar-benifit-mdesc">Our consultants can manage smooth Microsoft Dynamics 365 upgrades & migrations by using proactive methods to ensure safe and dependable data transfer. We move your data from your current state to the new system in an orderly and gradual way.</p>
                     </div>
                 </div>
-            </div>
-           
-        </div>
-    </div>
-
-</header>
-<!--Header Ends-->
-<section class="bg-img-for-Rem-seco-sect">
-    <div class="container-lg mt-Rem-div">
-        <div class="px-xl-5">
-            <h3 class="mt-Rem-div mrbtom-for-Rem-2 font-s-h3 ">Struggling with Resources & project completion? </h3>
-            <div class="mrgn-top-Rem-2-sect">
-                <div class="row ">
-                    <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
-                        <div class="Rem-color-bg-sect-card">
-                            <div class="card-content">
-                                <div>
-                                    <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/bc.webp" class="img-fluid" alt="" />
-                                    <h4>Dynamics 365 Business Central </h4>
-                                </div>
-                                <div>
-                                    <p class="left-para-sect-seco-Rem-wd">D365 Business Central is a cloud-based solution that helps small and medium-sized businesses manage their finances, operations, sales, and customer service.</p>
-                                </div>
+                <div class="row justify-content-center">
+                    <!-- cards -->
+                    <div class="col-lg col-md-4 col-sm-6 mb-4">
+                        <div class="card">
+                            <img src="{{asset('newassets')}}/karimages/clock-fast-forward.svg" class="card-img-top" alt="...">
+                            <div class="card-body kar-benifit-card-body">
+                                <p class="card-text kar-benifit-card-text">Fast call wait times of under 5 min call and speak to an Engineer</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
-                        <div class="Rem-color-bg-sect-card right-div-sect-seco-Rem-mrgn">
-                            <div class="card-content">
-                                <div>
-                                    <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/finance.webp" class="img-fluid" alt="" />
-                                    <h4>Dynamics 365 Finance</h4>
-                                </div>
-                                <p>D365 Finance integrates seamlessly with other Microsoft applications and services. Whether you need to manage your cash flow, budget, tax, or financial reporting, D365 Finance can help you achieve your goals and transform your business.</p>
+                    <div class="col-lg col-md-4 col-sm-6 mb-4">
+                        <div class="card">
+                            <img src="{{asset('newassets')}}/karimages/trend-up-01.svg" class="card-img-top" alt="...">
+                            <div class="card-body kar-benifit-card-body">
+                                <p class="card-text kar-benifit-card-text">Fast call wait times of under 5 min call and speak to an Engineer</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
-                        <div class="Rem-color-bg-sect-card">
-                            <div class="card-content">
-                                <div>
-                                    <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/sc.webp" class="img-fluid" alt="" />
-                                    <h4>Dynamics 365 Supply chain</h4>
-                                </div>
-                                <p class="left-para-sect-seco-Rem-wd">D365 Supply Chain is a cloud-based solution that helps you optimize your supply chain operations with real-time visibility, agile planning, and advanced insights.</p>
+                    <div class="col-lg col-md-4 col-sm-6 mb-4">
+                        <div class="card">
+                            <img src="{{asset('newassets')}}/karimages/certificate-01.svg" class="card-img-top" alt="...">
+                            <div class="card-body kar-benifit-card-body">
+                                <p class="card-text kar-benifit-card-text">Fast call wait times of under 5 min call and speak to an Engineer</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
-                        <div class="Rem-color-bg-sect-card right-div-sect-seco-Rem-mrgn">
-                            <div class="card-content">
-                                <div>
-                                    <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/hr.webp" class="img-fluid" alt="" />
-                                    <h4>Dynamics 365 HR</h4>
-                                </div>
-                                <p>D365 Human Resource is part of the Microsoft Dynamics 365 suite of products, which connects your business processes and data across various applications and services.</p>
+                    <div class="col-lg col-md-4 col-sm-6 mb-4">
+                        <div class="card">
+                            <img src="{{asset('newassets')}}/karimages/user-check-01.svg" class="card-img-top" alt="...">
+                            <div class="card-body kar-benifit-card-body">
+                                <p class="card-text kar-benifit-card-text">Fast call wait times of under 5 min call and speak to an Engineer</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
-                        <div class="Rem-color-bg-sect-card">
-                            <div class="card-content">
-                                <div>
-                                    <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/sales.webp" class="img-fluid" alt="" />
-                                    <h4>Microsoft Dynamics SALES</h4>
-                                </div>
-                                <p class="left-para-sect-seco-Rem-wd">D365 Sales is part of the Microsoft Dynamics 365 suite of products, which connects your business processes and data across various applications and services.</p>
+                    <div class="col-lg col-md-4 col-sm-6 mb-4">
+                        <div class="card">
+                            <img src="{{asset('newassets')}}/karimages/award-03.svg" class="card-img-top" alt="...">
+                            <div class="card-body kar-benifit-card-body">
+                                <p class="card-text kar-benifit-card-text">Fast call wait times of under 5 min call and speak to an Engineer</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
-                        <div class="Rem-color-bg-sect-card right-div-sect-seco-Rem-mrgn">
-                            <div class="card-content">
-                                <div>
-                                    <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/marketing.webp" class="img-fluid" alt="" />
-                                    <h4>Microsoft Dynamics MARKETING</h4>
-                                </div>
-                                <p>D365 Marketing connects your business processes and data across various applications and services. Whether you need to generate leads, nurture prospects, increase loyalty, or measure impact.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-<section class="contact-sect-new-bg-Rem">
-    <div class="container-lg">
-        <div class="px-xl-5">
-            <div class="contact-card-Rem">
-                <div>
-                    <div class="">
-                        <h3 class="">Welcome Your NEW Team</h3>
-                    </div>
-                    <form class="contact-form" id="contactForm" action="/contact-form" enctype="multipart/form-data" method="post">
-                        <input type="hidden" name="_token" value="iZ7AUeTd1zBGuKipoXQPlurY1Zhcv9EovLwAJpcf">
-                        <div class="row">
-                            <div class="col-md-4 mb-3">
-                                <input type="text" id="name" name="name" class="form-control form-control-Rem" placeholder="Full Name" required="">
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <input type="text" class="form-control form-control-Rem" id="phone" name="phone" placeholder="Number Format +971 52 651 0534" required="">
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <input type="text" id="cname" name="company" class="form-control form-control-Rem" placeholder="Organization Name">
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <input type="email" id="email" name="email" class="form-control form-control-Rem" placeholder="Email" required="">
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <select id="solution" class="form-control form-control-Rem" name="solutions" required="">
-                                    <option disabled="disabled" selected="selected" value="">Select your Product/ Solution</option>
-                                    <option value="Dynamics 365 Business Central">Dynamics 365 Business Central</option>
-                                    <option value="Dynamics 365 Finance and Supply Chain">Dynamics 365
-                                        Finance and Supply Chain
-                                    </option>
-                                    <option value="Dynamics AX">Dynamics AX</option>
-                                    <option value="Dynamics Navision">Dynamics Navision</option>
-                                    <option value="Dynamics 365 Sales ">Dynamics 365 Sales </option>
-                                    <option value="Dynamics 365 Service">Dynamics 365 Service</option>
-                                    <option value="Dynamics 365 Marketing">Dynamics 365 Marketing
-                                    </option>
-                                    <option value="Dynamics 365 Retail and Commerce">Dynamics 365 Retail and Commerce</option>
-                                    <option value="Dynamics 365 HR">Dynamics 365 HR</option>
-                                    <option value="Dynamics 365 Project Management">Dynamics 365 Project Management</option>
-                                    <option value="Microsoft Office 365">Microsoft Office 365</option>
-                                </select>
-                            </div>
-                            <div class="col-md-12 mb-3">
-                                <textarea name="message" class="form-control form-control-Rem" rows="4" placeholder="Please explain your project/ requirement &amp; our consultant will connect with you with relevant solution."></textarea>
-                            </div>
-                            <div class="col-md-12">
-                                <button type="submit" class="btn btn-32 btn-outline-theme px-5">Hire a Team NOW</button>
-                            </div>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="Bld-sect-Rem">
-    <div class="container-lg">
-        <div class="px-xl-5">
-            <h3 class="mrbtom-for-Rem-2 font-s-h3-B-sect-Rem text-center ">Build Amazing Teams on Demand</h3>
-            <div class="last-blue-sect-mrg-Rem-aftr-cont">
-                <div class="row">
-                    <div class="col-xl-4 col-md-4 align-items-stretch">
-                        <h6 class="h-6-last-sect-Rem-aftr-cont">Pre vetted & Well Trained Resources</h6>
-                    </div>
-                    <div class="col-xl-4 col-md-4 align-items-stretch">
-                        <h6 class="h-6-last-sect-Rem-aftr-cont">Ready To Join FromToday</h6>
-                    </div>
-                    <div class="col-xl-4 col-md-4 align-items-stretch">
-                        <h6 class="h-6-last-sect-Rem-aftr-cont">Save 50% Of Resource Logistics Cost</h6>
-                    </div>
-                </div>
 
-            </div>
-        </div>
-    </div>
-
-</section>
-<section class="Rem-lst-Blue-sec">
-    <div class="">
-        <div class="container-lg">
+<!-- accordian section -->
+<section>
+    <div class="kar-faq-padding">
+        <div class="container">
             <div class="px-xl-5">
-                <h2 class="my-4">Why Choose Dynamics Stream UK ?</h2>
-                <div class="row align-items-center">
-                    <div class="col-xl-8 col-md-8 align-items-stretch">
-                        <div class="content-box">
-
-                            <h5>Migration Security & Reliability</h5>
-                            <p class="">Our consultants can manage smooth Microsoft Dynamics 365 upgrades and migrations by using proactive methods to ensure safe and dependable data transfer. We move your data from your current state to the new system in an orderly and gradual way.</p>
-                            <h5 class="">Certified Microsoft Solutions Partner</h5>
-                            <p class="">We are an authorized gold partner for Microsoft products and services, with extensive expertise and years of experience. We manage your complete system requirements, from Dynamics 365 implementation through upgrades and maintenance. We can build a robust, efficient, and profitable solution for your organization since we have professionals, effective methodology, and a safe data migrating skill set.</p>
-                            <h5>Experienced consultants with 300+ Migrations & Upgares</h5>
-                            <p class="">It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
-                        </div>
+                <h3 class="kar-benifit-mhead">Dynamics Stream Resource Augmentation Approaches</h3>
+                <p class="kar-benifit-mdesc">Our consultants can manage smooth Microsoft Dynamics 365 upgrades & migrations by using proactive methods to ensure safe and dependable data transfer. We move your data from your current state to the new system in an orderly and gradual way.</p>
+                <div class="row ul-pdng-left-zero">
+                    <div class="col-xl-6 col-md-6">
+                        <ul class="grid grid-85 mt-zero equal ae-2 fromCenter  text-algn-left" data-equal-collapse-width="767">
+                            <li class="col-12-12 col-tablet-1-2 col-phablet-1-1 ae-3"><a class="togglefaq accordion bg-color-plus-Rem">How do we deliver remote IT support securely?</a>
+                                <div class="faqanswer" style="display: none;">
+                                    <p class="parge">Once onboarded, all our customers receive the majority of their IT Support via a remote connection direct to a Service Desk Engineer. With user consent, they can remotely take over the device of the employee who has logged the ticket. This enables us to provide fast, efficient support there and then without additional delay as our Engineers can access everything they need to resolve faults, directly across customer devices.</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-xl-4 col-md-4 align-items-stretch text-center">
-                        <img src="{{asset('assets')}}/images/new-services-pages/remote-assist/why-choose-ds-remote.webp" class="img-fluid last-logo-img-Rem" alt="" />
+                    <div class="col-xl-6 col-md-6">
+                        <ul class="grid grid-85 mt-zero equal ae-2 fromCenter text-algn-left" data-equal-collapse-width="767">
+                            <li class="col-12-12 col-tablet-1-2 col-phablet-1-1 ae-3"><a class="togglefaq accordion bg-color-plus-Rem">IT support delivered remote to remote</a>
+                                <div class="faqanswer" style="display: none;">
+                                    <p class="parge">Our Service Desk is able to deliver remote support to the vast majority of our customers, 100% remotely meaning your remote workforce can be fully supported around the clock no matter the location.</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-
+                <div class="pdng-top-1rem">
+                    <div class="row  ul-pdng-left-zero">
+                        <div class="col-xl-6 col-md-6 ">
+                            <ul class="grid grid-85 equal ae-2 mt-zero fromCenter text-algn-left" data-equal-collapse-width="767">
+                                <li class="col-12-12 col-tablet-1-2 col-phablet-1-1 ae-3"><a class="togglefaq accordion bg-color-plus-Rem">A secure remote connection to all your devices</a>
+                                    <div class="faqanswer" style="display: none;">
+                                        <p class="parge">Our remote support connection is highly secure and encrypted preventing anyone else from seeing or accessing that device other than the specified user and Engineer, and for added reassurance once the remote support session ends we are unable to reconnect to a device without a new session being started.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-6 col-md-6">
+                            <ul class="grid grid-85 equal ae-2 mt-zero fromCenter text-algn-left" data-equal-collapse-width="767">
+                                <li class="col-12-12 col-tablet-1-2 col-phablet-1-1 ae-3"><a class="togglefaq accordion bg-color-plus-Rem">Tailored Customization</a>
+                                    <div class="faqanswer" style="display: none;">
+                                        <p class="parge">Optimise Dynamics 365 to meet your unique business requirements while minimising risks associated with excessive modifications, ensuring scalability and sustainability.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- migration security section -->
+<div class="migration-sec-padding">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 col-md-12">
+                <div class="kar-left-img">
+                    <img src="{{asset('newassets')}}/karimages/why-choose-dss-remote.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="kar-mig-content">
+                    <h5>Migration Security & Reliability</h5>
+                    <p>Our consultants can manage smooth Microsoft Dynamics 365 upgrades & migrations by using proactive methods to ensure safe and dependable data transfer. We move your data from your current state to the new system in an orderly and gradual way.</p>
+                    <h5>Certified Microsoft Solutions Partner</h5>
+                    <p>We are an authorized gold partner for Microsoft products and services, with extensive expertise and years of experience. We manage your complete system requirements, from Dynamics 365 implementation through upgrades and maintenance. We can build a robust, efficient, and profitable solution for your organization since we have professionals, effective methodology, and a safe data migrating skill set.</p>
+                    <h5>Experienced consultants with 300+ Migrations & Upgares</h5>
+                    <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container-lg mt-5">
     <div class="px-xl-5">
         <div class="row industry-bg-sec ">
@@ -557,5 +824,5 @@
         </div>
     </div>
 </div>
-
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 @endsection

@@ -1,4 +1,4 @@
-@extends('main_2')
+@extends('newhomemain')
 @section('title', $blog->meta_title)
 @section('meta_description', $blog->meta_description)
 @section('meta_keywords', $blog->meta_keyword)

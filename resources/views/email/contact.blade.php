@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
- <h2>Contact Form Data</h2>
+ <h2>UK website Contact Form Data</h2>
        <h2> Name: <strong>{{ $data['name'] }}</strong></h2> 
       <h2> Email: <strong>{{ $data['email'] }}</strong></h2>  
        <h2> Phone: <strong>{{ $data['phone'] }}</strong></h2> 

@@ -8,8 +8,8 @@
 <meta content="@yield('meta_keywords')" name="keywords">
 <link href="{{asset('assets')}}/images/favicons/newfavicon.png" rel="icon">
 <!-- Compressed Styles -->
-<!-- <link href="{{asset('assets')}}/css/slides.min.css" rel="stylesheet" type="text/css"> -->
 <link href="{{asset('assets')}}/css/style1.css" rel="stylesheet" type="text/css">
+<link href="{{asset('assets')}}/css/style2.css" rel="stylesheet" type="text/css">
 <!-- image animation about us section -->
 
 <!-- New Navbar CSS -->
@@ -31,15 +31,6 @@
 <link rel="stylesheet" href="https://unpkg.com/simplebar@5.3.0/dist/simplebar.min.css">
 <script src="https://unpkg.com/simplebar@5.3.0/dist/simplebar.min.js"></script>
 <!-- New Web Home End -->
-
-
-<!-- Slider for industries for BC landing -->
-<!-- Slider for industries for BC landing End -->
-
-<!-- image animation about us section End -->
-<!-- <link rel="stylesheet" rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<!-- Fonts and Material Icons -->
-<link rel="preload" as="image" fetchpriority="high" href="https://dynamicsstream.com/assets/images/new-home-images/slider-images/finance-slider.webp">
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16453423341"></script>
 <script>
@@ -88,3 +79,13 @@ https://www.facebook.com/tr?id=2119296408408049&ev=PageView&noscript=1" /></nosc
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
+<!-- Kar Head Sect -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- Kar Head Sect End -->
+
+<!-- Thank -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+<!-- Thank End -->
