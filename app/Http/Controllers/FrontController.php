@@ -215,15 +215,6 @@ class FrontController extends Controller
         $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
         return view('Pages.cookie',compact('blogsndss'));
     }
-    public function newabout()
-    {
-        $navbars = Navbar::all();
-        $footersectionone = Footersectionone::all();
-        $footersolution = Footersolution::all();
-        $solutionindustrys = Solutioninsdustry::all();
-
-        return view('Pages.solutions.new-about', compact('navbars', 'solutionindustrys', 'footersectionone', 'footersolution'));
-    }
 
     public function about()
     {
@@ -311,17 +302,6 @@ class FrontController extends Controller
         $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
         return view('Pages.D365_Pricing.Contact_3', compact('pricing','blogsndss', 'solutionindustrys', 'navbars', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs'));
     }
-
-    public function dynamics365()
-    {
-        $bacontact = Bcontact::all();
-        $footersectionone = Footersectionone::all();
-        $footersolution = Footersolution::all();
-        $solutionindustrys = Solutioninsdustry::all();
-        $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
-        return view('Pages.solutions.dynamics-erp', compact('bacontact','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution'));
-    }
-
     public function blog()
     {
         $blogs = Post::take(6)->orderByDesc('created_at')->paginate(6);
@@ -468,38 +448,7 @@ class FrontController extends Controller
         }
     }
 
-    public function landing_dynamics_365()
-    {
-        $backgetquote = Backgetquote::all();
-        $solutionindustrys = Solutioninsdustry::all();
-        $footersectionone = Footersectionone::all();
-        $footersolution = Footersolution::all();
-        $footerservice = Footerservice::all();
-        $footerindustry = Footerindustry::all();
-        $footercontact = Footercontact::all();
-        $topheader = Topheader::all();
-        $navs = Navlogo::all();
-        $navbars = Navbar::all();
-        $bacontact = Bcontact::all();
-
-    return view('Pages.landing_pages.dynamics-365', compact('bacontact','backgetquote', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs', 'navbars'));
-    }
-    public function landing_bc_s()
-    {
-        $backgetquote = Backgetquote::all();
-        $solutionindustrys = Solutioninsdustry::all();
-        $footersectionone = Footersectionone::all();
-        $footersolution = Footersolution::all();
-        $footerservice = Footerservice::all();
-        $footerindustry = Footerindustry::all();
-        $footercontact = Footercontact::all();
-        $topheader = Topheader::all();
-        $navs = Navlogo::all();
-        $navbars = Navbar::all();
-        $bacontact = Bcontact::all();
-
-    return view('Pages.landing_pages.business_central_s', compact('bacontact','backgetquote', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs', 'navbars'));
-    }
+   
      public function thank(Request $request)
     {
         $backgetquote = Backgetquote::all();
@@ -514,37 +463,5 @@ class FrontController extends Controller
         $navbars = Navbar::all();
         $blogsndss = Post::take(3)->orderByDesc('created_at')->get();
         return view('Pages.thank', compact( 'backgetquote','blogsndss', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs', 'navbars'));
-    }
-    public function landing_fo()
-    {
-        $backgetquote = Backgetquote::all();
-        $solutionindustrys = Solutioninsdustry::all();
-        $footersectionone = Footersectionone::all();
-        $footersolution = Footersolution::all();
-        $footerservice = Footerservice::all();
-        $footerindustry = Footerindustry::all();
-        $footercontact = Footercontact::all();
-        $topheader = Topheader::all();
-        $navs = Navlogo::all();
-        $navbars = Navbar::all();
-        $bacontact = Bcontact::all();
-
-    return view('Pages.landing_pages.finance', compact('bacontact','backgetquote', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs', 'navbars'));
-    }
-    public function landing_partner()
-    {
-        $backgetquote = Backgetquote::all();
-        $solutionindustrys = Solutioninsdustry::all();
-        $footersectionone = Footersectionone::all();
-        $footersolution = Footersolution::all();
-        $footerservice = Footerservice::all();
-        $footerindustry = Footerindustry::all();
-        $footercontact = Footercontact::all();
-        $topheader = Topheader::all();
-        $navs = Navlogo::all();
-        $navbars = Navbar::all();
-        $bacontact = Bcontact::all();
-
-    return view('Pages.landing_pages.partner', compact('bacontact','backgetquote', 'solutionindustrys', 'footersectionone', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs', 'navbars'));
     }
 }

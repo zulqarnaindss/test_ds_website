@@ -63,16 +63,16 @@
 <section>
     <div class="container-lg">
         <div class="px-xl-5">
-            <div class="top-sect-about-mrgn">
+            <div class="top-sect-about-mrgns">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 mb-3 bg-img-third-sect ">
-                        <div class="">
+                        <div class="pdng-left-rigt-4">
                             <h3 class="mb-4 text-white">Our Vission</h3>
                             <p class="mrb-a-para text-white">We aspire to be the business solution company of choice for our valued customers, & workplace of choice for dynamics professionals.</p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 mb-3 bg-img2-third-sect ">
-                        <div class="">
+                        <div class="pdng-left-rigt-4">
                             <h3 class="mb-4 text-white">Our Mission</h3>
                             <p class="mrb-a-para text-white">Our mission is to bring the right people together to challenge established thinking & drive the transformation & provide the best high-quality, cost-effective business solution to small and medium size enterprise to boost up their business matrix.</p>
                         </div>
@@ -101,7 +101,7 @@
 <section>
     <div class="container-lg">
         <div class="px-xl-5">
-            <div class="top-sect-about-mrgn">
+            <div class="top-sect-about-mrgns">
                 <div class="row align-items-center">
                     <div class="col-xl-6 col-lg-6 col-md-6 mb-3">
                         <h3 class="mb-4">Why Choose Dynamics Stream Software Solutions Partner</h3>

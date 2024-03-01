@@ -1,7 +1,7 @@
 @extends('NewUpgrMain')
-@section('title', 'Upgradation Service')
-@section('meta_description' , '')
-@section('meta_keywords', '')
+@section('title', 'Migrate to Dynamics 365  | Dynamics Stream UK')
+@section('meta_description' , 'Effortlessly transition your business to the cloud with seamless Business Central and Dynamics 365 data migration services in the UK. Our experts ensure smooth migration from NAV to Business Central, handling all aspects of data migration, including Finance and Operations. Trust us for a hassle-free transition')
+@section('meta_keywords', 'nav to business central migration, d365 data migration, nav to business central migration, dynamics data migration, kingswaysoft dynamics 365 data migration, microsoft crm data migration, migrate dynamics 365 on premise to online, migrate dynamics crm on premise to cloud')
 @section('contents')
 <!--Header Starts-->
 <header class="header-bg-Upgr-sec">
@@ -9,13 +9,13 @@
         <div class="container-xl">
             <div class="px-xl-5">
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4 order-lg-2 ms-auto text-center mb-4">
-                        <!-- <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/separate-image.webp" class="img-fluid rounded-4 mrgtop-hdr-img" width="600" alt="Header Image" /> -->
+                    <div class="col-xl-5 col-lg-5 order-lg-2 ms-auto text-center mb-4">
+                        <img src="{{asset('assets')}}/images/new-services-pages/Upgradation/migration.webp" class="img-fluid rounded-4 mr-hdr-img" width="600" alt="Header Image" />
                     </div>
-                    <div class="col-xl-8 col-lg-8 order-lg-1 mb-4">
+                    <div class="col-xl-7 col-lg-7 order-lg-1 mb-4">
                         <div class="content-box mb-4 text-lg-start text-center">
-                            <h1 class="">Revolutionize Your Business with <br class="br-ds-none"> Seamless Microsoft Dynamics 365 Migration Partners</h1>
-                            <p>At Dynamics Stream, we're committed to revolutionizing your business operations through cutting-edge Dynamics 365 Migration Solutions. With over a decade of experience serving startups, SMEs, and enterprises, we specialize in facilitating seamless transitions to cloud-based ERP and CRM solutions. Our bespoke Dynamics 365 migration services in the UK are meticulously tailored to meet the evolving needs of businesses across diverse industries. By empowering your team and enhancing your operational efficiency, we ensure that your journey towards digital transformation is both smooth and rewarding.</p>
+                            <h1 class="">Revolutionize Your Business with <br class="br-ds-none"> Seamless<span style="font-weight: 500;"> Microsoft Dynamics Migration Partners</span></h1>
+                            <p>Your Microsoft Dynamics 365 Migration & Upgrades partners that help you to migrate<span style="font-weight: 500;"> from Microsoft on-premises to cloud, Microsoft GP to Dynamics 365, Microsoft NAV to Dynamics 365, Microsoft AX to Dynamics 365 end to end migration and upgrades</span>. As your business expands so do the business requirements and needs and timely updates give you an extra boost in productivity and seamless operations.</p>
                             <!-- <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-cfinance-div">
                                 <div class="text-start mb-2">
                                     <a href="#popup1" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
@@ -43,7 +43,7 @@
                                     <i class="bi-star-fill text-warning"></i>
                                     <i class="bi-star-fill text-warning"></i>
                                 </div>
-                                <h6 class="mb-0 ms-2 text-info rated-care-txt text-white">Top-rated care</h6>
+                                <h6 class="mb-0 ms-2 text-info rated-care-txt">Top-rated care</h6>
                             </div>
                         </div>
                     </div>
@@ -107,8 +107,8 @@
 <section class="">
     <div class="container-lg mt-impl-div">
         <div class="px-xl-5">
-            <h3 class="mt-impl-div font-s-h3-new mb-3">Benefits to Shift your Business <br> from Microsoft to Dynamics 365</h3>
-            <p class="p-m-s">Elevate your business efficiency, streamline operations, and embrace a future-ready approach to growth and innovation. As your Dynamics 365 Migration partner, we ensure seamless transition to Microsoft's cutting-edge cloud-based ERP and CRM solutions to revolutionize your business operations.</p>
+            <h3 class="mt-impl-div font-s-h3-new mb-3">Unleash Business Potential <br> Transitioning from Microsoft to Dynamics 365</h3>
+            <p class="p-m-s">Experience the transformative power of<span style="font-weight: 500;"> Microsoft Dynamics Migration Services</span> offered by Dynamics Stream. Elevate your business efficiency, streamline operations, and embrace a future-ready approach to growth and innovation as<span style="font-weight: 500;"> we migrate Dynamics CRM on premise to cloud</span>. As a trusted partner in your digital journey, we understand the evolving needs of businesses in the UK and provide tailored<span style="font-weight: 500;"> Business Central cloud migration services</span> that unlock unparalleled benefits.</p>
             <div class="mrgn-top-upgr-2-sect">
                 <div class="row ">
                     <div class="col-xl-6 col-md-6 d-flex align-items-stretch">
@@ -116,10 +116,10 @@
                             <div class="card-content">
                                 <div>
                                     <i class="fa-solid fa-chart-line"></i>
-                                    <h4>Increased ROI</h4>
+                                    <h4>Cost-Efficiency and Increased ROI</h4>
                                 </div>
                                 <div>
-                                    <p>Say goodbye to costly infrastructure investments, upgrade expenses, and the burden of maintaining dedicated IT resources. With Dynamics 365, you can optimize your resources and maximize profitability.</p>
+                                    <p>Experience rapid Return on Investment as Dynamics 365 empowers your business to achieve more with less. When you<span style="font-weight: 500;"> migrate Dynamics 365 on premise to online</span>, you eliminate the need for costly infrastructure maintenance, upgrade expenses, and the burden of maintaining dedicated IT resources. </p>
                                 </div>
 
                             </div>
@@ -133,7 +133,7 @@
                                     <h4>Seamless Transition to the Cloud</h4>
                                 </div>
 
-                                <p>Transitioning to the cloud with Microsoft Dynamics 365 reduces the cost of ownership and eliminates the need for on-premises infrastructure. Enjoy unprecedented scalability for your business, enabling effortless expansion, agility, and adaptability to market changes.</p>
+                                <p><span style="font-weight: 500;">Dynamics CRM on premise to online migration</span> reduces the cost of ownership and eliminates the need for on-premises infrastructure. It offers unparalleled scalability and flexibility, allowing your business to adapt and grow seamlessly. </p>
                             </div>
                         </div>
                     </div>
@@ -142,9 +142,9 @@
                             <div class="card-content">
                                 <div>
                                     <i class="fa-solid fa-arrow-up-right-dots"></i>
-                                    <h4>Enhanced Productivity & Automated Processes</h4>
+                                    <h4>Enhanced Productivity and Effeciency</h4>
                                 </div>
-                                <p>Microsoft Dynamics 365 empowers your workforce by automating redundant processes and streamlining workflows. Say hello to improved productivity and efficiency as you harness the full potential of Dynamics 365 to automate tasks, streamline operations, and focus on strategic initiatives.</p>
+                                <p>With Dynamics 365 Migration, your organization can streamline processes, automate tasks, and drive productivity across departments. Say goodbye to manual workflows and inefficiencies as<span style="font-weight: 500;"> Microsoft CRM data migration</span> empowers your team to accomplish more in less time, leading to enhanced operational efficiency and resource utilization.</p>
                             </div>
                         </div>
                     </div>
@@ -155,7 +155,7 @@
                                     <i class="fa-regular fa-circle-check"></i>
                                     <h4>Effortless Integrations & Robust Features</h4>
                                 </div>
-                                <p>With Dynamics 365, integration becomes seamless and effortless. Unlock the power of robust features and functionalities that Dynamics 365 offers, allowing you to integrate with existing systems, leverage powerful analytics, and drive informed decision-making across your organization.</p>
+                                <p>With Dynamics 365 migration, integration becomes seamless and effortless. Unlock the power of robust features and functionalities that <span style="font-weight: 500;">Dynamics CRM data migration</span> offers, allowing you to integrate with existing systems, leverage powerful analytics, and drive informed decision-making across your organization.</p>
                             </div>
                         </div>
                     </div>
@@ -168,23 +168,23 @@
 <section class="bg-color-third-upgr">
     <div class="container-lg">
         <div class="px-xl-5">
-            <h3 class="font-s-h3-new upgr-3rd-he-mgn">Effortless Upgrade, Endless Opportunities:</h3>
+            <h3 class="font-s-h3-new upgr-3rd-he-mgn">Effortless Upgrade, Endless Opportunities</h3>
             <div class="row  align-items-center">
                 <div class="col-xl-6 col-lg-7 mb-3">
                     <div class="content-box">
-                        <h4>Transitioning from Microsoft On-Premises <br> to Cloud</h4>
-                        <p class="mb-4">In today's dynamic business landscape, the shift from Microsoft On-Premises to Cloud is pivotal for unlocking your business's full potential. Embrace the future of business management with Dynamics 365 Business Central, where intelligence meets adaptability. Experience a remarkable transformation as your finance and operations personnel witness a surge in productivity by up to 18%. With an impressive 172% ROI, Dynamics 365 Business Central sets the stage for unparalleled growth and efficiency.</p>
+                        <h4>From Microsoft On-Premises<br> to Cloud</h4>
+                        <p class="mb-4">In today's dynamic business landscape, it is pivotal to<span style="font-weight: 500;"> migrate Dynamics CRM on premise to cloud</span> for unlocking your business's full potential. Embrace the future of business management with<span style="font-weight: 500;"> Dynamics 365 for business central implementation</span>, where intelligence meets adaptability. Experience a remarkable transformation as your finance and operations personnel witness a surge in productivity by up to 18%. With an impressive 172% ROI, Dynamics 365 Business Central sets the stage for unparalleled growth and efficiency.</p>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">FORBES Recognized: Top ERP System of 2023</p>
+                            <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Tailored for: Startups, SMEs, and Enterprises</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Affordable: Get Started from just $70 per user/month</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Starting at just $70 per user/month</p>
                         </div>
                         <div class="text-start reqst-bt-3rd-sect-mgn mb-2">
                             <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
@@ -200,19 +200,19 @@
             <div class="row mt-row-lr-upgr align-items-center">
                 <div class="col-xl-6 col-lg-7 ms-auto order-lg-2 mb-3">
                     <div class="content-box">
-                        <h4>Evolution from Dynamics AX to <br> Dynamics 365 Finance & Operations</h4>
-                        <p class="mb-4">In light of recent updates, Microsoft has ceased new client implementations of Dynamics AX. However, existing clients can still benefit from ongoing support. By transitioning their Dynamics AX accounts to Dynamics 365 Finance & Operations, organizations gain access to enhanced, business-specific functionalities tailored to bolster operational efficiency and drive strategic growth.</p>
+                        <h4>From Dynamics AX to <br> Dynamics 365 Finance & Operations</h4>
+                        <p class="mb-4">In light of recent updates, Microsoft has ceased new client implementations of Dynamics AX. However, existing clients can still benefit from ongoing support. By<span style="font-weight: 500;"> Dynamics AX to Dynamics 365 Migration</span>, organisations gain access to enhanced, business-specific functionalities tailored to bolster operational efficiency and drive strategic growth. Get ready for success through seamless<span style="font-weight: 500;"> data migration D365 Finance and Operations.</span></p>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">FORBES Recognized: Top ERP System of 2023</p>
+                            <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Tailored for: Startups, SMEs, and Enterprises</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3"> Affordable: Get Started from just $70 per user/month</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Starting at just $70 per user/month</p>
                         </div>
                         <div class="text-start reqst-bt-3rd-sect-mgn mb-2">
                             <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
@@ -232,19 +232,19 @@
                         <a href="" class="solutions-links">
                             <h3 class="text-theme-upgr"></h3>
                         </a>
-                        <h4>From Microsoft NAV to <br> D365 Business Central</h4>
-                        <p class="mb-4">Upgrade your NAV system to Business Central to increase your business capabilities and overall operations effectiveness while maintaining flexible potential to enhance your production level & generate profitable business outcomes. Ever since Microsoft has stated that it will no longer support earlier NAV versions. As a result, upgrading your current system features becomes necessary.</p>
+                        <h4>From Microsoft NAV to <br> Dynamics 365 Business Central</h4>
+                        <p class="mb-4">Enhance your business capabilities and operational effectiveness through<span style="font-weight: 500;"> NAV to Business Central migration</span>. With Microsoft discontinuing support for earlier NAV versions, upgrading your current system features has become imperative. Dynamics Stream, as an industry-leading expert, offers seamless<span style="font-weight: 500;"> NAV to Business Central migration</span> services to increase your business capabilities and overall operational effectiveness while maintaining the flexible potential to enhance your production level and generate profitable business outcomes.</p>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
                             <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Startups, SMEs & Enterprises</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Starting at just $70 per user/month</p>
                         </div>
                         <div class="text-start reqst-bt-3rd-sect-mgn mb-2">
                             <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
@@ -263,19 +263,19 @@
                         <a href="" class="solutions-links">
                             <h3 class="text-theme-upgr"></h3>
                         </a>
-                        <h4>From Upgrade to <br> Microsoft Dynamics 365</h4>
-                        <p class="mb-4">Organizations that rely on outdated systems will not be able to achieve their full potential if their operations keep growing. Whenever you realize that your operations are being challenged, it's time to upgrade your system using Microsoft Dynamics 365. It may be used in collaboration with your business-specific modules to continue enhancing your performance.</p>
+                        <h4>Upgrade to <br> Microsoft Dynamics 365</h4>
+                        <p class="mb-4">Businesses relying on outdated systems hinder their potential for growth and efficiency. When operations face challenges due to obsolete technology, it's crucial to upgrade the system through<span style="font-weight: 500;"> Microsoft Dynamics migration</span>. Our expertise at Dynamics Stream ensures seamless integration of Dynamics 365 with your business-specific modules, enabling continuous enhancement of performance and scalability.</p>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
                             <p class="flex-grow-1 mb-0 ms-3">FORBES ADVICE RECOGNISED TOP ERP system of 2023</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Startups, SME”s & Enterprises</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Startups, SMEs & Enterprises</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3"> Starting at just $70 per user/month</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Starting at just $70 per user/month</p>
                         </div>
                         <div class="text-start reqst-bt-3rd-sect-mgn mb-2">
                             <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
@@ -305,19 +305,19 @@
             <div class="col-lg-8 col-md-8" style="background: #E5F3D3;">
                 <div class="upgrade-last-sec-card2">
                     <div>
-                        <h3 class="font-s-h3-new upgr-3rd-he-mgn">Why Dynamics Stream UK ?</h3>
+                        <h3 class="font-s-h3-new upgr-3rd-he-mgn">Selecting Dynamics Stream UK: Your Path to Dynamics Success</h3>
                         <ol class="ol-st-last-upgr">
                             <li>
                                 <h5>Certified Microsoft Solutions Partner</h5>
-                                <p>We are an authorized gold partner for Microsoft products and services, with extensive expertise and years of experience. We manage your complete system requirements, from Dynamics 365 implementation through upgrades and maintenance. We can build a robust, efficient, and profitable solution for your organization since we have professionals, effective methodology, and a safe data migrating skill set.</p>
+                                <p>Dynamics Stream UK is an esteemed gold partner for Microsoft products and services. Our seasoned professionals handle your system requirements comprehensively, from Dynamics 365 implementation to ongoing upgrades and maintenance. With a proven track record as<span style="font-weight: 500;"> Microsoft Dynamics 365 customization solution & Implementation partners</span>, we craft robust, efficient, and profitable solutions tailored to your organisation's needs.</p>
                             </li>
                             <li>
                                 <h5>Migration Security & Reliability</h5>
-                                <p>Our consultants can handle effortless Microsoft Dynamics 365 upgrades and migrations while using proactive procedures to support secure and reliable data movement. We migrate your data from your existing situation to the newly configured system in a systematic and step-by-step manner.</p>
+                                <p>At Dynamics Stream UK, we prioritise the security and reliability of your migration journey. Our consultants execute Microsoft Dynamics 365 upgrades and migrations with ease, employing proactive measures to ensure secure and seamless<span style="font-weight: 500;"> Business Central data migration</span>. Through meticulous planning and systematic execution, we guarantee you peace of mind at every step of the way.</p>
                             </li>
                             <li>
-                                <h5>Experienced consultants with 300+ Migrations & Upgrades</h5>
-                                <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                                <h5>Experienced Consultants with 300+ Migrations & Upgrades</h5>
+                                <p>With over 300 successful migrations and upgrades under our belt, Dynamics Stream UK boasts a team of experienced consultants dedicated to your success. By entrusting us with your<span style="font-weight: 500;"> Dynamics CRM data migration</span> needs, you not only streamline your operations but also reduce the overall cost of ownership.</p>
                             </li>
                         </ol>
                     </div>

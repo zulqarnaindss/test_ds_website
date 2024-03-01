@@ -54,17 +54,21 @@
                                 </a>
                                 <div class="submenu megamenu__text wdth-for-mega-menu">
                                     <div class="submenu__inner">
-                                        <a href="/implementation" class="anchr" style="text-decoration: none;">
+                                        <a href="/microsoft-dynamics-365-implementation-Services" class="anchr" style="text-decoration: none;">
                                             <h4 class="submenu__title">Implementation</h4>
                                             <p class="sub-p-menu">The right implementation partner for a successful ERP\CRM journey</p>
                                         </a>
-                                        <ul class="submenu__list">
+                                        <!-- <ul class="submenu__list">
                                             <li><a href="/microsoft-dynamics-365-implementation-services"></a></li>
 
-                                        </ul>
+                                        </ul> -->
+                                        <a href="#" class="anchr" style="text-decoration: none;">
+                                            <h4 class="submenu__title">IT Consultancy Services in London</h4>
+                                            <p class="sub-p-menu">A team of experts in IT consultancy, Optimize your business</p>
+                                        </a>
                                     </div>
                                     <div class="submenu__inner">
-                                        <a href="/upgrade" class="anchr" style="text-decoration: none;">
+                                        <a href="/microsoft-dynamics-365-migration-services" class="anchr" style="text-decoration: none;">
                                             <h4 class="submenu__title">Migration</h4>
                                             <p class="sub-p-menu">We ensure to take proactive measure to enhance security, performance, and functionality, ensuring that technology remains a valuable asset to organizations and keeps pace with the evolving digital landscape.</p>
                                         </a>
@@ -74,7 +78,7 @@
                                         </ul>
                                     </div>
                                     <div class="submenu__inner">
-                                        <a href="/customization" class="anchr" style="text-decoration: none;">
+                                        <a href="/dynamics-365-customization" class="anchr" style="text-decoration: none;">
                                             <h4 class="submenu__title">Customization</h4>
                                             <p class="sub-p-menu">Whether it's adapting workflows, incorporating industry-specific modules, or creating bespoke reporting tools, our customizations empowers you to maximize the utility of the software according to your specific needs.</p>
                                         </a>
@@ -83,7 +87,7 @@
                                         </ul>
                                     </div>
                                     <div class="submenu__inner">
-                                        <a href="/support" class="anchr" style="text-decoration: none;">
+                                        <a href="/dynamics-365-support" class="anchr" style="text-decoration: none;">
                                             <h4 class="submenu__title">Support</h4>
                                             <p class="sub-p-menu">We ensures the seamless operation and optimization of your critical software solutions for uninterrupted business performance.</p>
                                         </a>
@@ -92,7 +96,7 @@
                                         </ul>
                                     </div>
                                     <div class="submenu__inner">
-                                        <a href="/remote-resources" class="anchr" style="text-decoration: none;">
+                                        <a href="/microsoft-dynamics-365-remote-resources" class="anchr" style="text-decoration: none;">
                                             <h4 class="submenu__title">Remote Resources</h4>
                                             <p class="sub-p-menu">Boost your Business with Remote Resources by Dynamics 365</p>
                                         </a>
@@ -112,16 +116,16 @@
                                     <div class="submenu__inner wd">
                                         <h4 class="submenu__title">Microsoft Dynamics 365</h4>
                                         <ul class="submenu__list">
-                                            <li><a href="/finance">D365 Finance</a></li>
-                                            <li><a href="/supply-chain">D365 Supply Chain Management</a></li>
-                                            <li><a href="/business-central">D365 Business Central</a></li>
-                                            <li><a href="/microsoft-dynamics-365-project-operations">D365 Project Operations</a></li>
-                                            <li><a href="/human-resource">D365 Human Resources</a></li>
-                                            <li><a href="/microsoft-dynamics-365-crm">D365 CRM</a></li>
-                                            <li><a href="/sales">D365 Sales</a></li>
-                                            <li><a href="/marketing">D365 Marketing</a></li>
-                                            <li><a href="/microsoft-dynamics-365-field-service">D365 Field Service</a></li>
-                                            <li><a href="/microsoft-dynamics-365-commerce">D365 Commerce</a></li>
+                                            <li><a href="/microsoft-dynamics-365-business-central">Dynamics 365 Business Central</a></li>
+                                            <li><a href="/dynamics-365-finance-and-operations">Dynamics 365 Finance</a></li>
+                                            <li><a href="/microsoft-dynamics-365-supply-chain-management">Dynamics 365 Supply Chain</a></li>
+                                            <li><a href="/dynamics-365-human-resources">Dynamics 365 Human Resources</a></li>
+                                            <li><a href="/dynamics-365-sales">Dynamics 365 Sales</a></li>
+                                            <li><a href="/dynamics-365-marketing">Dynamics 365 Marketing</a></li>
+                                            <li><a href="/microsoft-dynamics-365-project-operations">Dynamics 365 Project Operations</a></li>
+                                            <li><a href="#">Dynamics 365 CRM</a></li>
+                                            <li><a href="/microsoft-dynamics-365-field-service">Dynamics 365 Field Service</a></li>
+                                            <li><a href="/microsoft-dynamics-365-commerce">Dynamics 365 Commerce</a></li>
                                         </ul>
                                     </div>
                                     <div class="submenu__inner wd">
@@ -173,7 +177,7 @@
                                             <li><a href="/microsoft-dynamics-365-for-retail">Retail</a></li>
                                             <li><a href="#">Transport</a></li>
                                             <li><a href="#">Entertainment</a></li>
-                                            <li><a href="#">Eduction</a></li>
+                                            <li><a href="#">Education</a></li>
                                             <li><a href="#">Construction</a></li>
                                             <li><a href="#">Real Estate</a></li>
 
@@ -193,7 +197,7 @@
                                     <div class="submenu__inner wd">
 
                                         <ul class="submenu__list">
-                                            <li><a href="/microsoft-dynamics-365-for-financial-services">Financial Service</a></li>
+                                            <li><a href="/microsoft-dynamics-365-for-financial-services">Financial Services</a></li>
                                             <li><a href="#">Media</a></li>
                                             <li><a href="#">Healthcare</a></li>
                                             <li><a href="#">Non-Profit Org</a></li>

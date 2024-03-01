@@ -1,7 +1,7 @@
 @extends('NewSuppMain')
-@section('title', 'Customization Service')
-@section('meta_description' , '')
-@section('meta_keywords', '')
+@section('title', 'Microsoft Dynamics Support Services | Dynamics Stream UK')
+@section('meta_description' , 'Support services for Microsoft Dynamics 365, including CRM, NAV, AX, and Dynamics 365, are provided by partner organizations specializing in support based in the United Kingdom')
+@section('meta_keywords', 'microsoft dynamics 365 busines central support , microsoft dynamics 365 supplychain support , microsoft dynamics 365 finance and operation support , microsoft dynamics 365 CRM implementation support , Microsoft Dynamics 365 Resource Augmentation partners, Microsoft Dynamics 365 Resource Augmentation partners in uK, Microsoft Dynamics 365 Resource Augmentation consultant, Dynamics 365 Resource Augmentation Services Providers in UK, microsoft dynamics 365 busines central support, microsoft dynamics 365 supplychain support, microsoft dynamics 365 finance and operation support, microsoft dynamics 365 CRM implementation support')
 @section('contents')
 <!--Header Starts-->
 <header class="header-bg-Supp-sec">
@@ -10,12 +10,12 @@
             <div class="px-xl-5">
                 <div class="row">
                     <div class="col-xl-5 col-lg-5 order-lg-2 ms-auto align-items-stretch text-center top-Imp-Supp-div-1-sect-r">
-                        <img src="{{asset('assets')}}/images/new-services-pages/support/support-bg-header.webp" class="img-fluid rounded-4 mtop-2rem" width="600" alt="Header Image" />
+                        <img src="{{asset('assets')}}/images/new-services-pages/support/support-bg-header.webp" class="img-fluid rounded-4" width="600" alt="Header Image" />
                     </div>
                     <div class="col-xl-7 col-lg-7 order-lg-1 align-items-stretch mb-4">
                         <div class="content-box mb-4 text-lg-start text-center">
-                            <h1 class="">Focus on business growth, <br> not on technical issues</h1>
-                            <p>Any core digital system may encounter issues such as bugs, technical glitches, and errors, but you should not let them distract you from your most important objective: growth. That is why you can rely on our Microsoft Dynamics 365 support services to solve any challenges, no matter the size, with continuous and proactive help.</p>
+                            <h1 class="">Navigate Growth Smoothly <br> Your Reliable Microsoft Dynamics 365 Functional Support Partner</h1>
+                            <p>Experience uninterrupted growth as Dynamics Stream expertly navigates complexities for you. Our dedicated support ensures seamless operations at every stage of your business journey, with comprehensive attention to detail, spanning administration, monitoring, and troubleshooting.</p>
                             <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-Supp-div">
                                 <div class="text-start mb-2">
                                     <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
@@ -54,9 +54,9 @@
                     <img src="{{asset('assets')}}/images/new-services-pages/support/support-2.webp" class="img-fluid img-width85" width="" alt="" />
                 </div>
                 <div class="col-xl-6 col-md-6 align-items-stretch">
-                    <h3 class="mrbtom-for-Supp-2 font-s-h3-color-Supp">Dedicated Dynamics 365 Support Partner</h3>
-                    <p class="">To ensure process continuity, stabilize your process optimization, and focus on your business scope, enterprises are required to have an optimal support system. A smoother, reliable, and productive business flow can be achieved through dedicated Dynamics 365 Support Services designed for a specific business model and custom business practices.</p>
-                    <p>Our Microsoft certified can help you to diagnose your support requirement and can provide proactive support to enable productive and scalable flow across your organizational structure. Through our dedicated support services, we can promptly identify your system issues and can resolve them with accuracy and reliability.</p>
+                    <h3 class="mrbtom-for-Supp-2 font-s-h3-color-Supp">Dynamics Stream - Your Reliable Microsoft Dynamics 365 Support Partner</h3>
+                    <p class="">For seamless process continuity and enhanced productivity, businesses rely on robust support systems. With Dynamics Stream as your dedicated<span style="font-weight: 500;"> Microsoft Dynamics 365 Support Partner</span>, achieve optimal operational stability tailored to your unique business model and practices.</p>
+                    <p>Our Microsoft-certified experts diagnose your<span style="font-weight: 500;"> Microsoft Dynamics 365 functional support</span> needs, offering proactive solutions for scalable and productive operations. With dedicated<span style="font-weight: 500;"> Microsoft Dynamics 365 Customization Support services</span>, we swiftly identify and resolve system issues with precision and reliability, ensuring uninterrupted business flow.</p>
                     <div class="text-start mt-4 mb-2">
                         <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                     </div>
@@ -70,14 +70,14 @@
     <div class="container-lg">
         <div class="px-xl-5">
             <div class="">
-                <h3 class="mrbtom-for-Supp-2 font-s-h3-color-Supp">Microsoft Dynamics 365 Suite</h3>
-                <p>Drive innovative and strategic approach through your business premises with intelligent connected processes, data insights, and adaptive Dynamics 365 CRM & ERP Solutions.</p>
+                <h3 class="mrbtom-for-Supp-2 font-s-h3-color-Supp">Navigate Business Hurdles with Ease: Affordable Microsoft Dynamics 365 Technical Support Solutions</h3>
+                <p>At Dynamics Stream, we understand the struggles your businesses face in finding reliable and cost-effective support solutions and resource and staff augmentation. Our services are designed to alleviate your burdens while keeping your budget in mind.</p>
                 <div class="mtop-3rem-new">
                     <div class="row align-items-center ">
                         <div class="col-xl-6 col-md-6 align-items-stretch">
                             <div class="pdng-r-2rem">
-                                <h3 class="mrbtom-for-Supp-2 font-s-h3-color-Supp">Dynamics 365 Support Plans We offer</h3>
-                                <p>Dynamics Stream will handle every aspect of your Dynamics 365 system from user support, training, customization, technical consultancy to development work.</p>
+                                <h3 class="mrbtom-for-Supp-2 font-s-h3-color-Supp">Dynamics 365 Support Plans Tailored for Your Business</h3>
+                                <p>At Dynamics Stream, we comprehensively manage every aspect of your Dynamics 365 system, ensuring seamless operations and optimal performance. We've got you covered from<span style="font-weight: 500;"> Microsoft Dynamics Resource Augmentation Support to Microsoft Dynamics 365 Product Support, Resource Augmentation Services, and IT Staff Augmentation Consulting</span>.</p>
                             </div>
 
                         </div>
@@ -88,12 +88,10 @@
                                         <div class="acc-item">
                                             <h3>
                                                 <i class="fa-solid fa-headset spn-icon"></i>
-                                                <span>Ad-Hoc Support</span>
+                                                <span>Ad Hoc Support</span>
                                                 <img class="acc-chevron" src="https://svgshare.com/i/zQr.svg"></img>
                                             </h3>
-                                            <p>
-                                                Our Ad-Hoc Support model is designed to offer instant support for your short-length or one-time assignment. To carry out your independent requirement, we do not even ask you for any sort of commitment from your end. Understanding your business flow, we can offer your best-in-class support services suited to your specific workflow.
-                                            </p>
+                                            <p>Experience instant support tailored to your short-term or one-off requirements with our Ad Hoc Support model. We understand that your business needs can vary, which is why we offer flexible assistance without any long-term commitment. Count on us to align our services with your specific workflow, through our top-notch, fully functional system to address every ticket raised ASAP.</p>
                                         </div>
                                         <div class="acc-item">
                                             <h3>
@@ -101,9 +99,7 @@
                                                 <span>Prepaid Hours Support</span>
                                                 <img class="acc-chevron" src="https://svgshare.com/i/zQr.svg"></img>
                                             </h3>
-                                            <p>
-                                                Through our prepaid hours' support model, enterprises can leverage priority support for their ongoing practices. Our prepaid hours' support plan comprises 50-dedicated hours that ensure contribution to manage continuity in your business flow. With this support model, we provide instant technical help to the enterprises to maintain their smoother and uninterrupted process flow.
-                                            </p>
+                                            <p>With our Prepaid Hours Support model, enterprises gain access to priority support for ongoing operations. Our package includes 50 dedicated hours aimed at ensuring continuity in your business processes. Whether it's<span style="font-weight: 500;"> IT Staff Augmentation Services</span> or<span style="font-weight: 500;"> Microsoft Dynamics 365 Migration Support</span>, our team is equipped to swiftly address your needs, maintaining a smooth and uninterrupted workflow.</p>
                                         </div>
                                         <div class="acc-item">
                                             <h3>
@@ -111,9 +107,7 @@
                                                 <span>Annual Support</span>
                                                 <img class="acc-chevron" src="https://svgshare.com/i/zQr.svg"></img>
                                             </h3>
-                                            <p>
-                                                We undertake all your general system issues in terms of bug fixing, abundance in the process flow, and other system issues interrupting your system performance. Our yearly proficient support team can help to resolve your system issues, regain your system capabilities, and enable you to boost your workflow with our high-end Dynamics 365 Support Services.
-                                            </p>
+                                            <p>Resolve general system issues, bugs, and process interruptions with our Annual Support package. Our proficient support team is dedicated to resolving your Dynamics 365 challenges through our<span style="font-weight: 500;"> cost effective support, but not compromise on quality.</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -144,8 +138,8 @@
 <section class="fifth-sect-Supp-main-di">
     <div class="container-lg">
         <div class="px-xl-5">
-            <h3 class="font-s-h3-new">Uncover Your Business Scope With Our Dynamics 365 Consulting Services</h3>
-            <p class="">Dynamics Square has an extensive team with end-to-end expertise to take care of system and process integrity. Whether you want to eliminate your system risks, improve your system capabilities, want to train your end-users, or more, we are here to serve our optimal support services.</p>
+            <h3 class="font-s-h3-new">Discover New Avenues for Your Business Growth with Dynamics 365 Consulting Expertise</h3>
+            <p class="">At Dynamics Stream, we boast an extensive team equipped with end-to-end expertise to safeguard the integrity of your systems and processes. Whether you are seeking<span style="font-weight: 500;"> Microsoft Dynamics 365 Supplychain Support, Microsoft Dynamics 365 Finance and Operation Support, Microsoft Dynamics 365 CRM Implementation Support</span>, or more, our holistic support services are tailored to meet your needs.</p>
 
             <div class="mtop-3rem-new">
                 <div class="row service-row">
@@ -159,7 +153,7 @@
                     <div class="col-xl-9 col-md-9 d-flex row-pdng-left-zero align-items-stretch">
                         <div class="fifth-sect-box-p-Supp">
                             <div class="card-content">
-                                <p>Since Microsoft continuously comes up with regular updates and enhancements in their D365 Products. DS experts take care of your timely system updates and requirement enhancements. We seamlessly manage your D365 account to ensure your system compatibility with the latest releases and updates.</p>
+                                <p>With Microsoft consistently rolling out updates and enhancements to their D365 products, our experts ensure your systems stay up-to-date and aligned with the latest releases. We offer seamless Microsoft Dynamics 365 Product Support, guaranteeing compatibility with the newest features and improvements.</p>
                             </div>
 
                         </div>
@@ -177,7 +171,7 @@
                         <div class="col-xl-9 col-md-9 d-flex row-pdng-left-zero align-items-stretch">
                             <div class="fifth-sect-box-p-Supp">
                                 <div class="card-content">
-                                    <p>There could be several stages where enterprises require dedicated training to bring and ensure productive flow across their organization. Such training can be provided in the form of end-user training to understand the newly implemented system and ensure successful user adaptation. Training can also be ensured when you avail of any sort of system update, integration, or enhancements.</p>
+                                    <p>Enterprises often require dedicated training at various stages to facilitate a productive flow across their organisation. Our comprehensive training programs cover everything from end-user familiarisation with newly implemented systems to ensuring successful user adaptation during system updates, integrations, or enhancements.</p>
                                 </div>
 
                             </div>
@@ -196,7 +190,7 @@
                         <div class="col-xl-9 col-md-9 d-flex row-pdng-left-zero align-items-stretch">
                             <div class="fifth-sect-box-p-Supp">
                                 <div class="card-content">
-                                    <p>With time, there could be possible frequent changes in your process optimization. To support your customer process flow, our support team can extend your system capabilities with required functionalities in terms of add-ons. Considering the enterprise challenges and ways to overcome them, Microsoft comes up with regular updates and features enhancements.</p>
+                                    <p>As your business evolves, so too may your process optimisation needs. Our support team can extend your system capabilities by integrating necessary functionalities through add-ons. Keeping pace with Microsoft's regular updates and feature enhancements, we ensure your system remains equipped to meet evolving enterprise challenges.</p>
                                 </div>
 
                             </div>
@@ -215,7 +209,7 @@
                         <div class="col-xl-9 col-md-9 d-flex row-pdng-left-zero align-items-stretch">
                             <div class="fifth-sect-box-p-Supp">
                                 <div class="card-content">
-                                    <p>Whenever changes take place in your enterprise, you are required to modify your functional requirement, and this generates a need for an adequate support system that can take responsibility to ensure potential changes in terms of updating your system with required functionality or advanced features that can be made possible either by Microsoft configuration or with third-party integration.</p>
+                                    <p>Enterprise changes necessitate modifications to functional requirements, highlighting the need for a robust<span style="font-weight: 500;"> Microsoft Dynamics 365 Functional Support</span> system capable of updating your system with required functionalities or advanced features. </p>
                                 </div>
 
                             </div>
@@ -233,66 +227,66 @@
     <div class="container-lg">
         <div class="px-xl-5">
             <div class="">
-                <h3 class="mrbtom-for-Supp-2 font-s-h3-color-Supp">How Dynamics 365 Support Team Can Help You To Boost Your Business Capabilities</h3>
-                <p>Dynamics 365 is a cloud-based platform that offers a range of applications for different business functions, such as sales, marketing, customer service, finance, operations.</p>
+                <h3 class="mrbtom-for-Supp-2 font-s-h3-color-Supp">Dynamics Stream - Your Premier Microsoft Dynamics 365 Support Partner in the UK</h3>
+                <p>Elevate your business efficiency with Dynamics Stream, where unparalleled support meets expertise, empowering your successful journey in the dynamic landscape of the UK business environment.</p>
                 <div class="row pdng-top-40">
                     <div class="col-xl-4 col-lg-6 col-md-6 align-self-center">
                         <div class="Supp-6-sect-boxs">
                             <div class="icons"><i class="fa-solid fa-briefcase" style="color: #4f0fe6;"></i>
-                                <h3>Drive Smoother<br>Business Flow</h3>
+                                <h3>Unlock Seamless<br>Business Operations</h3>
                             </div>
                             <div class="Supp-box-6-sect-p Supp-box-6-sect-info-1">
-                                <p>Our experts can help to diagnose whether your current system is compatible to manage your current workflow or not. Our Dynamics 365 Support Services are offered to drive your system health check and upgrade your system accordingly to seamlessly carry out all your practices.</p>
+                                <p>Our seasoned experts meticulously diagnose your current system, ensuring compatibility with your workflow. With Dynamics 365 Support Services, we conduct thorough system health checks and seamlessly upgrade your infrastructure, enabling smooth operations.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 align-self-center">
                         <div class="Supp-6-sect-boxs">
                             <div class="icons"><i class="fa-solid fa-gear" style="color: #5900ff;"></i>
-                                <h3>Bring Quick <br>Adaption</h3>
+                                <h3>Facilitate <br>Rapid Adaptation</h3>
                             </div>
                             <div class="Supp-box-6-sect-p Supp-box-6-sect-info-1">
-                                <p>To ensure quick adaption, enterprises are required to acquire proper end-user training to know how to use the newly implemented or updated system efficiently. Here, availing of support and consulting services for Microsoft Business Applications from a trusted Microsoft Partner could be a productive deal for your enterprise.</p>
+                                <p>In today's dynamic landscape, quick adaptation is key to success. Our comprehensive end-user training ensures efficient utilisation of newly implemented or updated systems. Partner with us, a trusted Microsoft ally, to streamline your enterprise's learning curve.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 align-self-center">
                         <div class="Supp-6-sect-boxs">
                             <div class="icons"><i class="fa-brands fa-stack-overflow" style="color: #5900ff;"></i>
-                                <h3>Drive Seamless <br>Operational Flow</h3>
+                                <h3>Enhance <br>Operational Efficiency</h3>
                             </div>
                             <div class="Supp-box-6-sect-p Supp-box-6-sect-info-1">
-                                <p>To drive seamless flow across your operational unit, enterprises should comprise a set of practices, skilled people, and the right working strategies. To gain so, we can help enterprises by configuring their system with required or updated functionality, providing proper training to the end-users, and other support to encourage and bring smoother operational flow.</p>
+                                <p>Efficient operational flow is paramount for business success. We help fortify your operational unit by configuring your system with the latest functionalities, delivering tailored training to end-users, and providing ongoing support for a seamless workflow.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 align-self-center">
                         <div class="Supp-6-sect-boxs">
                             <div class="icons"><i class="fa-solid fa-rotate-right" style="color: #4c00ff;"></i>
-                                <h3>Ensure Compatibility<br>with Trends</h3>
+                                <h3>Stay <br>Ahead of Trends</h3>
                             </div>
                             <div class="Supp-box-6-sect-p Supp-box-6-sect-info-1">
-                                <p>Considering the continuously changing market, industrial scenarios, and rising critical business challenges, Microsoft ensures regular updates and releases to support your concurrent processes as well as futuristic approach. Through our dedicated support system, we upgrade your system with all the required system capabilities to ensure and drive compatibility with growing market trends.</p>
+                                <p>In a rapidly evolving market, staying abreast of trends is imperative. Microsoft's regular updates align with market shifts, empowering your business to thrive. Through our dedicated support, we ensure your system evolves alongside emerging trends, fostering future compatibility.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 align-self-center">
                         <div class="Supp-6-sect-boxs">
                             <div class="icons"><i class="fa-brands fa-intercom" style="color: #5900ff;"></i>
-                                <h3>Custom<br>Support Model</h3>
+                                <h3>Enjoy Tailored <br>Support Solutions</h3>
                             </div>
                             <div class="Supp-box-6-sect-p Supp-box-6-sect-info-1">
-                                <p>Every business involves different processes, different workflow, and strategies. To support your custom processes, your supporting needs could be different. Analyzing and evaluating your specific business flow and the challenges you drive; we can provide customized support services to drive smoother and productive flow across your operational space.</p>
+                                <p>No two businesses are alike. Understanding the uniqueness of your processes and challenges, we craft bespoke support solutions. Our tailored approach drives efficiency and productivity, aligning with your specific operational needs.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-6 col-md-6 align-self-center">
                         <div class="Supp-6-sect-boxs">
                             <div class="icons"><i class="fa-solid fa-tags" style="color: #5900ff;"></i>
-                                <h3>Competitive<br>Pricing</h3>
+                                <h3>Avail Competitive<br>Pricing Advantage</h3>
                             </div>
                             <div class="Supp-box-6-sect-p Supp-box-6-sect-info-1">
-                                <p>At Dynamics Square, we believe in providing optimum support services wrapped with standard methodology and a modernized approach to our clients at competitive rates. We offer our Microsoft Dynamics 365 support services at 40% less pricing compared to other Microsoft support services providers. Connect and get the best quote to support your business context.</p>
+                                <p>At Dynamics Stream, we prioritise cost effective support, but not compromise on quality. Our Microsoft Dynamics 365 support services come at competitive rates, offering a 40% cost advantage compared to other providers. Reach out today for a personalised quote tailored to your business context.</p>
                             </div>
                         </div>
                     </div>
@@ -311,9 +305,8 @@
                 <div class="Cust-last-sec-card1">
                     <div class="img-di-last-Cust-sect">
                         <h3 class="font-s-h3-new Cust-3rd-he-mgn">Why choose a Microsoft partner for Dynamics 365 support?</h3>
-                        <p>If your business requirements indicate that a higher level of proactive support or continual solution enhancement is needed, then choosing the Dynamics Stream is the way to go. While Microsoft offers great break/fix support, they aren’t able to provide the tailored service of a Microsoft partner. 
-                            The level of service depends on the partner you choose - as some partners will be more engaged than others. For example, many organizations will choose to get support from the partner that implemented their solution, yet find that they aren’t as proactive when it comes to enhancement.</p>
-                        <p style="color: #1915F3;">Sound familiar? Check out our blog on how to switch managed service providers.</p>
+                        <p>When your business demands proactive support and continuous solution enhancement. While Microsoft offers reliable break/fix support, the personalised service of a Microsoft partner adds significant value. The quality of service varies among partners, with some demonstrating higher levels of engagement than others. Many organisations initially seek support from the partner that implemented their solution, only to discover a need for more proactive enhancement.</p>
+                        <p style="color: #1915F3;">Does this resonate with you? Explore our blog on transitioning managed service providers for valuable insights.</p>
                     </div>
                 </div>
             </div>

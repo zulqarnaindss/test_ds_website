@@ -1,7 +1,7 @@
 @extends('NewHRLandingMain')
-@section('title', 'HR Landing Page')
-@section('meta_description' , '')
-@section('meta_keywords', '')
+@section('title', 'Microsoft Dynamics 365 HR & Payroll | Dynamics Stream UK')
+@section('meta_description' , 'Manage your workforce and increase productivity with tailored Microsoft Dynamics 365 HR Payroll implementation by the trusted and certified microsoft solutions partner in the UK.')
+@section('meta_keywords', 'hr&payroll, hr payroll system, payroll solution, hr and payroll system, microsoft Dynamics 365 hr payroll partner, Dynamics 365 hr payroll systems implementations')
 @section('contents')
 <!--Header Starts-->
 <header class="header-bg-hr-sec">

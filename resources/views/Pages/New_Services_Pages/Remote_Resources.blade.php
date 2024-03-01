@@ -1,7 +1,7 @@
 @extends('NewRemMain')
-@section('title', 'Remote Resources Service')
-@section('meta_description' , '')
-@section('meta_keywords', '')
+@section('title', 'Remote Resources for Dynamics 365 Business Apps | Dynamics Stream UK')
+@section('meta_description' , 'Cost-effective remote resources in the UK for Microsoft Dynamics 365 Business central, Supplychain, Finance, marketing and sales. Manage your projects with our tailored staffing solution and increase profits & Productivity. ')
+@section('meta_keywords', 'Microsoft Dynamics 365 Resource Augmentation consultant, Dynamics 365 Resource Augmentation Services in UK, Dynamics 365 Resource Augmentation Services in london, it staff augmentation consulting, staff augmentation pricing model, staff augmentation resources, application development staff augmentation')
 @section('contents')
 <div class="hero-sec-padding">
     <div class="container">
@@ -9,8 +9,9 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="hero-sec-content">
-                        <h3>Are you looking for Remote Resources for Dynamics 365?</h3>
-                        <p>POV:BOOST YOUR BUSINESS WITH REMOTE RESOURCES BY DYNAMICS 365 Rapidly bridge the skills gap and grow your in-house Functional & Consultant and development team with Microsoft dynamics 365 Suite featuring D365 Finance. Dynamics 365 Business Central, Dynamics 365 Supply Chain, Dynamics 365 HR & Microsoft Dynamics CRM, .NET QA engineers, solution architects.</p>
+                        <h3>Revolutionise Your Dynamics 365 Journey with<span style="font-weight: 500;"> Dynamics 365 Resource Augmentation Services in the UK</span></h3>
+                        <p>Discover the edge of excellence with Dynamics Stream's Microsoft Dynamics 365 Resource Augmentation services. Seamlessly augment your team with skilled professionals proficient in Microsoft Dynamics business central implementation resources, Microsoft Dynamics supply chain implementation resources, Microsoft Dynamics finance and operation implementation resources and Microsoft Dynamics CRM implementation resources. Our .NET QA engineers and solution architects tailor solutions to cater to startups, SMEs, and enterprises across the UK, offering unmatched quality and support.
+                        </p>
                     </div>
                     <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-Rem-div">
                         <div class="text-start mb-2">
@@ -50,7 +51,7 @@
     <div class="container about-sec-padding">
         <div class="px-xl-5">
             <div class="row kar-about-sec-heading">
-                <h3 class="col-lg-12 font-s-h3-new">Accelerate your Business with Resource Augmentation</h3>
+                <h3 class="col-lg-12 font-s-h3-new">Accelerate Your Business Growth with Dynamics Stream's Remote Resource Solutions</h3>
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -60,8 +61,9 @@
                             <div class=" d-flex align-items-center row">
                                 <div class=" col-lg-6 col-sm-12 pr-5">
                                     <div class="kar-about-content">
-                                        <h4 class="kar-about-content-h4">Resource & Staff Augmentation Services for a range of Industries</h4>
-                                        <p class="kar-about-desc">We have full-fledge team of 300+ consultants that can assist you with complete digital transformation of your business processes and optimize it to increase productivity & Profits. We have a list of 100+ Satisfied Customers, based in Dubai USA & UK, who are taking our resources on Project or Full time basis.</p>
+                                        <h4 class="kar-about-content-h4">Augment Your IT Capabilities</h4>
+                                        <p class="kar-about-desc">Bridge the IT skills gap with our IT staff augmentation services. Our skilled professionals bolster your IT capabilities, drive innovation, and ensure seamless system operations, enabling you to stay ahead in the digital landscape.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-12 p-0">
@@ -113,9 +115,8 @@
                             <div class=" d-flex align-items-center row">
                                 <div class=" col-lg-6 col-sm-12 pr-5">
                                     <div class="kar-about-content">
-                                        <h4 class="kar-about-content-h4">Based On Dynamics 365 Business Central</h4>
-                                        <p class="kar-about-desc">Remote resource in D365 Business Central is a feature that allows you to host your data in an Azure Data Lake outside of Business Central.
-                                            Remote resource in D365 Business Central can help you optimize your data storage and analysis, as well as manage your projects and resources more efficiently.
+                                        <h4 class="kar-about-content-h4">Elevate Your Business Central Implementation</h4>
+                                        <p class="kar-about-desc">Experience seamless integration and enhanced functionality with our Microsoft Dynamics Business Central implementation resources. We streamline your processes, boost productivity, and ensure a smoother transition to Business Central.
                                         </p>
                                     </div>
                                 </div>
@@ -168,8 +169,8 @@
                             <div class=" d-flex align-items-center row">
                                 <div class=" col-lg-6 col-sm-12 pr-5">
                                     <div class="kar-about-content">
-                                        <h4 class="kar-about-content-h4">Based On Dynamics 365 Finance</h4>
-                                        <p class="kar-about-desc">Our 10+ years of experienced Digital Transformation & Business Consultant has implemented Finance in over 100+ organization, this gives us an edge of complete product knowledge as well as implementation knowhow. Being a Microsoft Partners we are always one step a head to understand your project delivery pain- points and team management challenges. We have a Application architects, Project Managers, Account Managers, Technical & Functional resources.</p>
+                                        <h4 class="kar-about-content-h4">Drive Efficiency in Finance and Operations</h4>
+                                        <p class="kar-about-desc">Empower your finance and operations teams with our dedicated resources. We provide insights, streamline processes, and ensure compliance, helping you make informed decisions and drive growth with our Microsoft Dynamics finance and operation implementation resources.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-12 p-0">
@@ -220,8 +221,8 @@
                             <div class=" d-flex align-items-center row">
                                 <div class=" col-lg-6 col-sm-12 pr-5">
                                     <div class="kar-about-content">
-                                        <h4 class="kar-about-content-h4">Based On Dynamics 365 Supply Chain</h4>
-                                        <p class="kar-about-desc">In D354 supply chain, remote resources are used to optimize the production process and reduce costs. Remote resources can perform operations such as assembly, testing, quality control, packaging, or shipping from various locations around the world. Remote resources can also collaborate with other resources through online platforms and tools. Remote resources can be scheduled and monitored through the D354 supply chain management system, which integrates with the Dynamics 365 platform.</p>
+                                        <h4 class="kar-about-content-h4">Optimise Your Supply Chain Operations</h4>
+                                        <p class="kar-about-desc">Transform your supply chain with our expert resources. From inventory management to supplier collaboration, we help you optimise operations, reduce costs, and improve customer satisfaction with our Microsoft Dynamics supply chain implementation resources.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-12 p-0">
@@ -266,9 +267,8 @@
                             <div class=" d-flex align-items-center row">
                                 <div class=" col-lg-6 col-sm-12 pr-5">
                                     <div class="kar-about-content">
-                                        <h4 class="kar-about-content-h4">Based On Dynamics 365 HR & Payroll</h4>
-                                        <p class="kar-about-desc">Remote resource in D365 Human Resources and Payroll is a feature that allows you to manage your workers’ payroll information and processes from within Human Resources.
-                                            Remote resource in D365 Human Resources and Payroll can help you optimize your payroll and benefits administration, as well as comply with the legal and tax requirements of your region.
+                                        <h4 class="kar-about-content-h4">Streamline HR and Payroll Processes</h4>
+                                        <p class="kar-about-desc">Ensure efficiency and compliance in your HR and payroll functions with our remote solutions. Our resources and staff augmentation streamline processes, mitigate risks, and empower your workforce, fostering a positive work environment.
                                         </p>
                                     </div>
                                 </div>
@@ -314,8 +314,8 @@
                             <div class=" d-flex align-items-center row">
                                 <div class=" col-lg-6 col-sm-12 pr-5">
                                     <div class="kar-about-content">
-                                        <h4 class="kar-about-content-h4">Based On Dynamics 365 Sales</h4>
-                                        <p class="kar-about-desc">Remote resource in D365 Sales is a feature that allows you to host your data in an Azure Data Lake outside of Business Central. Remote resource in D365 Sales can help you optimize your data storage and analysis, as well as manage your projects and resources more efficiently.</p>
+                                        <h4 class="kar-about-content-h4">Tailored Customization Craftsmanship</h4>
+                                        <p class="kar-about-desc">Experience bespoke solutions tailored to your unique business needs, ensuring your Microsoft Dynamics 365 environment perfectly aligns with your operational goals and aspirations.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-sm-12 p-0">
@@ -369,8 +369,9 @@
             <div class="px-xl-5">
                 <div class="row">
                     <div class="col-lg-10 kar-benifit-main-cont">
-                        <h3 class="kar-benifit-mhead">The benefits of using our remote IT support services</h3>
-                        <p class="kar-benifit-mdesc">Our consultants can manage smooth Microsoft Dynamics 365 upgrades & migrations by using proactive methods to ensure safe and dependable data transfer. We move your data from your current state to the new system in an orderly and gradual way.</p>
+                        <h3 class="kar-benifit-mhead">Why Choose Dynamics Stream UK?</h3>
+                        <p class="kar-benifit-mdesc">Dynamics Stream UK stands out as a reliable choice for Microsoft Dynamics 365 support, with a dedicated team offering comprehensive assistance for Dynamics 365 Business Central support, supply chain, finance, operations, and Microsoft Dynamics 365 CRM implementation support. Our certified consultants bring over 300 successful migrations and upgrades, ensuring secure, cost-effective solutions tailored to your business needs.
+                        </p>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -379,7 +380,7 @@
                         <div class="card">
                             <img src="{{asset('newassets')}}/karimages/clock-fast-forward.svg" class="card-img-top" alt="...">
                             <div class="card-body kar-benifit-card-body">
-                                <p class="card-text kar-benifit-card-text">Fast call wait times of under 5 min call and speak to an Engineer</p>
+                                <p class="card-text kar-benifit-card-text">Tap into Pre-vetted Talent Pool</p>
                             </div>
                         </div>
                     </div>
@@ -387,7 +388,7 @@
                         <div class="card">
                             <img src="{{asset('newassets')}}/karimages/trend-up-01.svg" class="card-img-top" alt="...">
                             <div class="card-body kar-benifit-card-body">
-                                <p class="card-text kar-benifit-card-text">Fast call wait times of under 5 min call and speak to an Engineer</p>
+                                <p class="card-text kar-benifit-card-text">Seamless Integration Guaranteed</p>
                             </div>
                         </div>
                     </div>
@@ -395,7 +396,7 @@
                         <div class="card">
                             <img src="{{asset('newassets')}}/karimages/certificate-01.svg" class="card-img-top" alt="...">
                             <div class="card-body kar-benifit-card-body">
-                                <p class="card-text kar-benifit-card-text">Fast call wait times of under 5 min call and speak to an Engineer</p>
+                                <p class="card-text kar-benifit-card-text">Reduce Resource Logistics by 50%</p>
                             </div>
                         </div>
                     </div>
@@ -403,7 +404,7 @@
                         <div class="card">
                             <img src="{{asset('newassets')}}/karimages/user-check-01.svg" class="card-img-top" alt="...">
                             <div class="card-body kar-benifit-card-body">
-                                <p class="card-text kar-benifit-card-text">Fast call wait times of under 5 min call and speak to an Engineer</p>
+                                <p class="card-text kar-benifit-card-text">10+ years of experience</p>
                             </div>
                         </div>
                     </div>
@@ -411,7 +412,7 @@
                         <div class="card">
                             <img src="{{asset('newassets')}}/karimages/award-03.svg" class="card-img-top" alt="...">
                             <div class="card-body kar-benifit-card-body">
-                                <p class="card-text kar-benifit-card-text">Fast call wait times of under 5 min call and speak to an Engineer</p>
+                                <p class="card-text kar-benifit-card-text">300+ skilled resources</p>
                             </div>
                         </div>
                     </div>
@@ -426,23 +427,23 @@
     <div class="kar-faq-padding">
         <div class="container">
             <div class="px-xl-5">
-                <h3 class="kar-benifit-mhead">Dynamics Stream Resource Augmentation Approaches</h3>
-                <p class="kar-benifit-mdesc">Our consultants can manage smooth Microsoft Dynamics 365 upgrades & migrations by using proactive methods to ensure safe and dependable data transfer. We move your data from your current state to the new system in an orderly and gradual way.</p>
+                <h3 class="kar-benifit-mhead">Benefits of Outsourcing Your projects</h3>
+                <p class="kar-benifit-mdesc">Dynamics Stream UK stands out as a reliable choice for Microsoft Dynamics 365 support, with a dedicated team offering comprehensive assistance for Dynamics 365 Business Central support, supply chain, finance, operations, and Microsoft Dynamics 365 CRM implementation support. Our certified consultants bring over 300 successful migrations and upgrades, ensuring secure, cost-effective solutions tailored to your business needs.</p>
                 <div class="row ul-pdng-left-zero">
                     <div class="col-xl-6 col-md-6">
                         <ul class="grid grid-85 mt-zero equal ae-2 fromCenter  text-algn-left" data-equal-collapse-width="767">
-                            <li class="col-12-12 col-tablet-1-2 col-phablet-1-1 ae-3"><a class="togglefaq accordion bg-color-plus-Rem">How do we deliver remote IT support securely?</a>
+                            <li class="col-12-12 col-tablet-1-2 col-phablet-1-1 ae-3"><a class="togglefaq accordion bg-color-plus-Rem">Migration Security</a>
                                 <div class="faqanswer" style="display: none;">
-                                    <p class="parge">Once onboarded, all our customers receive the majority of their IT Support via a remote connection direct to a Service Desk Engineer. With user consent, they can remotely take over the device of the employee who has logged the ticket. This enables us to provide fast, efficient support there and then without additional delay as our Engineers can access everything they need to resolve faults, directly across customer devices.</p>
+                                    <p class="parge">As an authorised gold partner for Microsoft Dynamics 365 Functional Support and Microsoft Dynamics 365 Technical Support, Dynamics Stream UK brings extensive expertise and over a decade of experience to every project. From IT staff augmentation consulting to Microsoft Dynamics Resource Augmentation Support, our team provides holistic services tailored to your business needs.</p>
                                 </div>
                             </li>
                         </ul>
                     </div>
                     <div class="col-xl-6 col-md-6">
                         <ul class="grid grid-85 mt-zero equal ae-2 fromCenter text-algn-left" data-equal-collapse-width="767">
-                            <li class="col-12-12 col-tablet-1-2 col-phablet-1-1 ae-3"><a class="togglefaq accordion bg-color-plus-Rem">IT support delivered remote to remote</a>
+                            <li class="col-12-12 col-tablet-1-2 col-phablet-1-1 ae-3"><a class="togglefaq accordion bg-color-plus-Rem">Certified Microsoft Partner</a>
                                 <div class="faqanswer" style="display: none;">
-                                    <p class="parge">Our Service Desk is able to deliver remote support to the vast majority of our customers, 100% remotely meaning your remote workforce can be fully supported around the clock no matter the location.</p>
+                                    <p class="parge">With over 300 successful migrations and upgrades, our experienced consultants offer unmatched proficiency in reducing total ownership costs for your Dynamics 365 solutions. We streamline operations and optimise investments by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources. We guarantee cost effective support, but not compromise on quality.</p>
                                 </div>
                             </li>
                         </ul>
@@ -452,18 +453,18 @@
                     <div class="row  ul-pdng-left-zero">
                         <div class="col-xl-6 col-md-6 ">
                             <ul class="grid grid-85 equal ae-2 mt-zero fromCenter text-algn-left" data-equal-collapse-width="767">
-                                <li class="col-12-12 col-tablet-1-2 col-phablet-1-1 ae-3"><a class="togglefaq accordion bg-color-plus-Rem">A secure remote connection to all your devices</a>
+                                <li class="col-12-12 col-tablet-1-2 col-phablet-1-1 ae-3"><a class="togglefaq accordion bg-color-plus-Rem">Experienced Consultants</a>
                                     <div class="faqanswer" style="display: none;">
-                                        <p class="parge">Our remote support connection is highly secure and encrypted preventing anyone else from seeing or accessing that device other than the specified user and Engineer, and for added reassurance once the remote support session ends we are unable to reconnect to a device without a new session being started.</p>
+                                        <p class="parge">Forge robust connections with all your devices through our secure remote access, empowering efficient troubleshooting, maintenance, and support accessible from anywhere, at any time.</p>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-xl-6 col-md-6">
                             <ul class="grid grid-85 equal ae-2 mt-zero fromCenter text-algn-left" data-equal-collapse-width="767">
-                                <li class="col-12-12 col-tablet-1-2 col-phablet-1-1 ae-3"><a class="togglefaq accordion bg-color-plus-Rem">Tailored Customization</a>
+                                <li class="col-12-12 col-tablet-1-2 col-phablet-1-1 ae-3"><a class="togglefaq accordion bg-color-plus-Rem">Cost-Effective Solutions</a>
                                     <div class="faqanswer" style="display: none;">
-                                        <p class="parge">Optimise Dynamics 365 to meet your unique business requirements while minimising risks associated with excessive modifications, ensuring scalability and sustainability.</p>
+                                        <p class="parge">Maximise your sales and marketing efforts with our CRM resources. From lead generation to customer retention, we help you build stronger relationships, drive revenue, and achieve your business objectives with our Microsoft Dynamics CRM implementation resources.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -486,12 +487,13 @@
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="kar-mig-content">
+                    <h4>Dynamics Stream Resource Augmentation Stagies</h4>
                     <h5>Migration Security & Reliability</h5>
-                    <p>Our consultants can manage smooth Microsoft Dynamics 365 upgrades & migrations by using proactive methods to ensure safe and dependable data transfer. We move your data from your current state to the new system in an orderly and gradual way.</p>
-                    <h5>Certified Microsoft Solutions Partner</h5>
-                    <p>We are an authorized gold partner for Microsoft products and services, with extensive expertise and years of experience. We manage your complete system requirements, from Dynamics 365 implementation through upgrades and maintenance. We can build a robust, efficient, and profitable solution for your organization since we have professionals, effective methodology, and a safe data migrating skill set.</p>
-                    <h5>Experienced consultants with 300+ Migrations & Upgares</h5>
-                    <p>It can help you reduce the cost of ownership by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources.</p>
+                    <p>At Dynamics Stream UK, we prioritise the security and reliability of your data while offering the best Microsoft Dynamics 365 Customization Support and Microsoft Dynamics 365 Migration Support. Our consultants employ proactive methods to ensure a smooth transition, safeguarding your valuable information throughout the process.</p>
+                    <h5>Certified Microsoft Dynamics 365 Resource Augmentation partners in the UK</h5>
+                    <p>As an authorised gold partner for Microsoft Dynamics 365 Functional Support and Microsoft Dynamics 365 Technical Support, Dynamics Stream UK brings extensive expertise and over a decade of experience to every project. From IT staff augmentation consulting to Microsoft Dynamics Resource Augmentation Support, our team provides holistic services tailored to your business needs.</p>
+                    <h5>Experienced Consultants with 300+ Migrations & Upgrades</h5>
+                    <p>With over 300 successful migrations and upgrades, our experienced consultants offer unmatched proficiency in reducing total ownership costs for your Dynamics 365 solutions. We streamline operations and optimise investments by eliminating the need for infrastructure investment, upgrade and maintenance costs, and dedicated IT resources. We guarantee cost effective support, but not compromise on quality.</p>
                 </div>
             </div>
         </div>

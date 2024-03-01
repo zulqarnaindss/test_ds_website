@@ -1,7 +1,7 @@
 @extends('NewSCLandingMain')
-@section('title', 'Supply Chain Landing Page')
-@section('meta_description' , '')
-@section('meta_keywords', '')
+@section('title', 'Dynamics 365 Supply Chain Management Solution | Dynamics Stream')
+@section('meta_description' , 'Opitmize your supply chain processes and efficiency with microsoft Dynamics 365 supply chain implementation by dynamics stream experienced consultants in UK.')
+@section('meta_keywords', 'supply chain management consulting, supply chain management consulting services, supply chain consulting opportunities, dynamics 365 supply chain management, Dynamics 365 Supply Chain Management, microsoft dynamics implementation partners')
 @section('contents')
 <!--Header Starts-->
 <header class="header-bg-supply-chain-sec">

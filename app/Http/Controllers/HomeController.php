@@ -238,14 +238,12 @@ class HomeController extends Controller
         $data->solutions = $request->solutions;
         $data->message = $request->message;
         $data->save();
-        Mail::to('zulqarnainsaeedi019@gmail.com')->send(new VisitorContact($data));
+        Mail::to('info@dynamicsstream.com')->send(new VisitorContact($data));
 
         return redirect()->back()->with('success', 'Form Submit Successfully!');
     }
     public function bcguidedcontactForm(Request $request)
     {
-
-       
         // $data = $request->all();
  
         $request->validate([
@@ -272,82 +270,7 @@ class HomeController extends Controller
         return redirect()->back()->with('success', 'Form Submit Successfully!');
     }
 
-    public function contactFormbclanding(Request $request)
-    {
-         $request->validate([
-            'email' => 'required|email',
-            'phone' => 'required'
-        ]);
-        $data = [
-            'name' => $request->name,
-            'email' => $request->email,
-            'phone' => $request->phone,
-            'company' => $request->company,
-            'solutions' => $request->solutions,
-            'services' => $request->services,
-            'message' => $request->message,
-        ];
-        
-        $data = new BcLandingContact();
-        $data->name = $request->name;
-        $data->email = $request->email;
-        $data->phone = $request->phone;
-        $data->company = $request->company;
-        $data->solutions = $request->solutions;
-        $data->services = $request->services;
-        $data->message = $request->message;
-        $data->save();
-        Mail::to('info@dynamicsstream.com')->send(new BusinessCentralLandingPageContactForm($data));
-
-         return view('Pages.thank');
-        
-    }
     
-    public function contactFormbcUSAlanding(Request $request)
-    {
-         $request->validate([
-            'email' => 'required|email',
-            'phone' => 'required'
-        ]);
-        $data = [
-            'name' => $request->name,
-            'email' => $request->email,
-            'phone' => $request->phone,
-            'company' => $request->company,
-            'solutions' => $request->solutions,
-            'services' => $request->services,
-            'message' => $request->message,
-        ];
-        
-        $data = new BcUSALandingContact();
-        $data->name = $request->name;
-        $data->email = $request->email;
-        $data->phone = $request->phone;
-        $data->company = $request->company;
-        $data->solutions = $request->solutions;
-        $data->services = $request->services;
-        $data->message = $request->message;
-        $data->save();
-        Mail::to('info@dynamicsstream.com')->send(new BusinessCentralUSALandingPageContactForm($data));
-
-         return view('Pages.thank');
-        
-    }
-
-
-
-    public function newsletterForm(Request $request)
-    {
-      
-        $data = [
-            'email' => $request->email,
-        ];
-        $data = new news();
-     
-        $data->email = $request->email;
-        $data->save();
-        return redirect()->back();
-    }
 
      public function careerFormData(Request $request)
     {
@@ -392,71 +315,6 @@ class HomeController extends Controller
         return redirect('/form-submitted');
     }
    
-    public function thankyouContactus()
-    {
-        $footersectionone = Footersectionone::all();
-        $footersolution = Footersolution::all();
-        $footerservice = Footerservice::all();
-        $footerindustry = Footerindustry::all();
-        $footercontact = Footercontact::all();
-        $topheader = Topheader::all();
-        $navs = Navlogo::all();
-        $navbars = Navbar::all();
-        $bacontact = Bcontact::all();
-
-        return view('thankyou-contact', compact('footersectionone', 'bacontact', 'footersolution', 'footerservice', 'footerindustry', 'footercontact', 'topheader', 'navs', 'navbars'));
-    }
-    public function contactformforfolanding(Request $request)
-    {
-         $request->validate([
-            'email' => 'required|email',
-            'phone' => 'required'
-        ]);
-        $data = [
-            'name' => $request->name,
-            'email' => $request->email,
-            'phone' => $request->phone,
-            'company' => $request->company,
-            'solutions' => $request->solutions,
-            'services' => $request->services,
-            'message' => $request->message,
-        ];
-        
-        $data = new financelandingcontact();
-        $data->name = $request->name;
-        $data->email = $request->email;
-        $data->phone = $request->phone;
-        $data->company = $request->company;
-        $data->solutions = $request->solutions;
-        $data->services = $request->services;
-        $data->message = $request->message;
-        $data->save();
-        Mail::to('info@dynamicsstream.com')->send(new FinanceAndOperationsLandingPageContactFormMailData($data));
-
-        return view('Pages.thank');
-     
-    }
-    public function contactFormlandingpartner(Request $request)
-    {
-         $request->validate([
-            'email' => 'required|email',
-            'phone' => 'required'
-        ]);
-        $data = [
-            'name' => $request->name,
-            'email' => $request->email,
-            'phone' => $request->phone,
-            'company' => $request->company,
-            'solutions' => $request->solutions,
-            'services' => $request->services,
-            'message' => $request->message,
-        ];
-        
-        Mail::to('info@dynamicsstream.com')->send(new PartnerLandingPageContactForm($data));
-
-         return view('Pages.thank');
-        
-    }
      public function contactFormPopup(Request $request)
     {
         $data = new BcLandingContact();

@@ -1,7 +1,7 @@
 @extends('NewBCLandingMain')
-@section('title', 'Business Central Landing Page')
-@section('meta_description' , 'Business Central Landing Page')
-@section('meta_keywords', 'Business Central Landing Page')
+@section('title', 'Microsoft Dynamics 365 Business Central | Dynamics Stream UK')
+@section('meta_description' , 'Increase business productivity with Microsoft Dynamics 365 Business Central, a comprehensive cloud-based ERP solution, implemented by the UK based consultants.')
+@section('meta_keywords', 'dynamics 365 business central, microsoft dynamics 365 business central, microsoft 365 business central, microsoft dynamics 365 business central pricing,dynamics 365 business central implementation partners')
 @section('contents')
 <!--Header Starts-->
 <header  class="header-bg-BC-sec">

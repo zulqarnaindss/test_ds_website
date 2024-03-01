@@ -1,7 +1,8 @@
 @extends('NewFinanceLandingMain')
-@section('title', 'Finance Landing Page')
-@section('meta_description' , '')
-@section('meta_keywords', '')
+@section('title', 'Microsoft Dynamics 365 Finance & Supply Chain | Dynamics Stream UK')
+@section('meta_description' , 'A modern ERP implementation for completely centralized management of your Finance, Supply Chain, Master Planning, Project & cost Management by our consultants in the UK.')
+@section('meta_keywords', 'd365 finance and operations, d365 f&o
+, dynamics 365 finance and operations, dynamics 365 finance operations, microsoft dynamics 365 finance and operations partner')
 @section('contents')
 <!--Header Starts-->
 <header class="header-bg-finance-sec">

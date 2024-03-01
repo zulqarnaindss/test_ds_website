@@ -14,10 +14,8 @@
                     </div>
                     <div class="col-xl-8 col-lg-8 order-lg-1 mb-4">
                         <div class="content-box mb-4 text-lg-start text-center">
-                            <h1 class="">Microsoft Dynamics 365 Customization</h1>
-                            <p>Manage Every Stage of the customer journey. Our Holistic Customer experience solutions improve Customer engagement and scale as you grow</p>
-                            <p></p>
-                            <p>Create engaging experiences by uniting customer data with real-time journeys and Copilot in Customer Insights</p>
+                            <h1 class="">Tailored Microsoft Dynamics 365 Business Solution Customization</h1>
+                            <p>Step into future with Dynamics Stream's<span style="font-weight: 500;"> Microsoft Dynamics 365 Business Solution Customization</span> services. From personalised workflows to seamless integrations, our holistic approach to Dynamics 365 customisation empowers you to elevate every aspect of your operations. Unlock the full potential of your business and delight your customers at every touchpoint. </p>
                             <!-- <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-cCust-div">
                                 <div class="text-start mb-2">
                                     <a href="#popup1" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
@@ -44,7 +42,7 @@
                                     <i class="bi-star-fill text-warning"></i>
                                     <i class="bi-star-fill text-warning"></i>
                                 </div>
-                                <h6 class="mb-0 ms-2 text-info rated-care-txt text-white">Top-rated care</h6>
+                                <h6 class="mb-0 ms-2 text-info rated-care-txt">Top-rated care</h6>
                             </div>
                         </div>
                     </div>
@@ -57,9 +55,8 @@
 <section class="bg-color-2-sect-Cust top-Imp-cCust-div-2-sect-r">
     <div class="container-lg">
         <div class="px-xl-5">
-            <h3 class="mrbtom-for-Cust-2 font-s-h3-color-Cust">Customer Experience Solutions that deliver impact</h3>
-            <p class="prgrph-Cust-2-sect p-text-centr">A successful customer experience requires an infrastructure that delivers on customer expectations at every stage of their journey.
-                We implement customer operations solutions to support your human talent so they can create best customer experience possible.</p>
+            <h3 class="mrbtom-for-Cust-2 font-s-h3-color-Cust">Explore Our Expertise in Dynamics 365 Customization</h3>
+            <p class="prgrph-Cust-2-sect p-text-centr">Discover the benefits of partnering with Dynamics Stream for your customisation needs. Whether it's<span style="font-weight: 500;"> Microsoft Dynamics 365 Supply Chain Customization, Microsoft Dynamics 365 Finance and Operation Customization</span>, or<span style="font-weight: 500;"> Microsoft Dynamics 365 CRM Implementation Customization</span>, we bring a wealth of experience to elevate your business applications.</p>
 
             <div class="owl-carousel">
                 <div><img src="http://via.placeholder.com/550x150" alt="The Last of us"></div>
@@ -72,23 +69,23 @@
             <div class="tab-nbcgtBC tab-nbcgt-new-mBC">
                 <div class="tab__list-nbcgtBC mrtop-fifth-sect-Cust">
                     <div class="tab__item-nbcgtBC tab__item-2-sect-Cust tab__item-nbcgtCust-2-modules is--active">
-                        <p class="">Intelligent Sales</p>
+                        <p class="">Tailored Solutions for Your Unique Needs</p>
                     </div>
                     <div class="tab__item-nbcgtBC tab__item-2-sect-Cust tab__item-nbcgtCust-2-modules">
-                        <p class="">Proactive Customer Service</p>
+                        <p class="">Enhanced Efficiency and Productivity</p>
                     </div>
                     <div class="tab__item-nbcgtBC tab__item-2-sect-Cust tab__item-nbcgtCust-2-modules">
-                        <p class="">Marketing Automation</p>
+                        <p class="">Future-Proof Your Business with Scalable Solutions</p>
                     </div>
                 </div>
                 <div class="tab__content-nbcgtBC mtop-2rem bg-color-for-thrd-sect-click">
                     <div class="tab__content-item-nbcgtBC is--active">
                         <div class="row align-items-center">
                             <div class="col-xl-6 col-md-6 align-items-stretch">
-                                <h5 class="mb-3">Intelligent Sales</h5>
-                                <p class="paragraph-for-mobile-res slds-p">Improve marketing responsiveness while reducing manual labour. Our consultants will help you design and implement custom-built automation tools to manage timely marketing engagements governed by business rules. Keep your organisation top-of-mind with prospects while allocating your people to higher-value marketing tasks.</p>
+                                <h5 class="mb-3">Tailored Solutions for Your Unique Needs</h5>
+                                <p class="paragraph-for-mobile-res slds-p">Experience bespoke solutions crafted to fit your business like a glove. Dynamics Stream's expertise in<span style="font-weight: 500;"> Microsoft Dynamics 365 Business App Customization</span> ensures that every aspect of your system aligns perfectly with your requirements. From customised forms to role-based security features, we tailor each element to optimise efficiency and productivity.</p>
                                 <div class="text-start mb-2">
-                                    <a href="" class="btn btn-outline-theme">Let’s talk about Marketing Automation<i class="bi-chevron-right ms-3"></i></a>
+                                <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-md-6 align-items-stretch pdng-inl-4rem">
@@ -105,10 +102,10 @@
                     <div class="tab__content-item-nbcgtBC">
                         <div class="row align-items-center">
                             <div class="col-xl-6 col-md-6 align-items-stretch">
-                                <h5 class="mb-3">Proactive Customer Service</h5>
-                                <p class="paragraph-for-mobile-res slds-p">Improve marketing responsiveness while reducing manual labour. Our consultants will help you design and implement custom-built automation tools to manage timely marketing engagements governed by business rules. Keep your organisation top-of-mind with prospects while allocating your people to higher-value marketing tasks.</p>
+                                <h5 class="mb-3">Enhanced Efficiency and Productivity</h5>
+                                <p class="paragraph-for-mobile-res slds-p">Streamline your operations and boost productivity with our<span style="font-weight: 500;"> Microsoft Dynamics 365 Business Central Customization</span> services. By optimising processes, automating tasks, and integrating third-party solutions seamlessly, we empower your team to accomplish more in less time. Say goodbye to manual workflows and embrace a more efficient, agile business environment</p>
                                 <div class="text-start mb-2">
-                                    <a href="" class="btn btn-outline-theme">Let’s talk about Marketing Automation<i class="bi-chevron-right ms-3"></i></a>
+                                <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-md-6 align-items-stretch pdng-inl-4rem">
@@ -125,10 +122,10 @@
                     <div class="tab__content-item-nbcgtBC">
                         <div class="row align-items-center">
                             <div class="col-xl-6 col-md-6 align-items-stretch">
-                                <h5 class="mb-3">Marketing Automation</h5>
-                                <p class="paragraph-for-mobile-res slds-p">Improve marketing responsiveness while reducing manual labour. Our consultants will help you design and implement custom-built automation tools to manage timely marketing engagements governed by business rules. Keep your organisation top-of-mind with prospects while allocating your people to higher-value marketing tasks.</p>
+                                <h5 class="mb-3">Future-Proof Your Business with Scalable Solutions</h5>
+                                <p class="paragraph-for-mobile-res slds-p">With Dynamics Stream, you're not just investing in a solution for today; you're future-proofing your business for tomorrow. Our<span style="font-weight: 500;"> Microsoft Dynamics 365 Business Solution Customization</span> ensures scalability and flexibility, allowing your system to grow and adapt as your business evolves. Stay ahead of the curve and position your business for long-term success.</p>
                                 <div class="text-start mb-2">
-                                    <a href="" class="btn btn-outline-theme">Let’s talk about Marketing Automation<i class="bi-chevron-right ms-3"></i></a>
+                                <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-md-6 align-items-stretch pdng-inl-4rem">
@@ -144,58 +141,6 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="client-logos-sect-Cust">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="d-flex-new flex-wrap justify-content-between align-items-center">
-                            <img src="http://127.0.0.1:8000/newassets/images/brand/microsoft-logo.png" class="img-fluid me-4" alt="Microsoft Logo" width="160">
-                            <img src="http://127.0.0.1:8000/newassets/images/brand/shopify-logo.png" class="img-fluid me-4" alt="Shopify Logo" width="160">
-                            <img src="http://127.0.0.1:8000/newassets/images/brand/micro-gold-logo.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160">
-                            <img src="http://127.0.0.1:8000/newassets/images/brand/iso-img.png" class="img-fluid me-4" alt="Microsoft Gold Logo" width="160">
-                            <img src="http://127.0.0.1:8000/newassets/images/brand/hubspot-logo.png" class="img-fluid" alt="Hubspot Logo" width="160">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="row">
-                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
-                        <div class="Cust-color-bg-sect-card">
-                            <div class="card-content">
-                                <div>
-                                    <h4 class="top-Imp-cCust-div-2-sect-he">Dynamics 365 configuration</h4>
-                                </div>
-                                <div>
-                                    <p>Exploiting the most of possible no-code configuration, we save you money and ensure you will be able to smoothly upgrade your Dynamics 365 in the future.</p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
-                        <div class="Cust-color-bg-sect-card">
-                            <div class="card-content">
-                                <div>
-                                    <h4 class="top-Imp-cCust-div-2-sect-he">Dynamics 365 customization</h4>
-                                </div>
-
-                                <p>What is not possible with configuration, we achieve with custom coding.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
-                        <div class="Cust-color-bg-sect-card">
-                            <div class="card-content">
-                                <div>
-                                    <h4 class="top-Imp-cCust-div-2-sect-he">Custom Module Development</h4>
-                                </div>
-                                <p>If you need some extra functionality and a relevant module doesn’t exist in Microsoft AppSource.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div> -->
         </div>
     </div>
 </section>
@@ -204,15 +149,15 @@
     <div class="container-lg">
         <div class="px-xl-5">
             <div class="">
-                <h3 class=" font-s-h3-new">Our Work with Microsoft Dynamics Platform for <br> Different Companies</h3>
+                <h3 class=" font-s-h3-new">Our Extensive Experience with <br> Microsoft Dynamics Platform Across Diverse Industries</h3>
                 <div class="Cust-3rd-sect-main-di">
                     <div class="Cust-items-1">
                         <img src="{{asset('assets')}}/images/new-services-pages/customization/updated/customer-portal-implementation.webp" class="img-fluid" />
                     </div>
                     <div class="Cust-items-2">
                         <p class="colr-p">Logistics & Transportation</p>
-                        <h4>Customer Portal Implementation to Protect Business Data Confidentiality</h4>
-                        <p class="mb-4">Dynamics Stream implemented a Dynamics 365 customer portal integrated with a sales module for Saudia Cargo, Asia’s leading cargo airline.</p>
+                        <h4>Confidential Business Data Security through Customer Portal Implementation</h4>
+                        <p class="mb-4">Dynamics Stream successfully implemented a<span style="font-weight: 500;"> Microsoft Dynamics 365 Business App Customization</span> for Saudia Cargo, the leading cargo airline in Asia. The project included the seamless integration of a customer portal with a sales module, ensuring heightened data security and streamlined operations.</p>
                     </div>
                 </div>
                 <div class="Cust-3rd-sect-main-di">
@@ -220,9 +165,9 @@
                         <img src="{{asset('assets')}}/images/new-services-pages/customization/updated/crm-to-enable-omnichannel.webp" class="img-fluid" />
                     </div>
                     <div class="Cust-items-2 Cust-content-2">
-                        <p class="colr-p">Retail &nbsp; Customer Goods</p>
-                        <h4>Microsoft Dynamics CRM to Enable Omnichannel Customer Experience</h4>
-                        <p class="mb-4">Having developed Microsoft Dynamics solutions since 2008, Dynamics Stream rolls out a customized CRM system for a multibusiness group of companies and integrated it with a data warehouse to centralize data from its separate business entities.</p>
+                        <p class="colr-p">Retail Consumer Goods</p>
+                        <h4>Elevating Customer Experiences with Microsoft Dynamics CRM</h4>
+                        <p class="mb-4">With a rich history dating back to 2008, Dynamics Stream excels in delivering tailored solutions. Our expertise shines in deploying a<span style="font-weight: 500;"> Microsoft Dynamics 365 Business Solution Customization</span> for a diverse retail group. This involved creating and integrating a customised CRM system with a data warehouse, optimising data management across various business entities.</p>
                     </div>
                 </div>
                 <div class="Cust-3rd-sect-main-di">
@@ -231,8 +176,8 @@
                     </div>
                     <div class="Cust-items-2 thrd-box-bg-Cust">
                         <p class="colr-p">Healthcare</p>
-                        <h4>Microsoft Dynamics 365 CRM to Automate Customer Management</h4>
-                        <p class="mb-4">ScienceSoft used Dynamics 365 Sales, Marketing and Customer Voice, Power Apps and numerous third-party systems to build a comprehensive CRM ecosystem.</p>
+                        <h4>Efficient Customer Management with Microsoft Dynamics 365 CRM</h4>
+                        <p class="mb-4">In the healthcare sector, ScienceSoft harnessed the power of<span style="font-weight: 500;"> Microsoft Dynamics 365 Business Central Customization</span>. Leveraging Dynamics 365 Sales, Marketing, Customer Voice, Power Apps, and third-party systems, they created a robust CRM ecosystem. This initiative streamlined customer management, ensuring automation and efficiency across operations.</p>
                     </div>
                 </div>
             </div>
@@ -244,30 +189,18 @@
 <section class="fourth-sect-main-Cust-di top-Imp-cCust-div-4-sect-r">
     <div class="container-lg">
         <div class="px-xl-5">
-            <h3 class="font-s-h3-new">Connected customer experiences across teams</h3>
-            <p class="">Dynamics 365 offers an impressive range of business apps, and we are sure that over time, our service offering will cover them all. But as for now, we opt for a narrower, yet deeper, expertise in three apps forming the core of any robust CRM system.</p>
+            <h3 class="font-s-h3-new">Why Your Business Needs Dynamics 365 Customization</h3>
+            <p class="">Elevate your business to new heights with Dynamics Stream's tailored customisation solutions. We understand the unique challenges faced by startups, SMEs, and enterprises across the UK, and we're here to address them head-on with our expertise and personalised approach.</p>
             <div class="di-mr-for-img-bg-row">
                 <div class="row">
                     <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
                         <div class="Cust-4th-bg-sect-card ">
                             <div class="card-content">
                                 <div>
-                                    <h4 class="">Marketing</h4>
+                                    <h4 class="">Fragmented Data Solutions: A Barrier to Operational Efficiency</h4>
                                 </div>
                                 <div>
-                                    <p>Tailor real-time customer journeys and use Copilot to find new insights, create audience segments, and produce personalized content.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
-                        <div class="Cust-4th-bg-sect-card">
-                            <div class="card-content">
-                                <div>
-                                    <h4 class="">Sales</h4>
-                                </div>
-                                <div>
-                                    <p>Empower sellers with real-time leads, enabling personalized interactions through AI-generated predictions and product recommendations.</p>
+                                    <p>Are you struggling with fragmented data solutions across disparate systems? Bid farewell to data silos, duplication, errors, and inefficiencies through comprehensive<span style="font-weight: 500;"> Microsoft Dynamics 365 Supply Chain Customization</span>. By integrating and centralising data across your organisation, we streamline operations and empower data-driven decision-making for improved efficiency and productivity.</p>
                                 </div>
                             </div>
                         </div>
@@ -276,10 +209,22 @@
                         <div class="Cust-4th-bg-sect-card">
                             <div class="card-content">
                                 <div>
-                                    <h4 class="">Service</h4>
+                                    <h4 class="">Lack of Tailored Systems: Unmet Needs in Business Operations</h4>
                                 </div>
                                 <div>
-                                    <p>Identify customer issues proactively and provide agents with in-depth customer profiles that help route cases and resolve issues faster.</p>
+                                    <p>Off-the-shelf software often fails to address the unique requirements of businesses, leaving critical gaps in functionality and hindering growth potential. Our<span style="font-weight: 500;"> Microsoft Dynamics 365 Finance and Operation Customization</span> expertise enables us to develop tailored solutions that align perfectly with your business processes and goals, driving operational excellence and business growth.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch">
+                        <div class="Cust-4th-bg-sect-card">
+                            <div class="card-content">
+                                <div>
+                                    <h4 class="">Poor Customer Engagement: A Roadblock to Business Success</h4>
+                                </div>
+                                <div>
+                                    <p>Ineffective customer engagement strategies result in missed opportunities, reduced customer satisfaction, and diminished competitive advantage.<span style="font-weight: 500;"> With our Microsoft Dynamics 365 CRM Implementation Customization</span>, Dynamics Stream transforms customer engagement into a strategic asset. </p>
                                 </div>
                             </div>
                         </div>
@@ -295,19 +240,19 @@
 <section class="fifth-sect-Cust-main-di">
     <div class="container-lg">
         <div class="px-xl-5">
-            <h3 class="font-s-h3-new">Deliver connected customer journeys</h3>
-            <p class="">Understand your customers and create truly personalized experiences.</p>
+            <h3 class="font-s-h3-new">Our Proven Approach to Dynamics 365 Customization</h3>
+            <p class="">At Dynamics Stream, we follow a streamlined approach to deliver top-notch Dynamics 365 customisation services, ensuring tailored solutions that precisely meet your business needs.</p>
 
             <div class="tab-nbcgtBC tab-nbcgt-new-mBC">
                 <div class="tab__list-nbcgtBC mrtop-fifth-sect-Cust">
                     <div class="tab__item-nbcgtBC tab__item-nbcgt-2-modules-Cust tab__item-nbcgtCust-2-modules is--active">
-                        <p class="">Get a Richer view of Customers</p>
+                        <p class="">Needs Assessment</p>
                     </div>
                     <div class="tab__item-nbcgtBC tab__item-nbcgt-2-modules-Cust tab__item-nbcgtCust-2-modules">
-                        <p class="">Deliver Real -time journeys</p>
+                        <p class="">Strategic Planning and Design</p>
                     </div>
                     <div class="tab__item-nbcgtBC tab__item-nbcgt-2-modules-Cust tab__item-nbcgtCust-2-modules">
-                        <p class="">Get insights faster</p>
+                        <p class="">Agile Implementation and Refinement</p>
                     </div>
 
                 </div>
@@ -316,8 +261,8 @@
                         <div class="row align-items-center">
 
                             <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
-                                <h5 class="mb-3">Get a Richer View of Customers</h5>
-                                <p class="paragraph-for-mobile-res">Unify transactional, demographic, and behavioral data with AI-powered identity management for a holistic view of customers.</p>
+                                <h5 class="mb-3">Needs Assessment</h5>
+                                <p class="paragraph-for-mobile-res">We start by conducting a comprehensive assessment of your business requirements, gaining insights into your unique workflows, pain points, and objectives. This deep understanding allows us to tailor our customisation solutions to fit seamlessly into your existing processes.</p>
                             </div>
                             <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
                                 <div class=""><img class="" src="{{asset('assets')}}/images/new-services-pages/customization/updated/get-richer-view-customers.webp" alt=""></div>
@@ -328,8 +273,8 @@
                         <div class="row align-items-center">
 
                             <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
-                                <h5 class="mb-3">Deliver Real-time journeys</h5>
-                                <p class="paragraph-for-mobile-res">Create real-time customer journeys across channels that are contextually relevant and can be optimized with A/B testing.</p>
+                                <h5 class="mb-3">Strategic Planning and Design</h5>
+                                <p class="paragraph-for-mobile-res">With a clear understanding of your needs, we strategically plan and design customized solutions prioritising usability, scalability, and efficiency. Our goal is to develop Dynamics 365 solutions that address your current challenges and position your business for future growth and success.</p>
                             </div>
                             <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
                                 <div class=""><img class="" src="{{asset('assets')}}/images/new-services-pages/customization/updated/deliver-real-time-journey.webp" alt=""></div>
@@ -340,8 +285,8 @@
                         <div class="row align-items-center">
 
                             <div class="col-xl-4 col-lg-4 col-md-6 mb-3">
-                                <h5 class="mb-3">Get insights faster</h5>
-                                <p class="paragraph-for-mobile-res">Discover insights and quickly understand customer attributes with individual profile summaries using Copilot.</p>
+                                <h5 class="mb-3">Agile Implementation and Refinement</h5>
+                                <p class="paragraph-for-mobile-res">Our agile implementation methodology allows for iterative testing and refinement throughout the customisation process. We adopt a collaborative approach, working closely with your team to incorporate feedback and make necessary adjustments along the way.</p>
                             </div>
                             <div class="col-xl-8 col-lg-8 col-md-6 mb-3">
                                 <div class=""><img class="" src="{{asset('assets')}}/images/new-services-pages/customization/updated/get-insights-faster.webp" alt=""></div>
@@ -363,8 +308,8 @@
             <div class="col-lg-4 col-md-4 " style="background: #EFF0FC;">
                 <div class="Cust-last-sec-card1">
                     <div class="img-di-last-Cust-sect">
-                        <h3 class="font-s-h3-new Cust-3rd-he-mgn">The DS Way of delivering impact</h3>
-                        <p>The right technology is only part of any organisation’s recipe for success. The right expertise and methods are also required to maximise the value of these investments. Through our unique project delivery framework, our experts accelerate project performance and value through a holistic approach to innovation and delivery.</p>
+                        <h3 class="font-s-h3-new Cust-3rd-he-mgn">Harness 10+ Years of Expertise with Dynamics Stream</h3>
+                        <p>Unlock the full potential of your business with Dynamics Stream, your premier choice for<span style="font-weight: 500;"> Microsoft Dynamics Business Central Customization</span></p>
                         <div class="text-start reqst-bt-3rd-sect-mgn mb-2">
                             <a href="/request-demo" class="btn btn-outline-theme">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                         </div>

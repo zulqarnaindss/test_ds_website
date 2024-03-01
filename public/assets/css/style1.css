@@ -1,4 +1,38 @@
 /* Custom Style For New Website Live */
+.mr-right-logos{
+  margin-right: 4.5rem;
+}
+.fw-bold-h{
+  font-weight: 600 !important;
+}
+.connect-h{
+  font-size: 16px;
+  font-weight: 400;
+}
+.micro-solu-logo{
+  width: 12%;
+}
+.footer-card h5{
+  font-weight: 400;
+}
+.main-first-h{
+  line-height: 1.4 !important;
+  font-size: 25px !important;
+}
+.home-client-bg-2{
+  background: #e9eff3;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.mr-hdr-img {
+  margin-top: 15px;
+}
+.products-imgs-st img{
+  width: 90%;
+}
+.row-card-resource-implementation-bg .content-box{
+  padding-left: 3rem;
+}
 /* Thank you page New */
 
 .slider-btns {
@@ -115,7 +149,6 @@
 }
 
 .CTA-img-st {
-  width: 65%;
   width: 65%;
   margin: auto;
   float: inline-end;
@@ -324,7 +357,7 @@
 #tabs .tab4:hover .tab,
 #tabs .tab5:hover .tab {
   z-index: 2;
-  background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, rgba(30, 87, 153, 1) 19%, rgba(30, 87, 153, 1) 20%, rgba(41, 137, 216, 1) 50%, rgba(30, 87, 153, 1) 80%, rgba(30, 87, 153, 1) 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%);
+  /* background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 0%, rgba(30, 87, 153, 0.8) 15%, rgba(30, 87, 153, 1) 19%, rgba(30, 87, 153, 1) 20%, rgba(41, 137, 216, 1) 50%, rgba(30, 87, 153, 1) 80%, rgba(30, 87, 153, 1) 81%, rgba(30, 87, 153, 0.8) 85%, rgba(30, 87, 153, 0) 100%); */
   /* font-weight: bold; */
   color: #fff;
 }
@@ -509,7 +542,7 @@ code {
 /* Margins and paddings End */
 /* Home page changes */
 .contact-card2 h6 {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .mrg-in-home-2-sect {
@@ -535,11 +568,23 @@ code {
 .argum-img {
   width: 75%;
 }
-
-.product-p-st-size p {
-  font-size: 14px;
+.solution-card p{
+  font-size: 10px;
+  margin-bottom: 0;
+  color: black;
+  font-weight: 600;
 }
 
+.p-md-4-for-web-sect:hover{
+  background:#000000;
+  cursor: pointer;
+}
+.p-md-4-for-web-sect:hover h4{
+ color: white;
+}
+.p-md-4-for-web-sect:hover p{
+  color: white;
+ }
 /* Home page changes end */
 /* Support Service */
 .header-bg-Supp-sec {
@@ -1654,7 +1699,6 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; */
-  background: #092970;
   padding: 2.5rem 0 0rem 0 !important;
   z-index: 0;
 }
@@ -1676,7 +1720,6 @@ code {
 }
 
 .header-bg-Cust-sec .content-box h1 {
-  color: white !important;
   margin-bottom: 2rem;
   font-size: 30px;
   font-weight: 400;
@@ -1685,10 +1728,6 @@ code {
 
 .prgrph-Cust-lst-sect-p {
   color: #3D3D3D;
-}
-
-.header-bg-Cust-sec .content-box p {
-  color: white !important;
 }
 
 .contact-cCust-div {
@@ -2048,27 +2087,21 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; */
-  background: #7EBA00;
   padding: 2.5rem 0 0rem 0 !important;
 }
 
 
 
 .header-bg-Upgr-sec .content-box h1 {
-  color: white !important;
   font-size: 30px;
   line-height: 34px;
-  font-weight: 400;
-}
-
-.header-bg-Upgr-sec .content-box p {
-  color: white !important;
+  font-weight: 300;
 }
 
 .upgr-color-bg-sect-card {
   display: flex;
   flex-direction: column;
-  background: #7EBA00;
+  background: #E5F3D3;
   border-radius: 10px;
   min-width: 0;
   background-clip: border-box;
@@ -2080,7 +2113,7 @@ code {
 }
 
 .upgr-color-bg-sect-card h4 {
-  color: white;
+  color: black;
   font-size: 20px;
   letter-spacing: 0px;
   font-weight: 600;
@@ -2088,12 +2121,12 @@ code {
 }
 
 .upgr-color-bg-sect-card p {
-  color: white;
+  color: black;
   font-size: 16px;
 }
 
 .upgr-color-bg-sect-card i {
-  color: #ffffff;
+  color: black;
   font-size: 30px;
 }
 
@@ -2430,7 +2463,7 @@ code {
 .row-card-resource {
   border-radius: 20px;
   background: #18233F;
-  padding: 2rem 4rem 2rem 4rem;
+  /* padding: 2rem 4rem 2rem 4rem; */
 }
 
 .row-card-resource .content-box {
@@ -2441,10 +2474,15 @@ code {
   font-size: 14px;
   font-style: normal;
   font-weight: 300;
-  line-height: 28px;
+  line-height: 24px;
 }
-
-.row-card-resource .content-box::before {
+.products-home-img{
+  width: 100% !important;
+}
+.cortc-img-st{
+  width: 60%;
+}
+/* .row-card-resource .content-box::before {
   content: '';
   width: 100px;
   height: 100px;
@@ -2453,7 +2491,7 @@ code {
   background: linear-gradient(180deg, rgba(24, 35, 63, 0.08) 0%, rgb(83, 154, 68, 0.08) 100%);
   top: 0px;
   left: -50px;
-}
+} */
 
 .row-card-resource .content-box::after {
   content: '';
@@ -2596,13 +2634,14 @@ code {
 }
 
 .res-augmnt-he {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 400;
+  margin-top: 11px;
 }
 
 .web-sect-he {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .web-and-app-p p {
@@ -2612,7 +2651,7 @@ code {
 }
 
 .p-md-4-for-web-sect {
-  padding: 1.5rem !important;
+  padding: 1rem 1rem 1rem 2rem !important;
 }
 
 .btn-theme-for-we-sect {
@@ -3730,7 +3769,9 @@ code {
   display: flex;
 }
 
-
+.d-flex-new-home{
+  display: flex;
+}
 
 /* Impact Of section End */
 .mrtop-fifth-sect {
@@ -3809,7 +3850,7 @@ code {
   background: #E9E9E9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  height: 35vh;
+  /* height: 35vh; */
   flex: 1;
 }
 
@@ -4878,11 +4919,17 @@ a {
 
 /* Work With Us End */
 /* about us page */
+.pdng-left-rigt-4{
+  padding: 0 4rem;
+}
 .top-sect-about-mrgn {
   margin-top: 10rem;
   margin-bottom: 2rem;
 }
-
+.top-sect-about-mrgns {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
 .mrgn-btm-about-per {
   margin-bottom: 8px;
 }
@@ -4895,6 +4942,7 @@ a {
   background-image: url(../images/about-us/vission.webp);
   padding: 7rem;
   background-position: center;
+  border-radius: 5px;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -4904,6 +4952,7 @@ a {
   padding: 7rem;
   background-position: center;
   background-repeat: no-repeat;
+  border-radius: 5px;
   background-size: auto;
 }
 
@@ -5207,7 +5256,9 @@ a {
 .pdng-zero {
   padding-left: 0 !important;
 }
-
+.pdng-zero {
+  padding-left: 0 !important;
+}
 .form-h {
   text-align: left;
   margin-bottom: 6%;
@@ -5810,7 +5861,7 @@ a {
   padding: 5px 0;
   text-decoration: none;
   line-height: 1.6;
-  font-size: 14px;
+  font-size: 13px;
   text-transform: capitalize;
   color: #000;
   transition: all 0.25s ease-in-out;
@@ -21920,7 +21971,7 @@ ol li {
 .heading-first-top-finan {
   padding-left: 4%;
   font-size: 36px;
-  margin-top: 11%;
+  margin-top: 15%;
   color: black;
   font-weight: 600;
   margin-right: 17%;
@@ -22048,7 +22099,7 @@ ol li {
 .heading-first-wholesa {
   padding-left: 4%;
   font-size: 36px;
-  margin-top: 11%;
+  margin-top: 15%;
   font-weight: 600;
   color: black;
   margin-right: 30%;
@@ -24567,7 +24618,45 @@ ol li {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
+  .contact-card2 {
+    padding: 1rem 1rem 1rem 1rem !important;
+  }
+  .contact-card2 h6 {
+    font-size: 14px;
+    text-align: center;
+  }
+  .foot-card-sec {
+    padding: 1rem 18px !important;
+  }
+  .mr-right-logos {
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+  .micro-solu-logo {
+    width: 47%;
+  }
+  .m-txt-cener{
+    text-align: center;
+  }
+  .product-sec .content-box h3 {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .product-sec .content-box h4 {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .client-mobile-mr{
+    margin-bottom: 10px;
+  }
+  .CTA-img-st {
+    width: auto;
+    float: none;
+  }
+  .row-card-resource-implementation-bg .content-box {
+    padding-left: 0rem;
+    padding-bottom: 1rem;
+  }
   /* Thank You Page */
   .header-bg-Thnk-sec {
     padding: 0.5rem 0 0rem 0 !important;
@@ -24781,6 +24870,15 @@ ol li {
   .product-sec p {
     text-align: center;
     font-size: 14px;
+    font-weight: 300;
+  }
+  .web-sect-he {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .p-md-4-for-web-sect {
+    padding: 1rem 1rem 1rem 1rem !important;
+    text-align: center;
   }
 
   /* Home page changes End */
@@ -25311,9 +25409,12 @@ ol li {
   }
 
   .res-augmnt-he {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: normal;
   }
-
+  .mrg-in-home-2-sect {
+    margin-inline: auto;
+  }
   .icon-5-btn {
     top: auto;
     margin-top: 6px;
@@ -25898,7 +25999,14 @@ ol li {
   .d-flex-new {
     display: block;
   }
-
+  .sec-he-sect {
+    font-size: 16px;
+    font-weight: 300;
+}
+  .d-flex-new-home{
+    display: grid;
+    margin-inline: 50px;
+  }
   .industry-bg-sec {
     padding: 3rem 0;
     background-size: cover;

@@ -1,9 +1,7 @@
 @extends('newhomemain')
-@foreach($mainhome as $mainhomeindex)
-@section('title', $mainhomeindex->meta_title)
-@section('meta_description' , $mainhomeindex->meta_description)
-@section('meta_keywords', $mainhomeindex->meta_keywords)
-@endforeach
+@section('title', 'Trusted Microsoft Dynamics 365 Solution and Implementation Partner UK')
+@section('meta_description' , 'Dynamics Stream Software Solution and is the trusted Microsoft Dynamics 365 Gold Partner in the UK with a specialization in Dynamics 365 & ERP implementations.')
+@section('meta_keywords', 'dynamics 365 business central implementation partners,supply chain management consulting services,dynamics 365 finance operations,human resource payroll software')
 @section('contents')
 <!--Header Starts-->
 <header class="pdn-btm-header-home">
@@ -15,18 +13,18 @@
                 </div>
                 <div class="col-xl-6 col-lg-8 order-lg-1 mb-4">
                     <div class="content-box mb-4 text-lg-start text-center">
-                        <h1>3x Your Business Potential, Increase Productivity & Profits, Business Intelligence & Take Better Decisions!</h1>
+                        <h1 class="main-first-h">3x Your Business Potential, Increase Productivity & Profits, Business Intelligence & Make Better Decisions!</h1>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-check2 mt-1"></i>
                             <p class="flex-grow-1 mb-0 ms-3">An ERP & CRM trusted by millions of SME’S, startup’ and enterprises globally.</p>
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-check2 mt-1"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">A team of 300+ Functional & Technical consultants.</p>
+                            <p class="flex-grow-1 mb-0 ms-3">A team of 300+ Functional & Technical Consultants.</p>
                         </div>
                         <div class="d-flex align-items-start mb-4">
                             <i class="flex-shrink-0 bi-check2 mt-1"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Human-centric & data-driven approach to propose better solution & implementation of Microsoft Dynamics 365 CRM & ERP.</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Human-centric & data-driven approach to propose better solutions & implementation of Microsoft Dynamics 365 CRM & ERP.</p>
                         </div>
                         <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center contact-div">
                             <div class="text-start mb-2">
@@ -116,14 +114,14 @@
     <div class="container-lg">
         <div class="px-5">
             <div class="row">
-                <div class="col-xl-12">
+                <div class="col-xl-12 home-client-bg-2">
                     <p class="text-center mb-4  sec-he-sect">Companies Trusting Microsoft Dynamics 365</p>
-                    <div class="d-flex flex-wrap mrg-in-home-2-sect justify-content-between align-items-center">
-                        <img src="{{asset('newassets')}}/images/brand/ikea.png" class="img-fluid" alt="Ikea Logo" width="80" />
-                        <img src="{{asset('newassets')}}/images/brand/mercedeze.png" class="img-fluid" alt="Mercedes Logo" width="80" />
-                        <img src="{{asset('newassets')}}/images/brand/loreal.png" class="img-fluid" alt="LoReal Logo" width="80" />
-                        <img src="{{asset('newassets')}}/images/brand/spar.png" class="img-fluid" alt="Spar Logo" width="80" />
-                        <img src="{{asset('newassets')}}/images/brand/kpmg.png" class="img-fluid" alt="KPMG Logo" width="80" />
+                    <div class="d-flex-new-home flex-wrap mrg-in-home-2-sect justify-content-between align-items-center">
+                        <img src="{{asset('newassets')}}/images/brand/ikea.webp" class="img-fluid client-mobile-mr" alt="Ikea Logo" width="80" />
+                        <img src="{{asset('newassets')}}/images/brand/mercedeze.png" class="img-fluid client-mobile-mr" alt="Mercedes Logo" width="80" />
+                        <img src="{{asset('newassets')}}/images/brand/loreal.png" class="img-fluid client-mobile-mr" alt="LoReal Logo" width="80" />
+                        <img src="{{asset('newassets')}}/images/brand/spar.png" class="img-fluid client-mobile-mr" alt="Spar Logo" width="80" />
+                        <img src="{{asset('newassets')}}/images/brand/kpmg.png" class="img-fluid client-mobile-mr" alt="KPMG Logo" width="80" />
                     </div>
                 </div>
             </div>
@@ -150,7 +148,7 @@
                             <p> 20+ years of turning complexity into simplicity, transforming your business operations into a seamless and profitable machine.</p>
                         </div>
                         <div class="d-grid">
-                            <a href="/microsoft-dynamics-365-implementation-services">
+                            <a href="/microsoft-dynamics-365-implementation-Services">
                                 <button type="button" class="btn btn-32-pdng-zero btn-theme-Service-btns">Seamless Implementation <i class="bi-chevron-right ms-2"></i></button>
                             </a>
                         </div>
@@ -164,7 +162,7 @@
                             <p>Enhance your app architecture, add new features, address security, ensure regulatory compliance, improve user experience, or revamp entire systems.</p>
                         </div>
                         <div class="d-grid">
-                            <a href="/microsoft-dynamics-upgraded-services">
+                            <a href="/microsoft-dynamics-365-migration-services">
                                 <button type="button" class="btn btn-32-pdng-zero btn-theme-Service-btns">Upgrade Performance <i class="bi-chevron-right ms-2"></i></button>
                             </a>
                         </div>
@@ -175,10 +173,10 @@
                         <div class="card-content">
                             <img src="{{asset('newassets')}}/images/icons/customization.webp" class="img-fluid" alt="Implementation Icon" width="40" />
                             <h4>Customization</h4>
-                            <p>Tailoring software to perfection for your business with a team of 300+ consultants, app architects, UI/UX, DevOps, and QA professionals.</p>
+                            <p>Tailoring software to perfect for your business with a team of 300+ Consultants, App Architects, UI/UX, DevOps, and QA Professionals.</p>
                         </div>
                         <div class="d-grid">
-                            <a href="/microsoft-dynamics-customization-service">
+                            <a href="/dynamics-365-customization">
                                 <button type="button" class="btn btn-32-pdng-zero btn-theme-Service-btns">Custom As You Need <i class="bi-chevron-right ms-2"></i></button>
                             </a>
                         </div>
@@ -192,55 +190,33 @@
                             <p>Ensure uninterrupted success with our 100+ team members dedicated to keeping your business running seamlessly around the clock 24/7.</p>
                         </div>
                         <div class="d-grid">
-                            <a href="/microsoft-dynamics-support-services">
+                            <a href="/dynamics-365-support">
                                 <button type="button" class="btn btn-32-pdng-zero btn-theme-Service-btns">Support That You Need <i class="bi-chevron-right ms-2"></i></button>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row-card mt-3" id="Resource-augmentation">
-                <div class="row">
-                    <div class="col-xl-7 col-lg-7 mb-2 order-lg-2">
+            <div class="row-card-resource mt-3 row-card-resource-implementation-bg" id="Resource-augmentation">
+                <div class="row align-items-center">
+                    <div class="col-xl-8 col-lg-8 order-lg-1 row-pdng-right-zero align-items-stretch">
+                        <div class="">
+                            <img src="{{asset('newassets')}}/images/contact-m.webp" class="img-fluid CTA-img-st mobile-blocks" alt="Support Image" width="400">
+                        </div>
                         <div class="content-box">
-                            <h3 class="res-augmnt-he mt-3 mb-4">Seeking remote or in-person resources for Microsoft Dynamics 365 suite implementation? Let's connect!</h3>
-                            <p>24/7 Support: Our top-rated team of 300+ experts is ready for Microsoft Dynamics 365—remote or project-based. Anytime, anywhere!</p>
-                            <div class="mtop-2rem mb-3">
-                                <a href="/request-demo" class="btn btn-outline-theme">Book a Free Discovery Call <i class="bi-chevron-right ms-2"></i></a>
-                                <!-- <a href="/microsoft-dynamics-support-services">
-                                    <button type="button" class="btn btn-theme-argu-btns"> <i class="bi-chevron-right ms-2"></i></button>
-                                </a> -->
+                            <h3 class="res-augmnt-he mb-4">Seeking remote or in-person resources for Microsoft Dynamics 365 suite implementation? Let's connect!</h3>
+                            <p>Discover how our round-the-clock, top-rated support team can provide the perfect resource from our in-house pool of 300+ well-trained professional, specialising in<span style="font-weight: 500;"> Dynamics 365 consulting services in the UK.</span></p>
+                            <div class="mt-4">
+                                <a href="/request-demo" class="btn btn-outline-theme mb-2">Request a Free Demo</a>
                             </div>
-
-                            <div class="d-flex flex-wrap align-items-center justify-content-lg-start justify-content-center mb-4">
-                                <svg class="flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="16" height="34" viewBox="0 0 46 44" fill="none">
-                                    <path d="M44.2935 22.5C44.2935 20.94 44.1497 19.44 43.8827 18H22.5986V26.52H34.7609C34.2268 29.26 32.6243 31.58 30.2206 33.14V38.68H37.555C41.8282 34.84 44.2935 29.2 44.2935 22.5Z" fill="#4285F4" />
-                                    <path d="M22.5984 43.9999C28.7001 43.9999 33.8157 42.0399 37.5548 38.6799L30.2204 33.1399C28.2071 34.4599 25.639 35.2599 22.5984 35.2599C16.7227 35.2599 11.7305 31.3999 9.94309 26.2H2.42383V31.8799C6.14237 39.0599 13.7643 43.9999 22.5984 43.9999Z" fill="#34A853" />
-                                    <path d="M9.9435 26.1799C9.49152 24.8599 9.22444 23.4599 9.22444 21.9999C9.22444 20.5399 9.49152 19.1399 9.9435 17.8199V12.1399H2.42424C0.88341 15.0999 0 18.4399 0 21.9999C0 25.5599 0.88341 28.8999 2.42424 31.8599L8.2794 27.4199L9.9435 26.1799Z" fill="#FBBC05" />
-                                    <path d="M22.5984 8.75999C25.9266 8.75999 28.885 9.87998 31.2476 12.04L37.7191 5.73999C33.7952 2.18 28.7001 0 22.5984 0C13.7643 0 6.14237 4.93999 2.42383 12.14L9.94309 17.82C11.7305 12.62 16.7227 8.75999 22.5984 8.75999Z" fill="#EA4335" />
-                                </svg>
-                                <h6 class="mb-0 ms-2 text-warning google-rated-point fw-semibold">4.2</h6>
-                                <div class="ms-2 stars-inner-st">
-                                    <i class="bi-star-fill text-warning"></i>
-                                    <i class="bi-star-fill text-warning"></i>
-                                    <i class="bi-star-fill text-warning"></i>
-                                    <i class="bi-star-fill text-warning"></i>
-                                    <i class="bi-star-fill text-warning"></i>
-                                </div>
-                                <h6 class="mb-0 ms-2 text-info rated-care-txt">Top-rated care</h6>
-                            </div>
-                            <!-- <div class="mt-5">
-                                <a href="tel:+971(04)4373103" class="btn btn-outline-theme mb-2">+971 (04) 437
-                                    3103</a>
-                                <a href="tel:+971526510534" class="btn btn-theme ms-sm-3 mb-2">+971 52 651 0534</a>
-                            </div> -->
                         </div>
                     </div>
-                    <div class="col-xl-5 col-lg-5 text-center order-lg-1">
-                        <img src="{{asset('newassets')}}/images/remote-img.png" class="img-fluid argum-img" alt="Support Image" width="400" />
+                    <div class="col-xl-4 col-lg-4 row-pdng-left-zero txt-right align-items-stretch order-lg-2">
+                        <img src="{{asset('newassets')}}/images/support-img.webp" class="img-fluid CTA-img-st mobile-none" alt="Support Image" width="400">
                     </div>
                 </div>
             </div>
+           
         </div>
     </div>
 </section>
@@ -249,7 +225,7 @@
 <!--Section Starts-->
 <section class="product-sec">
     <div class="container-lg py-5">
-        <div class="mr-lft-3rem col-md-10 mb-5">
+        <div class="mr-lft-3rem col-md-10">
             <h2 class="section-title mb-4">Our Offerings</h2>
             <p class="">Empower businesses with cutting-edge ERP & CRM solutions—unleash excellence with centralized management of Finance, HR, Sales, Marketing, Supply Chain & more.</p>
         </div>
@@ -257,7 +233,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-7 mb-3">
                     <div class="content-box">
-                        <a href="https://dynamicsstream.com/microsoft-dynamics-365-business-central" class="solutions-links">
+                        <a href="/microsoft-dynamics-365-business-central" class="solutions-links">
                             <h3 class="">Business Central- Microsoft Dynamics 365</h3>
                         </a>
                         <h4><strong>Empower</strong> Your Business Growth Across All Departments</h4>
@@ -275,7 +251,7 @@
                             <p class="flex-grow-1 mb-0 ms-3">Starting at just $70 per user/month</p>
                         </div>
 
-                        <div class="my-4">
+                        <div class="my-4 m-txt-cener">
                             <a href="/business-central-guided-tour" class="btn btn-outline-theme mb-2">Take A Tour</a>
                             <a href="/request-demo" class="btn btn-outline-theme ms-md-2 mb-2">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                             <!-- <a href="tel:+971 52 651 0534" class="btn btn-theme ms-md-2 mb-2"> Experts Advice +971 52 651 0534</a> -->
@@ -283,7 +259,7 @@
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 ms-auto mb-3">
-                    <div class="business-img">
+                    <div class="business-img products-imgs-st">
                         <img src="{{asset('newassets')}}/images/business-img.png" class="img-fluid" />
                     </div>
                 </div>
@@ -291,11 +267,11 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-7 ms-auto order-lg-2 mb-3">
                     <div class="content-box">
-                        <a href="https://dynamicsstream.com/microsoft-dynamics-365-finance" class="solutions-links">
+                        <a href="/dynamics-365-finance-and-operations" class="solutions-links">
                             <h3 class="">Finance - Microsoft Dynamics 365</h3>
                         </a>
                         <h4>Managing Finance Has Never Been This <strong>Easy</strong></h4>
-                        <p class="mb-4">Reinvigorates your Finance & Boost agility through interconnected financial planning, budgeting & forecasting that spans your entire organization. Maximize revenue streams with AI-driven billing, accounts receivable (AR), collections, and more. Proactively oversee liquidity through predictive analytics and cash flow forecasting.</p>
+                        <p class="mb-4">Reinvigorate your Finances & Boost agility through interconnected financial planning, budgeting & forecasting that spans your entire organization. Maximize revenue streams with AI-driven billing, accounts receivable (AR), collections, and more. Proactively oversee liquidity through predictive analytics and cash flow forecasting.</p>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
                             <p class="flex-grow-1 mb-0 ms-3">Accelerate financial closure and reporting with self-serve analytics and automation</p>
@@ -306,25 +282,25 @@
                         </div>
                         <div class="d-flex align-items-start mb-2">
                             <i class="flex-shrink-0 bi-star-fill text-stars"></i>
-                            <p class="flex-grow-1 mb-0 ms-3">Starting at $180 per user/month (prices may vary).</p>
+                            <p class="flex-grow-1 mb-0 ms-3">Starting at $180 per user/month (prices may vary)</p>
                         </div>
 
-                        <div class="my-4">
+                        <div class="my-4 m-txt-cener">
                             <a href="/finance-and-operations-guided-tour" class="btn btn-outline-theme mb-2">Take A Tour</a>
                             <a href="/request-demo" class="btn btn-outline-theme ms-md-2 mb-2">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 order-lg-1 mb-3">
-                    <div class="text-center">
-                        <img src="{{asset('newassets')}}/images/finance-img.png" class="img-fluid" />
+                    <div class="text-center products-imgs-st">
+                        <img src="{{asset('newassets')}}/images/finance-img.webp" class="img-fluid" />
                     </div>
                 </div>
             </div>
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-7 mb-3">
                     <div class="content-box">
-                        <a href="https://dynamicsstream.com/microsoft-dynamics-365-supply-chain-management" class="solutions-links">
+                        <a href="/microsoft-dynamics-365-supply-chain-management" class="solutions-links">
                             <h3 class="">Supply Chain - Microsoft Dynamics 365</h3>
                         </a>
                         <h4>Your Supply Chain Is In Good <strong>Hands</strong></h4>
@@ -344,22 +320,22 @@
                                 user/month.</p>
                         </div>
 
-                        <div class="my-4">
+                        <div class="my-4 m-txt-cener">
                             <a href="/supply-chain-guided-tour" class="btn btn-outline-theme mb-2">Take A Tour</a>
                             <a href="/request-demo" class="btn btn-outline-theme ms-md-2 mb-2">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 ms-auto mb-3">
-                    <div class="text-center">
-                        <img src="{{asset('newassets')}}/images/supply-img.png" class="img-fluid" />
+                    <div class="text-center products-imgs-st">
+                        <img src="{{asset('newassets')}}/images/supply-img.png" class="img-fluid products-home-img" />
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xl-6 col-lg-7 order-lg-2 ms-auto mb-3">
                     <div class="content-box">
-                        <a href="https://dynamicsstream.com/microsoft-dynamics-365-human-resources" class="solutions-links">
+                        <a href="/dynamics-365-human-resources" class="solutions-links">
                             <h3 class="">Human resources- Microsoft Dynamics 365</h3>
                         </a>
                         <h4>Create Workplace Where People <strong>Thrive</strong></h4>
@@ -380,30 +356,30 @@
                                 compliance. </p>
                         </div>
 
-                        <div class="my-4">
+                        <div class="my-4 m-txt-cener">
                             <a href="/human-resource-guided-tour" class="btn btn-outline-theme mb-2">Take A Tour</a>
                             <a href="/request-demo" class="btn btn-outline-theme ms-md-2 mb-2">Request a Free Demo <i class="bi-chevron-right ms-3"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 order-lg-1 mb-3">
-                    <div class="text-center">
-                        <img src="{{asset('newassets')}}/images/hr-img.png" class="img-fluid">
+                    <div class="text-center products-imgs-st">
+                        <img src="{{asset('newassets')}}/images/hr-img.png" class="img-fluid products-home-img">
                     </div>
                 </div>
             </div>
             <div class="row mt-3">
                 <div class="col-xl-4 col-lg-6 col-md-6 mb-3">
-                    <a href="/microsoft-dynamics-365-crm" class="service-link">Microsoft Sales <i class="bi-chevron-right"></i></a>
+                    <a href="/dynamics-365-sales" class="service-link">Microsoft Sales <i class="bi-chevron-right"></i></a>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 mb-3">
-                    <a href="/microsoft-dynamics-365-crm" class="service-link">Microsoft Customer Service <i class="bi-chevron-right"></i></a>
+                    <a href="#" class="service-link">Microsoft Customer Service <i class="bi-chevron-right"></i></a>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 mb-3">
-                    <a href="/microsoft-dynamics-365-crm" class="service-link">Microsoft Marketing <i class="bi-chevron-right"></i></a>
+                    <a href="/dynamics-365-marketing" class="service-link">Microsoft Marketing <i class="bi-chevron-right"></i></a>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 mb-3">
-                    <a href="/microsoft-dynamics-365-human-resources" class="service-link">Microsoft Human Resources <i class="bi-chevron-right"></i></a>
+                    <a href="/dynamics-365-human-resources" class="service-link">Microsoft Human Resources <i class="bi-chevron-right"></i></a>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 mb-3">
                     <a href="/microsoft-dynamics-365-commerce" class="service-link">Microsoft Retail & eCommerce <i class="bi-chevron-right"></i></a>
@@ -421,71 +397,17 @@
                     <a href="/modern-workplace-office-365" class="service-link">Microsoft 365 <i class="bi-chevron-right"></i></a>
                 </div>
             </div>
-            <div class="solution-card p-md-4-for-web-sect rounded-4 mt-4">
-
-                <h4 class="text-dark web-sect-he mb-4">Web & Mob App Dev is No Longer a Challenge</h4>
-                <p class="text-dark">Facing challenges in web/mobile app development? Our 200+ hand-picked UI/UX & Developers take ownership, crafting top-notch solutions customized or powered by Microsoft Dynamics Suite. React | AngularJS | Native | Flutter | Node | Laravel | Java |
-                    .Net | iOS | AndroidWeb & Mobile Apps | Business Apps | eCommerce & Shopify powered
-                    by Microsoft</p>
-                <div class="row mt-4 mb-2 web-and-app-p">
-                    <div class="col-sm-3">
-                        <div class="d-flex align-items-center mb-2">
-                            <span class="flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                                    <path d="M12.9778 13.9033L11.8365 16.4575C11.5134 17.1808 10.4867 17.1808 10.1635 16.4575L9.02222 13.9033C8.83817 13.4914 8.50863 13.1618 8.09672 12.9778L5.54246 11.8365C4.81918 11.5133 4.81918 10.4867 5.54245 10.1635L8.09671 9.02222C8.50863 8.83817 8.83817 8.50863 9.02222 8.09672L10.1635 5.54246C10.4867 4.81918 11.5133 4.81918 11.8365 5.54246L12.9778 8.09672C13.1618 8.50863 13.4914 8.83817 13.9033 9.02222L16.4575 10.1635C17.1808 10.4866 17.1808 11.5133 16.4575 11.8365L13.9033 12.9778C13.4914 13.1618 13.1618 13.4914 12.9778 13.9033Z" stroke="white" />
-                                    <path d="M7.63542 0.278871C7.46721 -0.092957 6.93279 -0.092957 6.76458 0.278871L6.43036 1.01764L5.68236 1.34773C5.30588 1.51387 5.30588 2.04169 5.68236 2.20782L6.43036 2.53791L6.76458 3.27668C6.93279 3.64851 7.46721 3.64851 7.63542 3.27668L7.96964 2.53791L8.71764 2.20782C9.09412 2.04169 9.09412 1.51387 8.71764 1.34773L7.96964 1.01764L7.63542 0.278871Z" fill="#1D740A" />
-                                    <path d="M3.35313 3.08497C3.10081 2.52723 2.29919 2.52723 2.04687 3.08497L1.54555 4.19313L0.423535 4.68827C-0.141178 4.93747 -0.141178 5.7292 0.423535 5.9784L1.54555 6.47353L2.04687 7.58169C2.29919 8.13944 3.10081 8.13944 3.35313 7.58169L3.85445 6.47353L4.97646 5.9784C5.54118 5.7292 5.54118 4.93747 4.97646 4.68827L3.85445 4.19313L3.35313 3.08497Z" fill="#1D740A" />
-                                </svg>
-                            </span>
-                            <p class="flex-grow-1 web-and-app-icn-txt">Human-centric &
-                                thoughtful UI/UX </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="d-flex align-items-center mb-2">
-                            <span class="flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                                    <path d="M12.9778 13.9033L11.8365 16.4575C11.5134 17.1808 10.4867 17.1808 10.1635 16.4575L9.02222 13.9033C8.83817 13.4914 8.50863 13.1618 8.09672 12.9778L5.54246 11.8365C4.81918 11.5133 4.81918 10.4867 5.54245 10.1635L8.09671 9.02222C8.50863 8.83817 8.83817 8.50863 9.02222 8.09672L10.1635 5.54246C10.4867 4.81918 11.5133 4.81918 11.8365 5.54246L12.9778 8.09672C13.1618 8.50863 13.4914 8.83817 13.9033 9.02222L16.4575 10.1635C17.1808 10.4866 17.1808 11.5133 16.4575 11.8365L13.9033 12.9778C13.4914 13.1618 13.1618 13.4914 12.9778 13.9033Z" stroke="white" />
-                                    <path d="M7.63542 0.278871C7.46721 -0.092957 6.93279 -0.092957 6.76458 0.278871L6.43036 1.01764L5.68236 1.34773C5.30588 1.51387 5.30588 2.04169 5.68236 2.20782L6.43036 2.53791L6.76458 3.27668C6.93279 3.64851 7.46721 3.64851 7.63542 3.27668L7.96964 2.53791L8.71764 2.20782C9.09412 2.04169 9.09412 1.51387 8.71764 1.34773L7.96964 1.01764L7.63542 0.278871Z" fill="#1D740A" />
-                                    <path d="M3.35313 3.08497C3.10081 2.52723 2.29919 2.52723 2.04687 3.08497L1.54555 4.19313L0.423535 4.68827C-0.141178 4.93747 -0.141178 5.7292 0.423535 5.9784L1.54555 6.47353L2.04687 7.58169C2.29919 8.13944 3.10081 8.13944 3.35313 7.58169L3.85445 6.47353L4.97646 5.9784C5.54118 5.7292 5.54118 4.93747 4.97646 4.68827L3.85445 4.19313L3.35313 3.08497Z" fill="#1D740A" />
-                                </svg>
-                            </span>
-                            <p class="flex-grow-1 web-and-app-icn-txt">Remote resources</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="d-flex align-items-center mb-2">
-                            <span class="flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                                    <path d="M12.9778 13.9033L11.8365 16.4575C11.5134 17.1808 10.4867 17.1808 10.1635 16.4575L9.02222 13.9033C8.83817 13.4914 8.50863 13.1618 8.09672 12.9778L5.54246 11.8365C4.81918 11.5133 4.81918 10.4867 5.54245 10.1635L8.09671 9.02222C8.50863 8.83817 8.83817 8.50863 9.02222 8.09672L10.1635 5.54246C10.4867 4.81918 11.5133 4.81918 11.8365 5.54246L12.9778 8.09672C13.1618 8.50863 13.4914 8.83817 13.9033 9.02222L16.4575 10.1635C17.1808 10.4866 17.1808 11.5133 16.4575 11.8365L13.9033 12.9778C13.4914 13.1618 13.1618 13.4914 12.9778 13.9033Z" stroke="white" />
-                                    <path d="M7.63542 0.278871C7.46721 -0.092957 6.93279 -0.092957 6.76458 0.278871L6.43036 1.01764L5.68236 1.34773C5.30588 1.51387 5.30588 2.04169 5.68236 2.20782L6.43036 2.53791L6.76458 3.27668C6.93279 3.64851 7.46721 3.64851 7.63542 3.27668L7.96964 2.53791L8.71764 2.20782C9.09412 2.04169 9.09412 1.51387 8.71764 1.34773L7.96964 1.01764L7.63542 0.278871Z" fill="#1D740A" />
-                                    <path d="M3.35313 3.08497C3.10081 2.52723 2.29919 2.52723 2.04687 3.08497L1.54555 4.19313L0.423535 4.68827C-0.141178 4.93747 -0.141178 5.7292 0.423535 5.9784L1.54555 6.47353L2.04687 7.58169C2.29919 8.13944 3.10081 8.13944 3.35313 7.58169L3.85445 6.47353L4.97646 5.9784C5.54118 5.7292 5.54118 4.93747 4.97646 4.68827L3.85445 4.19313L3.35313 3.08497Z" fill="#1D740A" />
-                                </svg>
-                            </span>
-                            <p class="flex-grow-1 web-and-app-icn-txt">Deliver end to end project</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="d-flex align-items-center mb-2">
-                            <span class="flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                                    <path d="M12.9778 13.9033L11.8365 16.4575C11.5134 17.1808 10.4867 17.1808 10.1635 16.4575L9.02222 13.9033C8.83817 13.4914 8.50863 13.1618 8.09672 12.9778L5.54246 11.8365C4.81918 11.5133 4.81918 10.4867 5.54245 10.1635L8.09671 9.02222C8.50863 8.83817 8.83817 8.50863 9.02222 8.09672L10.1635 5.54246C10.4867 4.81918 11.5133 4.81918 11.8365 5.54246L12.9778 8.09672C13.1618 8.50863 13.4914 8.83817 13.9033 9.02222L16.4575 10.1635C17.1808 10.4866 17.1808 11.5133 16.4575 11.8365L13.9033 12.9778C13.4914 13.1618 13.1618 13.4914 12.9778 13.9033Z" stroke="white" />
-                                    <path d="M7.63542 0.278871C7.46721 -0.092957 6.93279 -0.092957 6.76458 0.278871L6.43036 1.01764L5.68236 1.34773C5.30588 1.51387 5.30588 2.04169 5.68236 2.20782L6.43036 2.53791L6.76458 3.27668C6.93279 3.64851 7.46721 3.64851 7.63542 3.27668L7.96964 2.53791L8.71764 2.20782C9.09412 2.04169 9.09412 1.51387 8.71764 1.34773L7.96964 1.01764L7.63542 0.278871Z" fill="#1D740A" />
-                                    <path d="M3.35313 3.08497C3.10081 2.52723 2.29919 2.52723 2.04687 3.08497L1.54555 4.19313L0.423535 4.68827C-0.141178 4.93747 -0.141178 5.7292 0.423535 5.9784L1.54555 6.47353L2.04687 7.58169C2.29919 8.13944 3.10081 8.13944 3.35313 7.58169L3.85445 6.47353L4.97646 5.9784C5.54118 5.7292 5.54118 4.93747 4.97646 4.68827L3.85445 4.19313L3.35313 3.08497Z" fill="#1D740A" />
-                                </svg>
-                            </span>
-                            <p class="flex-grow-1 web-and-app-icn-txt">Project Managers takes ownership</p>
-                        </div>
-                    </div>
+            <a href="https://www.thefuturedynamics.com/">
+                <div class="solution-card p-md-4-for-web-sect rounded-4 mt-4">
+                    <h4 class="web-sect-he mb-2">Customized Web & Mob App Development </h4>
+                    <p class="">Technologies We work on: React | AngularJS | Native | Flutter | Node | Laravel | Java | .Net | iOS | Android | Web & Mobile Apps | Business Apps | eCommerce & Shopify powered by Microsoft.</p>
                 </div>
-                <!-- <a href="https://www.thefuturedynamics.com/" class="btn btn-32 btn-theme-for-we-sect"> Visit Portfolio <i class="bi-chevron-right ms-2"></i></a> -->
-                <a href="https://www.thefuturedynamics.com/" class="btn btn-outline-theme ms-md-2 mb-2">Visit Portfolio <i class="bi-chevron-right ms-2"></i></a>
+            </a>
 
-            </div>
         </div>
     </div>
     <div class="container-lg">
-        <div class="mr-lft-3rem col-lg-7 col-md-9 mrg-b-2rem">
+        <div class="mr-lft-3rem col-lg-12 col-md-12 mrg-b-2rem">
             <h2 class="section-title mt-3  mb-4">Vertical Solutions</h2>
             <p class="">Elevate Your Business to New Heights with Our Vertical Solutions
                 – Tailored Excellence for Optimal Performance and Growth!</p>
@@ -534,7 +456,7 @@
                     <div class="industry-card testimonials-prgph-new">
                         <div class="mb-2">
                             <div class="text-center">
-                                <img src="{{asset('newassets')}}/images/brand/cortec-img.png" class="img-fluid mb-4" width="200" />
+                                <img src="{{asset('newassets')}}/images/brand/cortec-img.png" class="img-fluid mb-4 cortc-img-st" width="200" />
                             </div>
                             <h6 class="fw-600">Manufacturing</h6>
                             <p>Middle East and North Africa, Cortec® Middle East, the leading manufacturer of
@@ -573,7 +495,7 @@
                     <div class="industry-card testimonials-prgph-new">
                         <div class="mb-2">
                             <div class="text-center">
-                                <img src="{{asset('newassets')}}/images/brand/khiara-img.png" class="img-fluid mb-4" width="200" />
+                                <img src="{{asset('newassets')}}/images/brand/khiara-img.png" class="img-fluid mb-4 cortc-img-st" width="200" />
                             </div>
                             <h6 class="fw-600">eCommerce & Trading</h6>
                             <p>Khiara Stores has been a leading regional supplier of kitchenware, tableware, and
